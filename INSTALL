@@ -1,0 +1,40 @@
+
+
+Installation (virtualbox, w/ shared folders)
+============================================
+
+- Download VirtualBox and install a fresh Ubuntu 12.04 LTS server image 
+  (http://releases.ubuntu.com/precise/ubuntu-12.04.2-server-amd64.iso)
+  
+- If you have trouble connecting to the Internet from the VBox guest, try
+  `VBoxManage modifyvm <name of vm> --natdnshostresolver1 on` from the command
+  line.
+
+- Make sure you have the smogon-redux repo checked out locally. Then, go to
+  Devices > Shared Folders and add the repo's directory. Make sure the folder
+  name field is "smogon".
+
+- Setup port forwarding so we can access SSH and the web server from outside the
+  VM. Devices > Network Adapters, map guest port 22 to some host IP (I use 2222)
+  and map guest port 80 to some host IP (I use 2280). Now you can ssh into the
+  box using `ssh localhost -p 2222` and access the webserver via
+  `localhost:2280`.
+
+- Now, run the Smogon virtualbox bootstrap script:
+  sudo sh -c 'curl -L https://raw.github.com/monsanto/smogon-redux/master/bin/bootstrap-virtualbox | sh'
+
+- Run the setup script: `sudo /smogon/bin/smogon-setup`
+
+- Reboot: `sudo reboot`
+  (Yes, this step is necessary as the setup script modifies /etc/environment)
+
+Installation (Git)
+==================
+
+- Run the Smogon Git bootstrap script:
+  sudo sh -c 'curl -L https://raw.github.com/monsanto/smogon-redux/master/bin/bootstrap-git | sh'
+
+- Run the setup script: `sudo /smogon/bin/smogon-setup`
+
+- Reboot: `sudo reboot`
+  (Yes, this step is necessary as the setup script modifies /etc/environment)
