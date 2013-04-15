@@ -2,9 +2,9 @@
 Installation
 ============
 
-- Install a fresh Ubuntu 12.04 LTS server image
-  (http://releases.ubuntu.com/precise/ubuntu-12.04.2-server-amd64.iso)
-
+- Install a fresh Ubuntu 12.10 server image
+  (http://releases.ubuntu.com/quantal/ubuntu-12.10-server-amd64.iso)
+  
 - Jump to the section that describes either VirtualBox setup or Git setup.
 
 - Run the setup script: `sudo /smogon/bin/smogon-setup`
