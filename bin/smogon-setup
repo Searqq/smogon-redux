@@ -1,17 +1,8 @@
 #!/bin/bash
 
-echo "*** Setting up links. ***"
+echo "*** Prepping apt/installing misc programs ***"
 
-cp /smogon/conf/environment /etc/environment
-cp /smogon/conf/sudoers-no-secure-path /etc/sudoers.d/
-chmod 0440 /etc/sudoers.d/sudoers-no-secure-path
-cp /smogon/conf/nginx.conf /etc/nginx/sites-enabled/smogon
-cp /smogon/conf/init-smogon.conf /etc/init/smogon.conf
-
-echo "*** Prepping apt ***"
-
-apt-get update
-apt-get install -y build-essential
+apt-get install -y build-essential nginx
 
 
 echo "*** Setting up Clojure. ***"
@@ -36,3 +27,14 @@ apt-get install -y ruby ruby-dev
 gem install sass
 gem install --version '~> 0.8.8' rb-inotify
 
+
+echo "*** Setting up links. ***"
+
+rm /etc/environment
+ln -s /smogon/conf/environment /etc/environment
+cp /smogon/conf/sudoers-no-secure-path /etc/sudoers.d/no-secure-path
+chmod 0440 /etc/sudoers.d/no-secure-path
+ln -s /smogon/conf/nginx.conf /etc/nginx/sites-enabled/smogon
+ln -s /smogon/conf/init-smogon.conf /etc/init/smogon.conf
+
+initctl reload-configuration
