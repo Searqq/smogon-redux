@@ -7,7 +7,7 @@
                  [compojure "1.1.5"]
                  [http-kit "2.0.1"]
                  [com.taoensso/timbre "1.5.2"]
-                 [nstools "0.2.4"]]
+                 [ring "1.1.8"]]
   :plugins [[lein-exec "0.3.0"]]
   :local-repo ".repo")
 

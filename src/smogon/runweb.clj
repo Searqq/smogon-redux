@@ -3,6 +3,7 @@
   (:require [org.httpkit server]
             [compojure route handler]
             [compojure.core :refer :all]
+            [ring.middleware.stacktrace :refer :all]
             [taoensso.timbre :as log]))
 
 (defroutes app-routes
@@ -12,7 +13,9 @@
 (defn runweb
   "Run the server."
   []
-  (let [app (compojure.handler/site app-routes)
+  (let [app (-> app-routes
+                compojure.handler/site
+                wrap-stacktrace-log)
         port 9001]
     (org.httpkit.server/run-server app {:port port})
     (log/info "Starting Smogon web server on port" port)))
