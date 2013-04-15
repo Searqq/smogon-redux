@@ -3,8 +3,15 @@
 echo "*** Setting up links. ***"
 
 cp /smogon/conf/environment /etc/environment
+cp /smogon/conf/sudoers-no-secure-path /etc/sudoers.d/
+chmod 0440 /etc/sudoers.d/sudoers-no-secure-path
 cp /smogon/conf/nginx.conf /etc/nginx/sites-enabled/smogon
 cp /smogon/conf/init-smogon.conf /etc/init/smogon.conf
+
+echo "*** Prepping apt ***"
+
+apt-get update
+apt-get install -y build-essential
 
 
 echo "*** Setting up Clojure. ***"
@@ -20,12 +27,12 @@ chmod +x /usr/local/bin/lein
 # This combined with setting :local-repo ensures that the user we are logged in
 # as doesn't matter.
 mkdir /usr/local/lib/lein
-LEIN_HOME=/usr/local/lib/lein lein > /dev/null
+LEIN_ROOT=1 LEIN_HOME=/usr/local/lib/lein lein > /dev/null
 
 
 echo "*** Installing Ruby/Sass. ***"
 
-apt-get install -y ruby
+apt-get install -y ruby ruby-dev
 gem install sass
 gem install --version '~> 0.8.8' rb-inotify
 
