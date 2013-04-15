@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sass --update /smogon/scss:/smogon/public/css

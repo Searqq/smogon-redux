@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /smogon
+lein exec -ep "$1"

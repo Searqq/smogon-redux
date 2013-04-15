@@ -1,0 +1,31 @@
+#!/bin/bash
+
+echo "*** Setting up links. ***"
+
+cp /smogon/conf/environment /etc/environment
+cp /smogon/conf/nginx.conf /etc/nginx/sites-enabled/smogon
+cp /smogon/conf/init-smogon.conf /etc/init/smogon.conf
+
+
+echo "*** Setting up Clojure. ***"
+
+apt-get install -y openjdk-7-jdk
+wget https://raw.github.com/technomancy/leiningen/stable/bin/lein -O /usr/local/bin/lein
+chmod +x /usr/local/bin/lein
+
+# Run lein once as root to install it to /usr/local/lib/lein WARNING make sure
+# this path matches up with /etc/environment!  We repeat the path here
+# explicitly because the user will not have restarted yet.
+#
+# This combined with setting :local-repo ensures that the user we are logged in
+# as doesn't matter.
+mkdir /usr/local/lib/lein
+LEIN_HOME=/usr/local/lib/lein lein > /dev/null
+
+
+echo "*** Installing Ruby/Sass. ***"
+
+apt-get install -y ruby
+gem install sass
+gem install --version '~> 0.8.8' rb-inotify
+
