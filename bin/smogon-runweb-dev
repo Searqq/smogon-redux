@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Run dev server
+su www-data -c "/smogon/bin/smogon-exec \"(use 'smogon.runweb) (runweb-dev)\"" &
+
+# Run sass watcher
+sass --watch /smogon/scss:/smogon/public/css &
+
