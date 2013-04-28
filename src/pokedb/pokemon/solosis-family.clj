@@ -30,3 +30,10 @@
   :height [1])
 
 (deffamily :solosis :duosion :reuniclus)
+
+
+
+(deflearnset :bw
+  :solosis [:acid-armor :after-you :astonish :attract :calm-mind :charm :confuse-ray :double-team :dream-eater :embargo :endeavor :energy-ball :explosion :facade :flash :flash-cannon :frustration :future-sight :gravity :gyro-ball :heal-block :hidden-power :imprison :light-screen :magic-coat :night-shade :pain-split :protect :psych-up :psychic :psyshock :psywave :rain-dance :recover :reflect :rest :return :rock-slide :rock-tomb :role-play :rollout :round :safeguard :secret-power :shadow-ball :signal-beam :skill-swap :sleep-talk :snatch :snore :substitute :swagger :telekinesis :thunder :thunder-wave :toxic :trick :trick-room :wonder-room :zen-headbutt]
+  :reuniclus [:dizzy-punch :drain-punch :fire-punch :fling :focus-blast :giga-impact :grass-knot :helping-hand :hyper-beam :ice-punch :knock-off :rock-smash :strength :superpower :thunderpunch])
+

@@ -33,3 +33,27 @@
   :height [1.8])
 
 (deffamily :elekid :electabuzz :electivire)
+
+
+
+(deflearnset :rb
+  :electabuzz [:bide :body-slam :counter :double-edge :double-team :flash :hyper-beam :leer :light-screen :mega-kick :mega-punch :metronome :mimic :psychic :psywave :quick-attack :rage :reflect :rest :screech :seismic-toss :skull-bash :strength :submission :substitute :swift :take-down :teleport :thunder :thunder-wave :thunderbolt :thunderpunch :thundershock :toxic])
+
+(deflearnset :gs
+  :elekid [:attract :barrier :cross-chop :curse :detect :double-team :dynamicpunch :endure :fire-punch :flash :frustration :headbutt :hidden-power :ice-punch :karate-chop :leer :light-screen :meditate :mud-slap :protect :psychic :quick-attack :rain-dance :rest :return :rolling-kick :screech :sleep-talk :snore :swagger :swift :thief :thunder :thunderbolt :thunderpunch :toxic :zap-cannon]
+  :electabuzz [:hyper-beam :iron-tail :rock-smash :strength])
+
+(deflearnset :rs
+  :elekid [:attract :barrier :body-slam :brick-break :counter :cross-chop :double-edge :double-team :dynamicpunch :endure :facade :fire-punch :flash :focus-punch :frustration :hidden-power :ice-punch :karate-chop :leer :light-screen :meditate :mega-kick :mega-punch :mimic :mud-slap :protect :psychic :quick-attack :rain-dance :rest :return :rock-smash :rolling-kick :screech :secret-power :seismic-toss :shock-wave :sleep-talk :snore :substitute :swagger :swift :thief :thunder :thunder-wave :thunderbolt :thunderpunch :toxic]
+  :electabuzz [:hyper-beam :iron-tail :strength])
+
+(deflearnset :dp
+  :elekid [:attract :barrier :brick-break :captivate :charge-beam :cross-chop :discharge :double-team :dynamicpunch :endure :facade :feint :fire-punch :flash :fling :focus-punch :frustration :headbutt :helping-hand :hidden-power :ice-punch :karate-chop :leer :light-screen :low-kick :magnet-rise :meditate :mud-slap :natural-gift :protect :psychic :quick-attack :rain-dance :rest :return :rock-smash :rolling-kick :screech :secret-power :shock-wave :signal-beam :sleep-talk :snore :substitute :swagger :swift :thief :thunder :thunder-wave :thunderbolt :thunderpunch :thundershock :toxic :uproar]
+  :electabuzz [:focus-blast :giga-impact :hyper-beam :iron-tail :rock-climb :strength]
+  :electivire [:dig :earthquake :flamethrower :rock-slide :rock-tomb :taunt :torment])
+
+(deflearnset :bw
+  :elekid [:attract :barrier :brick-break :charge-beam :covet :cross-chop :discharge :double-team :dual-chop :dynamicpunch :electro-ball :electroweb :facade :feint :fire-punch :flash :fling :focus-punch :frustration :hammer-arm :helping-hand :hidden-power :ice-punch :karate-chop :leer :light-screen :low-kick :magnet-rise :meditate :protect :psychic :quick-attack :rain-dance :rest :return :rock-smash :rolling-kick :round :screech :shock-wave :signal-beam :sleep-talk :snore :substitute :swagger :swift :thief :thunder :thunder-wave :thunderbolt :thunderpunch :thundershock :toxic :uproar :volt-switch :wild-charge]
+  :electabuzz [:focus-blast :giga-impact :hyper-beam :iron-tail :low-sweep :strength]
+  :electivire [:bulldoze :dig :earthquake :flamethrower :rock-slide :rock-tomb :taunt :torment])
+

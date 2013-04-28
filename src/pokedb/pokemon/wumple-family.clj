@@ -53,3 +53,24 @@
   :height [1.2])
 
 (deffamily :wurmple [:silcoon :beautifly :cascoon :dustox])
+
+
+
+(deflearnset :rs
+  :wurmple [:poison-sting :string-shot :tackle]
+  :cascoon [:harden]
+  :beautifly [:absorb :aerial-ace :attract :double-edge :double-team :endure :facade :flash :frustration :giga-drain :gust :hidden-power :hyper-beam :mega-drain :mimic :morning-sun :protect :psychic :rest :return :safeguard :secret-power :shadow-ball :silver-wind :sleep-talk :snore :solarbeam :stun-spore :substitute :sunny-day :swagger :swift :thief :toxic :whirlwind]
+  :dustox [:confusion :light-screen :moonlight :psybeam :sludge-bomb])
+
+(deflearnset :dp
+  :wurmple [:bug-bite :poison-sting :snore :string-shot :tackle]
+  :cascoon [:harden :iron-defense]
+  :beautifly [:absorb :aerial-ace :air-cutter :attract :bug-buzz :captivate :defog :double-team :endure :energy-ball :facade :flash :frustration :giga-drain :giga-impact :gust :hidden-power :hyper-beam :mega-drain :morning-sun :natural-gift :ominous-wind :protect :psychic :rest :return :roost :safeguard :secret-power :shadow-ball :signal-beam :silver-wind :sleep-talk :solarbeam :stun-spore :substitute :sunny-day :swagger :swift :tailwind :thief :toxic :twister :u-turn :whirlwind]
+  :dustox [:confusion :light-screen :moonlight :psybeam :sludge-bomb])
+
+(deflearnset :bw
+  :wurmple [:bug-bite :electroweb :poison-sting :snore :string-shot :tackle]
+  :cascoon [:harden :iron-defense]
+  :beautifly [:absorb :acrobatics :aerial-ace :attract :bug-buzz :double-team :energy-ball :facade :flash :frustration :giga-drain :giga-impact :gust :hidden-power :hyper-beam :mega-drain :morning-sun :protect :psychic :quiver-dance :rest :return :roost :round :safeguard :shadow-ball :signal-beam :silver-wind :sleep-talk :solarbeam :struggle-bug :stun-spore :substitute :sunny-day :swagger :tailwind :thief :toxic :u-turn :venoshock :whirlwind]
+  :dustox [:confusion :light-screen :moonlight :psybeam :sludge-bomb])
+

@@ -20,3 +20,10 @@
   :height [1.5])
 
 (deffamily :rufflet :braviary)
+
+
+
+(deflearnset :bw
+  :rufflet [:aerial-ace :air-slash :attract :brave-bird :bulk-up :crush-claw :cut :defog :double-team :facade :fly :frustration :fury-attack :heat-wave :hidden-power :hone-claws :leer :peck :pluck :protect :rain-dance :rest :retaliate :return :rock-slide :rock-smash :rock-tomb :roost :round :scary-face :shadow-claw :sky-drop :slash :sleep-talk :snore :strength :substitute :sunny-day :superpower :swagger :tailwind :thrash :toxic :u-turn :whirlwind :wing-attack :work-up]
+  :braviary [:giga-impact :hyper-beam :sky-attack])
+

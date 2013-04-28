@@ -24,3 +24,26 @@
   :height [1.1])
 
 (deffamily :vulpix :ninetales)
+
+
+
+(deflearnset :rb
+  :vulpix [:bide :body-slam :confuse-ray :dig :double-edge :double-team :ember :fire-blast :fire-spin :flamethrower :mimic :quick-attack :rage :reflect :rest :roar :skull-bash :substitute :swift :tail-whip :take-down :toxic]
+  :ninetales [:hyper-beam])
+
+(deflearnset :gs
+  :vulpix [:attract :confuse-ray :curse :dig :disable :double-team :ember :endure :faint-attack :fire-blast :fire-spin :flail :flamethrower :frustration :headbutt :hidden-power :hypnosis :iron-tail :protect :quick-attack :rest :return :roar :safeguard :sleep-talk :snore :spite :sunny-day :swagger :swift :tail-whip :toxic]
+  :ninetales [:hyper-beam])
+
+(deflearnset :rs
+  :vulpix [:attract :body-slam :confuse-ray :dig :disable :double-edge :double-team :ember :endure :facade :faint-attack :fire-blast :fire-spin :flail :flamethrower :frustration :grudge :heat-wave :hidden-power :howl :hypnosis :imprison :iron-tail :mimic :overheat :protect :psych-up :quick-attack :rest :return :roar :safeguard :secret-power :sleep-talk :snore :spite :substitute :sunny-day :swagger :swift :tail-whip :toxic :will-o-wisp]
+  :ninetales [:hyper-beam])
+
+(deflearnset :dp
+  :vulpix [:attract :captivate :confuse-ray :dark-pulse :dig :disable :double-team :ember :endure :energy-ball :extrasensory :facade :faint-attack :fire-blast :fire-spin :flail :flamethrower :flare-blitz :frustration :grudge :headbutt :heat-wave :hidden-power :howl :hypnosis :imprison :iron-tail :natural-gift :ominous-wind :overheat :pain-split :payback :power-swap :protect :psych-up :quick-attack :rest :return :roar :role-play :safeguard :secret-power :sleep-talk :snore :spite :substitute :sunny-day :swagger :swift :tail-whip :toxic :will-o-wisp :zen-headbutt]
+  :ninetales [:calm-mind :dream-eater :giga-impact :hyper-beam :nasty-plot :solarbeam])
+
+(deflearnset :bw
+  :vulpix [:attract :captivate :confuse-ray :covet :dark-pulse :dig :disable :double-team :ember :energy-ball :extrasensory :facade :faint-attack :fire-blast :fire-spin :flail :flame-burst :flame-charge :flamethrower :flare-blitz :foul-play :frustration :grudge :heat-wave :hex :hidden-power :howl :hypnosis :imprison :incinerate :inferno :iron-tail :overheat :pain-split :payback :power-swap :protect :psych-up :quick-attack :rest :return :roar :role-play :round :safeguard :secret-power :sleep-talk :snore :spite :substitute :sunny-day :swagger :tail-slap :tail-whip :toxic :will-o-wisp :zen-headbutt]
+  :ninetales [:calm-mind :dream-eater :giga-impact :hyper-beam :nasty-plot :psyshock :solarbeam])
+

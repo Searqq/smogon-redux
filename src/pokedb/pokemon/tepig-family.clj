@@ -30,3 +30,11 @@
   :height [1.6])
 
 (deffamily :tepig :pignite :emboar)
+
+
+
+(deflearnset :bw
+  :tepig [:assurance :attract :body-slam :covet :curse :defense-curl :double-team :echoed-voice :ember :endeavor :facade :fire-blast :fire-pledge :flame-charge :flamethrower :flare-blitz :frustration :grass-knot :gyro-ball :head-smash :heat-crash :heat-wave :heavy-slam :helping-hand :hidden-power :incinerate :iron-tail :magnitude :odor-sleuth :overheat :protect :rest :return :roar :rock-smash :rock-tomb :rollout :round :sleep-talk :smog :snore :solarbeam :strength :substitute :sunny-day :superpower :swagger :tackle :tail-whip :take-down :taunt :thrash :toxic :wild-charge :will-o-wisp :yawn]
+  :pignite [:arm-thrust :brick-break :bulldoze :fire-punch :fling :focus-blast :low-kick :low-sweep :poison-jab :rock-slide :stone-edge :thunderpunch :work-up]
+  :emboar [:blast-burn :block :bulk-up :earthquake :giga-impact :hammer-arm :hyper-beam :iron-head :scald :smack-down])
+

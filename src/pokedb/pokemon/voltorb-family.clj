@@ -24,3 +24,26 @@
   :height [1.2])
 
 (deffamily :voltorb :electrode)
+
+
+
+(deflearnset :rb
+  :voltorb [:bide :double-team :explosion :flash :light-screen :mimic :rage :reflect :rest :screech :selfdestruct :sonicboom :substitute :swift :tackle :take-down :teleport :thunder :thunder-wave :thunderbolt :toxic]
+  :electrode [:hyper-beam :skull-bash])
+
+(deflearnset :gs
+  :voltorb [:curse :double-team :endure :explosion :flash :frustration :headbutt :hidden-power :light-screen :mirror-coat :protect :rain-dance :rest :return :rollout :screech :selfdestruct :sleep-talk :snore :sonicboom :swagger :swift :tackle :thunder :thunderbolt :toxic :zap-cannon]
+  :electrode [:hyper-beam])
+
+(deflearnset :rs
+  :voltorb [:charge :double-team :endure :explosion :facade :flash :frustration :hidden-power :light-screen :mimic :mirror-coat :protect :rain-dance :rest :return :rollout :screech :secret-power :selfdestruct :shock-wave :sleep-talk :snore :sonicboom :spark :substitute :swagger :swift :tackle :taunt :thief :thunder :thunder-wave :thunderbolt :torment :toxic]
+  :electrode [:hyper-beam])
+
+(deflearnset :dp
+  :voltorb [:charge :charge-beam :double-team :endure :explosion :facade :flash :frustration :gyro-ball :headbutt :hidden-power :light-screen :magic-coat :magnet-rise :mirror-coat :natural-gift :protect :rain-dance :rest :return :rollout :screech :secret-power :selfdestruct :shock-wave :signal-beam :sleep-talk :snore :sonicboom :spark :substitute :sucker-punch :swagger :swift :tackle :taunt :thief :thunder :thunder-wave :thunderbolt :torment :toxic]
+  :electrode [:giga-impact :hyper-beam])
+
+(deflearnset :bw
+  :voltorb [:charge :charge-beam :double-team :electro-ball :explosion :facade :flash :foul-play :frustration :gyro-ball :hidden-power :light-screen :magic-coat :magnet-rise :mirror-coat :protect :rain-dance :rest :return :rollout :round :screech :selfdestruct :signal-beam :sleep-talk :snore :sonicboom :spark :substitute :swagger :swift :tackle :taunt :thief :thunder :thunder-wave :thunderbolt :torment :toxic :volt-switch :wild-charge]
+  :electrode [:giga-impact :hyper-beam])
+

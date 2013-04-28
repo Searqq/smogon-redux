@@ -20,3 +20,10 @@
   :height [1.9])
 
 (deffamily :trubbish :garbodor)
+
+
+
+(deflearnset :bw
+  :trubbish [:acid-spray :amnesia :attract :clear-smog :curse :dark-pulse :double-team :doubleslap :drain-punch :explosion :facade :frustration :giga-drain :gunk-shot :haze :hidden-power :mud-sport :pain-split :payback :poison-gas :pound :protect :rain-dance :recycle :rest :return :rock-blast :rollout :round :sand-attack :seed-bomb :selfdestruct :sleep-talk :sludge :sludge-bomb :sludge-wave :snore :spikes :spite :stockpile :substitute :sunny-day :swagger :swallow :take-down :thief :toxic :toxic-spikes :venoshock]
+  :garbodor [:body-slam :fling :focus-blast :giga-impact :hyper-beam :psychic :rock-polish :smack-down :solarbeam :thunderbolt])
+

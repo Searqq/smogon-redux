@@ -38,3 +38,29 @@
   :height [1.8])
 
 (deffamily :horsea :seadra :kingdra)
+
+
+
+(deflearnset :rb
+  :horsea [:agility :bide :blizzard :bubble :bubblebeam :double-edge :double-team :hydro-pump :ice-beam :leer :mimic :rage :rest :skull-bash :smokescreen :substitute :surf :swift :take-down :toxic :water-gun]
+  :seadra [:hyper-beam])
+
+(deflearnset :gs
+  :horsea [:agility :attract :aurora-beam :blizzard :bubble :curse :disable :double-team :dragon-rage :dragonbreath :endure :flail :frustration :headbutt :hidden-power :hydro-pump :ice-beam :icy-wind :leer :octazooka :protect :rain-dance :rest :return :sleep-talk :smokescreen :snore :splash :surf :swagger :swift :toxic :twister :water-gun :waterfall :whirlpool]
+  :seadra [:hyper-beam])
+
+(deflearnset :rs
+  :horsea [:agility :attract :aurora-beam :blizzard :bubble :disable :dive :double-edge :double-team :dragon-dance :dragon-rage :dragonbreath :endure :facade :flail :frustration :hail :hidden-power :hydro-pump :ice-beam :icy-wind :leer :mimic :octazooka :protect :rain-dance :rest :return :secret-power :sleep-talk :smokescreen :snore :splash :substitute :surf :swagger :swift :toxic :twister :water-gun :water-pulse :waterfall]
+  :seadra [:hyper-beam]
+  :kingdra [:body-slam])
+
+(deflearnset :dp
+  :horsea [:agility :attract :aurora-beam :blizzard :bounce :brine :bubble :bubblebeam :captivate :disable :dive :double-team :dragon-dance :dragon-pulse :dragon-rage :dragonbreath :endure :facade :flail :flash-cannon :focus-energy :frustration :hail :headbutt :hidden-power :hydro-pump :ice-beam :icy-wind :leer :muddy-water :natural-gift :octazooka :outrage :protect :rain-dance :razor-wind :rest :return :secret-power :signal-beam :sleep-talk :smokescreen :snore :splash :substitute :surf :swagger :swift :toxic :twister :water-gun :water-pulse :waterfall :whirlpool]
+  :seadra [:giga-impact :hyper-beam]
+  :kingdra [:draco-meteor :iron-head :yawn])
+
+(deflearnset :bw
+  :horsea [:agility :attract :aurora-beam :blizzard :bounce :brine :bubble :bubblebeam :clear-smog :disable :dive :double-team :dragon-dance :dragon-pulse :dragon-rage :dragonbreath :facade :flail :flash-cannon :focus-energy :frustration :hail :hidden-power :hydro-pump :ice-beam :icy-wind :leer :muddy-water :octazooka :outrage :protect :rain-dance :razor-wind :rest :return :round :scald :signal-beam :sleep-talk :smokescreen :snore :splash :substitute :surf :swagger :toxic :twister :water-gun :water-pulse :waterfall]
+  :seadra [:giga-impact :hyper-beam]
+  :kingdra [:draco-meteor :iron-head :quash :yawn])
+

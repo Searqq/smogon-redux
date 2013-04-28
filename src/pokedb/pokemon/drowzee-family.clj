@@ -26,3 +26,26 @@
   :height [1.6])
 
 (deffamily :drowzee :hypno)
+
+
+
+(deflearnset :rb
+  :drowzee [:bide :body-slam :confusion :counter :disable :double-edge :double-team :dream-eater :flash :headbutt :hypnosis :meditate :mega-kick :mega-punch :metronome :mimic :poison-gas :pound :psychic :psywave :rage :reflect :rest :seismic-toss :skull-bash :submission :substitute :take-down :teleport :thunder-wave :toxic :tri-attack]
+  :hypno [:hyper-beam])
+
+(deflearnset :gs
+  :drowzee [:attract :barrier :confusion :curse :disable :double-team :dream-eater :dynamicpunch :endure :fire-punch :flash :frustration :future-sight :headbutt :hidden-power :hypnosis :ice-punch :light-screen :meditate :nightmare :poison-gas :pound :protect :psych-up :psychic :rain-dance :rest :return :shadow-ball :sleep-talk :snore :sunny-day :swagger :thunderpunch :toxic :zap-cannon]
+  :hypno [:hyper-beam])
+
+(deflearnset :rs
+  :drowzee [:assist :attract :barrier :body-slam :brick-break :calm-mind :confusion :counter :disable :double-edge :double-team :dream-eater :dynamicpunch :endure :facade :fire-punch :flash :focus-punch :frustration :future-sight :headbutt :hidden-power :hypnosis :ice-punch :light-screen :meditate :mega-kick :mega-punch :metronome :mimic :nightmare :poison-gas :pound :protect :psych-up :psychic :rain-dance :reflect :rest :return :role-play :safeguard :secret-power :seismic-toss :shadow-ball :skill-swap :sleep-talk :snatch :snore :substitute :sunny-day :swagger :taunt :thief :thunder-wave :thunderpunch :torment :toxic]
+  :hypno [:hyper-beam])
+
+(deflearnset :dp
+  :drowzee [:assist :attract :barrier :brick-break :calm-mind :captivate :confusion :disable :double-team :drain-punch :dream-eater :endure :facade :fire-punch :flash :flatter :fling :focus-punch :frustration :future-sight :grass-knot :guard-swap :headbutt :hidden-power :hypnosis :ice-punch :light-screen :low-kick :magic-coat :meditate :nasty-plot :natural-gift :poison-gas :pound :protect :psybeam :psych-up :psychic :psycho-cut :rain-dance :recycle :reflect :rest :return :role-play :safeguard :secret-power :shadow-ball :signal-beam :skill-swap :sleep-talk :snatch :substitute :sunny-day :swagger :taunt :thief :thunder-wave :thunderpunch :torment :toxic :trick :trick-room :zen-headbutt]
+  :hypno [:focus-blast :giga-impact :hyper-beam :nightmare :switcheroo])
+
+(deflearnset :bw
+  :drowzee [:assist :attract :barrier :brick-break :calm-mind :confusion :disable :double-team :drain-punch :dream-eater :facade :fire-punch :flash :flatter :fling :foul-play :frustration :future-sight :grass-knot :guard-swap :headbutt :hidden-power :hypnosis :ice-punch :light-screen :low-kick :low-sweep :magic-coat :magic-room :meditate :nasty-plot :poison-gas :pound :protect :psybeam :psych-up :psychic :psycho-cut :psyshock :rain-dance :recycle :reflect :rest :return :role-play :round :safeguard :secret-power :shadow-ball :signal-beam :skill-swap :sleep-talk :snatch :substitute :sunny-day :swagger :synchronoise :taunt :telekinesis :thief :thunder-wave :thunderpunch :torment :toxic :trick :trick-room :zen-headbutt]
+  :hypno [:focus-blast :giga-impact :hyper-beam :nightmare :switcheroo])
+

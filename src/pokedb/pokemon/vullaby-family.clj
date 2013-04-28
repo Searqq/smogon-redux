@@ -20,3 +20,10 @@
   :height [1.2])
 
 (deffamily :vullaby :mandibuzz)
+
+
+
+(deflearnset :bw
+  :vullaby [:aerial-ace :air-slash :attract :block :brave-bird :cut :dark-pulse :defog :double-team :embargo :facade :faint-attack :fake-tears :flatter :fly :foul-play :frustration :fury-attack :gust :heat-wave :hidden-power :incinerate :iron-defense :knock-off :leer :mean-look :mirror-move :nasty-plot :payback :pluck :protect :psych-up :punishment :rain-dance :rest :retaliate :return :rock-smash :rock-tomb :roost :round :scary-face :shadow-ball :sleep-talk :snarl :snatch :snore :steel-wing :substitute :sunny-day :swagger :tailwind :taunt :thief :torment :toxic :u-turn :whirlwind]
+  :mandibuzz [:bone-rush :giga-impact :hyper-beam :sky-attack])
+

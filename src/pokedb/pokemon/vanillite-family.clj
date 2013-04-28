@@ -30,3 +30,10 @@
   :height [1.3])
 
 (deffamily :vanillite :vanillish :vanilluxe)
+
+
+
+(deflearnset :bw
+  :vanillite [:acid-armor :astonish :attract :autotomize :avalanche :blizzard :double-team :explosion :facade :flash-cannon :frost-breath :frustration :hail :harden :hidden-power :ice-beam :ice-shard :icicle-spear :icy-wind :imprison :iron-defense :light-screen :magic-coat :magnet-rise :mirror-coat :mirror-shot :mist :natural-gift :powder-snow :protect :rain-dance :rest :return :round :sheer-cold :signal-beam :sleep-talk :snore :substitute :swagger :taunt :toxic :uproar :water-pulse]
+  :vanilluxe [:giga-impact :hyper-beam :weather-ball])
+

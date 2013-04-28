@@ -36,3 +36,21 @@
   :height [1.4])
 
 (deffamily :spheal :sealeo :walrein)
+
+
+
+(deflearnset :rs
+  :spheal [:attract :aurora-beam :blizzard :body-slam :curse :defense-curl :dive :double-edge :double-team :earthquake :encore :endure :facade :fissure :frustration :growl :hail :hidden-power :ice-ball :ice-beam :icy-wind :iron-tail :mimic :mud-slap :powder-snow :protect :rain-dance :rest :return :rock-slide :rock-smash :rock-tomb :rollout :secret-power :sheer-cold :sleep-talk :snore :spit-up :stockpile :strength :substitute :surf :swagger :swallow :toxic :water-gun :water-pulse :water-sport :waterfall :yawn]
+  :sealeo [:roar]
+  :walrein [:hyper-beam])
+
+(deflearnset :dp
+  :spheal [:aqua-ring :aqua-tail :attract :aurora-beam :blizzard :body-slam :brine :captivate :curse :defense-curl :dive :double-team :earthquake :encore :endure :facade :fissure :frustration :growl :hail :headbutt :hidden-power :ice-ball :ice-beam :icy-wind :iron-tail :mud-slap :natural-gift :powder-snow :protect :rain-dance :rest :return :rock-slide :rock-smash :rock-tomb :rollout :secret-power :sheer-cold :signal-beam :sleep-talk :snore :spit-up :stockpile :strength :substitute :super-fang :surf :swagger :swallow :toxic :water-gun :water-pulse :water-sport :waterfall :whirlpool :yawn]
+  :sealeo [:roar]
+  :walrein [:avalanche :block :crunch :fury-cutter :giga-impact :hyper-beam :ice-fang :iron-head])
+
+(deflearnset :bw
+  :spheal [:aqua-ring :aqua-tail :attract :aurora-beam :blizzard :body-slam :bulldoze :curse :defense-curl :dive :double-team :earthquake :echoed-voice :encore :facade :fissure :frost-breath :frustration :growl :hail :hidden-power :ice-ball :ice-beam :icy-wind :iron-tail :powder-snow :protect :rain-dance :rest :return :rock-slide :rock-smash :rock-tomb :rollout :round :sheer-cold :signal-beam :sleep-talk :snore :spit-up :stockpile :strength :substitute :super-fang :surf :swagger :swallow :toxic :water-gun :water-pulse :water-sport :waterfall :yawn]
+  :sealeo [:roar]
+  :walrein [:block :crunch :giga-impact :hyper-beam :ice-fang :iron-head])
+

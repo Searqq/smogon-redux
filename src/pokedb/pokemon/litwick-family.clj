@@ -30,3 +30,10 @@
   :height [1])
 
 (deffamily :litwick :lampent :chandelure)
+
+
+
+(deflearnset :bw
+  :litwick [:acid :acid-armor :astonish :attract :calm-mind :captivate :clear-smog :confuse-ray :curse :dark-pulse :double-team :dream-eater :embargo :ember :endure :energy-ball :facade :fire-blast :fire-spin :flame-burst :flame-charge :flamethrower :flash :frustration :haze :heat-wave :hex :hidden-power :imprison :incinerate :inferno :memento :minimize :night-shade :overheat :pain-split :payback :protect :psych-up :psychic :rest :return :round :safeguard :shadow-ball :sleep-talk :smog :snore :solarbeam :spite :substitute :sunny-day :swagger :taunt :telekinesis :thief :toxic :trick :trick-room :will-o-wisp]
+  :chandelure [:giga-impact :hyper-beam])
+

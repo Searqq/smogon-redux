@@ -30,3 +30,10 @@
   :height [1.4])
 
 (deffamily :timburr :gurdurr :conkeldurr)
+
+
+
+(deflearnset :bw
+  :timburr [:attract :bide :block :brick-break :bulk-up :chip-away :comet-punch :counter :detect :dig :double-team :drain-punch :dynamicpunch :endure :facade :fire-punch :fling :focus-blast :focus-energy :focus-punch :force-palm :foresight :frustration :grass-knot :hammer-arm :helping-hand :hidden-power :ice-punch :knock-off :leer :low-kick :low-sweep :mach-punch :payback :poison-jab :pound :protect :rain-dance :rest :retaliate :return :reversal :rock-slide :rock-smash :rock-throw :rock-tomb :round :scary-face :sleep-talk :smack-down :smellingsalt :snore :stone-edge :strength :substitute :sunny-day :superpower :swagger :taunt :thunderpunch :toxic :wake-up-slap :wide-guard :work-up]
+  :conkeldurr [:bulldoze :earthquake :giga-impact :hyper-beam])
+

@@ -36,3 +36,26 @@
   :height [1.4])
 
 (deffamily :geodude :graveler :golem)
+
+
+
+(deflearnset :rb
+  :geodude [:bide :body-slam :counter :defense-curl :dig :double-edge :double-team :earthquake :explosion :fire-blast :fissure :harden :mega-punch :metronome :mimic :rage :rest :rock-slide :rock-throw :seismic-toss :selfdestruct :strength :submission :substitute :tackle :take-down :toxic]
+  :golem [:hyper-beam :mega-kick])
+
+(deflearnset :gs
+  :geodude [:attract :curse :defense-curl :dig :double-team :dynamicpunch :earthquake :endure :explosion :fire-blast :fire-punch :flamethrower :frustration :harden :headbutt :hidden-power :magnitude :mega-punch :mud-slap :protect :rest :return :rock-slide :rock-smash :rock-throw :rollout :sandstorm :selfdestruct :sleep-talk :snore :strength :sunny-day :swagger :tackle :toxic]
+  :golem [:fury-cutter :hyper-beam :roar])
+
+(deflearnset :rs
+  :geodude [:attract :block :body-slam :brick-break :counter :defense-curl :dig :double-edge :double-team :dynamicpunch :earthquake :endure :explosion :facade :fire-blast :fire-punch :flamethrower :focus-punch :frustration :hidden-power :magnitude :mega-punch :metronome :mimic :mud-slap :mud-sport :protect :rest :return :rock-blast :rock-slide :rock-smash :rock-throw :rock-tomb :rollout :sandstorm :secret-power :seismic-toss :selfdestruct :sleep-talk :snore :strength :substitute :sunny-day :swagger :tackle :toxic]
+  :golem [:fury-cutter :hyper-beam :mega-kick :roar])
+
+(deflearnset :dp
+  :geodude [:ancientpower :attract :block :brick-break :captivate :curse :defense-curl :dig :double-edge :double-team :earth-power :earthquake :endure :explosion :facade :fire-blast :fire-punch :flail :flamethrower :fling :focus-punch :frustration :gyro-ball :hammer-arm :headbutt :hidden-power :magnitude :mega-punch :mud-slap :mud-sport :natural-gift :protect :rest :return :rock-blast :rock-climb :rock-polish :rock-slide :rock-smash :rock-throw :rock-tomb :rollout :sandstorm :secret-power :selfdestruct :sleep-talk :snore :stealth-rock :stone-edge :strength :substitute :sucker-punch :sunny-day :superpower :swagger :tackle :thunderpunch :toxic]
+  :golem [:focus-blast :fury-cutter :giga-impact :hyper-beam :iron-head :roar])
+
+(deflearnset :bw
+  :geodude [:attract :autotomize :block :brick-break :bulldoze :curse :defense-curl :dig :double-edge :double-team :earth-power :earthquake :endure :explosion :facade :fire-blast :fire-punch :flail :flamethrower :fling :focus-punch :frustration :gyro-ball :hammer-arm :hidden-power :incinerate :iron-defense :magnitude :mega-punch :mud-sport :protect :rest :return :rock-blast :rock-climb :rock-polish :rock-slide :rock-smash :rock-throw :rock-tomb :rollout :round :sandstorm :selfdestruct :sleep-talk :smack-down :snore :stealth-rock :stone-edge :strength :substitute :sunny-day :superpower :swagger :tackle :thunderpunch :toxic]
+  :golem [:focus-blast :giga-impact :heavy-slam :hyper-beam :iron-head :roar :steamroller])
+

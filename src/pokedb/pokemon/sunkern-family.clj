@@ -24,3 +24,22 @@
   :height [0.8])
 
 (deffamily :sunkern :sunflora)
+
+
+
+(deflearnset :gs
+  :sunkern [:absorb :attract :curse :cut :double-team :endure :flash :frustration :giga-drain :growth :hidden-power :mega-drain :protect :rest :return :sleep-talk :sludge-bomb :snore :solarbeam :sunny-day :swagger :sweet-scent :synthesis :toxic]
+  :sunflora [:hyper-beam :petal-dance :pound :razor-leaf])
+
+(deflearnset :rs
+  :sunkern [:absorb :attract :bullet-seed :curse :cut :double-edge :double-team :encore :endeavor :endure :facade :flash :frustration :giga-drain :grasswhistle :growth :helping-hand :hidden-power :ingrain :leech-seed :light-screen :mega-drain :mimic :nature-power :protect :rest :return :safeguard :secret-power :sleep-talk :sludge-bomb :snore :solarbeam :substitute :sunny-day :swagger :swords-dance :synthesis :toxic]
+  :sunflora [:hyper-beam :petal-dance :pound :razor-leaf])
+
+(deflearnset :dp
+  :sunkern [:absorb :attract :bullet-seed :captivate :curse :cut :double-team :earth-power :encore :endeavor :endure :energy-ball :facade :flash :frustration :giga-drain :grass-knot :grasswhistle :growth :helping-hand :hidden-power :ingrain :leech-seed :light-screen :mega-drain :natural-gift :nature-power :protect :razor-leaf :rest :return :safeguard :secret-power :seed-bomb :sleep-talk :sludge-bomb :snore :solarbeam :substitute :sunny-day :swagger :sweet-scent :swords-dance :synthesis :toxic :uproar :worry-seed]
+  :sunflora [:giga-impact :hyper-beam :leaf-storm :petal-dance :pound])
+
+(deflearnset :bw
+  :sunkern [:absorb :after-you :attract :bide :curse :cut :double-edge :double-team :earth-power :encore :endeavor :endure :energy-ball :facade :flash :frustration :giga-drain :grass-knot :grasswhistle :growth :helping-hand :hidden-power :ingrain :leech-seed :light-screen :mega-drain :morning-sun :natural-gift :nature-power :protect :razor-leaf :rest :return :round :safeguard :seed-bomb :sleep-talk :sludge-bomb :snore :solarbeam :substitute :sunny-day :swagger :sweet-scent :swords-dance :synthesis :toxic :uproar :worry-seed]
+  :sunflora [:bullet-seed :giga-impact :hyper-beam :leaf-storm :petal-dance :pound])
+

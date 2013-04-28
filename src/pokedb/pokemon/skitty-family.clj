@@ -24,3 +24,18 @@
   :height [1.1])
 
 (deffamily :skitty :delcatty)
+
+
+
+(deflearnset :rs
+  :skitty [:assist :attract :baton-pass :blizzard :body-slam :calm-mind :charm :covet :defense-curl :dig :double-edge :double-team :doubleslap :dream-eater :endure :facade :faint-attack :fake-tears :flash :frustration :growl :heal-bell :helping-hand :hidden-power :ice-beam :icy-wind :iron-tail :mimic :mud-slap :protect :psych-up :rain-dance :rest :return :rollout :safeguard :secret-power :shadow-ball :shock-wave :sing :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :swift :tackle :tail-whip :thunder :thunder-wave :thunderbolt :tickle :toxic :uproar :water-pulse :wish]
+  :delcatty [:hyper-beam :rock-smash :strength])
+
+(deflearnset :dp
+  :skitty [:assist :attract :baton-pass :blizzard :calm-mind :captivate :charge-beam :charm :copycat :covet :dig :double-edge :double-team :doubleslap :dream-eater :endure :facade :faint-attack :fake-out :fake-tears :flash :foresight :frustration :grass-knot :growl :headbutt :heal-bell :helping-hand :hidden-power :ice-beam :icy-wind :iron-tail :last-resort :mud-bomb :mud-slap :natural-gift :payback :protect :psych-up :rain-dance :rest :return :rollout :safeguard :secret-power :shadow-ball :shock-wave :sing :sleep-talk :snore :solarbeam :substitute :sucker-punch :sunny-day :swagger :swift :tackle :tail-whip :thunder :thunder-wave :thunderbolt :tickle :toxic :uproar :wake-up-slap :water-pulse :wish :zen-headbutt]
+  :delcatty [:giga-impact :hyper-beam :rock-smash :strength])
+
+(deflearnset :bw
+  :skitty [:assist :attract :baton-pass :blizzard :calm-mind :captivate :charge-beam :charm :copycat :covet :dig :double-edge :double-team :doubleslap :dream-eater :echoed-voice :facade :faint-attack :fake-out :fake-tears :flash :foresight :frustration :grass-knot :growl :heal-bell :helping-hand :hidden-power :hyper-voice :ice-beam :icy-wind :iron-tail :last-resort :mud-bomb :payback :protect :psych-up :rain-dance :rest :retaliate :return :round :safeguard :shadow-ball :simple-beam :sing :sleep-talk :snore :solarbeam :substitute :sucker-punch :sunny-day :swagger :tackle :tail-whip :thunder :thunder-wave :thunderbolt :tickle :toxic :uproar :wake-up-slap :wild-charge :wish :work-up :zen-headbutt]
+  :delcatty [:giga-impact :hyper-beam :rock-smash :strength])
+

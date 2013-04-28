@@ -20,3 +20,10 @@
   :height [0.9])
 
 (deffamily :woobat :swoobat)
+
+
+
+(deflearnset :bw
+  :woobat [:acrobatics :aerial-ace :after-you :air-cutter :air-slash :amnesia :assurance :attract :calm-mind :charge-beam :charm :confusion :double-team :dream-eater :embargo :endeavor :energy-ball :facade :fake-tears :flash :flatter :fly :frustration :future-sight :giga-drain :gust :gyro-ball :heart-stamp :heat-wave :helping-hand :hidden-power :imprison :knock-off :light-screen :magic-coat :odor-sleuth :pluck :protect :psych-up :psychic :psyshock :rain-dance :reflect :rest :return :roost :round :safeguard :shadow-ball :signal-beam :skill-swap :sleep-talk :snore :stored-power :substitute :super-fang :supersonic :swagger :synchronoise :tailwind :taunt :telekinesis :thief :thunder-wave :torment :toxic :trick :trick-room :u-turn :uproar :zen-headbutt]
+  :swoobat [:giga-impact :hyper-beam :sky-attack])
+

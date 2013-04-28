@@ -20,3 +20,10 @@
   :height [0.6])
 
 (deffamily :foongus :amoonguss)
+
+
+
+(deflearnset :bw
+  :foongus [:absorb :after-you :astonish :attract :bide :body-slam :clear-smog :defense-curl :double-team :endure :energy-ball :facade :faint-attack :flash :foul-play :frustration :gastro-acid :giga-drain :grass-knot :growth :hidden-power :ingrain :mega-drain :payback :poisonpowder :protect :rage-powder :rain-dance :rest :return :rollout :round :seed-bomb :sleep-talk :sludge-bomb :snore :solarbeam :spore :stun-spore :substitute :sunny-day :swagger :sweet-scent :synthesis :toxic :venoshock :worry-seed]
+  :amoonguss [:giga-impact :hyper-beam])
+

@@ -50,3 +50,34 @@
   :height [1.4])
 
 (deffamily :tyrogue [:hitmonlee :hitmonchan :hitmontop])
+
+
+
+(deflearnset :rb
+  :hitmonchan [:agility :bide :body-slam :comet-punch :counter :double-edge :double-team :fire-punch :ice-punch :mega-kick :mega-punch :metronome :mimic :rage :rest :seismic-toss :skull-bash :strength :submission :substitute :swift :take-down :thunderpunch :toxic]
+  :hitmonlee [:double-kick :focus-energy :hi-jump-kick :jump-kick :meditate :rolling-kick])
+
+(deflearnset :gs
+  :tyrogue [:attract :curse :detect :double-team :endure :frustration :headbutt :hi-jump-kick :hidden-power :mach-punch :mind-reader :mud-slap :protect :rapid-spin :rest :return :rock-smash :sleep-talk :snore :strength :sunny-day :swagger :swift :tackle :thief :toxic]
+  :hitmonchan [:agility :comet-punch :counter :dynamicpunch :fire-punch :ice-punch :mega-punch :pursuit :thunderpunch]
+  :hitmonlee [:double-kick :focus-energy :foresight :jump-kick :meditate :mega-kick :reversal :rolling-kick]
+  :hitmontop [:dig :quick-attack :triple-kick])
+
+(deflearnset :rs
+  :tyrogue [:attract :body-slam :brick-break :bulk-up :counter :double-edge :double-team :earthquake :endure :facade :frustration :helping-hand :hi-jump-kick :hidden-power :mach-punch :mega-kick :mimic :mind-reader :mud-slap :protect :rain-dance :rapid-spin :rest :return :rock-slide :rock-smash :secret-power :seismic-toss :sleep-talk :snore :strength :substitute :sunny-day :swagger :swift :tackle :thief :toxic]
+  :hitmonchan [:agility :comet-punch :detect :dynamicpunch :fire-punch :focus-punch :ice-punch :mega-punch :metronome :pursuit :revenge :rock-tomb :sky-uppercut :thunderpunch]
+  :hitmonlee [:double-kick :focus-energy :foresight :jump-kick :meditate :reversal :rolling-kick]
+  :hitmontop [:dig :endeavor :quick-attack :sandstorm :triple-kick])
+
+(deflearnset :dp
+  :tyrogue [:attract :brick-break :bulk-up :bullet-punch :captivate :counter :double-team :earthquake :endure :facade :fake-out :foresight :frustration :headbutt :helping-hand :hi-jump-kick :hidden-power :low-kick :mach-punch :mind-reader :mud-slap :natural-gift :protect :rain-dance :rapid-spin :rest :return :rock-slide :rock-smash :role-play :secret-power :sleep-talk :snore :strength :substitute :sunny-day :swagger :swift :tackle :thief :toxic :uproar :vacuum-wave]
+  :hitmonchan [:agility :close-combat :comet-punch :detect :drain-punch :feint :fire-punch :fling :focus-blast :focus-punch :ice-punch :mega-punch :pursuit :revenge :rock-climb :rock-tomb :sky-uppercut :stone-edge :thunderpunch]
+  :hitmonlee [:blaze-kick :bounce :double-kick :focus-energy :jump-kick :knock-off :meditate :mega-kick :poison-jab :reversal :rolling-kick :sucker-punch :superpower]
+  :hitmontop [:aerial-ace :dig :endeavor :gyro-ball :quick-attack :rollout :sandstorm :triple-kick :twister])
+
+(deflearnset :bw
+  :tyrogue [:attract :brick-break :bulk-up :bulldoze :bullet-punch :counter :covet :double-team :earthquake :endure :facade :fake-out :feint :foresight :frustration :helping-hand :hi-jump-kick :hidden-power :low-kick :low-sweep :mach-punch :mind-reader :protect :pursuit :rain-dance :rapid-spin :rest :retaliate :return :rock-slide :rock-smash :role-play :round :sleep-talk :snore :strength :substitute :sunny-day :swagger :tackle :thief :toxic :uproar :vacuum-wave :work-up]
+  :hitmonchan [:agility :close-combat :comet-punch :detect :drain-punch :fire-punch :fling :focus-blast :focus-punch :ice-punch :mega-punch :quick-guard :revenge :rock-tomb :sky-uppercut :stone-edge :thunderpunch]
+  :hitmonlee [:blaze-kick :bounce :double-kick :focus-energy :jump-kick :knock-off :meditate :mega-kick :poison-jab :reversal :rolling-kick :superpower :wide-guard]
+  :hitmontop [:aerial-ace :dig :drill-run :endeavor :gyro-ball :quick-attack :sandstorm :triple-kick])
+

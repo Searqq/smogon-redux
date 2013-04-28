@@ -30,3 +30,11 @@
   :height [2.1])
 
 (deffamily :tynamo :eelektrik :eelektross)
+
+
+
+(deflearnset :bw
+  :tynamo [:charge-beam :magnet-rise :spark :tackle :thunder-wave]
+  :eelektrik [:acid :acid-spray :acrobatics :aqua-tail :attract :bind :bounce :coil :crunch :discharge :double-team :facade :flash :flash-cannon :frustration :gastro-acid :giga-drain :headbutt :hidden-power :iron-tail :knock-off :light-screen :protect :rain-dance :rest :return :round :signal-beam :sleep-talk :snore :substitute :super-fang :swagger :thrash :thunder :thunderbolt :toxic :u-turn :volt-switch :wild-charge :zap-cannon]
+  :eelektross [:brick-break :crush-claw :cut :dragon-claw :dragon-tail :drain-punch :fire-punch :flamethrower :giga-impact :grass-knot :hone-claws :hyper-beam :roar :rock-slide :rock-smash :rock-tomb :strength :superpower :thunderpunch])
+

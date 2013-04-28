@@ -33,3 +33,27 @@
   :height [1.6])
 
 (deffamily :magby :magmar :magmortar)
+
+
+
+(deflearnset :rb
+  :magmar [:bide :body-slam :confuse-ray :counter :double-edge :double-team :ember :fire-blast :fire-punch :flamethrower :hyper-beam :leer :mega-kick :mega-punch :metronome :mimic :psychic :psywave :rage :rest :seismic-toss :skull-bash :smog :smokescreen :strength :submission :substitute :take-down :teleport :toxic])
+
+(deflearnset :gs
+  :magby [:attract :barrier :confuse-ray :cross-chop :curse :detect :double-team :dynamicpunch :ember :endure :fire-blast :fire-punch :flamethrower :frustration :headbutt :hidden-power :iron-tail :karate-chop :leer :mega-punch :mud-slap :protect :psychic :rest :return :screech :sleep-talk :smog :smokescreen :snore :sunny-day :swagger :thief :thunderpunch :toxic]
+  :magmar [:hyper-beam :rock-smash :strength])
+
+(deflearnset :rs
+  :magby [:attract :barrier :body-slam :brick-break :confuse-ray :counter :cross-chop :double-edge :double-team :dynamicpunch :ember :endure :facade :fire-blast :fire-punch :flamethrower :focus-punch :frustration :hidden-power :iron-tail :karate-chop :leer :mega-kick :mega-punch :mimic :mud-slap :protect :psychic :rest :return :rock-smash :screech :secret-power :seismic-toss :sleep-talk :smog :smokescreen :snore :substitute :sunny-day :swagger :thief :thunderpunch :toxic]
+  :magmar [:hyper-beam :strength])
+
+(deflearnset :dp
+  :magby [:attract :barrier :belly-drum :brick-break :captivate :confuse-ray :cross-chop :double-team :dynamicpunch :ember :endure :facade :faint-attack :fire-blast :fire-punch :fire-spin :flamethrower :flare-blitz :fling :focus-punch :frustration :headbutt :heat-wave :helping-hand :hidden-power :iron-tail :karate-chop :lava-plume :leer :mach-punch :mega-punch :mud-slap :natural-gift :overheat :protect :psychic :rest :return :rock-smash :screech :secret-power :sleep-talk :smog :smokescreen :snore :substitute :sunny-day :swagger :thief :thunderpunch :toxic :uproar :will-o-wisp]
+  :magmar [:focus-blast :giga-impact :hyper-beam :low-kick :rock-climb :strength]
+  :magmortar [:earthquake :rock-slide :rock-tomb :solarbeam :taunt :thunderbolt :torment])
+
+(deflearnset :bw
+  :magby [:attract :barrier :belly-drum :brick-break :clear-smog :confuse-ray :covet :cross-chop :double-team :dual-chop :dynamicpunch :ember :facade :faint-attack :fire-blast :fire-punch :fire-spin :flame-burst :flame-charge :flamethrower :flare-blitz :fling :focus-energy :frustration :heat-wave :helping-hand :hidden-power :incinerate :iron-tail :karate-chop :lava-plume :leer :mach-punch :mega-punch :overheat :protect :psychic :rest :return :rock-smash :round :screech :sleep-talk :smog :smokescreen :snore :substitute :sunny-day :swagger :thief :thunderpunch :toxic :uproar :will-o-wisp]
+  :magmar [:focus-blast :giga-impact :hyper-beam :low-kick :low-sweep :strength]
+  :magmortar [:bulldoze :earthquake :rock-slide :rock-tomb :solarbeam :taunt :thunderbolt :torment])
+

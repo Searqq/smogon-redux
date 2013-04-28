@@ -20,3 +20,10 @@
   :height [1.7])
 
 (deffamily :yamask :cofagrigus)
+
+
+
+(deflearnset :bw
+  :yamask [:after-you :astonish :attract :block :calm-mind :curse :dark-pulse :destiny-bond :disable :double-team :dream-eater :embargo :endure :energy-ball :facade :fake-tears :flash :frustration :grudge :guard-split :haze :heal-block :hex :hidden-power :imprison :iron-defense :knock-off :magic-coat :mean-look :memento :nasty-plot :night-shade :nightmare :ominous-wind :pain-split :payback :power-split :protect :psych-up :psychic :rain-dance :rest :return :role-play :round :safeguard :shadow-ball :skill-swap :sleep-talk :snatch :snore :spite :substitute :swagger :telekinesis :thief :toxic :trick :trick-room :will-o-wisp :wonder-room]
+  :cofagrigus [:giga-impact :grass-knot :hyper-beam :scary-face])
+

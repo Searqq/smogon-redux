@@ -30,3 +30,11 @@
   :height [1.5])
 
 (deffamily :tympole :palpitoad :seismitoad)
+
+
+
+(deflearnset :bw
+  :tympole [:aqua-ring :attract :bounce :bubble :bubblebeam :double-team :earth-power :echoed-voice :endeavor :facade :flail :frustration :growl :hail :hidden-power :hydro-pump :hyper-voice :icy-wind :mist :mud-bomb :mud-shot :mud-sport :muddy-water :protect :rain-dance :refresh :rest :return :round :scald :sleep-talk :sludge-bomb :sludge-wave :snore :substitute :supersonic :surf :swagger :toxic :uproar :water-pulse]
+  :palpitoad [:bulldoze :gastro-acid :rock-smash :stealth-rock]
+  :seismitoad [:acid :brick-break :dig :drain-punch :earthquake :fling :focus-blast :giga-impact :grass-knot :hyper-beam :ice-punch :knock-off :low-kick :payback :poison-jab :rock-slide :rock-tomb :strength :venoshock])
+

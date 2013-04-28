@@ -24,3 +24,26 @@
   :height [1.2])
 
 (deffamily :koffing :weezing)
+
+
+
+(deflearnset :rb
+  :koffing [:bide :double-team :explosion :fire-blast :haze :mimic :rage :rest :selfdestruct :sludge :smog :smokescreen :substitute :tackle :thunder :thunderbolt :toxic]
+  :weezing [:hyper-beam])
+
+(deflearnset :gs
+  :koffing [:attract :curse :destiny-bond :double-team :endure :explosion :fire-blast :flamethrower :frustration :haze :hidden-power :pain-split :poison-gas :protect :psybeam :psywave :rest :return :rollout :screech :selfdestruct :sleep-talk :sludge :sludge-bomb :smog :smokescreen :snore :sunny-day :swagger :tackle :thief :thunder :thunderbolt :toxic :zap-cannon]
+  :weezing [:hyper-beam])
+
+(deflearnset :rs
+  :koffing [:attract :destiny-bond :double-team :endure :explosion :facade :fire-blast :flamethrower :flash :frustration :haze :hidden-power :memento :mimic :pain-split :poison-gas :protect :psybeam :psywave :rain-dance :rest :return :rollout :screech :secret-power :selfdestruct :shadow-ball :shock-wave :sleep-talk :sludge :sludge-bomb :smog :smokescreen :snore :substitute :sunny-day :swagger :tackle :taunt :thief :thunder :thunderbolt :torment :toxic :will-o-wisp]
+  :weezing [:hyper-beam])
+
+(deflearnset :dp
+  :koffing [:assurance :attract :captivate :curse :dark-pulse :destiny-bond :double-team :endure :explosion :facade :fire-blast :flamethrower :flash :frustration :grudge :gyro-ball :haze :hidden-power :memento :natural-gift :pain-split :payback :poison-gas :protect :psybeam :psywave :rain-dance :rest :return :rollout :screech :secret-power :selfdestruct :shadow-ball :shock-wave :sleep-talk :sludge :sludge-bomb :smog :smokescreen :snore :spite :substitute :sunny-day :swagger :tackle :taunt :thief :thunder :thunderbolt :torment :toxic :uproar :will-o-wisp]
+  :weezing [:double-hit :giga-impact :hyper-beam])
+
+(deflearnset :bw
+  :koffing [:assurance :attract :clear-smog :curse :dark-pulse :destiny-bond :double-team :explosion :facade :fire-blast :flamethrower :flash :frustration :grudge :gyro-ball :haze :hidden-power :incinerate :memento :pain-split :payback :poison-gas :protect :psybeam :psywave :rain-dance :rest :return :round :screech :selfdestruct :shadow-ball :sleep-talk :sludge :sludge-bomb :smog :smokescreen :snore :spit-up :spite :stockpile :substitute :sunny-day :swagger :swallow :tackle :taunt :thief :thunder :thunderbolt :torment :toxic :uproar :venoshock :will-o-wisp]
+  :weezing [:double-hit :giga-impact :hyper-beam])
+

@@ -33,3 +33,21 @@
   :height [2])
 
 (deffamily :trapinch :vibrava :flygon)
+
+
+
+(deflearnset :rs
+  :trapinch [:attract :bite :body-slam :crunch :dig :double-edge :double-team :earthquake :endure :facade :faint-attack :focus-energy :frustration :giga-drain :gust :hidden-power :hyper-beam :mimic :mud-slap :protect :quick-attack :rest :return :rock-slide :rock-smash :rock-tomb :sand-attack :sand-tomb :sandstorm :secret-power :sleep-talk :snore :solarbeam :strength :substitute :sunny-day :swagger :toxic]
+  :vibrava [:dragonbreath :fly :screech :steel-wing :swift]
+  :flygon [:dragon-claw :fire-blast :fire-punch :flamethrower :fury-cutter :iron-tail])
+
+(deflearnset :dp
+  :trapinch [:attract :bite :bug-bite :captivate :crunch :dig :double-team :earth-power :earthquake :endure :facade :faint-attack :feint :fissure :flail :focus-energy :frustration :fury-cutter :giga-drain :gust :headbutt :hidden-power :hyper-beam :mud-shot :mud-slap :natural-gift :protect :quick-attack :rest :return :rock-slide :rock-smash :rock-tomb :sand-attack :sand-tomb :sandstorm :secret-power :sleep-talk :snore :solarbeam :strength :substitute :sunny-day :swagger :toxic]
+  :vibrava [:air-cutter :defog :draco-meteor :dragon-pulse :dragonbreath :fly :heat-wave :ominous-wind :outrage :roost :screech :silver-wind :sonicboom :steel-wing :supersonic :swift :tailwind :twister :u-turn]
+  :flygon [:aerial-ace :dragon-claw :fire-blast :fire-punch :flamethrower :giga-impact :iron-tail :stone-edge :thunderpunch])
+
+(deflearnset :bw
+  :trapinch [:attract :bide :bite :bug-bite :bulldoze :crunch :dig :double-team :earth-power :earthquake :endure :facade :faint-attack :feint :fissure :flail :focus-energy :frustration :fury-cutter :giga-drain :gust :hidden-power :hyper-beam :mud-shot :mud-slap :protect :quick-attack :rest :return :rock-slide :rock-smash :rock-tomb :round :sand-attack :sand-tomb :sandstorm :signal-beam :sleep-talk :snore :solarbeam :strength :struggle-bug :substitute :sunny-day :superpower :swagger :toxic]
+  :vibrava [:draco-meteor :dragon-pulse :dragonbreath :fly :heat-wave :outrage :roost :screech :sonicboom :supersonic :tailwind :u-turn]
+  :flygon [:aerial-ace :dragon-claw :dragon-tail :fire-blast :fire-punch :flamethrower :giga-impact :hone-claws :incinerate :iron-tail :stone-edge :thunderpunch])
+

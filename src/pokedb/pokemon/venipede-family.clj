@@ -30,3 +30,10 @@
   :height [2.5])
 
 (deffamily :venipede :whirlipede :scolipede)
+
+
+
+(deflearnset :bw
+  :venipede [:agility :attract :bug-bite :defense-curl :double-edge :double-team :endeavor :facade :frustration :gyro-ball :hidden-power :iron-defense :payback :pin-missile :poison-jab :poison-sting :poison-tail :protect :pursuit :rest :return :rock-climb :rock-smash :rollout :round :screech :sleep-talk :sludge-bomb :snore :solarbeam :spikes :steamroller :struggle-bug :substitute :sunny-day :swagger :take-down :toxic :toxic-spikes :twineedle :venoshock]
+  :scolipede [:aqua-tail :baton-pass :bulldoze :cut :dig :earthquake :giga-impact :hyper-beam :iron-tail :megahorn :rock-slide :rock-tomb :snatch :strength :superpower :swords-dance :x-scissor])
+

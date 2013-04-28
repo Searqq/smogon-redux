@@ -37,3 +37,27 @@
 
 
 (deffamily :porygon :porygon2 :porygon-z)
+
+
+
+(deflearnset :rb
+  :porygon [:agility :bide :blizzard :conversion :double-edge :double-team :flash :hyper-beam :ice-beam :mimic :psybeam :psychic :psywave :rage :recover :reflect :rest :sharpen :skull-bash :substitute :swift :tackle :take-down :teleport :thunder :thunder-wave :thunderbolt :toxic :tri-attack])
+
+(deflearnset :gs
+  :porygon [:agility :blizzard :conversion :conversion-2 :curse :double-team :dream-eater :endure :flash :frustration :hidden-power :hyper-beam :ice-beam :icy-wind :iron-tail :lock-on :nightmare :protect :psybeam :psych-up :psychic :rain-dance :recover :rest :return :sharpen :sleep-talk :snore :sunny-day :swagger :swift :tackle :thief :thunder :thunderbolt :toxic :tri-attack :zap-cannon]
+  :porygon2 [:defense-curl])
+
+(deflearnset :rs
+  :porygon [:aerial-ace :agility :blizzard :conversion :conversion-2 :double-edge :double-team :dream-eater :endure :facade :flash :frustration :hidden-power :hyper-beam :ice-beam :icy-wind :iron-tail :lock-on :mimic :nightmare :protect :psybeam :psych-up :psychic :rain-dance :recover :recycle :rest :return :secret-power :shadow-ball :sharpen :shock-wave :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :swift :tackle :thief :thunder :thunder-wave :thunderbolt :toxic :tri-attack :zap-cannon]
+  :porygon2 [:defense-curl])
+
+(deflearnset :dp
+  :porygon [:aerial-ace :agility :blizzard :charge-beam :conversion :conversion-2 :discharge :double-team :dream-eater :endure :facade :flash :frustration :giga-impact :gravity :hidden-power :hyper-beam :ice-beam :icy-wind :iron-tail :last-resort :lock-on :magic-coat :magnet-rise :natural-gift :pain-split :protect :psybeam :psych-up :psychic :rain-dance :recover :recycle :rest :return :secret-power :shadow-ball :sharpen :shock-wave :signal-beam :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :swift :tackle :thief :thunder :thunder-wave :thunderbolt :toxic :tri-attack :trick :trick-room :zap-cannon :zen-headbutt]
+  :porygon2 [:defense-curl]
+  :porygon-z [:dark-pulse :embargo :nasty-plot :uproar])
+
+(deflearnset :bw
+  :porygon [:aerial-ace :agility :blizzard :charge-beam :conversion :conversion-2 :discharge :double-team :dream-eater :electroweb :facade :flash :foul-play :frustration :giga-impact :gravity :hidden-power :hyper-beam :ice-beam :icy-wind :iron-tail :last-resort :lock-on :magic-coat :magnet-rise :pain-split :protect :psybeam :psych-up :psychic :psyshock :rain-dance :recover :recycle :rest :return :round :shadow-ball :sharpen :signal-beam :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :tackle :thief :thunder :thunder-wave :thunderbolt :toxic :tri-attack :trick :trick-room :wonder-room :zap-cannon :zen-headbutt]
+  :porygon2 [:defense-curl]
+  :porygon-z [:dark-pulse :embargo :nasty-plot :uproar])
+

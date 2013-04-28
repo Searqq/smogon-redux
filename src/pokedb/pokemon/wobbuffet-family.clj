@@ -22,3 +22,17 @@
   :height [1.3])
 
 (deffamily :wynaut :wobbuffet)
+
+
+(deflearnset :gs
+  :wobbuffet [:counter :destiny-bond :mirror-coat :safeguard])
+
+(deflearnset :rs
+  :wynaut [:charm :counter :destiny-bond :encore :mirror-coat :safeguard :splash])
+
+(deflearnset :dp
+  :wynaut [:charm :counter :destiny-bond :encore :mirror-coat :safeguard :splash])
+
+(deflearnset :bw
+  :wynaut [:charm :counter :destiny-bond :encore :mirror-coat :safeguard :splash])
+

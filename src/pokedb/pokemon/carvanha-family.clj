@@ -22,3 +22,18 @@
   :height [1.8])
 
 (deffamily :carvanha :sharpedo)
+
+
+
+(deflearnset :rs
+  :carvanha [:agility :attract :bite :blizzard :crunch :dive :double-edge :double-team :endure :facade :focus-energy :frustration :fury-cutter :hail :hidden-power :hydro-pump :ice-beam :icy-wind :leer :mimic :mud-slap :protect :rage :rain-dance :rest :return :scary-face :screech :secret-power :sleep-talk :snore :substitute :surf :swagger :swift :take-down :taunt :thief :thrash :torment :toxic :water-pulse :waterfall]
+  :sharpedo [:earthquake :hyper-beam :roar :rock-smash :rock-tomb :skull-bash :slash :strength])
+
+(deflearnset :dp
+  :carvanha [:agility :ancientpower :aqua-jet :assurance :attract :bite :blizzard :bounce :brine :captivate :crunch :dark-pulse :dive :double-edge :double-team :endure :facade :focus-energy :frustration :fury-cutter :hail :hidden-power :hydro-pump :ice-beam :ice-fang :icy-wind :leer :mud-slap :natural-gift :payback :protect :rage :rain-dance :rest :return :scary-face :screech :secret-power :sleep-talk :snore :spite :substitute :super-fang :surf :swagger :swift :take-down :taunt :thief :thrash :torment :toxic :uproar :water-pulse :waterfall :whirlpool :zen-headbutt]
+  :sharpedo [:avalanche :earthquake :feint :giga-impact :hyper-beam :night-slash :poison-jab :roar :rock-smash :rock-tomb :skull-bash :slash :strength])
+
+(deflearnset :bw
+  :carvanha [:agility :ancientpower :aqua-jet :assurance :attract :bite :blizzard :bounce :brine :crunch :dark-pulse :dive :double-edge :double-team :facade :focus-energy :frustration :hail :hidden-power :hydro-pump :ice-beam :ice-fang :icy-wind :leer :payback :protect :rage :rain-dance :rest :retaliate :return :round :scald :scary-face :screech :sleep-talk :snarl :snore :spite :substitute :super-fang :surf :swagger :swift :take-down :taunt :thief :thrash :torment :toxic :uproar :waterfall :zen-headbutt]
+  :sharpedo [:bulldoze :earthquake :feint :giga-impact :hyper-beam :night-slash :poison-jab :roar :rock-smash :rock-tomb :skull-bash :slash :strength])
+

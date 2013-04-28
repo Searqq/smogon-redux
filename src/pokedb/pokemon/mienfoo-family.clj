@@ -20,3 +20,10 @@
   :height [1.4])
 
 (deffamily :mienfoo :mienshao)
+
+
+
+(deflearnset :bw
+  :mienfoo [:acrobatics :aerial-ace :attract :aura-sphere :baton-pass :bounce :brick-break :bulk-up :calm-mind :detect :dig :double-team :doubleslap :drain-punch :dual-chop :endure :facade :fake-out :feint :fling :focus-blast :force-palm :frustration :grass-knot :helping-hand :hi-jump-kick :hidden-power :jump-kick :knock-off :low-kick :low-sweep :me-first :meditate :payback :poison-jab :pound :protect :psych-up :quick-guard :rain-dance :reflect :rest :retaliate :return :reversal :rock-slide :rock-smash :rock-tomb :role-play :round :sleep-talk :smellingsalt :snore :stone-edge :strength :substitute :sunny-day :swagger :swift :swords-dance :taunt :toxic :u-turn :vital-throw :work-up]
+  :mienshao [:giga-impact :hyper-beam :wide-guard])
+
