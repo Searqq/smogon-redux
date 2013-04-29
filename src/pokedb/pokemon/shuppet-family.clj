@@ -1,4 +1,3 @@
-
 (defpokemon :shuppet
   :name "Shuppet"
   :introduced-in :rs
@@ -35,4 +34,4 @@
 
 (deflearnset :bw
   :shuppet [:astonish :attract :calm-mind :charge-beam :confuse-ray :curse :dark-pulse :destiny-bond :disable :double-team :dream-eater :embargo :facade :faint-attack :flash :foresight :foul-play :frustration :grudge :gunk-shot :hex :hidden-power :icy-wind :imprison :knock-off :magic-coat :magic-room :night-shade :ominous-wind :pain-split :payback :protect :psych-up :psychic :pursuit :rain-dance :rest :return :role-play :round :screech :shadow-ball :shadow-sneak :skill-swap :sleep-talk :snatch :spite :substitute :sucker-punch :sunny-day :swagger :taunt :telekinesis :thief :thunder :thunder-wave :thunderbolt :torment :toxic :trick :trick-room :will-o-wisp]
-  :banette [:fling :giga-impact :hyper-beam :shadow-claw])
+  :banette [:fling :giga-impact :hyper-beam :shadow-claw :cotton-guard])
