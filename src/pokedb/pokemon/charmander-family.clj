@@ -1,4 +1,3 @@
-
 (defpokemon :charmander
   :name "Charmander"
   :introduced-in :rb
@@ -54,5 +53,5 @@
   :charizard [:air-cutter :air-slash :blast-burn :defog :dragon-pulse :earthquake :fly :focus-blast :giga-impact :hyper-beam :ominous-wind :roar :roost :solarbeam :steel-wing :tailwind :twister :wing-attack])
 
 (deflearnset :bw
-  :charmander [:aerial-ace :ancientpower :attract :beat-up :belly-drum :bite :brick-break :counter :crunch :cut :dig :double-team :dragon-claw :dragon-dance :dragon-pulse :dragon-rage :dragon-rush :echoed-voice :ember :facade :fire-blast :fire-fang :fire-pledge :fire-punch :fire-spin :flame-burst :flame-charge :flamethrower :flare-blitz :fling :focus-punch :frustration :growl :heat-wave :hidden-power :hone-claws :incinerate :inferno :iron-tail :metal-claw :outrage :overheat :protect :rest :return :rock-slide :rock-smash :rock-tomb :round :scary-face :scratch :shadow-claw :slash :sleep-talk :smokescreen :snore :strength :substitute :sunny-day :swagger :swords-dance :thunderpunch :toxic :will-o-wisp]
+  :charmander [:aerial-ace :ancientpower :attract :beat-up :belly-drum :bite :brick-break :counter :crunch :cut :dig :double-team :dragon-claw :dragon-dance :dragon-pulse :dragon-rage :dragon-rush :echoed-voice :ember :facade :fire-blast :fire-fang :fire-pledge :fire-punch :fire-spin :flame-burst :flame-charge :flamethrower :flare-blitz :fling :focus-punch :frustration :growl :heat-wave :hidden-power :hone-claws :incinerate :inferno :iron-tail :metal-claw :outrage :overheat :protect :rest :return :rock-slide :rock-smash :rock-tomb :round :scary-face :scratch :shadow-claw :slash :sleep-talk :smokescreen :snore :strength :substitute :sunny-day :swagger :swords-dance :thunderpunch :toxic :will-o-wisp :acrobatics :block :false-swipe]
   :charizard [:air-slash :blast-burn :bulldoze :dragon-tail :earthquake :fly :focus-blast :giga-impact :hyper-beam :roar :roost :sky-drop :solarbeam :tailwind :wing-attack])
