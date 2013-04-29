@@ -34,8 +34,6 @@
 
 (deffamily :elekid :electabuzz :electivire)
 
-
-
 (deflearnset :rb
   :electabuzz [:bide :body-slam :counter :double-edge :double-team :flash :hyper-beam :leer :light-screen :mega-kick :mega-punch :metronome :mimic :psychic :psywave :quick-attack :rage :reflect :rest :screech :seismic-toss :skull-bash :strength :submission :substitute :swift :take-down :teleport :thunder :thunder-wave :thunderbolt :thunderpunch :thundershock :toxic])
 
@@ -56,4 +54,3 @@
   :elekid [:attract :barrier :brick-break :charge-beam :covet :cross-chop :discharge :double-team :dual-chop :dynamicpunch :electro-ball :electroweb :facade :feint :fire-punch :flash :fling :focus-punch :frustration :hammer-arm :helping-hand :hidden-power :ice-punch :karate-chop :leer :light-screen :low-kick :magnet-rise :meditate :protect :psychic :quick-attack :rain-dance :rest :return :rock-smash :rolling-kick :round :screech :shock-wave :signal-beam :sleep-talk :snore :substitute :swagger :swift :thief :thunder :thunder-wave :thunderbolt :thunderpunch :thundershock :toxic :uproar :volt-switch :wild-charge]
   :electabuzz [:focus-blast :giga-impact :hyper-beam :iron-tail :low-sweep :strength]
   :electivire [:bulldoze :dig :earthquake :flamethrower :rock-slide :rock-tomb :taunt :torment])
-

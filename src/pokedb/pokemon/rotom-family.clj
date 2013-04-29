@@ -66,11 +66,8 @@
 
 (deffamily :rotom [:rotom-fan :rotom-frost :rotom-heat :rotom-mow :rotom-wash])
 
-
-
 (deflearnset :dp
   :rotom [:astonish :charge :charge-beam :confuse-ray :dark-pulse :discharge :double-team :dream-eater :endure :facade :flash :frustration :hidden-power :light-screen :mud-slap :natural-gift :ominous-wind :pain-split :protect :psych-up :rain-dance :reflect :rest :return :secret-power :shadow-ball :shock-wave :signal-beam :sleep-talk :snatch :snore :spite :substitute :sucker-punch :sunny-day :swagger :swift :thief :thunder :thunder-wave :thunderbolt :thundershock :toxic :trick :uproar :will-o-wisp])
 
 (deflearnset :bw
   :rotom [:astonish :charge :charge-beam :confuse-ray :dark-pulse :discharge :double-team :dream-eater :electro-ball :electroweb :facade :flash :frustration :hex :hidden-power :light-screen :ominous-wind :pain-split :protect :psych-up :rain-dance :reflect :rest :return :round :shadow-ball :shock-wave :signal-beam :sleep-talk :snatch :snore :spite :substitute :sunny-day :swagger :telekinesis :thief :thunder :thunder-wave :thunderbolt :thundershock :toxic :trick :uproar :volt-switch :will-o-wisp])
-

@@ -81,8 +81,6 @@
 (deffamily :nidoran-m :nidorino :nidoking)
 (deffamily :nidoran-f :nidorina :nidoqueen)
 
-
-
 (deflearnset :rb
   :nidoran-f [:bide :bite :blizzard :body-slam :double-edge :double-kick :double-team :fury-swipes :growl :mimic :poison-sting :rage :reflect :rest :scratch :skull-bash :substitute :tackle :tail-whip :take-down :thunder :thunderbolt :toxic]
   :nidorina [:bubblebeam :horn-drill :ice-beam :water-gun]
@@ -130,4 +128,3 @@
 (deflearnset :bw
   :nidoran-m [:amnesia :attract :beat-up :blizzard :captivate :chip-away :confusion :counter :cut :dig :disable :double-kick :double-team :drill-run :echoed-voice :endure :facade :flatter :focus-energy :frustration :fury-attack :head-smash :helping-hand :hidden-power :hone-claws :horn-attack :horn-drill :ice-beam :iron-tail :leer :peck :poison-jab :poison-sting :poison-tail :protect :rain-dance :rest :return :rock-smash :round :shadow-claw :sleep-talk :sludge-bomb :snore :strength :substitute :sucker-punch :sunny-day :super-fang :supersonic :swagger :take-down :thief :thunder :thunderbolt :toxic :toxic-spikes :venoshock]
   :nidoking [:aqua-tail :brick-break :bulldoze :dragon-pulse :dragon-tail :earth-power :earthquake :fire-blast :fire-punch :flamethrower :fling :focus-blast :giga-impact :hyper-beam :ice-punch :icy-wind :incinerate :megahorn :outrage :quash :roar :rock-slide :rock-tomb :sandstorm :shadow-ball :sludge-wave :smack-down :stealth-rock :stone-edge :superpower :surf :taunt :thrash :thunderpunch :torment :uproar])
-

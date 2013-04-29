@@ -23,8 +23,6 @@
 
 (deffamily :natu :xatu)
 
-
-
 (deflearnset :gs
   :natu [:attract :confuse-ray :curse :detect :double-team :dream-eater :drill-peck :endure :faint-attack :flash :frustration :future-sight :giga-drain :haze :hidden-power :leer :night-shade :nightmare :peck :protect :psych-up :psychic :quick-attack :rest :return :sleep-talk :snore :solarbeam :steel-wing :sunny-day :swagger :swift :teleport :thief :toxic]
   :xatu [:fly :hyper-beam])
@@ -40,4 +38,3 @@
 (deflearnset :bw
   :natu [:aerial-ace :ally-switch :attract :calm-mind :confuse-ray :double-team :dream-eater :drill-peck :facade :faint-attack :featherdance :flash :frustration :future-sight :giga-drain :grass-knot :guard-swap :haze :heat-wave :hidden-power :leer :light-screen :lucky-chant :magic-coat :magic-room :me-first :miracle-eye :night-shade :ominous-wind :pain-split :peck :pluck :power-swap :protect :psych-up :psychic :psycho-shift :psyshock :quick-attack :rain-dance :reflect :refresh :rest :return :roost :round :shadow-ball :signal-beam :skill-swap :sleep-talk :snore :solarbeam :steel-wing :stored-power :substitute :sucker-punch :sunny-day :swagger :synchronoise :tailwind :telekinesis :teleport :thief :thunder-wave :toxic :trick :trick-room :u-turn :wish :zen-headbutt]
   :xatu [:fly :foul-play :giga-impact :hyper-beam :sky-attack])
-

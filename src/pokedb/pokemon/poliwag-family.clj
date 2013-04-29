@@ -48,8 +48,6 @@
 
 (deffamily :poliwag :poliwhirl [:poliwrath :politoed])
 
-
-
 (deflearnset :rb
   :poliwag [:amnesia :bide :blizzard :body-slam :bubble :bubblebeam :double-edge :double-team :doubleslap :hydro-pump :hypnosis :ice-beam :mimic :psychic :psywave :rage :rest :skull-bash :substitute :surf :take-down :toxic :water-gun]
   :poliwhirl [:counter :earthquake :fissure :mega-kick :mega-punch :metronome :seismic-toss :strength :submission]
@@ -78,4 +76,3 @@
   :poliwhirl [:brick-break :bulldoze :earthquake :fling :ice-punch :rock-smash :strength]
   :politoed [:bounce :echoed-voice :focus-blast :giga-impact :hyper-beam :hyper-voice :payback :perish-song]
   :poliwrath [:bulk-up :circle-throw :dynamicpunch :low-sweep :poison-jab :rock-slide :rock-tomb :submission :work-up])
-

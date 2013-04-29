@@ -32,8 +32,6 @@
 
 (deffamily :slakoth :vigoroth :slaking)
 
-
-
 (deflearnset :rs
   :slakoth [:aerial-ace :amnesia :attract :blizzard :body-slam :brick-break :bulk-up :counter :covet :crush-claw :curse :cut :double-edge :double-team :dynamicpunch :encore :endure :facade :faint-attack :fire-blast :fire-punch :flail :flamethrower :focus-punch :frustration :fury-cutter :hidden-power :ice-beam :ice-punch :icy-wind :mega-kick :mega-punch :mimic :mud-slap :protect :pursuit :rain-dance :rest :return :rock-slide :rock-smash :scratch :secret-power :seismic-toss :shadow-ball :shock-wave :slack-off :slash :sleep-talk :snore :solarbeam :strength :substitute :sunny-day :swagger :thunder :thunderbolt :thunderpunch :toxic :water-pulse :yawn]
   :vigoroth [:earthquake :focus-energy :fury-swipes :reversal :roar :taunt :uproar]
@@ -48,4 +46,3 @@
   :slakoth [:aerial-ace :after-you :amnesia :attract :blizzard :body-slam :brick-break :bulk-up :chip-away :counter :covet :crush-claw :curse :cut :double-team :encore :facade :faint-attack :fire-blast :fire-punch :flail :flamethrower :fling :frustration :gunk-shot :hammer-arm :hidden-power :hone-claws :ice-beam :ice-punch :icy-wind :incinerate :night-slash :protect :pursuit :rain-dance :rest :retaliate :return :rock-slide :rock-smash :rock-tomb :round :scratch :shadow-ball :shadow-claw :slack-off :slash :sleep-talk :snore :solarbeam :strength :substitute :sunny-day :swagger :thunder :thunderbolt :thunderpunch :tickle :toxic :work-up :yawn]
   :vigoroth [:bulldoze :earthquake :endure :focus-blast :focus-energy :focus-punch :fury-swipes :low-kick :low-sweep :reversal :roar :taunt :uproar]
   :slaking [:block :giga-impact :hyper-beam :punishment :quash :smack-down])
-

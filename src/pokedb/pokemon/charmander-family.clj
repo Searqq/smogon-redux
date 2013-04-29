@@ -37,8 +37,6 @@
 
 (deffamily :charmander :charmeleon :charizard)
 
-
-
 (deflearnset :rb
   :charmander [:bide :body-slam :counter :cut :dig :double-edge :double-team :dragon-rage :ember :fire-blast :fire-spin :flamethrower :growl :leer :mega-kick :mega-punch :mimic :rage :reflect :rest :scratch :seismic-toss :skull-bash :slash :strength :submission :substitute :swift :swords-dance :take-down :toxic]
   :charizard [:earthquake :fissure :fly :hyper-beam])
@@ -58,4 +56,3 @@
 (deflearnset :bw
   :charmander [:aerial-ace :ancientpower :attract :beat-up :belly-drum :bite :brick-break :counter :crunch :cut :dig :double-team :dragon-claw :dragon-dance :dragon-pulse :dragon-rage :dragon-rush :echoed-voice :ember :facade :fire-blast :fire-fang :fire-pledge :fire-punch :fire-spin :flame-burst :flame-charge :flamethrower :flare-blitz :fling :focus-punch :frustration :growl :heat-wave :hidden-power :hone-claws :incinerate :inferno :iron-tail :metal-claw :outrage :overheat :protect :rest :return :rock-slide :rock-smash :rock-tomb :round :scary-face :scratch :shadow-claw :slash :sleep-talk :smokescreen :snore :strength :substitute :sunny-day :swagger :swords-dance :thunderpunch :toxic :will-o-wisp]
   :charizard [:air-slash :blast-burn :bulldoze :dragon-tail :earthquake :fly :focus-blast :giga-impact :hyper-beam :roar :roost :sky-drop :solarbeam :tailwind :wing-attack])
-

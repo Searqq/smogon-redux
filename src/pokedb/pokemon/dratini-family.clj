@@ -37,8 +37,6 @@
 
 (deffamily :dratini :dragonair :dragonite)
 
-
-
 (deflearnset :rb
   :dratini [:agility :bide :blizzard :body-slam :bubblebeam :double-edge :double-team :dragon-rage :fire-blast :hyper-beam :ice-beam :leer :mimic :rage :reflect :rest :skull-bash :slam :substitute :surf :swift :take-down :thunder :thunder-wave :thunderbolt :toxic :water-gun :wrap]
   :dragonair [:horn-drill]
@@ -59,4 +57,3 @@
 (deflearnset :bw
   :dratini [:agility :aqua-jet :aqua-tail :attract :bind :blizzard :double-team :draco-meteor :dragon-dance :dragon-pulse :dragon-rage :dragon-rush :dragon-tail :dragonbreath :extremespeed :facade :fire-blast :flamethrower :frustration :hail :haze :hidden-power :hyper-beam :ice-beam :icy-wind :incinerate :iron-tail :leer :light-screen :mist :outrage :protect :rain-dance :rest :return :round :safeguard :slam :sleep-talk :snore :substitute :sunny-day :supersonic :surf :swagger :thunder :thunder-wave :thunderbolt :toxic :twister :water-pulse :waterfall :wrap]
   :dragonite [:aerial-ace :brick-break :bulldoze :cut :dive :dragon-claw :earthquake :fire-punch :fling :fly :focus-blast :giga-impact :heat-wave :hone-claws :hurricane :ice-punch :iron-head :roar :rock-slide :rock-smash :rock-tomb :roost :sandstorm :sky-drop :stone-edge :strength :superpower :tailwind :thunderpunch :wing-attack])
-

@@ -25,8 +25,6 @@
 
 (deffamily :omanyte :omastar)
 
-
-
 (deflearnset :rb
   :omanyte [:bide :blizzard :body-slam :bubblebeam :double-edge :double-team :horn-attack :hydro-pump :ice-beam :leer :mimic :rage :reflect :rest :spike-cannon :substitute :surf :take-down :toxic :water-gun :withdraw]
   :omastar [:horn-drill :hyper-beam :seismic-toss :skull-bash :submission])
@@ -46,4 +44,3 @@
 (deflearnset :bw
   :omanyte [:ancientpower :attract :aurora-beam :bide :bind :bite :blizzard :brine :bubblebeam :constrict :dive :double-team :earth-power :facade :frustration :gyro-ball :hail :haze :hidden-power :hydro-pump :ice-beam :icy-wind :iron-defense :knock-off :leer :mud-shot :muddy-water :protect :rain-dance :rest :return :rock-blast :rock-polish :rock-slide :rock-smash :rock-tomb :rollout :round :sandstorm :scald :shell-smash :slam :sleep-talk :smack-down :snore :spikes :stealth-rock :substitute :supersonic :surf :swagger :thief :tickle :toxic :toxic-spikes :water-gun :water-pulse :waterfall :whirlpool :withdraw :wring-out]
   :omastar [:giga-impact :hyper-beam :spike-cannon :stone-edge])
-

@@ -40,8 +40,6 @@
 
 (deffamily :machop :machoke :machamp)
 
-
-
 (deflearnset :rb
   :machop [:bide :body-slam :counter :dig :double-edge :double-team :earthquake :fire-blast :fissure :focus-energy :karate-chop :leer :low-kick :mega-kick :mega-punch :metronome :mimic :rage :rest :rock-slide :seismic-toss :skull-bash :strength :submission :substitute :take-down :toxic]
   :machamp [:hyper-beam])
@@ -61,4 +59,3 @@
 (deflearnset :bw
   :machop [:attract :brick-break :bulk-up :bulldoze :bullet-punch :close-combat :counter :cross-chop :dig :double-team :dual-chop :dynamicpunch :earthquake :encore :facade :fire-blast :fire-punch :flamethrower :fling :focus-blast :focus-energy :foresight :frustration :heavy-slam :helping-hand :hidden-power :ice-punch :incinerate :karate-chop :knock-off :leer :light-screen :low-kick :low-sweep :meditate :payback :poison-jab :power-trick :protect :rain-dance :rest :retaliate :return :revenge :rock-slide :rock-smash :rock-tomb :role-play :rolling-kick :round :scary-face :seismic-toss :sleep-talk :smack-down :smellingsalt :snore :strength :submission :substitute :sunny-day :superpower :swagger :thief :thunderpunch :tickle :toxic :vital-throw :wake-up-slap :work-up]
   :machamp [:giga-impact :hyper-beam :stone-edge :wide-guard])
-

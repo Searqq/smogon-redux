@@ -25,8 +25,6 @@
 
 (deffamily :sandshrew :sandslash)
 
-
-
 (deflearnset :rb
   :sandshrew [:bide :body-slam :cut :dig :double-edge :double-team :earthquake :fissure :fury-swipes :mimic :poison-sting :rage :rest :rock-slide :sand-attack :scratch :seismic-toss :skull-bash :slash :strength :submission :substitute :swift :swords-dance :take-down :toxic]
   :sandslash [:hyper-beam])
@@ -46,4 +44,3 @@
 (deflearnset :bw
   :sandshrew [:aerial-ace :attract :brick-break :bulldoze :chip-away :counter :covet :crush-claw :cut :defense-curl :dig :double-team :earth-power :earthquake :endure :facade :flail :fling :frustration :fury-cutter :fury-swipes :gyro-ball :hidden-power :hone-claws :iron-tail :knock-off :magnitude :metal-claw :mud-shot :night-slash :poison-jab :poison-sting :protect :rapid-spin :rest :return :rock-climb :rock-slide :rock-smash :rock-tomb :rollout :round :safeguard :sand-attack :sand-tomb :sandstorm :scratch :shadow-claw :slash :sleep-talk :snore :stealth-rock :strength :substitute :sunny-day :super-fang :swagger :swift :swords-dance :thief :toxic :x-scissor]
   :sandslash [:focus-blast :giga-impact :hyper-beam :stone-edge])
-

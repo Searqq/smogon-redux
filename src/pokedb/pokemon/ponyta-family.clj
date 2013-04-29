@@ -25,8 +25,6 @@
 
 (deffamily :ponyta :rapidash)
 
-
-
 (deflearnset :rb
   :ponyta [:agility :bide :body-slam :double-edge :double-team :ember :fire-blast :fire-spin :growl :horn-drill :mimic :rage :reflect :rest :skull-bash :stomp :substitute :swift :tail-whip :take-down :toxic]
   :rapidash [:hyper-beam])
@@ -46,4 +44,3 @@
 (deflearnset :bw
   :ponyta [:agility :attract :bounce :captivate :charm :double-edge :double-kick :double-team :echoed-voice :ember :facade :fire-blast :fire-spin :flame-charge :flame-wheel :flamethrower :flare-blitz :frustration :growl :heat-wave :hidden-power :horn-drill :hypnosis :incinerate :inferno :iron-tail :low-kick :morning-sun :overheat :protect :rest :return :round :sleep-talk :snore :solarbeam :stomp :strength :substitute :sunny-day :swagger :tackle :tail-whip :take-down :thrash :toxic :wild-charge :will-o-wisp]
   :rapidash [:drill-run :fury-attack :giga-impact :hyper-beam :megahorn :poison-jab :quick-attack])
-

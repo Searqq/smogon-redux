@@ -25,8 +25,6 @@
 
 (deffamily :cubone :marowak)
 
-
-
 (deflearnset :rb
   :cubone [:bide :blizzard :body-slam :bone-club :bonemerang :bubblebeam :counter :dig :double-edge :double-team :earthquake :fire-blast :fissure :focus-energy :growl :headbutt :ice-beam :leer :mega-kick :mega-punch :mimic :rage :rest :seismic-toss :skull-bash :strength :submission :substitute :tail-whip :take-down :thrash :toxic :water-gun]
   :marowak [:hyper-beam])
@@ -46,4 +44,3 @@
 (deflearnset :bw
   :cubone [:aerial-ace :ancientpower :attract :belly-drum :blizzard :bone-club :bone-rush :bonemerang :brick-break :bulldoze :chip-away :detect :dig :double-edge :double-kick :double-team :earth-power :earthquake :echoed-voice :endeavor :endure :facade :false-swipe :fire-blast :fire-punch :flamethrower :fling :focus-energy :frustration :growl :headbutt :hidden-power :ice-beam :icy-wind :incinerate :iron-defense :iron-head :iron-tail :knock-off :leer :low-kick :perish-song :protect :rage :rest :retaliate :return :rock-slide :rock-smash :rock-tomb :round :sandstorm :screech :skull-bash :sleep-talk :smack-down :snore :stealth-rock :strength :substitute :sunny-day :swagger :swords-dance :tail-whip :thief :thrash :thunderpunch :toxic :uproar]
   :marowak [:focus-blast :giga-impact :hyper-beam :outrage :stone-edge])
-

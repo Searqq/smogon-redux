@@ -22,8 +22,6 @@
 
 (deffamily :sneasel :weavile)
 
-
-
 (deflearnset :gs
   :sneasel [:agility :attract :beat-up :bite :blizzard :counter :curse :cut :defense-curl :detect :dig :double-team :dream-eater :dynamicpunch :endure :faint-attack :foresight :frustration :fury-cutter :fury-swipes :headbutt :hidden-power :ice-beam :ice-punch :icy-wind :iron-tail :leer :metal-claw :mud-slap :nightmare :protect :psych-up :quick-attack :rain-dance :reflect :rest :return :rock-smash :scratch :screech :shadow-ball :slash :sleep-talk :snore :spite :strength :surf :swagger :swift :thief :toxic])
 
@@ -37,4 +35,3 @@
 (deflearnset :bw
   :sneasel [:aerial-ace :agility :assist :attract :avalanche :beat-up :bite :blizzard :brick-break :calm-mind :counter :crush-claw :cut :dark-pulse :dig :double-hit :double-team :dream-eater :embargo :facade :faint-attack :fake-out :false-swipe :feint :fling :foresight :foul-play :frustration :fury-swipes :hail :hidden-power :hone-claws :ice-beam :ice-punch :ice-shard :icy-wind :iron-tail :knock-off :leer :low-kick :low-sweep :metal-claw :payback :poison-jab :protect :psych-up :punishment :pursuit :quick-attack :rain-dance :reflect :rest :retaliate :return :rock-smash :round :scratch :screech :shadow-ball :shadow-claw :slash :sleep-talk :snarl :snatch :snore :spite :strength :substitute :sunny-day :surf :swagger :swords-dance :taunt :thief :torment :toxic :x-scissor]
   :weavile [:assurance :focus-blast :giga-impact :hyper-beam :nasty-plot :night-slash :revenge])
-

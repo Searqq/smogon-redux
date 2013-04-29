@@ -25,8 +25,6 @@
 (deffamily :latios)
 (deffamily :latias)
 
-
-
 (deflearnset :rs
   :latias [:aerial-ace :attract :body-slam :calm-mind :charm :cut :dive :double-edge :double-team :dragon-claw :dragonbreath :dream-eater :earthquake :endure :facade :flash :fly :frustration :fury-cutter :helping-hand :hidden-power :hyper-beam :ice-beam :icy-wind :light-screen :mimic :mist-ball :mud-slap :protect :psych-up :psychic :psywave :rain-dance :recover :reflect :refresh :rest :return :roar :safeguard :sandstorm :secret-power :shadow-ball :shock-wave :sleep-talk :snore :solarbeam :steel-wing :substitute :sunny-day :surf :swagger :swift :thunder :thunder-wave :thunderbolt :toxic :water-pulse :water-sport :waterfall :wish])
 
@@ -47,4 +45,3 @@
 
 (deflearnset :bw
   :latios [:aerial-ace :attract :bulldoze :calm-mind :charge-beam :cut :dive :double-team :draco-meteor :dragon-claw :dragon-dance :dragon-pulse :dragonbreath :dream-eater :earthquake :energy-ball :facade :flash :fly :frustration :giga-impact :grass-knot :heal-block :heal-pulse :helping-hand :hidden-power :hone-claws :hyper-beam :ice-beam :icy-wind :last-resort :light-screen :luster-purge :magic-coat :memento :outrage :power-split :protect :psych-up :psychic :psycho-shift :psyshock :psywave :rain-dance :recover :reflect :refresh :rest :retaliate :return :roar :roost :round :safeguard :sandstorm :shadow-ball :shadow-claw :sleep-talk :snore :solarbeam :substitute :sunny-day :surf :swagger :tailwind :telekinesis :thunder :thunder-wave :thunderbolt :toxic :trick :waterfall :wonder-room :zen-headbutt])
-

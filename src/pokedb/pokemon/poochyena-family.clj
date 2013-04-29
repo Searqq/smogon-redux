@@ -25,8 +25,6 @@
 
 (deffamily :poochyena :mightyena)
 
-
-
 (deflearnset :rs
   :poochyena [:astonish :attract :bite :body-slam :counter :covet :crunch :dig :double-edge :double-team :endure :facade :frustration :hidden-power :howl :iron-tail :leer :mimic :mud-slap :odor-sleuth :poison-fang :protect :psych-up :rain-dance :rest :return :roar :rock-smash :sand-attack :scary-face :secret-power :shadow-ball :sleep-talk :snatch :snore :substitute :sunny-day :swagger :tackle :take-down :taunt :thief :torment :toxic :yawn]
   :mightyena [:hyper-beam :strength])
@@ -38,4 +36,3 @@
 (deflearnset :bw
   :poochyena [:assurance :astonish :attract :bite :covet :crunch :dark-pulse :dig :double-team :embargo :facade :fire-fang :foul-play :frustration :hidden-power :howl :hyper-voice :ice-fang :incinerate :iron-tail :leer :me-first :odor-sleuth :payback :poison-fang :protect :rain-dance :rest :retaliate :return :roar :rock-smash :round :sand-attack :scary-face :shadow-ball :sleep-talk :snarl :snatch :snore :spite :substitute :sucker-punch :sunny-day :super-fang :swagger :tackle :take-down :taunt :thief :thunder-fang :torment :toxic :uproar :yawn]
   :mightyena [:giga-impact :hyper-beam :strength])
-

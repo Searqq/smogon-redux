@@ -25,8 +25,6 @@
 
 (deffamily :doduo :dodrio)
 
-
-
 (deflearnset :rb
   :doduo [:agility :bide :body-slam :double-edge :double-team :drill-peck :fly :fury-attack :growl :mimic :peck :rage :reflect :rest :skull-bash :sky-attack :substitute :take-down :toxic :tri-attack :whirlwind]
   :dodrio [:hyper-beam])
@@ -46,4 +44,3 @@
 (deflearnset :bw
   :doduo [:acupressure :aerial-ace :agility :assurance :attract :brave-bird :double-hit :double-team :drill-peck :echoed-voice :endeavor :facade :faint-attack :flail :fly :frustration :fury-attack :growl :haze :hidden-power :knock-off :mirror-move :natural-gift :peck :pluck :protect :pursuit :quick-attack :rage :rest :return :roost :round :sleep-talk :snore :substitute :sunny-day :supersonic :swagger :thief :thrash :toxic :uproar :work-up]
   :dodrio [:giga-impact :hyper-beam :payback :sky-attack :taunt :torment :tri-attack])
-

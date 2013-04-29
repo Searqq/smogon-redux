@@ -24,8 +24,6 @@
 (deffamily :ho-oh)
 (deffamily :lugia)
 
-
-
 (deflearnset :gs
   :ho-oh [:ancientpower :curse :detect :double-team :dragonbreath :dream-eater :earthquake :endure :fire-blast :flamethrower :flash :fly :frustration :future-sight :giga-drain :gust :hidden-power :hyper-beam :mud-slap :nightmare :protect :psych-up :psychic :rain-dance :recover :rest :return :roar :rock-smash :sacred-fire :safeguard :sandstorm :shadow-ball :sleep-talk :snore :solarbeam :steel-wing :strength :sunny-day :swagger :swift :thunder :thunderbolt :toxic :whirlwind :zap-cannon])
 
@@ -52,4 +50,3 @@
 
 (deflearnset :bw
   :lugia [:aerial-ace :aeroblast :ancientpower :aqua-tail :blizzard :bulldoze :calm-mind :charge-beam :dive :double-team :dragon-pulse :dragon-rush :dragon-tail :dream-eater :earth-power :earthquake :echoed-voice :extrasensory :facade :flash :fly :frustration :future-sight :giga-drain :giga-impact :gust :hail :hidden-power :hydro-pump :hyper-beam :hyper-voice :ice-beam :icy-wind :iron-head :iron-tail :light-screen :natural-gift :protect :psych-up :psychic :psyshock :punishment :rain-dance :recover :reflect :rest :return :roar :rock-smash :roost :round :safeguard :sandstorm :shadow-ball :signal-beam :skill-swap :sky-attack :sky-drop :sleep-talk :snore :strength :substitute :sunny-day :surf :swagger :tailwind :telekinesis :thunder :thunder-wave :thunderbolt :toxic :trick :waterfall :weather-ball :whirlwind :wonder-room :zen-headbutt])
-

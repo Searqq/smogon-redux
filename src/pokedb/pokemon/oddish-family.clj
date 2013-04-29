@@ -48,8 +48,6 @@
 
 (deffamily :oddish :gloom [:vileplume :bellossom])
 
-
-
 (deflearnset :rb
   :oddish [:absorb :acid :bide :cut :double-edge :double-team :mega-drain :mimic :petal-dance :poisonpowder :rage :reflect :rest :sleep-powder :solarbeam :stun-spore :substitute :swords-dance :take-down :toxic]
   :vileplume [:body-slam :hyper-beam])
@@ -74,4 +72,3 @@
   :gloom [:drain-punch :fling]
   :bellossom [:giga-impact :hyper-beam :leaf-blade :leaf-storm :magical-leaf :safeguard :uproar]
   :vileplume [:aromatherapy])
-

@@ -32,8 +32,6 @@
 
 (deffamily :budew :roselia :roserade)
 
-
-
 (deflearnset :rs
   :roselia [:absorb :aromatherapy :attract :body-slam :bullet-seed :cotton-spore :cut :double-edge :double-team :endure :facade :flash :frustration :fury-cutter :giga-drain :grasswhistle :growth :hidden-power :ingrain :leech-seed :magical-leaf :mega-drain :mimic :mud-slap :nightmare :petal-dance :pin-missile :poison-sting :protect :psych-up :rest :return :secret-power :shadow-ball :sleep-talk :sludge-bomb :snore :solarbeam :spikes :stun-spore :substitute :sunny-day :swagger :sweet-scent :swift :swords-dance :synthesis :toxic])
 
@@ -46,4 +44,3 @@
   :budew [:absorb :attract :cotton-spore :covet :cut :double-team :energy-ball :extrasensory :facade :flash :frustration :giga-drain :grass-knot :grasswhistle :growth :hidden-power :leaf-storm :mega-drain :mind-reader :natural-gift :pin-missile :protect :psych-up :rain-dance :razor-leaf :rest :return :round :seed-bomb :shadow-ball :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :spikes :stun-spore :substitute :sunny-day :swagger :swords-dance :synthesis :toxic :uproar :venoshock :water-sport :worry-seed]
   :roselia [:aromatherapy :ingrain :leech-seed :magical-leaf :petal-dance :poison-jab :poison-sting :sweet-scent :toxic-spikes]
   :roserade [:giga-impact :hyper-beam :weather-ball])
-

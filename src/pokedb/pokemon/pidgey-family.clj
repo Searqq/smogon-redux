@@ -40,8 +40,6 @@
 
 (deffamily :pidgey :pidgeotto :pidgeot)
 
-
-
 (deflearnset :rb
   :pidgey [:agility :bide :double-edge :double-team :fly :gust :mimic :mirror-move :quick-attack :rage :razor-wind :reflect :rest :sand-attack :sky-attack :substitute :swift :take-down :toxic :whirlwind :wing-attack]
   :pidgeot [:hyper-beam])
@@ -61,4 +59,3 @@
 (deflearnset :bw
   :pidgey [:aerial-ace :agility :air-cutter :air-slash :attract :brave-bird :defog :double-team :facade :faint-attack :featherdance :fly :foresight :frustration :gust :heat-wave :hidden-power :hurricane :mirror-move :pluck :protect :pursuit :quick-attack :rain-dance :rest :return :roost :round :sand-attack :sleep-talk :snore :steel-wing :substitute :sunny-day :swagger :tackle :tailwind :thief :toxic :twister :u-turn :uproar :whirlwind :wing-attack :work-up]
   :pidgeot [:giga-impact :hyper-beam :sky-attack])
-

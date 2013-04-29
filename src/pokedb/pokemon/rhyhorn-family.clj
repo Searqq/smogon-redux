@@ -35,8 +35,6 @@
 
 (deffamily :rhyhorn :rhydon :rhyperior)
 
-
-
 (deflearnset :rb
   :rhyhorn [:bide :body-slam :dig :double-edge :double-team :earthquake :fire-blast :fissure :fury-attack :horn-attack :horn-drill :leer :mimic :rage :rest :rock-slide :skull-bash :stomp :strength :substitute :tail-whip :take-down :thunder :thunderbolt :toxic]
   :rhydon [:blizzard :bubblebeam :counter :hyper-beam :ice-beam :mega-kick :mega-punch :pay-day :seismic-toss :submission :surf :water-gun])
@@ -58,4 +56,3 @@
   :rhyhorn [:aqua-tail :attract :blizzard :bulldoze :chip-away :counter :crunch :crush-claw :curse :dig :double-team :dragon-pulse :dragon-rush :drill-run :earth-power :earthquake :endeavor :facade :fire-blast :fire-fang :flamethrower :frustration :fury-attack :hidden-power :horn-attack :horn-drill :ice-beam :ice-fang :icy-wind :incinerate :iron-tail :magnitude :megahorn :payback :poison-jab :protect :rain-dance :rest :return :reversal :roar :rock-blast :rock-climb :rock-polish :rock-slide :rock-smash :rock-tomb :round :sandstorm :scary-face :skull-bash :sleep-talk :snore :spite :stealth-rock :stomp :stone-edge :strength :substitute :sunny-day :superpower :swagger :swords-dance :tail-whip :take-down :thief :thunder :thunder-fang :thunderbolt :toxic :uproar]
   :rhydon [:block :brick-break :cut :dragon-tail :fire-punch :fling :focus-blast :giga-impact :hammer-arm :hyper-beam :ice-punch :outrage :shadow-claw :smack-down :surf :thunderpunch]
   :rhyperior [:flash-cannon :iron-head :rock-wrecker])
-

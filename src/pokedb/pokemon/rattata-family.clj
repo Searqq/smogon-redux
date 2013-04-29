@@ -25,8 +25,6 @@
 
 (deffamily :rattata :raticate)
 
-
-
 (deflearnset :rb
   :rattata [:bide :blizzard :body-slam :bubblebeam :dig :double-edge :double-team :focus-energy :hyper-fang :mimic :quick-attack :rage :rest :skull-bash :substitute :super-fang :swift :tackle :tail-whip :take-down :thunder :thunderbolt :toxic :water-gun]
   :raticate [:hyper-beam :ice-beam])
@@ -46,4 +44,3 @@
 (deflearnset :bw
   :rattata [:assurance :attract :bite :blizzard :charge-beam :counter :covet :crunch :cut :dig :double-edge :double-team :endeavor :facade :final-gambit :flame-wheel :focus-energy :frustration :fury-swipes :grass-knot :hidden-power :hyper-fang :ice-beam :icy-wind :iron-tail :last-resort :me-first :pluck :protect :pursuit :quick-attack :rain-dance :rest :retaliate :return :revenge :reversal :rock-smash :round :screech :shadow-ball :sleep-talk :snore :substitute :sucker-punch :sunny-day :super-fang :swagger :tackle :tail-whip :taunt :thief :thunder :thunder-wave :thunderbolt :toxic :u-turn :uproar :wild-charge :work-up :zen-headbutt]
   :raticate [:giga-impact :hyper-beam :roar :scary-face :strength :swords-dance])
-

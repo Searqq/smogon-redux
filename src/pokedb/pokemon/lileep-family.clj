@@ -23,8 +23,6 @@
 
 (deffamily :lileep :cradily)
 
-
-
 (deflearnset :rs
   :lileep [:acid :amnesia :ancientpower :astonish :attract :barrier :body-slam :bullet-seed :confuse-ray :constrict :double-edge :double-team :endure :facade :frustration :giga-drain :hidden-power :ingrain :mimic :mirror-coat :mud-slap :protect :psych-up :recover :rest :return :rock-slide :sandstorm :secret-power :sleep-talk :sludge-bomb :snore :solarbeam :spit-up :stockpile :substitute :sunny-day :swagger :swallow :toxic]
   :cradily [:earthquake :hyper-beam :rock-smash :rock-tomb :strength])
@@ -36,4 +34,3 @@
 (deflearnset :bw
   :lileep [:acid :amnesia :ancientpower :astonish :attract :barrier :bind :confuse-ray :constrict :curse :double-team :earth-power :endure :energy-ball :facade :flash :frustration :gastro-acid :giga-drain :grass-knot :hidden-power :ingrain :mega-drain :mirror-coat :pain-split :protect :recover :rest :return :rock-polish :rock-slide :rock-tomb :round :sandstorm :seed-bomb :sleep-talk :sludge-bomb :smack-down :snore :solarbeam :spit-up :stealth-rock :stockpile :substitute :sunny-day :swagger :swallow :swords-dance :synthesis :tickle :toxic :worry-seed :wring-out]
   :cradily [:block :bulldoze :earthquake :giga-impact :hyper-beam :rock-smash :sludge-wave :stone-edge :strength])
-

@@ -31,10 +31,7 @@
 
 (deffamily :sewaddle :swadloon :leavanny)
 
-
-
 (deflearnset :bw
   :sewaddle [:agility :air-slash :attract :baton-pass :bug-bite :bug-buzz :calm-mind :camouflage :cut :double-team :dream-eater :electroweb :endure :energy-ball :facade :flail :flash :frustration :giga-drain :grass-knot :hidden-power :iron-defense :light-screen :magic-coat :me-first :mind-reader :payback :protect :razor-leaf :razor-wind :rest :return :round :safeguard :screech :seed-bomb :signal-beam :silver-wind :sleep-talk :snore :solarbeam :string-shot :struggle-bug :substitute :sunny-day :swagger :synthesis :tackle :toxic :worry-seed]
   :swadloon [:grasswhistle]
   :leavanny [:aerial-ace :entrainment :false-swipe :giga-impact :heal-bell :helping-hand :hone-claws :hyper-beam :knock-off :leaf-blade :leaf-storm :poison-jab :reflect :retaliate :shadow-claw :slash :swords-dance :x-scissor])
-

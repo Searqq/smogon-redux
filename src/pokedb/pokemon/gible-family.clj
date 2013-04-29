@@ -31,8 +31,6 @@
 
 (deffamily :gible :gabite :garchomp)
 
-
-
 (deflearnset :dp
   :gible [:aerial-ace :attract :body-slam :captivate :cut :dig :double-edge :double-team :draco-meteor :dragon-claw :dragon-pulse :dragon-rage :dragon-rush :dragonbreath :earth-power :earthquake :endure :facade :fire-blast :flamethrower :frustration :fury-cutter :headbutt :hidden-power :iron-head :metal-claw :mud-shot :mud-slap :natural-gift :outrage :protect :rain-dance :rest :return :roar :rock-climb :rock-slide :rock-smash :rock-tomb :sand-attack :sand-tomb :sandstorm :scary-face :secret-power :shadow-claw :slash :sleep-talk :snore :stealth-rock :stone-edge :strength :substitute :sunny-day :swagger :swift :tackle :take-down :thrash :toxic :twister]
   :gabite [:iron-tail]
@@ -42,4 +40,3 @@
   :gible [:aerial-ace :attract :body-slam :bulldoze :cut :dig :double-edge :double-team :draco-meteor :dragon-claw :dragon-pulse :dragon-rage :dragon-rush :dragonbreath :earth-power :earthquake :facade :fire-blast :flamethrower :frustration :hidden-power :hone-claws :incinerate :iron-head :iron-tail :metal-claw :mud-shot :outrage :protect :rain-dance :rest :return :roar :rock-climb :rock-slide :rock-smash :rock-tomb :round :sand-attack :sand-tomb :sandstorm :scary-face :shadow-claw :slash :sleep-talk :snore :stealth-rock :stone-edge :strength :substitute :sunny-day :swagger :tackle :take-down :thrash :toxic :twister]
   :gabite [:dual-chop]
   :garchomp [:aqua-tail :brick-break :crunch :dragon-tail :false-swipe :fire-fang :fling :giga-impact :hyper-beam :poison-jab :surf :swords-dance])
-

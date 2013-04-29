@@ -23,8 +23,6 @@
 
 (deffamily :phanpy :donphan)
 
-
-
 (deflearnset :gs
   :phanpy [:ancientpower :attract :body-slam :curse :defense-curl :double-edge :double-team :earthquake :endure :flail :focus-energy :frustration :growl :headbutt :hidden-power :mud-slap :protect :rest :return :roar :rock-smash :rollout :sandstorm :sleep-talk :snore :strength :sunny-day :swagger :tackle :take-down :toxic :water-gun]
   :donphan [:fury-attack :horn-attack :hyper-beam :rapid-spin])
@@ -40,4 +38,3 @@
 (deflearnset :bw
   :phanpy [:ancientpower :attract :body-slam :bulldoze :charm :counter :defense-curl :double-edge :double-team :earth-power :earthquake :echoed-voice :endeavor :endure :facade :fissure :flail :focus-energy :frustration :growl :gunk-shot :head-smash :heavy-slam :hidden-power :hyper-voice :ice-shard :iron-tail :knock-off :last-resort :mud-slap :natural-gift :odor-sleuth :protect :rest :return :roar :rock-slide :rock-smash :rock-tomb :rollout :round :sandstorm :seed-bomb :slam :sleep-talk :snore :stealth-rock :strength :substitute :sunny-day :superpower :swagger :tackle :take-down :toxic]
   :donphan [:assurance :block :bounce :fire-fang :fury-attack :giga-impact :gyro-ball :horn-attack :hyper-beam :iron-defense :magnitude :poison-jab :rapid-spin :rock-polish :scary-face :stone-edge :thunder-fang])
-

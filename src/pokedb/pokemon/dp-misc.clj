@@ -78,8 +78,6 @@
 (deffamily :pachirisu)
 (deffamily :spiritomb)
 
-
-
 (deflearnset :dp
   :carnivine [:attract :bind :bite :bug-bite :bullet-seed :captivate :crunch :cut :double-team :endure :energy-ball :facade :faint-attack :flash :fling :frustration :fury-cutter :gastro-acid :giga-drain :giga-impact :grass-knot :growth :hidden-power :hyper-beam :ingrain :knock-off :leech-seed :magical-leaf :mud-slap :natural-gift :payback :power-whip :protect :razor-leaf :rest :return :secret-power :seed-bomb :slam :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :spit-up :stockpile :stun-spore :substitute :sunny-day :swagger :swallow :sweet-scent :swords-dance :synthesis :thief :toxic :vine-whip :worry-seed :wring-out])
 
@@ -139,4 +137,3 @@
 
 (deflearnset :bw
   :spiritomb [:attract :calm-mind :captivate :confuse-ray :curse :dark-pulse :destiny-bond :double-team :dream-eater :embargo :facade :faint-attack :flash :foul-play :frustration :giga-impact :grudge :hidden-power :hyper-beam :hypnosis :icy-wind :imprison :memento :nasty-plot :nightmare :ominous-wind :pain-split :protect :psych-up :psychic :pursuit :quash :rain-dance :rest :retaliate :return :rock-tomb :round :shadow-ball :shadow-sneak :sleep-talk :smokescreen :snarl :snatch :snore :spite :substitute :sucker-punch :sunny-day :swagger :taunt :telekinesis :thief :torment :toxic :trick :uproar :will-o-wisp :wonder-room])
-

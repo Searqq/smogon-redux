@@ -38,8 +38,6 @@
 
 (deffamily :porygon :porygon2 :porygon-z)
 
-
-
 (deflearnset :rb
   :porygon [:agility :bide :blizzard :conversion :double-edge :double-team :flash :hyper-beam :ice-beam :mimic :psybeam :psychic :psywave :rage :recover :reflect :rest :sharpen :skull-bash :substitute :swift :tackle :take-down :teleport :thunder :thunder-wave :thunderbolt :toxic :tri-attack])
 
@@ -60,4 +58,3 @@
   :porygon [:aerial-ace :agility :blizzard :charge-beam :conversion :conversion-2 :discharge :double-team :dream-eater :electroweb :facade :flash :foul-play :frustration :giga-impact :gravity :hidden-power :hyper-beam :ice-beam :icy-wind :iron-tail :last-resort :lock-on :magic-coat :magnet-rise :pain-split :protect :psybeam :psych-up :psychic :psyshock :rain-dance :recover :recycle :rest :return :round :shadow-ball :sharpen :signal-beam :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :tackle :thief :thunder :thunder-wave :thunderbolt :toxic :tri-attack :trick :trick-room :wonder-room :zap-cannon :zen-headbutt]
   :porygon2 [:defense-curl]
   :porygon-z [:dark-pulse :embargo :nasty-plot :uproar])
-

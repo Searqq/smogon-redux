@@ -37,8 +37,6 @@
 
 (deffamily :bellsprout :weepinbell :victreebel)
 
-
-
 (deflearnset :rb
   :bellsprout [:acid :bide :cut :double-edge :double-team :growth :mega-drain :mimic :poisonpowder :rage :razor-leaf :reflect :rest :slam :sleep-powder :solarbeam :stun-spore :substitute :swords-dance :take-down :toxic :vine-whip :wrap]
   :victreebel [:body-slam :hyper-beam])
@@ -59,4 +57,3 @@
   :bellsprout [:acid :attract :bind :bullet-seed :clear-smog :cut :double-team :encore :energy-ball :facade :flash :frustration :gastro-acid :giga-drain :grass-knot :growth :hidden-power :ingrain :knock-off :leech-life :magical-leaf :natural-gift :poisonpowder :power-whip :protect :razor-leaf :reflect :rest :return :round :seed-bomb :slam :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :stun-spore :substitute :sunny-day :swagger :sweet-scent :swords-dance :synthesis :thief :tickle :toxic :venoshock :vine-whip :weather-ball :worry-seed :wrap :wring-out]
   :weepinbell [:bug-bite]
   :victreebel [:giga-impact :hyper-beam :leaf-blade :leaf-storm :leaf-tornado :spit-up :stockpile :swallow])
-

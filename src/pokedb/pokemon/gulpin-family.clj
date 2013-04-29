@@ -23,8 +23,6 @@
 
 (deffamily :gulpin :swalot)
 
-
-
 (deflearnset :rs
   :gulpin [:acid-armor :amnesia :attract :body-slam :bullet-seed :counter :defense-curl :double-edge :double-team :dream-eater :dynamicpunch :encore :endure :explosion :facade :fire-punch :frustration :giga-drain :hidden-power :ice-beam :ice-punch :mimic :mud-slap :nightmare :pain-split :poison-gas :pound :protect :rain-dance :rest :return :rock-smash :rollout :secret-power :selfdestruct :shadow-ball :shock-wave :sleep-talk :sludge :sludge-bomb :smog :snatch :snore :solarbeam :spit-up :stockpile :strength :substitute :sunny-day :swagger :swallow :thunderpunch :toxic :water-pulse :yawn]
   :swalot [:hyper-beam])
@@ -36,4 +34,3 @@
 (deflearnset :bw
   :gulpin [:acid-armor :acid-spray :amnesia :attract :curse :destiny-bond :double-team :dream-eater :encore :explosion :facade :fire-punch :frustration :gastro-acid :giga-drain :gunk-shot :hidden-power :ice-beam :ice-punch :mud-slap :pain-split :poison-gas :pound :protect :rain-dance :rest :return :rock-smash :round :seed-bomb :shadow-ball :sleep-talk :sludge :sludge-bomb :sludge-wave :smog :snatch :snore :solarbeam :spit-up :stockpile :strength :substitute :sunny-day :swagger :swallow :thunderpunch :toxic :venoshock :wring-out :yawn]
   :swalot [:block :body-slam :bulldoze :earthquake :giga-impact :hyper-beam])
-

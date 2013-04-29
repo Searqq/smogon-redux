@@ -25,8 +25,6 @@
 
 (deffamily :shuppet :banette)
 
-
-
 (deflearnset :rs
   :shuppet [:astonish :attract :body-slam :calm-mind :curse :destiny-bond :disable :double-edge :double-team :dream-eater :endure :facade :faint-attack :flash :foresight :frustration :grudge :hidden-power :icy-wind :imprison :knock-off :mimic :night-shade :nightmare :protect :psych-up :psychic :rain-dance :rest :return :screech :secret-power :shadow-ball :shock-wave :skill-swap :sleep-talk :snatch :snore :spite :substitute :sunny-day :swagger :taunt :thief :thunder :thunder-wave :thunderbolt :torment :toxic :will-o-wisp]
   :banette [:hyper-beam :metronome :mud-slap])
@@ -38,4 +36,3 @@
 (deflearnset :bw
   :shuppet [:astonish :attract :calm-mind :charge-beam :confuse-ray :curse :dark-pulse :destiny-bond :disable :double-team :dream-eater :embargo :facade :faint-attack :flash :foresight :foul-play :frustration :grudge :gunk-shot :hex :hidden-power :icy-wind :imprison :knock-off :magic-coat :magic-room :night-shade :ominous-wind :pain-split :payback :protect :psych-up :psychic :pursuit :rain-dance :rest :return :role-play :round :screech :shadow-ball :shadow-sneak :skill-swap :sleep-talk :snatch :spite :substitute :sucker-punch :sunny-day :swagger :taunt :telekinesis :thief :thunder :thunder-wave :thunderbolt :torment :toxic :trick :trick-room :will-o-wisp]
   :banette [:fling :giga-impact :hyper-beam :shadow-claw])
-

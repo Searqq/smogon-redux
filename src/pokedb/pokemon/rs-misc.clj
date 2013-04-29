@@ -222,8 +222,6 @@
 (deffamily :volbeat)
 (deffamily :zangoose)
 
-
-
 (deflearnset :rs
   :absol [:aerial-ace :attract :baton-pass :bite :blizzard :body-slam :calm-mind :counter :curse :cut :double-edge :double-team :dream-eater :endure :facade :faint-attack :fire-blast :flamethrower :flash :frustration :fury-cutter :future-sight :hail :hidden-power :hyper-beam :ice-beam :icy-wind :iron-tail :leer :magic-coat :mimic :mud-slap :nightmare :perish-song :protect :psych-up :quick-attack :rain-dance :razor-wind :rest :return :rock-slide :rock-smash :sandstorm :scratch :secret-power :shadow-ball :shock-wave :slash :sleep-talk :snatch :snore :strength :substitute :sunny-day :swagger :swift :swords-dance :taunt :thief :thunder :thunder-wave :thunderbolt :torment :toxic :water-pulse])
 
@@ -436,4 +434,3 @@
 
 (deflearnset :bw
   :zangoose [:aerial-ace :attract :blizzard :brick-break :close-combat :counter :crush-claw :curse :detect :dig :disable :double-hit :double-kick :double-team :embargo :endeavor :facade :false-swipe :feint :final-gambit :fire-blast :fire-punch :flail :flamethrower :fling :focus-blast :frustration :fury-cutter :fury-swipes :giga-drain :hidden-power :hone-claws :ice-beam :ice-punch :icy-wind :incinerate :iron-tail :knock-off :last-resort :leer :low-kick :metal-claw :night-slash :payback :poison-jab :protect :pursuit :quick-attack :rain-dance :razor-wind :rest :retaliate :return :revenge :roar :rock-slide :rock-smash :rock-tomb :round :scratch :shadow-ball :shadow-claw :slash :sleep-talk :snore :solarbeam :strength :substitute :sunny-day :swagger :swords-dance :taunt :thief :thunder :thunderbolt :thunderpunch :toxic :work-up :x-scissor])
-

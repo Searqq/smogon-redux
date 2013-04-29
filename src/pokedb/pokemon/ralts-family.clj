@@ -44,10 +44,6 @@
 
 (deffamily :ralts :kirlia [:gardevoir :gallade])
 
-
-
-
-
 (deflearnset :rs
   :ralts [:attract :body-slam :calm-mind :confusion :defense-curl :destiny-bond :disable :double-edge :double-team :dream-eater :endure :facade :fire-punch :flash :frustration :future-sight :growl :hidden-power :hypnosis :ice-punch :icy-wind :imprison :light-screen :mean-look :memento :mimic :mud-slap :nightmare :protect :psych-up :psychic :rain-dance :reflect :rest :return :safeguard :secret-power :shadow-ball :shock-wave :skill-swap :sleep-talk :snatch :snore :substitute :sunny-day :swagger :taunt :teleport :thief :thunder-wave :thunderbolt :thunderpunch :torment :toxic :will-o-wisp]
   :kirlia [:magical-leaf]
@@ -62,4 +58,3 @@
   :ralts [:ally-switch :attract :calm-mind :charge-beam :charm :confuse-ray :confusion :destiny-bond :disable :double-team :dream-eater :echoed-voice :encore :facade :fire-punch :flash :fling :frustration :future-sight :grass-knot :growl :grudge :heal-pulse :helping-hand :hidden-power :hyper-voice :hypnosis :ice-punch :icy-wind :imprison :light-screen :lucky-chant :magic-coat :magic-room :magical-leaf :mean-look :memento :pain-split :protect :psych-up :psychic :psyshock :rain-dance :recycle :reflect :rest :return :round :safeguard :shadow-ball :shadow-sneak :signal-beam :skill-swap :sleep-talk :snatch :snore :stored-power :substitute :sunny-day :swagger :synchronoise :taunt :telekinesis :teleport :thief :thunder-wave :thunderbolt :thunderpunch :torment :toxic :trick :trick-room :will-o-wisp :wonder-room :zen-headbutt]
   :gallade [:aerial-ace :brick-break :bulk-up :bulldoze :close-combat :cut :drain-punch :dual-chop :earthquake :false-swipe :feint :focus-blast :fury-cutter :giga-impact :hyper-beam :knock-off :leaf-blade :leer :low-kick :low-sweep :night-slash :poison-jab :psycho-cut :retaliate :rock-slide :rock-smash :rock-tomb :slash :stone-edge :strength :swords-dance :work-up :x-scissor]
   :gardevoir [:captivate :energy-ball :heal-bell :healing-wish :wish])
-

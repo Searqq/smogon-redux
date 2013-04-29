@@ -25,8 +25,6 @@
 
 (deffamily :psyduck :golduck)
 
-
-
 (deflearnset :rb
   :psyduck [:bide :blizzard :body-slam :bubblebeam :confusion :counter :dig :disable :double-edge :double-team :fury-swipes :hydro-pump :ice-beam :mega-kick :mega-punch :mimic :pay-day :rage :rest :scratch :seismic-toss :skull-bash :strength :submission :substitute :surf :swift :tail-whip :take-down :toxic :water-gun]
   :golduck [:hyper-beam])
@@ -46,4 +44,3 @@
 (deflearnset :bw
   :psyduck [:aerial-ace :amnesia :aqua-tail :attract :blizzard :brick-break :calm-mind :confuse-ray :confusion :cross-chop :dig :disable :dive :double-team :encore :facade :flash :fling :foresight :frustration :fury-swipes :future-sight :hail :hidden-power :hone-claws :hydro-pump :hypnosis :ice-beam :ice-punch :icy-wind :iron-tail :light-screen :mud-bomb :protect :psybeam :psych-up :psychic :psyshock :rain-dance :refresh :rest :return :rock-smash :role-play :round :scald :scratch :screech :secret-power :shadow-claw :signal-beam :sleep-talk :snore :soak :strength :substitute :surf :swagger :synchronoise :tail-whip :telekinesis :toxic :water-gun :water-pulse :water-sport :waterfall :wonder-room :worry-seed :yawn :zen-headbutt]
   :golduck [:aqua-jet :focus-blast :giga-impact :hyper-beam :low-kick :low-sweep])
-

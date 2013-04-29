@@ -25,8 +25,6 @@
 
 (deffamily :kabuto :kabutops)
 
-
-
 (deflearnset :rb
   :kabuto [:absorb :bide :blizzard :body-slam :bubblebeam :double-edge :double-team :harden :hydro-pump :ice-beam :leer :mimic :rage :reflect :rest :scratch :slash :substitute :surf :take-down :toxic :water-gun]
   :kabutops [:cut :hyper-beam :mega-kick :razor-wind :seismic-toss :skull-bash :submission :swords-dance])
@@ -46,4 +44,3 @@
 (deflearnset :bw
   :kabuto [:absorb :ancientpower :aqua-jet :attract :aurora-beam :blizzard :bubblebeam :confuse-ray :dig :double-team :earth-power :endure :facade :flail :foresight :frustration :giga-drain :hail :harden :hidden-power :hone-claws :ice-beam :icy-wind :iron-defense :knock-off :leer :mega-drain :metal-sound :mud-shot :protect :rain-dance :rapid-spin :rest :return :rock-polish :rock-slide :rock-smash :rock-tomb :round :sand-attack :sandstorm :scald :scratch :screech :sleep-talk :smack-down :snore :stealth-rock :substitute :surf :swagger :thief :toxic :waterfall :wring-out]
   :kabutops [:aerial-ace :aqua-tail :brick-break :cut :dive :feint :giga-impact :hyper-beam :low-kick :night-slash :slash :stone-edge :superpower :swords-dance :x-scissor])
-

@@ -26,8 +26,6 @@
 
 (deffamily :scyther :scizor)
 
-
-
 (deflearnset :rb
   :scyther [:agility :bide :cut :double-edge :double-team :focus-energy :hyper-beam :leer :mimic :quick-attack :rage :rest :skull-bash :slash :substitute :swift :swords-dance :take-down :toxic :wing-attack])
 
@@ -46,4 +44,3 @@
 (deflearnset :bw
   :scyther [:aerial-ace :agility :air-slash :attract :baton-pass :brick-break :bug-bite :bug-buzz :counter :cut :defog :double-hit :double-team :endure :facade :false-swipe :feint :focus-energy :frustration :fury-cutter :giga-impact :hidden-power :hyper-beam :knock-off :leer :light-screen :night-slash :protect :pursuit :quick-attack :rain-dance :razor-wind :rest :return :reversal :rock-smash :roost :round :safeguard :silver-wind :slash :sleep-talk :snore :steel-wing :struggle-bug :substitute :sunny-day :swagger :swords-dance :tailwind :thief :toxic :u-turn :vacuum-wave :wing-attack :x-scissor]
   :scizor [:acrobatics :bullet-punch :flash-cannon :fling :iron-defense :iron-head :metal-claw :sandstorm :strength :superpower :venoshock])
-

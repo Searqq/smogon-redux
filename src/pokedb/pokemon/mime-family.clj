@@ -24,8 +24,6 @@
 
 (deffamily :mime-jr :mr-mime)
 
-
-
 (deflearnset :rb
   :mr-mime [:barrier :bide :body-slam :confusion :counter :double-edge :double-team :doubleslap :flash :hyper-beam :light-screen :meditate :mega-kick :mega-punch :metronome :mimic :psychic :psywave :rage :reflect :rest :seismic-toss :skull-bash :solarbeam :submission :substitute :take-down :teleport :thunder :thunder-wave :thunderbolt :toxic])
 
@@ -42,4 +40,3 @@
 (deflearnset :bw
   :mime-jr [:attract :barrier :baton-pass :brick-break :calm-mind :charge-beam :charm :confuse-ray :confusion :copycat :covet :double-team :doubleslap :drain-punch :dream-eater :encore :facade :fake-out :flash :fling :frustration :future-sight :grass-knot :healing-wish :helping-hand :hidden-power :hypnosis :icy-wind :light-screen :magic-coat :magic-room :meditate :mimic :nasty-plot :power-split :protect :psybeam :psych-up :psychic :psyshock :rain-dance :recycle :reflect :rest :return :role-play :round :safeguard :shadow-ball :signal-beam :skill-swap :sleep-talk :snatch :snore :solarbeam :substitute :sunny-day :swagger :taunt :teeter-dance :telekinesis :thief :thunder :thunder-wave :thunderbolt :tickle :torment :toxic :trick :trick-room :uproar :wake-up-slap :wonder-room]
   :mr-mime [:aerial-ace :energy-ball :fire-punch :focus-blast :foul-play :giga-impact :guard-swap :hyper-beam :ice-punch :iron-defense :magical-leaf :payback :power-swap :psywave :quick-guard :thunderpunch :wide-guard :zen-headbutt])
-

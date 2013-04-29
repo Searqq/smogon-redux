@@ -25,8 +25,6 @@
 
 (deffamily :goldeen :seaking)
 
-
-
 (deflearnset :rb
   :goldeen [:agility :bide :blizzard :bubblebeam :double-edge :double-team :fury-attack :horn-attack :horn-drill :ice-beam :mimic :peck :rage :rest :skull-bash :substitute :supersonic :surf :swift :tail-whip :take-down :toxic :water-gun :waterfall]
   :seaking [:hyper-beam])
@@ -46,4 +44,3 @@
 (deflearnset :bw
   :goldeen [:agility :aqua-ring :aqua-tail :attract :blizzard :body-slam :bounce :dive :double-team :drill-run :facade :flail :frustration :fury-attack :hail :haze :hidden-power :horn-attack :horn-drill :hydro-pump :ice-beam :icy-wind :knock-off :megahorn :mud-shot :mud-slap :mud-sport :peck :poison-jab :protect :psybeam :rain-dance :rest :return :round :scald :signal-beam :skull-bash :sleep-talk :snore :soak :substitute :supersonic :surf :swagger :tail-whip :toxic :water-pulse :water-sport :waterfall]
   :seaking [:giga-impact :hyper-beam])
-

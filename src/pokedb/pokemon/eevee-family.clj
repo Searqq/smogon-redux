@@ -93,8 +93,6 @@
 
 (deffamily :eevee [:vaporeon :jolteon :flareon :espeon :umbreon :leafeon :glaceon])
 
-
-
 (deflearnset :rb
   :eevee [:bide :bite :body-slam :double-edge :double-team :focus-energy :growl :mimic :quick-attack :rage :reflect :rest :sand-attack :skull-bash :substitute :swift :tackle :tail-whip :take-down :toxic]
   :flareon [:ember :fire-blast :fire-spin :flamethrower :hyper-beam :leer :smog]
@@ -136,4 +134,3 @@
   :leafeon [:aerial-ace :energy-ball :giga-drain :grasswhistle :knock-off :leaf-blade :magical-leaf :razor-leaf :seed-bomb :solarbeam :swords-dance :synthesis :worry-seed :x-scissor]
   :umbreon [:assurance :confuse-ray :dark-pulse :faint-attack :foul-play :guard-swap :mean-look :moonlight :payback :pursuit :screech :snarl :snatch :spite :taunt :torment :wonder-room]
   :vaporeon [:acid-armor :aqua-ring :aurora-beam :dive :haze :hydro-pump :muddy-water :scald :surf :water-gun :water-pulse :waterfall])
-

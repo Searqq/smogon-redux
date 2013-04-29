@@ -36,8 +36,6 @@
 
 (deffamily :slowpoke [:slowbro :slowking])
 
-
-
 (deflearnset :rb
   :slowpoke [:amnesia :bide :blizzard :body-slam :bubblebeam :confusion :dig :disable :double-edge :double-team :earthquake :fire-blast :fissure :flash :growl :headbutt :ice-beam :mimic :pay-day :psychic :psywave :rage :reflect :rest :skull-bash :strength :substitute :surf :swift :take-down :teleport :thunder-wave :toxic :tri-attack :water-gun]
   :slowbro [:counter :hyper-beam :mega-kick :mega-punch :seismic-toss :submission :withdraw])
@@ -60,4 +58,3 @@
   :slowpoke [:after-you :amnesia :aqua-tail :attract :belly-drum :blizzard :block :bulldoze :calm-mind :confusion :curse :dig :disable :dive :double-team :dream-eater :earthquake :echoed-voice :facade :fire-blast :flamethrower :flash :frustration :future-sight :grass-knot :growl :hail :headbutt :heal-pulse :hidden-power :ice-beam :icy-wind :incinerate :iron-tail :light-screen :magic-coat :me-first :mud-sport :protect :psych-up :psychic :psyshock :rain-dance :recycle :rest :return :round :safeguard :scald :shadow-ball :signal-beam :skill-swap :slack-off :sleep-talk :snore :stomp :strength :substitute :sunny-day :surf :swagger :tackle :telekinesis :thunder-wave :toxic :trick :trick-room :water-gun :water-pulse :wonder-room :yawn :zen-headbutt]
   :slowbro [:aerial-ace :brick-break :drain-punch :fling :focus-blast :foul-play :giga-impact :hyper-beam :ice-punch :iron-defense :rock-smash :withdraw]
   :slowking [:dragon-tail :nasty-plot :power-gem :quash :trump-card])
-

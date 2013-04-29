@@ -25,8 +25,6 @@
 
 (deffamily :grimer :muk)
 
-
-
 (deflearnset :rb
   :grimer [:acid-armor :bide :body-slam :disable :double-team :explosion :fire-blast :harden :mega-drain :mimic :minimize :poison-gas :pound :rage :rest :screech :selfdestruct :sludge :substitute :thunder :thunderbolt :toxic]
   :muk [:hyper-beam])
@@ -46,4 +44,3 @@
 (deflearnset :bw
   :grimer [:acid-armor :acid-spray :attract :curse :dig :disable :double-team :explosion :facade :fire-blast :fire-punch :flamethrower :fling :frustration :giga-drain :gunk-shot :harden :haze :hidden-power :ice-punch :imprison :incinerate :lick :mean-look :memento :minimize :mud-bomb :mud-slap :pain-split :payback :poison-gas :poison-jab :pound :protect :rain-dance :rest :return :rock-slide :rock-tomb :round :scary-face :screech :shadow-ball :shadow-punch :shadow-sneak :sleep-talk :sludge :sludge-bomb :sludge-wave :snore :spit-up :stockpile :strength :substitute :sunny-day :swagger :swallow :taunt :thief :thunder :thunderbolt :thunderpunch :torment :toxic :venoshock]
   :muk [:block :brick-break :dark-pulse :focus-blast :giga-impact :hyper-beam :rock-smash])
-

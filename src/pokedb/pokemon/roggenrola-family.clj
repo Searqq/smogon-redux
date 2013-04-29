@@ -31,10 +31,7 @@
 
 (deffamily :roggenrola :boldore :gigalith)
 
-
-
 (deflearnset :bw
   :roggenrola [:attract :autotomize :block :bulldoze :curse :double-team :earth-power :earthquake :explosion :facade :flash-cannon :frustration :gravity :harden :headbutt :heavy-slam :hidden-power :iron-defense :lock-on :magnitude :mud-slap :protect :rest :return :rock-blast :rock-polish :rock-slide :rock-smash :rock-tomb :round :sand-attack :sandstorm :sleep-talk :smack-down :snore :stealth-rock :stone-edge :strength :substitute :swagger :tackle :take-down :toxic]
   :boldore [:power-gem]
   :gigalith [:giga-impact :hyper-beam :iron-head :solarbeam :superpower])
-

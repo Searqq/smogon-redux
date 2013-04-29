@@ -23,8 +23,6 @@
 
 (deffamily :chinchou :lanturn)
 
-
-
 (deflearnset :gs
   :chinchou [:attract :bubble :confuse-ray :curse :double-team :endure :flail :flash :frustration :hidden-power :hydro-pump :ice-beam :protect :rain-dance :rest :return :screech :sleep-talk :snore :spark :supersonic :surf :swagger :take-down :thunder :thunder-wave :thunderbolt :toxic :water-gun :waterfall :whirlpool :zap-cannon]
   :lanturn [:hyper-beam])
@@ -40,4 +38,3 @@
 (deflearnset :bw
   :chinchou [:agility :amnesia :aqua-ring :attract :blizzard :bounce :brine :bubble :bubblebeam :charge :charge-beam :confuse-ray :discharge :dive :double-team :electro-ball :facade :flail :flash :frustration :hail :heal-bell :hidden-power :hydro-pump :ice-beam :icy-wind :mist :protect :psybeam :rain-dance :rest :return :round :scald :screech :shock-wave :signal-beam :sleep-talk :snore :spark :substitute :supersonic :surf :swagger :take-down :thunder :thunder-wave :thunderbolt :toxic :volt-switch :water-gun :water-pulse :waterfall :whirlpool :wild-charge]
   :lanturn [:aqua-tail :giga-impact :hyper-beam :spit-up :stockpile :swallow])
-

@@ -27,8 +27,6 @@
 
 (deffamily :drowzee :hypno)
 
-
-
 (deflearnset :rb
   :drowzee [:bide :body-slam :confusion :counter :disable :double-edge :double-team :dream-eater :flash :headbutt :hypnosis :meditate :mega-kick :mega-punch :metronome :mimic :poison-gas :pound :psychic :psywave :rage :reflect :rest :seismic-toss :skull-bash :submission :substitute :take-down :teleport :thunder-wave :toxic :tri-attack]
   :hypno [:hyper-beam])
@@ -48,4 +46,3 @@
 (deflearnset :bw
   :drowzee [:assist :attract :barrier :brick-break :calm-mind :confusion :disable :double-team :drain-punch :dream-eater :facade :fire-punch :flash :flatter :fling :foul-play :frustration :future-sight :grass-knot :guard-swap :headbutt :hidden-power :hypnosis :ice-punch :light-screen :low-kick :low-sweep :magic-coat :magic-room :meditate :nasty-plot :poison-gas :pound :protect :psybeam :psych-up :psychic :psycho-cut :psyshock :rain-dance :recycle :reflect :rest :return :role-play :round :safeguard :secret-power :shadow-ball :signal-beam :skill-swap :sleep-talk :snatch :substitute :sunny-day :swagger :synchronoise :taunt :telekinesis :thief :thunder-wave :thunderpunch :torment :toxic :trick :trick-room :zen-headbutt]
   :hypno [:focus-blast :giga-impact :hyper-beam :nightmare :switcheroo])
-

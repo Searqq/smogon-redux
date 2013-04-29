@@ -21,8 +21,6 @@
 
 (deffamily :cranidos :rampardos)
 
-
-
 (deflearnset :dp
   :cranidos [:ancientpower :assurance :attract :blizzard :captivate :crunch :curse :dig :double-edge :double-team :dragon-pulse :earth-power :earthquake :endeavor :endure :facade :fire-blast :fire-punch :flamethrower :fling :focus-energy :frustration :hammer-arm :head-smash :headbutt :hidden-power :ice-beam :iron-head :iron-tail :leer :mud-slap :natural-gift :payback :protect :pursuit :rain-dance :rest :return :roar :rock-climb :rock-polish :rock-slide :rock-smash :rock-tomb :sandstorm :scary-face :screech :secret-power :shock-wave :slam :sleep-talk :snore :spite :stealth-rock :stomp :stone-edge :strength :substitute :sunny-day :superpower :swagger :swords-dance :take-down :thief :thrash :thunder :thunderbolt :thunderpunch :toxic :uproar :whirlwind :zen-headbutt]
   :rampardos [:avalanche :brick-break :cut :focus-blast :focus-punch :giga-impact :hyper-beam :outrage :pain-split :surf :whirlpool])
@@ -30,4 +28,3 @@
 (deflearnset :bw
   :cranidos [:ancientpower :assurance :attract :blizzard :bulldoze :chip-away :crunch :curse :dig :double-edge :double-team :dragon-pulse :earth-power :earthquake :endeavor :facade :fire-blast :fire-punch :flamethrower :fling :focus-energy :frustration :hammer-arm :head-smash :headbutt :hidden-power :ice-beam :incinerate :iron-head :iron-tail :leer :payback :protect :pursuit :rain-dance :rest :return :roar :rock-polish :rock-slide :rock-smash :rock-tomb :round :sandstorm :scary-face :screech :slam :sleep-talk :smack-down :snore :spite :stealth-rock :stomp :stone-edge :strength :substitute :sunny-day :superpower :swagger :swords-dance :take-down :thief :thrash :thunder :thunderbolt :thunderpunch :toxic :uproar :whirlwind :zen-headbutt]
   :rampardos [:brick-break :cut :dragon-tail :focus-blast :giga-impact :hyper-beam :outrage :pain-split :surf])
-

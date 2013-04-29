@@ -31,9 +31,6 @@
 
 (deffamily :gothita :gothorita :gothitelle)
 
-
-
 (deflearnset :bw
   :gothita [:attract :calm-mind :captivate :charge-beam :charm :confusion :covet :dark-pulse :double-team :doubleslap :dream-eater :embargo :energy-ball :facade :faint-attack :fake-tears :flash :flatter :fling :foul-play :frustration :future-sight :grass-knot :gravity :heal-bell :heal-block :helping-hand :hidden-power :light-screen :magic-coat :magic-room :mean-look :miracle-eye :mirror-coat :payback :pound :protect :psybeam :psych-up :psychic :psyshock :rain-dance :recycle :reflect :rest :return :rock-slide :rock-tomb :role-play :round :safeguard :shadow-ball :signal-beam :skill-swap :sleep-talk :snatch :snore :substitute :swagger :taunt :telekinesis :thief :thunder-wave :thunderbolt :tickle :torment :toxic :trick :trick-room :uproar :zen-headbutt]
   :gothitelle [:brick-break :giga-impact :hyper-beam :low-sweep])
-

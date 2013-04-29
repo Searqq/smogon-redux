@@ -51,8 +51,6 @@
 
 (deffamily :burmy [:wormadam :mothim])
 
-
-
 (deflearnset :dp
   :burmy [:bug-bite :hidden-power :protect :snore :string-shot :tackle]
   :mothim [:aerial-ace :air-cutter :air-slash :attract :bug-buzz :camouflage :captivate :confusion :defog :double-team :dream-eater :endure :energy-ball :facade :flash :frustration :giga-drain :giga-impact :gust :hyper-beam :mud-slap :natural-gift :ominous-wind :poisonpowder :psybeam :psych-up :psychic :rain-dance :rest :return :roost :safeguard :secret-power :shadow-ball :signal-beam :silver-wind :skill-swap :sleep-talk :solarbeam :substitute :sunny-day :swagger :swift :tailwind :thief :toxic :twister :u-turn]
@@ -62,4 +60,3 @@
   :burmy [:bug-bite :electroweb :hidden-power :protect :snore :tackle]
   :mothim [:acrobatics :aerial-ace :air-slash :attract :bug-buzz :camouflage :confusion :double-team :dream-eater :energy-ball :facade :flash :frustration :giga-drain :giga-impact :gust :hyper-beam :poisonpowder :psybeam :psych-up :psychic :quiver-dance :rain-dance :rest :return :roost :round :safeguard :shadow-ball :signal-beam :silver-wind :skill-swap :sleep-talk :solarbeam :struggle-bug :substitute :sunny-day :swagger :tailwind :thief :toxic :u-turn :venoshock]
   :wormadam [:captivate :endeavor :flail :grass-knot :growth :leaf-storm :razor-leaf :seed-bomb :synthesis :uproar :worry-seed])
-

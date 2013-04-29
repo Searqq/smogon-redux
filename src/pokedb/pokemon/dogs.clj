@@ -37,8 +37,6 @@
 (deffamily :entei)
 (deffamily :raikou)
 
-
-
 (deflearnset :gs
   :entei [:bite :curse :cut :detect :dig :double-team :ember :endure :fire-blast :fire-spin :flamethrower :flash :frustration :headbutt :hidden-power :hyper-beam :iron-tail :leer :mud-slap :protect :psych-up :rain-dance :rest :return :roar :rock-smash :sandstorm :sleep-talk :snore :solarbeam :stomp :strength :sunny-day :swagger :swift :toxic])
 
@@ -80,4 +78,3 @@
 
 (deflearnset :bw
   :suicune [:aurora-beam :bite :blizzard :bubblebeam :bulldoze :calm-mind :cut :dig :dive :double-team :extrasensory :facade :frustration :giga-impact :gust :hail :hidden-power :hydro-pump :hyper-beam :ice-beam :ice-fang :icy-wind :iron-head :iron-tail :leer :mirror-coat :mist :protect :psych-up :quash :rain-dance :reflect :rest :return :roar :rock-smash :round :sandstorm :scald :shadow-ball :signal-beam :sleep-talk :snarl :snore :substitute :sunny-day :surf :swagger :tailwind :toxic :waterfall])
-

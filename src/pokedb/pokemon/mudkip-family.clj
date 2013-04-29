@@ -34,8 +34,6 @@
 
 (deffamily :mudkip :marshtomp :swampert)
 
-
-
 (deflearnset :rs
   :mudkip [:attract :bide :blizzard :body-slam :curse :defense-curl :dig :dive :double-edge :double-team :endeavor :endure :facade :foresight :frustration :growl :hail :hidden-power :hydro-pump :ice-ball :ice-beam :icy-wind :iron-tail :mimic :mirror-coat :mud-slap :mud-sport :protect :rain-dance :refresh :rest :return :rock-smash :rock-tomb :rollout :secret-power :sleep-talk :snore :stomp :strength :substitute :surf :swagger :tackle :take-down :toxic :uproar :water-gun :water-pulse :waterfall :whirlpool]
   :marshtomp [:counter :dynamicpunch :earthquake :ice-punch :mega-kick :mega-punch :mud-shot :muddy-water :rock-slide :seismic-toss]
@@ -50,4 +48,3 @@
   :mudkip [:ancientpower :aqua-tail :attract :avalanche :bide :bite :blizzard :counter :curse :dig :dive :double-edge :double-team :earth-power :echoed-voice :endeavor :facade :foresight :frustration :growl :hail :hidden-power :hydro-pump :ice-ball :ice-beam :icy-wind :iron-tail :low-kick :mirror-coat :mud-bomb :mud-slap :mud-sport :protect :rain-dance :refresh :rest :return :rock-slide :rock-smash :rock-tomb :round :scald :sleep-talk :sludge :sludge-wave :snore :stomp :strength :substitute :superpower :surf :swagger :tackle :take-down :toxic :uproar :water-gun :water-pledge :waterfall :whirlpool :wide-guard :yawn]
   :marshtomp [:brick-break :bulldoze :earthquake :fling :ice-punch :mud-shot :muddy-water :stealth-rock]
   :swampert [:focus-blast :giga-impact :hammer-arm :hydro-cannon :hyper-beam :outrage :roar :stone-edge])
-

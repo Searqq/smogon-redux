@@ -23,8 +23,6 @@
 
 (deffamily :anorith :armaldo)
 
-
-
 (deflearnset :rs
   :anorith [:aerial-ace :ancientpower :attract :body-slam :brick-break :cut :dig :double-edge :double-team :endure :facade :frustration :fury-cutter :harden :hidden-power :knock-off :metal-claw :mimic :mud-slap :mud-sport :protect :rapid-spin :rest :return :rock-blast :rock-slide :rock-smash :rock-tomb :sandstorm :scratch :secret-power :slash :sleep-talk :snore :substitute :sunny-day :swagger :swords-dance :toxic :water-gun :water-pulse]
   :armaldo [:earthquake :hyper-beam :iron-tail :seismic-toss :strength])
@@ -36,4 +34,3 @@
 (deflearnset :bw
   :anorith [:aerial-ace :ancientpower :attract :brick-break :bug-bite :cross-poison :crush-claw :curse :cut :dig :double-team :earth-power :facade :false-swipe :frustration :fury-cutter :harden :hidden-power :hone-claws :iron-defense :knock-off :metal-claw :mud-sport :protect :rapid-spin :rest :return :rock-blast :rock-polish :rock-slide :rock-smash :rock-tomb :round :sand-attack :sandstorm :scratch :screech :slash :sleep-talk :smack-down :snore :stealth-rock :struggle-bug :substitute :sunny-day :swagger :swords-dance :toxic :water-gun :water-pulse :x-scissor]
   :armaldo [:aqua-tail :block :bulldoze :earthquake :flash-cannon :giga-impact :hyper-beam :iron-tail :low-kick :stone-edge :strength :superpower])
-

@@ -53,8 +53,6 @@
 (deffamily :zekrom)
 (deffamily :reshiram)
 
-
-
 (deflearnset :bw
   :kyurem [:ancientpower :blizzard :cut :double-team :draco-meteor :dragon-claw :dragon-pulse :dragon-rage :dragon-tail :dragonbreath :earth-power :echoed-voice :endeavor :facade :flash-cannon :fling :fly :focus-blast :frustration :giga-impact :glaciate :hail :hidden-power :hone-claws :hyper-beam :hyper-voice :ice-beam :icy-wind :imprison :iron-head :light-screen :outrage :payback :protect :psychic :rain-dance :reflect :rest :return :rock-slide :rock-smash :rock-tomb :roost :round :safeguard :scary-face :shadow-ball :shadow-claw :signal-beam :slash :sleep-talk :snore :stone-edge :strength :substitute :sunny-day :swagger :toxic :zen-headbutt])
 
@@ -69,4 +67,3 @@
 
 (deflearnset :bw
   :zekrom [:ancientpower :bolt-strike :charge-beam :crunch :cut :double-team :draco-meteor :dragon-claw :dragon-pulse :dragon-rage :dragon-tail :dragonbreath :earth-power :echoed-voice :facade :flash :flash-cannon :fling :fly :focus-blast :frustration :fusion-bolt :giga-impact :hidden-power :hone-claws :hyper-beam :hyper-voice :imprison :light-screen :magnet-rise :outrage :payback :protect :psychic :rain-dance :reflect :rest :return :rock-slide :rock-smash :rock-tomb :roost :round :safeguard :shadow-ball :shadow-claw :signal-beam :slash :sleep-talk :snore :stone-edge :strength :substitute :swagger :tailwind :thunder :thunder-fang :thunder-wave :thunderbolt :thunderpunch :toxic :volt-switch :wild-charge :zen-headbutt])
-

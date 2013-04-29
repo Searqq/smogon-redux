@@ -47,8 +47,6 @@
 (deffamily :regirock)
 (deffamily :regigigas)
 
-
-
 (deflearnset :rs
   :regice [:amnesia :ancientpower :blizzard :body-slam :brick-break :counter :curse :defense-curl :double-edge :double-team :dynamicpunch :earthquake :endure :explosion :facade :focus-punch :frustration :hail :hidden-power :hyper-beam :ice-beam :ice-punch :icy-wind :lock-on :mega-kick :mega-punch :mimic :mud-slap :protect :psych-up :rain-dance :rest :return :rock-slide :rock-smash :rollout :safeguard :secret-power :seismic-toss :selfdestruct :shock-wave :sleep-talk :snore :strength :substitute :superpower :swagger :thunder :thunder-wave :thunderbolt :thunderpunch :toxic :zap-cannon])
 
@@ -90,4 +88,3 @@
 
 (deflearnset :bw
   :registeel [:aerial-ace :amnesia :ancientpower :block :brick-break :bulldoze :charge-beam :curse :double-team :earthquake :explosion :facade :flash-cannon :fling :focus-blast :frustration :giga-impact :gravity :hammer-arm :hidden-power :hone-claws :hyper-beam :ice-punch :iron-defense :iron-head :lock-on :magnet-rise :metal-claw :protect :psych-up :rain-dance :rest :return :rock-polish :rock-slide :rock-smash :rock-tomb :round :safeguard :sandstorm :shadow-claw :sleep-talk :snore :stealth-rock :stomp :strength :substitute :sunny-day :superpower :swagger :thunder :thunder-wave :thunderbolt :thunderpunch :toxic :zap-cannon])
-

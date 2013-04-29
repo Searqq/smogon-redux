@@ -25,8 +25,6 @@
 
 (deffamily :krabby :kingler)
 
-
-
 (deflearnset :rb
   :krabby [:bide :blizzard :body-slam :bubble :bubblebeam :crabhammer :cut :double-edge :double-team :guillotine :harden :ice-beam :leer :mimic :rage :rest :stomp :strength :substitute :surf :swords-dance :take-down :toxic :vicegrip :water-gun]
   :kingler [:hyper-beam])
@@ -46,4 +44,3 @@
 (deflearnset :bw
   :krabby [:agility :amnesia :ancientpower :attract :bide :blizzard :brick-break :brine :bubble :bubblebeam :chip-away :crabhammer :cut :dig :dive :double-team :endure :facade :false-swipe :flail :fling :frustration :guillotine :hail :harden :haze :hidden-power :hone-claws :ice-beam :icy-wind :iron-defense :knock-off :leer :metal-claw :mud-shot :mud-sport :protect :rain-dance :rest :return :rock-slide :rock-smash :rock-tomb :round :scald :slam :sleep-talk :snore :stomp :strength :substitute :superpower :surf :swagger :swords-dance :thief :tickle :toxic :vicegrip :x-scissor]
   :kingler [:giga-impact :hyper-beam :quash :wide-guard])
-

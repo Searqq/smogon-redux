@@ -21,8 +21,6 @@
 
 (deffamily :finneon :lumineon)
 
-
-
 (deflearnset :dp
   :finneon [:agility :air-cutter :aqua-ring :aqua-tail :attract :blizzard :bounce :brine :captivate :charm :defog :dive :double-team :endure :facade :flail :flash :frustration :gust :hail :hidden-power :ice-beam :icy-wind :natural-gift :ominous-wind :payback :pound :protect :psybeam :psych-up :rain-dance :rest :return :safeguard :secret-power :silver-wind :sleep-talk :snore :splash :substitute :surf :swagger :sweet-kiss :swift :tailwind :tickle :toxic :twister :u-turn :water-gun :water-pulse :waterfall :whirlpool]
   :lumineon [:giga-impact :hyper-beam])
@@ -30,4 +28,3 @@
 (deflearnset :bw
   :finneon [:agility :aqua-ring :aqua-tail :attract :aurora-beam :blizzard :bounce :brine :captivate :charm :dive :double-team :facade :flail :flash :frustration :gust :hail :hidden-power :ice-beam :icy-wind :payback :pound :protect :psybeam :psych-up :rain-dance :rest :return :round :safeguard :scald :signal-beam :silver-wind :sleep-talk :snore :soak :splash :substitute :surf :swagger :sweet-kiss :tailwind :tickle :toxic :u-turn :water-gun :water-pulse :waterfall :whirlpool]
   :lumineon [:giga-impact :hyper-beam])
-

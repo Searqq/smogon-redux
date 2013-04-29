@@ -39,8 +39,6 @@
 
 (deffamily :horsea :seadra :kingdra)
 
-
-
 (deflearnset :rb
   :horsea [:agility :bide :blizzard :bubble :bubblebeam :double-edge :double-team :hydro-pump :ice-beam :leer :mimic :rage :rest :skull-bash :smokescreen :substitute :surf :swift :take-down :toxic :water-gun]
   :seadra [:hyper-beam])
@@ -63,4 +61,3 @@
   :horsea [:agility :attract :aurora-beam :blizzard :bounce :brine :bubble :bubblebeam :clear-smog :disable :dive :double-team :dragon-dance :dragon-pulse :dragon-rage :dragonbreath :facade :flail :flash-cannon :focus-energy :frustration :hail :hidden-power :hydro-pump :ice-beam :icy-wind :leer :muddy-water :octazooka :outrage :protect :rain-dance :razor-wind :rest :return :round :scald :signal-beam :sleep-talk :smokescreen :snore :splash :substitute :surf :swagger :toxic :twister :water-gun :water-pulse :waterfall]
   :seadra [:giga-impact :hyper-beam]
   :kingdra [:draco-meteor :iron-head :quash :yawn])
-

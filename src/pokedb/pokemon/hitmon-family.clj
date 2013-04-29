@@ -51,8 +51,6 @@
 
 (deffamily :tyrogue [:hitmonlee :hitmonchan :hitmontop])
 
-
-
 (deflearnset :rb
   :hitmonchan [:agility :bide :body-slam :comet-punch :counter :double-edge :double-team :fire-punch :ice-punch :mega-kick :mega-punch :metronome :mimic :rage :rest :seismic-toss :skull-bash :strength :submission :substitute :swift :take-down :thunderpunch :toxic]
   :hitmonlee [:double-kick :focus-energy :hi-jump-kick :jump-kick :meditate :rolling-kick])
@@ -80,4 +78,3 @@
   :hitmonchan [:agility :close-combat :comet-punch :detect :drain-punch :fire-punch :fling :focus-blast :focus-punch :ice-punch :mega-punch :quick-guard :revenge :rock-tomb :sky-uppercut :stone-edge :thunderpunch]
   :hitmonlee [:blaze-kick :bounce :double-kick :focus-energy :jump-kick :knock-off :meditate :mega-kick :poison-jab :reversal :rolling-kick :superpower :wide-guard]
   :hitmontop [:aerial-ace :dig :drill-run :endeavor :gyro-ball :quick-attack :sandstorm :triple-kick])
-

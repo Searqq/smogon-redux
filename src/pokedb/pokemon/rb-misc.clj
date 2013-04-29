@@ -109,8 +109,6 @@
 (deffamily :pinsir)
 (deffamily :tauros)
 
-
-
 (deflearnset :rb
   :aerodactyl [:agility :bide :bite :double-edge :double-team :dragon-rage :fire-blast :fly :hyper-beam :mimic :rage :razor-wind :reflect :rest :sky-attack :substitute :supersonic :swift :take-down :toxic :whirlwind :wing-attack])
 
@@ -234,29 +232,6 @@
 (deflearnset :bw
   :mewtwo [:aerial-ace :amnesia :aqua-tail :aura-sphere :barrier :blizzard :brick-break :bulk-up :bulldoze :calm-mind :charge-beam :confusion :disable :double-team :drain-punch :dream-eater :earthquake :embargo :energy-ball :facade :fire-blast :fire-punch :flamethrower :flash :fling :focus-blast :foul-play :frustration :future-sight :giga-impact :grass-knot :gravity :guard-swap :hail :hidden-power :hyper-beam :ice-beam :ice-punch :icy-wind :incinerate :iron-tail :light-screen :low-kick :low-sweep :magic-coat :magic-room :me-first :miracle-eye :mist :poison-jab :power-swap :protect :psych-up :psychic :psycho-cut :psyshock :psystrike :rain-dance :recover :recycle :reflect :rest :return :rock-slide :rock-smash :rock-tomb :role-play :round :safeguard :sandstorm :shadow-ball :signal-beam :skill-swap :sleep-talk :snatch :snore :solarbeam :stone-edge :strength :substitute :sunny-day :swagger :swift :taunt :telekinesis :thunder :thunder-wave :thunderbolt :thunderpunch :torment :toxic :trick :trick-room :will-o-wisp :wonder-room :zen-headbutt])
 
-
-
-
-(deflearnset :rb
-  :snorlax [:amnesia :bide :blizzard :body-slam :bubblebeam :counter :double-edge :double-team :earthquake :fire-blast :fissure :harden :headbutt :hyper-beam :ice-beam :mega-kick :mega-punch :metronome :mimic :pay-day :psychic :psywave :rage :reflect :rest :rock-slide :seismic-toss :selfdestruct :skull-bash :solarbeam :strength :submission :substitute :surf :take-down :thunder :thunderbolt :toxic :water-gun])
-
-(deflearnset :gs
-  :snorlax [:amnesia :attract :belly-drum :blizzard :body-slam :charm :curse :defense-curl :double-team :dynamicpunch :earthquake :endure :fire-blast :fire-punch :flamethrower :frustration :headbutt :hidden-power :hyper-beam :ice-beam :ice-punch :icy-wind :lick :mud-slap :protect :psych-up :psychic :rain-dance :rest :return :rock-smash :rollout :sandstorm :shadow-ball :sleep-talk :snore :solarbeam :strength :sunny-day :surf :swagger :tackle :thunder :thunderbolt :thunderpunch :toxic :zap-cannon])
-
-(deflearnset :rs
-  :snorlax [:amnesia :attract :belly-drum :blizzard :block :body-slam :brick-break :charm :counter :covet :curse :defense-curl :double-edge :double-team :dynamicpunch :earthquake :endure :facade :fire-blast :fire-punch :fissure :flamethrower :focus-punch :frustration :headbutt :hidden-power :hyper-beam :ice-beam :ice-punch :icy-wind :lick :mega-kick :mega-punch :metronome :mimic :mud-slap :protect :psych-up :psychic :rain-dance :rest :return :rock-slide :rock-tomb :rollout :sandstorm :secret-power :seismic-toss :selfdestruct :shadow-ball :shock-wave :sleep-talk :snore :solarbeam :strength :substitute :sunny-day :surf :swagger :tackle :thunder :thunderbolt :thunderpunch :toxic :water-pulse :yawn])
-
-(deflearnset :dp
-  :munchlax [:amnesia :attract :blizzard :body-slam :brick-break :captivate :charm :counter :curse :defense-curl :double-edge :double-team :earthquake :endure :facade :fire-blast :fire-punch :flamethrower :fling :focus-punch :frustration :gunk-shot :headbutt :hidden-power :ice-beam :ice-punch :icy-wind :last-resort :lick :metronome :mud-slap :natural-gift :odor-sleuth :protect :psychic :pursuit :rain-dance :recycle :rest :return :rock-climb :rock-slide :rock-smash :rock-tomb :rollout :sandstorm :screech :secret-power :seed-bomb :shadow-ball :shock-wave :sleep-talk :snore :solarbeam :stockpile :strength :substitute :sunny-day :superpower :surf :swagger :swallow :tackle :thunder :thunderbolt :thunderpunch :toxic :uproar :water-pulse :whirlpool :whirlwind :zen-headbutt]
-  :snorlax [:belly-drum :block :crunch :fissure :focus-blast :giga-impact :hyper-beam :iron-head :outrage :yawn])
-
-(deflearnset :bw
-  :munchlax [:after-you :amnesia :attract :blizzard :body-slam :brick-break :bulldoze :charm :chip-away :counter :covet :curse :defense-curl :double-edge :double-team :earthquake :facade :fire-blast :fire-punch :flamethrower :fling :frustration :gunk-shot :hidden-power :hyper-voice :ice-beam :ice-punch :icy-wind :incinerate :last-resort :lick :metronome :natural-gift :odor-sleuth :protect :psychic :pursuit :rain-dance :recycle :rest :retaliate :return :rock-slide :rock-smash :rock-tomb :rollout :round :sandstorm :screech :seed-bomb :selfdestruct :shadow-ball :sleep-talk :snatch :snore :solarbeam :stockpile :strength :substitute :sunny-day :superpower :surf :swagger :swallow :tackle :thunder :thunderbolt :thunderpunch :toxic :uproar :whirlwind :work-up :zen-headbutt]
-  :snorlax [:belly-drum :block :crunch :fissure :focus-blast :giga-impact :heavy-slam :hyper-beam :iron-head :outrage :smack-down :wild-charge :yawn])
-
-
-
-
 (deflearnset :rb
   :pinsir [:bide :bind :body-slam :cut :double-edge :double-team :focus-energy :guillotine :harden :hyper-beam :mimic :rage :rest :seismic-toss :slash :strength :submission :substitute :swords-dance :take-down :toxic :vicegrip])
 
@@ -271,9 +246,6 @@
 
 (deflearnset :bw
   :pinsir [:attract :bind :brick-break :bug-bite :bulk-up :bulldoze :close-combat :cut :dig :double-team :earthquake :facade :faint-attack :false-swipe :feint :flail :fling :focus-blast :focus-energy :frustration :fury-attack :giga-impact :guillotine :harden :hidden-power :hyper-beam :iron-defense :knock-off :me-first :protect :quick-attack :rain-dance :rest :return :revenge :rock-slide :rock-smash :rock-tomb :round :seismic-toss :sleep-talk :smack-down :snore :stealth-rock :stone-edge :storm-throw :strength :struggle-bug :submission :substitute :sunny-day :superpower :swagger :swords-dance :thief :thrash :toxic :vicegrip :vital-throw :x-scissor])
-
-
-
 
 (deflearnset :rb
   :tauros [:bide :blizzard :body-slam :double-edge :double-team :earthquake :fire-blast :fissure :horn-drill :hyper-beam :ice-beam :leer :mimic :rage :rest :skull-bash :stomp :strength :substitute :tackle :tail-whip :take-down :thunder :thunderbolt :toxic])
@@ -290,9 +262,6 @@
 (deflearnset :bw
   :tauros [:attract :blizzard :bulldoze :double-team :earthquake :endeavor :facade :fire-blast :flamethrower :frustration :giga-impact :helping-hand :hidden-power :horn-attack :hyper-beam :ice-beam :icy-wind :incinerate :iron-head :iron-tail :outrage :payback :protect :pursuit :rage :rain-dance :rest :retaliate :return :rock-slide :rock-smash :rock-tomb :role-play :round :sandstorm :scary-face :sleep-talk :snore :solarbeam :spite :stone-edge :strength :substitute :sunny-day :surf :swagger :tackle :tail-whip :take-down :thrash :thunder :thunderbolt :toxic :uproar :wild-charge :work-up :zen-headbutt])
 
-
-
-
 (deflearnset :rb
   :zapdos [:agility :bide :double-edge :double-team :drill-peck :flash :fly :hyper-beam :light-screen :mimic :rage :razor-wind :reflect :rest :sky-attack :substitute :swift :take-down :thunder :thunder-wave :thunderbolt :thundershock :toxic :whirlwind])
 
@@ -307,4 +276,3 @@
 
 (deflearnset :bw
   :zapdos [:aerial-ace :agility :ancientpower :charge :charge-beam :detect :discharge :double-team :drill-peck :facade :flash :fly :frustration :giga-impact :heat-wave :hidden-power :hyper-beam :light-screen :peck :pluck :protect :rain-dance :rest :return :roar :rock-smash :roost :round :sandstorm :signal-beam :sky-attack :sky-drop :sleep-talk :snore :substitute :sunny-day :swagger :tailwind :thunder :thunder-wave :thunderbolt :thundershock :toxic :u-turn :volt-switch :wild-charge :zap-cannon])
-

@@ -37,8 +37,6 @@
 
 (deffamily :abra :kadabra :alakazam)
 
-
-
 (deflearnset :rb
   :abra [:bide :body-slam :counter :double-edge :double-team :flash :mega-kick :mega-punch :metronome :mimic :psychic :psywave :rage :reflect :rest :seismic-toss :skull-bash :submission :substitute :take-down :teleport :thunder-wave :toxic :tri-attack]
   :kadabra [:confusion :dig :disable :kinesis :psybeam :recover]

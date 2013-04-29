@@ -23,8 +23,6 @@
 
 (deffamily :hoothoot :noctowl)
 
-
-
 (deflearnset :gs
   :hoothoot [:attract :confusion :curse :detect :double-team :dream-eater :endure :faint-attack :flash :fly :foresight :frustration :growl :hidden-power :hypnosis :mirror-move :mud-slap :nightmare :peck :protect :reflect :rest :return :sky-attack :sleep-talk :snore :steel-wing :sunny-day :supersonic :swagger :swift :tackle :take-down :thief :toxic :whirlwind :wing-attack]
   :noctowl [:hyper-beam])
@@ -40,4 +38,3 @@
 (deflearnset :bw
   :hoothoot [:aerial-ace :agility :air-slash :attract :confusion :defog :double-team :dream-eater :echoed-voice :extrasensory :facade :faint-attack :featherdance :fly :foresight :frustration :growl :heat-wave :hidden-power :hyper-voice :hypnosis :magic-coat :mirror-move :night-shade :peck :pluck :protect :psych-up :psychic :psycho-shift :rain-dance :recycle :reflect :rest :return :roost :round :shadow-ball :sky-attack :sleep-talk :substitute :sunny-day :supersonic :swagger :synchronoise :tackle :tailwind :take-down :thief :toxic :uproar :whirlwind :wing-attack :work-up :zen-headbutt]
   :noctowl [:giga-impact :hyper-beam])
-

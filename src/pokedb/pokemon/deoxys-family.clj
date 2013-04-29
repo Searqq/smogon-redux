@@ -45,8 +45,6 @@
 
 (deffamily :deoxys [:deoxys-a :deoxys-d :deoxys-s])
 
-
-
 (deflearnset :rs
   :deoxys [:aerial-ace :body-slam :brick-break :calm-mind :cosmic-power :cut :double-edge :double-team :dream-eater :facade :flash :focus-punch :frustration :hidden-power :hyper-beam :ice-beam :icy-wind :knock-off :leer :light-screen :mimic :night-shade :nightmare :protect :psychic :psycho-boost :pursuit :rain-dance :recover :reflect :rest :return :rock-smash :rock-tomb :safeguard :secret-power :seismic-toss :shadow-ball :shock-wave :skill-swap :snatch :solarbeam :strength :substitute :sunny-day :swagger :taunt :teleport :thunder :thunder-wave :thunderbolt :torment :toxic :water-pulse :wrap])
 
@@ -55,4 +53,3 @@
 
 (deflearnset :bw
   :deoxys [:aerial-ace :ally-switch :bind :brick-break :calm-mind :charge-beam :cosmic-power :cut :double-team :drain-punch :dream-eater :energy-ball :facade :fire-punch :flash :flash-cannon :fling :focus-blast :frustration :giga-impact :grass-knot :gravity :hidden-power :hyper-beam :ice-beam :ice-punch :icy-wind :knock-off :leer :light-screen :low-kick :low-sweep :magic-coat :night-shade :poison-jab :protect :psych-up :psychic :psycho-boost :psycho-shift :psyshock :pursuit :rain-dance :recover :recycle :reflect :rest :return :rock-slide :rock-smash :rock-tomb :role-play :round :safeguard :shadow-ball :signal-beam :skill-swap :sleep-talk :snatch :snore :solarbeam :stealth-rock :strength :substitute :sunny-day :swagger :taunt :telekinesis :teleport :thunder :thunder-wave :thunderbolt :thunderpunch :torment :toxic :trick :trick-room :wonder-room :wrap :zen-headbutt])
-

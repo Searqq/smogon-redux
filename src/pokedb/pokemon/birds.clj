@@ -39,8 +39,6 @@
 (deffamily :zapdos)
 (deffamily :moltres)
 
-
-
 (deflearnset :rb
   :articuno [:agility :bide :blizzard :bubblebeam :double-edge :double-team :fly :hyper-beam :ice-beam :mimic :mist :peck :rage :razor-wind :reflect :rest :sky-attack :substitute :swift :take-down :toxic :water-gun :whirlwind])
 
@@ -73,4 +71,3 @@
 
 (deflearnset :bw
   :moltres [:aerial-ace :agility :air-slash :ancientpower :double-team :ember :endure :facade :fire-blast :fire-spin :flame-charge :flamethrower :fly :frustration :giga-impact :heat-wave :hidden-power :hurricane :hyper-beam :incinerate :overheat :pluck :protect :rain-dance :rest :return :roar :rock-smash :roost :round :safeguard :sandstorm :sky-attack :sky-drop :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :tailwind :toxic :u-turn :will-o-wisp :wing-attack])
-

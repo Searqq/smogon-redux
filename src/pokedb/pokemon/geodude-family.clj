@@ -37,8 +37,6 @@
 
 (deffamily :geodude :graveler :golem)
 
-
-
 (deflearnset :rb
   :geodude [:bide :body-slam :counter :defense-curl :dig :double-edge :double-team :earthquake :explosion :fire-blast :fissure :harden :mega-punch :metronome :mimic :rage :rest :rock-slide :rock-throw :seismic-toss :selfdestruct :strength :submission :substitute :tackle :take-down :toxic]
   :golem [:hyper-beam :mega-kick])
@@ -58,4 +56,3 @@
 (deflearnset :bw
   :geodude [:attract :autotomize :block :brick-break :bulldoze :curse :defense-curl :dig :double-edge :double-team :earth-power :earthquake :endure :explosion :facade :fire-blast :fire-punch :flail :flamethrower :fling :focus-punch :frustration :gyro-ball :hammer-arm :hidden-power :incinerate :iron-defense :magnitude :mega-punch :mud-sport :protect :rest :return :rock-blast :rock-climb :rock-polish :rock-slide :rock-smash :rock-throw :rock-tomb :rollout :round :sandstorm :selfdestruct :sleep-talk :smack-down :snore :stealth-rock :stone-edge :strength :substitute :sunny-day :superpower :swagger :tackle :thunderpunch :toxic]
   :golem [:focus-blast :giga-impact :heavy-slam :hyper-beam :iron-head :roar :steamroller])
-

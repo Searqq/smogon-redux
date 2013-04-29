@@ -34,8 +34,6 @@
 
 (deffamily :cyndaquil :quilava :typhlosion)
 
-
-
 (deflearnset :gs
   :cyndaquil [:attract :curse :cut :defense-curl :detect :dig :double-team :ember :endure :fire-blast :flame-wheel :flamethrower :foresight :frustration :fury-swipes :headbutt :hidden-power :iron-tail :leer :mud-slap :protect :quick-attack :rest :return :reversal :rollout :sleep-talk :smokescreen :snore :submission :sunny-day :swagger :swift :tackle :thrash :toxic]
   :quilava [:fury-cutter :roar :rock-smash :strength]
@@ -55,4 +53,3 @@
   :cyndaquil [:aerial-ace :attract :covet :crush-claw :cut :defense-curl :dig :double-edge :double-kick :double-team :ember :eruption :extrasensory :facade :fire-blast :fire-pledge :flame-burst :flame-charge :flame-wheel :flamethrower :flare-blitz :foresight :frustration :fury-swipes :heat-wave :hidden-power :howl :incinerate :inferno :lava-plume :leer :nature-power :overheat :protect :quick-attack :rest :return :reversal :rollout :round :sleep-talk :smokescreen :snore :substitute :sunny-day :swagger :swift :tackle :thrash :toxic :wild-charge :will-o-wisp]
   :quilava [:brick-break :roar :rock-smash :strength]
   :typhlosion [:blast-burn :bulldoze :earthquake :fire-punch :fling :focus-blast :giga-impact :gyro-ball :hyper-beam :low-kick :rock-slide :rock-tomb :shadow-claw :solarbeam :thunderpunch])
-

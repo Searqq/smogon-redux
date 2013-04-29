@@ -23,8 +23,6 @@
 
 (deffamily :sentret :furret)
 
-
-
 (deflearnset :gs
   :sentret [:amnesia :attract :curse :cut :defense-curl :detect :dig :double-edge :double-team :dynamicpunch :endure :fire-punch :focus-energy :frustration :fury-cutter :fury-swipes :headbutt :hidden-power :ice-punch :iron-tail :mud-slap :protect :pursuit :quick-attack :rest :return :reversal :rollout :shadow-ball :slam :slash :sleep-talk :snore :sunny-day :surf :swagger :swift :tackle :thief :thunderpunch :toxic]
   :furret [:hyper-beam :scratch :strength])
@@ -40,4 +38,3 @@
 (deflearnset :bw
   :sentret [:amnesia :aqua-tail :assist :attract :baton-pass :brick-break :charge-beam :charm :covet :cut :defense-curl :dig :double-edge :double-team :echoed-voice :facade :fire-punch :flamethrower :fling :focus-energy :follow-me :foresight :frustration :fury-swipes :grass-knot :helping-hand :hidden-power :hone-claws :hyper-voice :ice-beam :ice-punch :iron-tail :knock-off :last-resort :me-first :natural-gift :protect :pursuit :quick-attack :rain-dance :rest :retaliate :return :reversal :round :scratch :shadow-ball :shadow-claw :slam :slash :sleep-talk :snore :solarbeam :substitute :sucker-punch :sunny-day :super-fang :surf :swagger :thief :thunderbolt :thunderpunch :toxic :trick :u-turn :uproar :work-up]
   :furret [:blizzard :focus-blast :giga-impact :hyper-beam :rock-smash :strength :thunder])
-

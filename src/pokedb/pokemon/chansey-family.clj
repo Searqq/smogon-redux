@@ -34,8 +34,6 @@
 
 (deffamily :happiny :chansey :blissey)
 
-
-
 (deflearnset :rb
   :chansey [:bide :blizzard :body-slam :bubblebeam :counter :defense-curl :double-edge :double-team :doubleslap :egg-bomb :fire-blast :flash :growl :hyper-beam :ice-beam :light-screen :mega-kick :mega-punch :metronome :mimic :minimize :pound :psychic :psywave :rage :reflect :rest :seismic-toss :sing :skull-bash :softboiled :solarbeam :strength :submission :substitute :tail-whip :take-down :teleport :thunder :thunder-wave :thunderbolt :toxic :tri-attack :water-gun])
 
@@ -54,4 +52,3 @@
   :happiny [:aromatherapy :attract :charm :copycat :counter :covet :double-team :drain-punch :dream-eater :echoed-voice :endeavor :endure :facade :fire-blast :flamethrower :flash :fling :frustration :grass-knot :gravity :hail :heal-bell :helping-hand :hidden-power :hyper-voice :icy-wind :incinerate :last-resort :light-screen :metronome :mud-bomb :natural-gift :pound :present :protect :psych-up :psychic :rain-dance :recycle :refresh :rest :return :round :safeguard :shadow-ball :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :sweet-kiss :thunder-wave :toxic :uproar :work-up :zen-headbutt]
   :chansey [:bestow :blizzard :brick-break :bulldoze :calm-mind :charge-beam :defense-curl :double-edge :doubleslap :earthquake :egg-bomb :fire-punch :giga-impact :growl :heal-pulse :healing-wish :hyper-beam :ice-beam :ice-punch :iron-tail :minimize :retaliate :rock-slide :rock-smash :rock-tomb :sandstorm :sing :skill-swap :snatch :softboiled :stealth-rock :strength :tail-whip :take-down :thunder :thunderbolt :thunderpunch :wild-charge]
   :blissey [:block :focus-blast])
-

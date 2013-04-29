@@ -25,8 +25,6 @@
 
 (deffamily :koffing :weezing)
 
-
-
 (deflearnset :rb
   :koffing [:bide :double-team :explosion :fire-blast :haze :mimic :rage :rest :selfdestruct :sludge :smog :smokescreen :substitute :tackle :thunder :thunderbolt :toxic]
   :weezing [:hyper-beam])
@@ -46,4 +44,3 @@
 (deflearnset :bw
   :koffing [:assurance :attract :clear-smog :curse :dark-pulse :destiny-bond :double-team :explosion :facade :fire-blast :flamethrower :flash :frustration :grudge :gyro-ball :haze :hidden-power :incinerate :memento :pain-split :payback :poison-gas :protect :psybeam :psywave :rain-dance :rest :return :round :screech :selfdestruct :shadow-ball :sleep-talk :sludge :sludge-bomb :smog :smokescreen :snore :spit-up :spite :stockpile :substitute :sunny-day :swagger :swallow :tackle :taunt :thief :thunder :thunderbolt :torment :toxic :uproar :venoshock :will-o-wisp]
   :weezing [:double-hit :giga-impact :hyper-beam])
-

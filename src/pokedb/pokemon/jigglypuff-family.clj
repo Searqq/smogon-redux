@@ -36,8 +36,6 @@
 
 (deffamily :igglybuff :jigglypuff :wigglytuff)
 
-
-
 (deflearnset :rb
   :jigglypuff [:bide :blizzard :body-slam :bubblebeam :counter :defense-curl :disable :double-edge :double-team :doubleslap :fire-blast :flash :ice-beam :mega-kick :mega-punch :mimic :pound :psychic :psywave :rage :reflect :rest :seismic-toss :sing :skull-bash :solarbeam :strength :submission :substitute :take-down :teleport :thunder :thunder-wave :thunderbolt :toxic :tri-attack :water-gun]
   :wigglytuff [:hyper-beam])
@@ -61,4 +59,3 @@
   :igglybuff [:attract :bounce :captivate :charm :copycat :covet :defense-curl :dig :double-team :dream-eater :echoed-voice :endeavor :facade :faint-attack :fake-tears :fire-blast :flamethrower :flash :fling :frustration :grass-knot :gravity :heal-bell :helping-hand :hidden-power :hyper-voice :icy-wind :incinerate :last-resort :light-screen :magic-coat :pain-split :perish-song :pound :present :protect :psych-up :psychic :punishment :rain-dance :recycle :reflect :rest :return :role-play :round :safeguard :shadow-ball :sing :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :sweet-kiss :thunder-wave :toxic :uproar :wild-charge :wish :work-up]
   :jigglypuff [:blizzard :body-slam :brick-break :charge-beam :disable :double-edge :doubleslap :drain-punch :fire-punch :gyro-ball :ice-beam :ice-punch :knock-off :mimic :retaliate :rollout :snatch :stealth-rock :strength :thunder :thunderbolt :thunderpunch :wake-up-slap]
   :wigglytuff [:focus-blast :giga-impact :hyper-beam :magic-room])
-

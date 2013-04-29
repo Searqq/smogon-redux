@@ -24,8 +24,6 @@
 
 (deffamily :onix :steelix)
 
-
-
 (deflearnset :rb
   :onix [:bide :bind :body-slam :dig :double-edge :double-team :earthquake :explosion :fissure :harden :mimic :rage :rest :rock-slide :rock-throw :screech :selfdestruct :skull-bash :slam :strength :substitute :tackle :take-down :toxic])
 
@@ -44,4 +42,3 @@
 (deflearnset :bw
   :onix [:attract :bind :block :bulldoze :curse :defense-curl :dig :double-edge :double-team :dragon-pulse :dragon-tail :dragonbreath :earth-power :earthquake :explosion :facade :flail :flash-cannon :frustration :gyro-ball :harden :heavy-slam :hidden-power :iron-head :iron-tail :mud-sport :payback :protect :psych-up :rage :rest :return :roar :rock-blast :rock-climb :rock-polish :rock-slide :rock-smash :rock-throw :rock-tomb :rollout :round :sand-tomb :sandstorm :screech :slam :sleep-talk :smack-down :snore :stealth-rock :stone-edge :strength :substitute :sunny-day :swagger :tackle :taunt :torment :toxic]
   :steelix [:aqua-tail :autotomize :crunch :cut :dark-pulse :fire-fang :giga-impact :hyper-beam :ice-fang :magnet-rise :thunder-fang])
-

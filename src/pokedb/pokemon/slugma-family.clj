@@ -23,8 +23,6 @@
 
 (deffamily :slugma :magcargo)
 
-
-
 (deflearnset :gs
   :slugma [:acid-armor :amnesia :attract :body-slam :curse :defense-curl :double-team :ember :endure :fire-blast :flamethrower :frustration :harden :hidden-power :mud-slap :protect :rest :return :rock-slide :rock-smash :rock-throw :rollout :sleep-talk :smog :snore :sunny-day :swagger :toxic]
   :magcargo [:earthquake :hyper-beam :strength])
@@ -40,4 +38,3 @@
 (deflearnset :bw
   :slugma [:acid-armor :after-you :amnesia :ancientpower :attract :body-slam :curse :double-team :earth-power :ember :facade :fire-blast :flame-burst :flame-charge :flamethrower :frustration :harden :heat-wave :hidden-power :incinerate :inferno :iron-defense :lava-plume :light-screen :memento :overheat :pain-split :protect :recover :reflect :rest :return :rock-slide :rock-smash :rock-throw :rock-tomb :rollout :round :sleep-talk :smog :smokescreen :snore :spit-up :stockpile :substitute :sunny-day :swagger :swallow :toxic :will-o-wisp :yawn]
   :magcargo [:bulldoze :earthquake :explosion :giga-impact :gyro-ball :hyper-beam :rock-polish :sandstorm :shell-smash :smack-down :solarbeam :stealth-rock :stone-edge :strength])
-

@@ -27,8 +27,6 @@
 
 (deffamily :seel :dewgong)
 
-
-
 (deflearnset :rb
   :seel [:aurora-beam :bide :blizzard :body-slam :bubblebeam :double-edge :double-team :growl :headbutt :horn-drill :ice-beam :mimic :pay-day :rage :rest :skull-bash :strength :substitute :surf :take-down :toxic :water-gun]
   :dewgong [:hyper-beam])
@@ -48,4 +46,3 @@
 (deflearnset :bw
   :seel [:aqua-jet :aqua-ring :aqua-tail :attract :aurora-beam :blizzard :brine :disable :dive :double-team :drill-run :echoed-voice :encore :facade :fake-out :fling :frustration :growl :hail :headbutt :hidden-power :horn-drill :ice-beam :ice-shard :icicle-spear :icy-wind :iron-tail :lick :perish-song :protect :rain-dance :rest :return :round :safeguard :signal-beam :slam :sleep-talk :snore :spit-up :stockpile :substitute :surf :swagger :swallow :take-down :thief :toxic :water-pulse :water-sport :waterfall]
   :dewgong [:frost-breath :giga-impact :hyper-beam :sheer-cold])
-

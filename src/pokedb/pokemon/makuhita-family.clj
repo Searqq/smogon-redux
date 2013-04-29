@@ -23,8 +23,6 @@
 
 (deffamily :makuhita :hariyama)
 
-
-
 (deflearnset :rs
   :makuhita [:arm-thrust :attract :belly-drum :body-slam :brick-break :bulk-up :counter :cross-chop :detect :dig :double-edge :double-team :dynamicpunch :earthquake :endure :facade :faint-attack :fake-out :fire-punch :focus-energy :focus-punch :foresight :frustration :helping-hand :hidden-power :ice-punch :knock-off :mega-kick :mega-punch :metronome :mimic :mud-slap :protect :rain-dance :rest :return :revenge :reversal :rock-slide :rock-smash :rock-tomb :sand-attack :secret-power :seismic-toss :sleep-talk :smellingsalt :snore :strength :substitute :sunny-day :surf :swagger :tackle :thunderpunch :toxic :vital-throw :whirlwind]
   :hariyama [:hyper-beam])
@@ -36,4 +34,3 @@
 (deflearnset :bw
   :makuhita [:arm-thrust :attract :belly-drum :brick-break :bulk-up :bulldoze :bullet-punch :chip-away :close-combat :counter :cross-chop :detect :dig :double-team :dynamicpunch :earthquake :endure :facade :faint-attack :fake-out :feint :fire-punch :fling :focus-blast :focus-energy :focus-punch :force-palm :foresight :frustration :heavy-slam :helping-hand :hidden-power :ice-punch :knock-off :low-kick :low-sweep :poison-jab :protect :rain-dance :rest :retaliate :return :revenge :reversal :rock-slide :rock-smash :rock-tomb :role-play :round :sand-attack :seismic-toss :sleep-talk :smack-down :smellingsalt :snore :strength :substitute :sunny-day :superpower :surf :swagger :tackle :thunderpunch :toxic :vital-throw :wake-up-slap :whirlwind :wide-guard :work-up]
   :hariyama [:brine :giga-impact :hyper-beam :iron-head :payback :stone-edge])
-

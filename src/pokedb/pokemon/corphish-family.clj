@@ -23,8 +23,6 @@
 
 (deffamily :corphish :crawdaunt)
 
-
-
 (deflearnset :rs
   :corphish [:aerial-ace :ancientpower :attract :blizzard :body-slam :brick-break :bubble :bubblebeam :counter :crabhammer :crunch :cut :dig :double-edge :double-team :endeavor :endure :facade :frustration :fury-cutter :guillotine :hail :harden :hidden-power :ice-beam :icy-wind :knock-off :leer :mimic :mud-slap :mud-sport :protect :rain-dance :rest :return :rock-smash :rock-tomb :secret-power :sleep-talk :sludge-bomb :snore :strength :substitute :surf :swagger :swords-dance :taunt :toxic :vicegrip :water-pulse :waterfall]
   :crawdaunt [:dive :hyper-beam :swift])
@@ -36,4 +34,3 @@
 (deflearnset :bw
   :corphish [:aerial-ace :ancientpower :attract :blizzard :body-slam :brick-break :bubble :bubblebeam :chip-away :crabhammer :crunch :cut :dig :double-edge :double-team :dragon-dance :endeavor :facade :false-swipe :fling :frustration :guillotine :hail :harden :hidden-power :hone-claws :ice-beam :icy-wind :iron-defense :knock-off :leer :metal-claw :mud-sport :night-slash :payback :protect :rain-dance :rest :return :rock-slide :rock-smash :rock-tomb :round :scald :sleep-talk :sludge-bomb :snore :spite :strength :substitute :superpower :surf :swagger :swords-dance :taunt :toxic :trump-card :vicegrip :waterfall :x-scissor]
   :crawdaunt [:dark-pulse :dive :giga-impact :hyper-beam :retaliate :sludge-wave :snarl :swift])
-

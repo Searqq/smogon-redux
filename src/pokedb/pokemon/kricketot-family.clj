@@ -21,8 +21,6 @@
 
 (deffamily :kricketot :kricketune)
 
-
-
 (deflearnset :dp
   :kricketot [:bide :bug-bite :endeavor :growl :mud-slap :snore :string-shot :uproar]
   :kricketune [:aerial-ace :attract :brick-break :bug-buzz :captivate :cut :double-team :endure :facade :false-swipe :flash :focus-energy :frustration :fury-cutter :giga-impact :hidden-power :hyper-beam :knock-off :leech-life :natural-gift :night-slash :perish-song :protect :rain-dance :rest :return :rock-smash :screech :secret-power :silver-wind :sing :slash :sleep-talk :strength :substitute :sunny-day :swagger :swords-dance :taunt :toxic :x-scissor])
@@ -30,4 +28,3 @@
 (deflearnset :bw
   :kricketot [:bide :bug-bite :endeavor :growl :snore :struggle-bug :uproar]
   :kricketune [:aerial-ace :attract :brick-break :bug-buzz :cut :double-team :echoed-voice :facade :false-swipe :flash :focus-energy :frustration :fury-cutter :giga-impact :heal-bell :hidden-power :hone-claws :hyper-beam :hyper-voice :knock-off :leech-life :night-slash :perish-song :protect :rain-dance :rest :return :rock-smash :round :screech :sing :slash :sleep-talk :strength :substitute :sunny-day :swagger :swords-dance :taunt :toxic :x-scissor])
-

@@ -22,8 +22,6 @@
 
 (deffamily :misdreavus :mismagius)
 
-
-
 (deflearnset :gs
   :misdreavus [:attract :confuse-ray :curse :defense-curl :destiny-bond :double-team :dream-eater :endure :flash :frustration :growl :headbutt :hidden-power :mean-look :nightmare :pain-split :perish-song :protect :psybeam :psych-up :psychic :psywave :rain-dance :rest :return :screech :shadow-ball :sleep-talk :snore :spite :sunny-day :swagger :swift :thief :thunder :thunderbolt :toxic :zap-cannon])
 
@@ -37,4 +35,3 @@
 (deflearnset :bw
   :misdreavus [:aerial-ace :astonish :attract :calm-mind :charge-beam :confuse-ray :curse :dark-pulse :destiny-bond :double-team :dream-eater :echoed-voice :embargo :facade :flash :foul-play :frustration :growl :grudge :heal-bell :hex :hidden-power :hyper-voice :icy-wind :imprison :magic-coat :magic-room :mean-look :memento :nasty-plot :ominous-wind :pain-split :payback :perish-song :power-gem :protect :psybeam :psych-up :psychic :psywave :rain-dance :rest :return :round :screech :shadow-ball :shadow-sneak :skill-swap :sleep-talk :snatch :snore :spite :substitute :sucker-punch :sunny-day :swagger :taunt :telekinesis :thief :thunder :thunder-wave :thunderbolt :torment :toxic :trick :trick-room :uproar :will-o-wisp :wonder-room]
   :mismagius [:energy-ball :giga-impact :hyper-beam :lucky-chant :magical-leaf])
-

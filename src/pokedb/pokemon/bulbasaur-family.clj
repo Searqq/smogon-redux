@@ -39,8 +39,6 @@
 
 (use 'smogon.dex)
 
-
-
 (deflearnset :rb
   :bulbasaur [:bide :body-slam :cut :double-edge :double-team :growl :growth :leech-seed :mega-drain :mimic :poisonpowder :rage :razor-leaf :reflect :rest :sleep-powder :solarbeam :substitute :swords-dance :tackle :take-down :toxic :vine-whip]
   :venusaur [:hyper-beam])
@@ -60,4 +58,3 @@
 (deflearnset :bw
   :bulbasaur [:amnesia :attract :bind :charm :curse :cut :double-edge :double-team :echoed-voice :endure :energy-ball :facade :flash :frustration :giga-drain :grass-knot :grass-pledge :grasswhistle :growl :growth :hidden-power :ingrain :knock-off :leaf-storm :leech-seed :light-screen :magical-leaf :nature-power :petal-dance :poisonpowder :power-whip :protect :razor-leaf :rest :return :rock-smash :round :safeguard :seed-bomb :skull-bash :sleep-powder :sleep-talk :sludge :sludge-bomb :snore :solarbeam :strength :substitute :sunny-day :swagger :sweet-scent :swords-dance :synthesis :tackle :take-down :toxic :venoshock :vine-whip :worry-seed]
   :venusaur [:block :bulldoze :earthquake :frenzy-plant :giga-impact :hyper-beam :outrage :roar])
-

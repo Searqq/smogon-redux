@@ -25,8 +25,6 @@
 
 (deffamily :growlithe :arcanine)
 
-
-
 (deflearnset :rb
   :growlithe [:agility :bide :bite :body-slam :dig :double-edge :double-team :dragon-rage :ember :fire-blast :flamethrower :leer :mimic :rage :reflect :rest :roar :skull-bash :substitute :swift :take-down :toxic]
   :arcanine [:hyper-beam :teleport])
@@ -46,4 +44,3 @@
 (deflearnset :bw
   :growlithe [:aerial-ace :agility :attract :bite :body-slam :close-combat :covet :crunch :dig :double-edge :double-kick :double-team :ember :facade :fire-blast :fire-fang :fire-spin :flame-burst :flame-charge :flame-wheel :flamethrower :flare-blitz :frustration :heat-wave :helping-hand :hidden-power :howl :incinerate :iron-tail :leer :morning-sun :odor-sleuth :outrage :overheat :protect :rest :retaliate :return :reversal :roar :rock-smash :round :safeguard :sleep-talk :snarl :snore :strength :substitute :sunny-day :swagger :take-down :thief :thrash :toxic :wild-charge :will-o-wisp]
   :arcanine [:bulldoze :dragon-pulse :extremespeed :giga-impact :hyper-beam :iron-head :solarbeam :thunder-fang])
-

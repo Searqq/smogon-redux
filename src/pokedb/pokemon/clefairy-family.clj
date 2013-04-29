@@ -39,8 +39,6 @@
 
 (deffamily :cleffa :clefairy :clefable)
 
-
-
 (deflearnset :rb
   :clefairy [:bide :blizzard :body-slam :bubblebeam :counter :defense-curl :double-edge :double-team :doubleslap :fire-blast :flash :growl :ice-beam :light-screen :mega-kick :mega-punch :metronome :mimic :minimize :pound :psychic :psywave :rage :reflect :rest :seismic-toss :sing :skull-bash :solarbeam :strength :submission :substitute :take-down :teleport :thunder :thunder-wave :thunderbolt :toxic :tri-attack :water-gun]
   :clefable [:hyper-beam])
@@ -64,4 +62,3 @@
   :cleffa [:after-you :amnesia :aromatherapy :attract :belly-drum :charm :copycat :covet :dig :double-team :dream-eater :echoed-voice :encore :endeavor :facade :fake-tears :fire-blast :flamethrower :flash :fling :frustration :grass-knot :gravity :helping-hand :hidden-power :hyper-voice :icy-wind :incinerate :iron-tail :last-resort :light-screen :magic-coat :magical-leaf :metronome :mimic :pound :present :protect :psych-up :psychic :psyshock :rain-dance :recycle :reflect :rest :return :role-play :round :safeguard :shadow-ball :signal-beam :sing :sleep-talk :snore :solarbeam :splash :stored-power :substitute :sunny-day :swagger :sweet-kiss :telekinesis :thunder-wave :tickle :toxic :trick :uproar :wish :wonder-room :work-up :zen-headbutt]
   :clefairy [:bestow :blizzard :body-slam :bounce :brick-break :calm-mind :charge-beam :cosmic-power :defense-curl :doubleslap :drain-punch :fire-punch :follow-me :growl :heal-bell :healing-wish :ice-beam :ice-punch :knock-off :lucky-chant :meteor-mash :minimize :moonlight :retaliate :rock-smash :snatch :stealth-rock :strength :thunder :thunderbolt :thunderpunch :wake-up-slap]
   :clefable [:focus-blast :giga-impact :hyper-beam])
-

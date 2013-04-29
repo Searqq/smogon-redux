@@ -34,8 +34,6 @@
 
 (deffamily :chikorita :bayleef :meganium)
 
-
-
 (deflearnset :gs
   :chikorita [:ancientpower :attract :body-slam :counter :curse :cut :detect :double-team :endure :flail :flash :frustration :giga-drain :growl :headbutt :hidden-power :iron-tail :leech-seed :light-screen :mud-slap :poisonpowder :protect :razor-leaf :reflect :rest :return :safeguard :sleep-talk :snore :solarbeam :sunny-day :swagger :sweet-scent :swords-dance :synthesis :tackle :toxic :vine-whip]
   :bayleef [:fury-cutter :rock-smash :strength]
@@ -55,4 +53,3 @@
   :chikorita [:ancientpower :aromatherapy :attract :body-slam :counter :cut :double-team :echoed-voice :energy-ball :facade :flail :flash :frustration :giga-drain :grass-knot :grass-pledge :grasswhistle :growl :heal-pulse :hidden-power :ingrain :iron-tail :leaf-storm :leech-seed :light-screen :magic-coat :magical-leaf :natural-gift :nature-power :poisonpowder :protect :razor-leaf :reflect :refresh :rest :return :round :safeguard :seed-bomb :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :sweet-scent :swords-dance :synthesis :tackle :toxic :vine-whip :worry-seed :wring-out]
   :bayleef [:rock-smash :strength]
   :meganium [:bulldoze :dragon-tail :earthquake :frenzy-plant :giga-impact :hyper-beam :outrage :petal-dance])
-

@@ -36,8 +36,6 @@
 
 (deffamily :caterpie :metapod :butterfree)
 
-
-
 (deflearnset :rb
   :caterpie [:string-shot :tackle]
   :metapod [:harden]
@@ -62,4 +60,3 @@
   :caterpie [:bug-bite :electroweb :snore :string-shot :tackle]
   :metapod [:harden :iron-defense]
   :butterfree [:acrobatics :aerial-ace :attract :bug-buzz :captivate :confusion :double-team :dream-eater :energy-ball :facade :flash :frustration :giga-drain :giga-impact :gust :hidden-power :hyper-beam :poisonpowder :protect :psybeam :psych-up :psychic :quiver-dance :rage-powder :rain-dance :rest :return :roost :round :safeguard :shadow-ball :signal-beam :silver-wind :skill-swap :sleep-powder :sleep-talk :solarbeam :struggle-bug :stun-spore :substitute :sunny-day :supersonic :swagger :tailwind :thief :toxic :u-turn :venoshock :whirlwind])
-

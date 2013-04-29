@@ -21,9 +21,6 @@
 
 (deffamily :dwebble :crustle)
 
-
-
 (deflearnset :bw
   :dwebble [:aerial-ace :attract :block :bug-bite :bulldoze :counter :curse :cut :dig :double-team :earthquake :endure :facade :faint-attack :flail :frustration :fury-cutter :hidden-power :hone-claws :iron-defense :knock-off :night-slash :poison-jab :protect :rest :return :rock-blast :rock-polish :rock-slide :rock-smash :rock-tomb :rock-wrecker :round :sand-attack :sand-tomb :sandstorm :shadow-claw :shell-smash :slash :sleep-talk :smack-down :snore :solarbeam :spikes :stealth-rock :stone-edge :strength :struggle-bug :substitute :swagger :swords-dance :toxic :withdraw :x-scissor]
   :crustle [:giga-impact :hyper-beam])
-

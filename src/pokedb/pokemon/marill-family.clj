@@ -34,8 +34,6 @@
 
 (deffamily :azurill :marill :azumarill)
 
-
-
 (deflearnset :gs
   :marill [:amnesia :attract :belly-drum :blizzard :bubblebeam :curse :defense-curl :double-edge :double-team :dynamicpunch :endure :foresight :frustration :future-sight :headbutt :hidden-power :ice-beam :ice-punch :icy-wind :iron-tail :light-screen :mud-slap :perish-song :present :protect :rain-dance :rest :return :rollout :sleep-talk :snore :supersonic :surf :swagger :swift :tackle :tail-whip :toxic :water-gun :waterfall :whirlpool]
   :azumarill [:hyper-beam :rock-smash :strength])
@@ -54,4 +52,3 @@
   :azurill [:attract :blizzard :body-slam :bounce :bubble :bubblebeam :charm :covet :double-team :encore :facade :fake-tears :frustration :hail :helping-hand :hidden-power :hyper-voice :ice-beam :icy-wind :iron-tail :knock-off :light-screen :muddy-water :protect :rain-dance :refresh :rest :return :round :scald :sing :slam :sleep-talk :snore :soak :splash :substitute :surf :swagger :tail-whip :tickle :toxic :uproar :water-gun :water-sport :waterfall :work-up]
   :marill [:amnesia :aqua-jet :aqua-ring :aqua-tail :belly-drum :brick-break :defense-curl :dig :dive :double-edge :fling :future-sight :grass-knot :hydro-pump :ice-punch :perish-song :present :rock-smash :rollout :strength :superpower :supersonic :tackle]
   :azumarill [:bulldoze :focus-blast :giga-impact :hyper-beam])
-

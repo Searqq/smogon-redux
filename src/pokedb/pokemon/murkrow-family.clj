@@ -23,8 +23,6 @@
 
 (deffamily :murkrow :honchkrow)
 
-
-
 (deflearnset :gs
   :murkrow [:attract :curse :detect :double-team :dream-eater :drill-peck :endure :faint-attack :fly :frustration :haze :hidden-power :icy-wind :mean-look :mirror-move :mud-slap :night-shade :nightmare :peck :protect :psych-up :pursuit :quick-attack :rest :return :shadow-ball :sky-attack :sleep-talk :snore :steel-wing :sunny-day :swagger :swift :thief :toxic :whirlwind :wing-attack])
 
@@ -38,4 +36,3 @@
 (deflearnset :bw
   :murkrow [:aerial-ace :assurance :astonish :attract :brave-bird :calm-mind :confuse-ray :dark-pulse :double-team :dream-eater :drill-peck :embargo :facade :faint-attack :featherdance :fly :foul-play :frustration :haze :heat-wave :hidden-power :icy-wind :mean-look :mirror-move :night-shade :payback :peck :perish-song :pluck :protect :psych-up :psychic :psycho-shift :pursuit :quash :rain-dance :rest :retaliate :return :roost :round :screech :shadow-ball :sky-attack :sleep-talk :snarl :snatch :spite :substitute :sucker-punch :sunny-day :swagger :tailwind :taunt :thief :thunder-wave :torment :toxic :uproar :whirlwind :wing-attack]
   :honchkrow [:giga-impact :hyper-beam :incinerate :nasty-plot :night-slash :superpower])
-

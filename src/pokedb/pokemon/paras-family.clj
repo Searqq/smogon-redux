@@ -27,8 +27,6 @@
 
 (deffamily :paras :parasect)
 
-
-
 (deflearnset :rb
   :paras [:bide :body-slam :cut :dig :double-edge :double-team :growth :leech-life :mega-drain :mimic :rage :reflect :rest :scratch :skull-bash :slash :solarbeam :spore :stun-spore :substitute :swords-dance :take-down :toxic]
   :parasect [:hyper-beam])
@@ -48,4 +46,3 @@
 (deflearnset :bw
   :paras [:aerial-ace :after-you :agility :aromatherapy :attract :brick-break :bug-bite :counter :cross-poison :cut :dig :double-team :endure :energy-ball :facade :false-swipe :flail :flash :frustration :fury-cutter :giga-drain :grass-knot :growth :hidden-power :hone-claws :knock-off :leech-life :leech-seed :light-screen :metal-claw :natural-gift :poisonpowder :protect :psybeam :pursuit :rage-powder :rest :return :rock-smash :round :scratch :screech :seed-bomb :slash :sleep-talk :sludge-bomb :snore :solarbeam :spore :struggle-bug :stun-spore :substitute :sunny-day :swagger :sweet-scent :swords-dance :synthesis :thief :toxic :venoshock :worry-seed :x-scissor]
   :parasect [:giga-impact :hyper-beam])
-

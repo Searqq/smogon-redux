@@ -25,8 +25,6 @@
 
 (deffamily :ekans :arbok)
 
-
-
 (deflearnset :rb
   :ekans [:acid :bide :bite :body-slam :dig :double-edge :double-team :earthquake :fissure :glare :leer :mega-drain :mimic :poison-sting :rage :rest :rock-slide :screech :skull-bash :strength :substitute :take-down :toxic :wrap]
   :arbok [:hyper-beam])
@@ -46,4 +44,3 @@
 (deflearnset :bw
   :ekans [:acid :acid-spray :aqua-tail :attract :beat-up :bind :bite :bulldoze :coil :dark-pulse :dig :disable :double-team :earthquake :facade :frustration :gastro-acid :giga-drain :glare :gunk-shot :haze :hidden-power :iron-tail :leer :mud-bomb :payback :poison-fang :poison-jab :poison-sting :poison-tail :protect :pursuit :rain-dance :rest :return :rock-slide :rock-tomb :round :scary-face :screech :seed-bomb :slam :sleep-talk :sludge-bomb :sludge-wave :snatch :snore :spit-up :spite :stockpile :strength :substitute :sucker-punch :sunny-day :swagger :swallow :switcheroo :thief :torment :toxic :venoshock :wrap]
   :arbok [:crunch :dragon-tail :fire-fang :giga-impact :hyper-beam :ice-fang :thunder-fang])
-

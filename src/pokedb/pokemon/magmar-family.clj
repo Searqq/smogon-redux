@@ -34,8 +34,6 @@
 
 (deffamily :magby :magmar :magmortar)
 
-
-
 (deflearnset :rb
   :magmar [:bide :body-slam :confuse-ray :counter :double-edge :double-team :ember :fire-blast :fire-punch :flamethrower :hyper-beam :leer :mega-kick :mega-punch :metronome :mimic :psychic :psywave :rage :rest :seismic-toss :skull-bash :smog :smokescreen :strength :submission :substitute :take-down :teleport :toxic])
 
@@ -56,4 +54,3 @@
   :magby [:attract :barrier :belly-drum :brick-break :clear-smog :confuse-ray :covet :cross-chop :double-team :dual-chop :dynamicpunch :ember :facade :faint-attack :fire-blast :fire-punch :fire-spin :flame-burst :flame-charge :flamethrower :flare-blitz :fling :focus-energy :frustration :heat-wave :helping-hand :hidden-power :incinerate :iron-tail :karate-chop :lava-plume :leer :mach-punch :mega-punch :overheat :protect :psychic :rest :return :rock-smash :round :screech :sleep-talk :smog :smokescreen :snore :substitute :sunny-day :swagger :thief :thunderpunch :toxic :uproar :will-o-wisp]
   :magmar [:focus-blast :giga-impact :hyper-beam :low-kick :low-sweep :strength]
   :magmortar [:bulldoze :earthquake :rock-slide :rock-tomb :solarbeam :taunt :thunderbolt :torment])
-

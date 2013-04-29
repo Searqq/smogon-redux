@@ -34,8 +34,6 @@
 
 (deffamily :seedot :nuzleaf :shiftry)
 
-
-
 (deflearnset :rs
   :seedot [:amnesia :attract :bide :body-slam :bullet-seed :defense-curl :dig :double-edge :double-team :endure :explosion :facade :false-swipe :flash :frustration :giga-drain :growth :harden :hidden-power :leech-seed :mimic :nature-power :protect :quick-attack :razor-wind :rest :return :rock-smash :rollout :secret-power :selfdestruct :shadow-ball :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :swords-dance :synthesis :take-down :toxic]
   :nuzleaf [:brick-break :cut :extrasensory :faint-attack :fake-out :fury-cutter :hyper-beam :mega-kick :mud-slap :pound :psych-up :rock-tomb :strength :swift :thief :torment]
@@ -50,4 +48,3 @@
   :seedot [:amnesia :attract :beat-up :bide :bullet-seed :defog :dig :double-team :energy-ball :explosion :facade :false-swipe :flash :foul-play :frustration :giga-drain :grass-knot :growth :harden :hidden-power :leech-seed :nasty-plot :nature-power :power-swap :protect :quick-attack :razor-wind :rest :retaliate :return :rock-smash :round :seed-bomb :shadow-ball :sleep-talk :snore :solarbeam :spite :substitute :sunny-day :swagger :swords-dance :synthesis :take-down :toxic :worry-seed]
   :nuzleaf [:brick-break :cut :dark-pulse :embargo :extrasensory :faint-attack :fake-out :fling :hyper-beam :low-kick :low-sweep :payback :pound :psych-up :razor-leaf :rock-slide :rock-tomb :snarl :strength :thief :torment]
   :shiftry [:aerial-ace :bounce :focus-blast :giga-impact :icy-wind :knock-off :leaf-storm :leaf-tornado :tailwind :whirlwind :x-scissor])
-

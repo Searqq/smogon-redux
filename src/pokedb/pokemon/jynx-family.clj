@@ -26,8 +26,6 @@
 
 (deffamily :smoochum :jynx)
 
-
-
 (deflearnset :rb
   :jynx [:bide :blizzard :body-slam :bubblebeam :counter :double-edge :double-team :doubleslap :hyper-beam :ice-beam :ice-punch :lick :lovely-kiss :mega-kick :mega-punch :metronome :mimic :pound :psychic :psywave :rage :reflect :rest :seismic-toss :skull-bash :submission :substitute :take-down :teleport :thrash :toxic :water-gun])
 
@@ -46,4 +44,3 @@
 (deflearnset :bw
   :smoochum [:attract :avalanche :blizzard :calm-mind :captivate :confusion :copycat :covet :double-team :dream-eater :echoed-voice :facade :fake-out :fake-tears :flash :fling :frost-breath :frustration :grass-knot :hail :heal-bell :heart-stamp :helping-hand :hidden-power :ice-beam :ice-punch :icy-wind :lick :light-screen :lucky-chant :magic-coat :magic-room :mean-look :meditate :miracle-eye :nasty-plot :payback :perish-song :pound :powder-snow :protect :psych-up :psychic :psyshock :rain-dance :recycle :reflect :rest :return :role-play :round :shadow-ball :signal-beam :sing :skill-swap :sleep-talk :snore :substitute :swagger :sweet-kiss :thief :toxic :trick :trick-room :uproar :wake-up-slap :wish :zen-headbutt]
   :jynx [:body-slam :brick-break :doubleslap :drain-punch :energy-ball :focus-blast :giga-impact :hyper-beam :hyper-voice :lovely-kiss :taunt :telekinesis :torment :wring-out])
-

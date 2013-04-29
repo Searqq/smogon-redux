@@ -32,7 +32,6 @@
   :height [2])
 
 (deffamily :larvitar :pupitar :tyranitar)
-
 (deflearnset :gs
   :larvitar [:ancientpower :attract :bite :crunch :curse :detect :dig :double-team :earthquake :endure :focus-energy :frustration :headbutt :hidden-power :hyper-beam :leer :mud-slap :outrage :protect :pursuit :rain-dance :rest :return :rock-slide :sandstorm :scary-face :screech :sleep-talk :snore :stomp :sunny-day :swagger :thrash :toxic]
   :tyranitar [:cut :dragonbreath :dynamicpunch :fire-blast :fire-punch :flamethrower :fury-cutter :ice-beam :iron-tail :nightmare :roar :rock-smash :strength :surf :thunderbolt])
@@ -48,4 +47,3 @@
 (deflearnset :bw
   :larvitar [:ancientpower :assurance :attract :bite :brick-break :bulldoze :chip-away :crunch :curse :dark-pulse :dig :double-team :dragon-dance :earth-power :earthquake :facade :focus-energy :frustration :hidden-power :hyper-beam :iron-defense :iron-head :iron-tail :leer :outrage :payback :protect :pursuit :rain-dance :rest :retaliate :return :rock-polish :rock-slide :rock-smash :rock-tomb :round :sandstorm :scary-face :screech :sleep-talk :smack-down :snarl :snore :spite :stealth-rock :stomp :stone-edge :substitute :sunny-day :superpower :swagger :taunt :thrash :torment :toxic :uproar]
   :tyranitar [:aerial-ace :aqua-tail :blizzard :block :cut :dragon-claw :dragon-pulse :dragon-tail :fire-blast :fire-fang :fire-punch :flamethrower :fling :focus-blast :foul-play :giga-impact :hone-claws :ice-beam :ice-fang :ice-punch :incinerate :low-kick :roar :shadow-claw :strength :surf :thunder :thunder-fang :thunder-wave :thunderbolt :thunderpunch])
-

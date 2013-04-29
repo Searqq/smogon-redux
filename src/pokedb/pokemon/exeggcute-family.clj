@@ -25,8 +25,6 @@
 
 (deffamily :exeggcute :exeggutor)
 
-
-
 (deflearnset :rb
   :exeggcute [:barrage :bide :double-edge :double-team :egg-bomb :explosion :hypnosis :leech-seed :mimic :poisonpowder :psychic :psywave :rage :reflect :rest :selfdestruct :sleep-powder :solarbeam :stun-spore :substitute :take-down :teleport :toxic]
   :exeggutor [:hyper-beam :mega-drain :stomp :strength])
@@ -46,4 +44,3 @@
 (deflearnset :bw
   :exeggcute [:ancientpower :attract :barrage :bestow :block :bullet-seed :confusion :curse :double-team :dream-eater :energy-ball :explosion :extrasensory :facade :flash :frustration :giga-drain :grass-knot :gravity :hidden-power :hypnosis :ingrain :leaf-storm :leech-seed :light-screen :lucky-chant :moonlight :natural-gift :nature-power :poisonpowder :power-swap :protect :psych-up :psychic :reflect :rest :return :round :seed-bomb :skill-swap :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :strength :stun-spore :substitute :sunny-day :swagger :swords-dance :synthesis :telekinesis :thief :toxic :trick-room :uproar :worry-seed]
   :exeggutor [:egg-bomb :giga-impact :hyper-beam :low-kick :psyshock :stomp :wood-hammer :zen-headbutt])
-

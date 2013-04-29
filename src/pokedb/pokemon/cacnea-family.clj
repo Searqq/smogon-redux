@@ -23,8 +23,6 @@
 
 (deffamily :cacnea :cacturne)
 
-
-
 (deflearnset :rs
   :cacnea [:absorb :acid :attract :body-slam :bullet-seed :cotton-spore :counter :cut :destiny-bond :double-edge :double-team :dynamicpunch :endure :facade :faint-attack :flash :focus-punch :frustration :fury-cutter :giga-drain :grasswhistle :growth :hidden-power :ingrain :leech-seed :leer :mega-punch :mimic :mud-slap :needle-arm :pin-missile :poison-sting :protect :rest :return :sand-attack :sandstorm :secret-power :seismic-toss :sleep-talk :snore :solarbeam :spikes :substitute :sunny-day :swagger :swords-dance :teeter-dance :thunderpunch :toxic]
   :cacturne [:hyper-beam :mega-kick :revenge :strength])
@@ -36,4 +34,3 @@
 (deflearnset :bw
   :cacnea [:absorb :acid :attract :block :brick-break :cotton-spore :counter :cut :dark-pulse :destiny-bond :disable :double-team :drain-punch :dynamicpunch :energy-ball :facade :faint-attack :flash :fling :frustration :giga-drain :grass-knot :grasswhistle :growth :hidden-power :ingrain :leech-seed :leer :low-kick :magical-leaf :nasty-plot :needle-arm :payback :pin-missile :poison-jab :poison-sting :protect :rest :return :role-play :round :sand-attack :sandstorm :seed-bomb :sleep-talk :smellingsalt :snore :solarbeam :spikes :spite :substitute :sucker-punch :sunny-day :swagger :switcheroo :swords-dance :synthesis :teeter-dance :thunderpunch :toxic :venoshock :worry-seed]
   :cacturne [:embargo :focus-blast :foul-play :giga-impact :hyper-beam :retaliate :revenge :strength :superpower])
-

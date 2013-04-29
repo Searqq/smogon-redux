@@ -35,8 +35,6 @@
 
 (deffamily :magnemite :magneton :magnezone)
 
-
-
 (deflearnset :rb
   :magnemite [:bide :double-edge :double-team :flash :mimic :rage :reflect :rest :screech :sonicboom :substitute :supersonic :swift :tackle :take-down :teleport :thunder :thunder-wave :thunderbolt :thundershock :toxic]
   :magneton [:hyper-beam])
@@ -58,4 +56,3 @@
   :magnemite [:charge-beam :discharge :double-team :electro-ball :electroweb :explosion :facade :flash :flash-cannon :frustration :gravity :gyro-ball :hidden-power :iron-defense :light-screen :lock-on :magic-coat :magnet-bomb :magnet-rise :metal-sound :mirror-shot :protect :psych-up :rain-dance :recycle :reflect :rest :return :round :screech :signal-beam :sleep-talk :snore :sonicboom :spark :substitute :sunny-day :supersonic :swagger :tackle :thunder :thunder-wave :thunderbolt :thundershock :toxic :volt-switch :wild-charge :zap-cannon]
   :magneton [:giga-impact :hyper-beam :tri-attack]
   :magnezone [:barrier :iron-head :mirror-coat])
-

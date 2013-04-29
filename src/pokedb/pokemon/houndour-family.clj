@@ -23,8 +23,6 @@
 
 (deffamily :houndour :houndoom)
 
-
-
 (deflearnset :gs
   :houndour [:attract :beat-up :bite :counter :crunch :curse :detect :double-team :dream-eater :ember :endure :faint-attack :fire-blast :fire-spin :flamethrower :frustration :headbutt :hidden-power :iron-tail :leer :mud-slap :nightmare :protect :pursuit :rage :rest :return :reversal :roar :rock-smash :shadow-ball :sleep-talk :sludge-bomb :smog :snore :solarbeam :spite :sunny-day :swagger :swift :thief :toxic]
   :houndoom [:hyper-beam :strength])
@@ -40,4 +38,3 @@
 (deflearnset :bw
   :houndour [:attract :beat-up :bite :counter :crunch :dark-pulse :double-team :dream-eater :embargo :ember :facade :faint-attack :feint :fire-blast :fire-fang :fire-spin :flame-charge :flamethrower :foul-play :frustration :heat-wave :hidden-power :howl :hyper-voice :incinerate :inferno :iron-tail :leer :nasty-plot :odor-sleuth :overheat :payback :protect :punishment :pursuit :rage :rest :retaliate :return :reversal :roar :rock-smash :role-play :round :shadow-ball :sleep-talk :sludge-bomb :smog :snarl :snatch :snore :solarbeam :spite :substitute :sucker-punch :sunny-day :super-fang :swagger :taunt :thief :thunder-fang :torment :toxic :uproar :will-o-wisp]
   :houndoom [:giga-impact :hyper-beam :strength])
-

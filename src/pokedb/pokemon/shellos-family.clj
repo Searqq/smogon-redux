@@ -21,8 +21,6 @@
 
 (deffamily :shellos :gastrodon)
 
-
-
 (deflearnset :dp
   :shellos [:amnesia :ancientpower :attract :blizzard :body-slam :brine :captivate :counter :curse :dive :double-team :earth-power :endure :facade :fissure :frustration :hail :harden :headbutt :hidden-power :ice-beam :icy-wind :memento :mirror-coat :mud-bomb :mud-slap :mud-sport :muddy-water :natural-gift :pain-split :protect :rain-dance :recover :rest :return :secret-power :sleep-talk :sludge :snore :spit-up :stockpile :string-shot :substitute :surf :swagger :swallow :toxic :trump-card :water-pulse :whirlpool :yawn]
   :gastrodon [:block :dig :earthquake :flash :giga-impact :hyper-beam :rock-slide :rock-smash :rock-tomb :sandstorm :sludge-bomb :stone-edge :strength :waterfall])
@@ -30,4 +28,3 @@
 (deflearnset :bw
   :shellos [:amnesia :attract :blizzard :body-slam :brine :clear-smog :counter :curse :dive :double-team :earth-power :facade :fissure :frustration :hail :harden :hidden-power :ice-beam :icy-wind :memento :mirror-coat :mist :mud-bomb :mud-slap :mud-sport :muddy-water :pain-split :protect :rain-dance :recover :rest :return :round :scald :sleep-talk :sludge :snore :spit-up :stockpile :substitute :surf :swagger :swallow :toxic :trump-card :water-pulse :yawn]
   :gastrodon [:block :bulldoze :dig :earthquake :flash :giga-impact :hyper-beam :rock-slide :rock-smash :rock-tomb :sandstorm :sludge-bomb :sludge-wave :stone-edge :strength :waterfall])
-

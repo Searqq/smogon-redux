@@ -21,9 +21,6 @@
 
 (deffamily :petilil :lilligant)
 
-
-
 (deflearnset :bw
   :petilil [:absorb :after-you :aromatherapy :attract :bide :charm :covet :cut :double-team :dream-eater :endure :energy-ball :entrainment :facade :flash :frustration :giga-drain :grass-knot :grasswhistle :growth :heal-bell :healing-wish :helping-hand :hidden-power :ingrain :leaf-storm :leech-seed :magical-leaf :mega-drain :natural-gift :protect :rest :return :round :safeguard :seed-bomb :sleep-powder :sleep-talk :snore :solarbeam :stun-spore :substitute :sunny-day :swagger :sweet-scent :synthesis :toxic :worry-seed]
   :lilligant [:giga-impact :hyper-beam :light-screen :petal-dance :quiver-dance :role-play :swords-dance :teeter-dance])
-

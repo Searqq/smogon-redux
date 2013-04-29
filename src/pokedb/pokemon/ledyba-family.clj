@@ -23,8 +23,6 @@
 
 (deffamily :ledyba :ledian)
 
-
-
 (deflearnset :gs
   :ledyba [:agility :attract :baton-pass :bide :comet-punch :curse :dig :double-edge :double-team :dynamicpunch :endure :flash :frustration :giga-drain :headbutt :hidden-power :ice-punch :light-screen :protect :psybeam :reflect :rest :return :rollout :safeguard :sleep-talk :snore :solarbeam :sunny-day :supersonic :swagger :sweet-scent :swift :tackle :thief :thunderpunch :toxic]
   :ledian [:hyper-beam])
@@ -40,4 +38,3 @@
 (deflearnset :bw
   :ledyba [:acrobatics :aerial-ace :agility :attract :baton-pass :bide :brick-break :bug-bite :bug-buzz :comet-punch :dig :dizzy-punch :double-edge :double-team :drain-punch :encore :facade :flash :fling :focus-punch :frustration :giga-drain :hidden-power :ice-punch :knock-off :light-screen :mach-punch :protect :psybeam :reflect :rest :return :roost :round :safeguard :screech :silver-wind :sleep-talk :snore :solarbeam :struggle-bug :substitute :sunny-day :supersonic :swagger :swift :swords-dance :tackle :tailwind :thief :thunderpunch :toxic :u-turn :uproar]
   :ledian [:focus-blast :giga-impact :hyper-beam :rock-smash :strength])
-

@@ -31,9 +31,6 @@
 
 (deffamily :deino :zweilous :hydreigon)
 
-
-
 (deflearnset :bw
   :deino [:aqua-tail :assurance :astonish :attract :bite :body-slam :crunch :dark-pulse :double-hit :double-team :draco-meteor :dragon-pulse :dragon-rage :dragon-rush :dragon-tail :dragonbreath :earth-power :facade :fire-fang :focus-energy :frustration :head-smash :headbutt :hidden-power :hyper-voice :ice-fang :incinerate :outrage :protect :psych-up :rain-dance :rest :return :roar :rock-smash :round :scary-face :screech :slam :sleep-talk :snore :spite :strength :substitute :sunny-day :superpower :swagger :tackle :taunt :thief :thunder-fang :thunder-wave :torment :toxic :uproar :work-up :zen-headbutt]
   :hydreigon [:acrobatics :bulldoze :charge-beam :earthquake :echoed-voice :fire-blast :flamethrower :flash-cannon :fly :focus-blast :giga-impact :heat-wave :hyper-beam :iron-tail :payback :reflect :rock-slide :rock-tomb :roost :signal-beam :stone-edge :surf :tailwind :tri-attack :u-turn])
-

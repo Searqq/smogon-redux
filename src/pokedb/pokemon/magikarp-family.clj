@@ -25,8 +25,6 @@
 
 (deffamily :magikarp :gyarados)
 
-
-
 (deflearnset :rb
   :magikarp [:splash :tackle]
   :gyarados [:bide :bite :blizzard :body-slam :bubblebeam :double-edge :double-team :dragon-rage :fire-blast :hydro-pump :hyper-beam :ice-beam :leer :mimic :rage :reflect :rest :skull-bash :strength :substitute :surf :take-down :thunder :thunderbolt :toxic :water-gun])
@@ -46,4 +44,3 @@
 (deflearnset :bw
   :magikarp [:bounce :flail :splash :tackle]
   :gyarados [:aqua-tail :attract :bite :blizzard :bulldoze :dark-pulse :dive :double-team :dragon-dance :dragon-pulse :dragon-rage :dragon-tail :earthquake :facade :fire-blast :flamethrower :frustration :giga-impact :hail :hidden-power :hydro-pump :hyper-beam :ice-beam :ice-fang :icy-wind :incinerate :iron-head :iron-tail :leer :outrage :payback :protect :rain-dance :rest :return :roar :rock-smash :round :sandstorm :scald :sleep-talk :snore :spite :stone-edge :strength :substitute :surf :swagger :taunt :thrash :thunder :thunder-wave :thunderbolt :torment :toxic :twister :uproar :waterfall])
-
