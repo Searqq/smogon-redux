@@ -1,4 +1,3 @@
-
 (defpokemon :meowth
   :name "Meowth"
   :introduced-in :rb
@@ -44,5 +43,5 @@
   :persian [:embargo :giga-impact :hyper-beam :power-gem :roar :switcheroo])
 
 (deflearnset :bw
-  :meowth [:aerial-ace :amnesia :assist :assurance :attract :bite :captivate :charm :covet :cut :dark-pulse :dig :double-team :dream-eater :echoed-voice :facade :faint-attack :fake-out :feint :flail :flash :foul-play :frustration :fury-swipes :growl :gunk-shot :hidden-power :hone-claws :hyper-voice :hypnosis :icy-wind :iron-tail :knock-off :last-resort :nasty-plot :night-slash :odor-sleuth :pay-day :payback :protect :psych-up :punishment :rain-dance :rest :retaliate :return :round :scratch :screech :seed-bomb :shadow-ball :shadow-claw :slash :sleep-talk :snatch :snore :spite :substitute :sunny-day :swagger :tail-whip :taunt :thief :thunder :thunderbolt :torment :toxic :u-turn :uproar :work-up]
+  :meowth [:aerial-ace :amnesia :assist :assurance :attract :bite :captivate :charm :covet :cut :dark-pulse :dig :double-team :dream-eater :echoed-voice :facade :faint-attack :fake-out :feint :flail :flash :foul-play :frustration :fury-swipes :growl :gunk-shot :hidden-power :hone-claws :hyper-voice :hypnosis :icy-wind :iron-tail :knock-off :last-resort :nasty-plot :night-slash :odor-sleuth :pay-day :payback :protect :psych-up :punishment :rain-dance :rest :retaliate :return :round :scratch :screech :seed-bomb :shadow-ball :shadow-claw :slash :sleep-talk :snatch :snore :spite :substitute :sunny-day :swagger :tail-whip :taunt :thief :thunder :thunderbolt :torment :toxic :u-turn :uproar :work-up :sing]
   :persian [:embargo :giga-impact :hyper-beam :power-gem :roar :swift :switcheroo])
