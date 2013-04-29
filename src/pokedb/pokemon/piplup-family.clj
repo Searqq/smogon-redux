@@ -1,4 +1,3 @@
-
 (defpokemon :piplup
   :name "Piplup"
   :introduced-in :dp
@@ -37,6 +36,6 @@
   :empoleon [:aqua-jet :avalanche :earthquake :flash-cannon :fury-cutter :giga-impact :hydro-cannon :hyper-beam :iron-defense :knock-off :roar :rock-climb :rock-slide :steel-wing :swords-dance])
 
 (deflearnset :bw
-  :piplup [:aerial-ace :agility :aqua-ring :attract :bide :blizzard :brick-break :brine :bubble :bubblebeam :covet :cut :dig :dive :double-hit :double-team :drill-peck :echoed-voice :facade :featherdance :flail :fling :frustration :fury-attack :grass-knot :growl :hail :hidden-power :hydro-pump :ice-beam :icy-wind :mist :mud-slap :mud-sport :peck :pluck :pound :protect :quash :rain-dance :rest :return :rock-tomb :round :scald :signal-beam :sleep-talk :snore :stealth-rock :substitute :supersonic :surf :swagger :toxic :water-pledge :water-sport :waterfall :whirlpool :yawn]
+  :piplup [:aerial-ace :agility :aqua-ring :attract :bide :blizzard :brick-break :brine :bubble :bubblebeam :covet :cut :dig :dive :double-hit :double-team :drill-peck :echoed-voice :facade :featherdance :flail :fling :frustration :fury-attack :grass-knot :growl :hail :hidden-power :hydro-pump :ice-beam :icy-wind :mist :mud-slap :mud-sport :peck :pluck :pound :protect :quash :rain-dance :rest :return :rock-tomb :round :scald :signal-beam :sleep-talk :snore :stealth-rock :substitute :supersonic :surf :swagger :toxic :water-pledge :water-sport :waterfall :whirlpool :yawn :sing]
   :prinplup [:hone-claws :metal-claw :rock-smash :shadow-claw :strength :tackle]
   :empoleon [:aqua-jet :bulldoze :earthquake :flash-cannon :giga-impact :hydro-cannon :hyper-beam :iron-defense :knock-off :roar :rock-slide :swords-dance])
