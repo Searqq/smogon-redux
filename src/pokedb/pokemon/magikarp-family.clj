@@ -1,4 +1,3 @@
-
 (defpokemon :magikarp
   :name "Magikarp"
   :introduced-in :rb
@@ -42,5 +41,5 @@
   :gyarados [:aqua-tail :attract :avalanche :bite :blizzard :brine :captivate :dark-pulse :dive :double-team :dragon-dance :dragon-pulse :dragon-rage :earthquake :endure :facade :fire-blast :flamethrower :frustration :giga-impact :hail :headbutt :hidden-power :hydro-pump :hyper-beam :ice-beam :ice-fang :icy-wind :iron-head :leer :natural-gift :outrage :payback :protect :rain-dance :rest :return :roar :rock-smash :sandstorm :secret-power :sleep-talk :snore :spite :stone-edge :strength :substitute :surf :swagger :taunt :thrash :thunder :thunder-wave :thunderbolt :torment :toxic :twister :uproar :water-pulse :waterfall :whirlpool])
 
 (deflearnset :bw
-  :magikarp [:bounce :flail :splash :tackle]
-  :gyarados [:aqua-tail :attract :bite :blizzard :bulldoze :dark-pulse :dive :double-team :dragon-dance :dragon-pulse :dragon-rage :dragon-tail :earthquake :facade :fire-blast :flamethrower :frustration :giga-impact :hail :hidden-power :hydro-pump :hyper-beam :ice-beam :ice-fang :icy-wind :incinerate :iron-head :iron-tail :leer :outrage :payback :protect :rain-dance :rest :return :roar :rock-smash :round :sandstorm :scald :sleep-talk :snore :spite :stone-edge :strength :substitute :surf :swagger :taunt :thrash :thunder :thunder-wave :thunderbolt :torment :toxic :twister :uproar :waterfall])
+  :magikarp [:bounce :flail :hydro-pump :splash :tackle]
+  :gyarados [:aqua-tail :attract :bite :blizzard :bulldoze :dark-pulse :dive :double-team :dragon-dance :dragon-pulse :dragon-rage :dragon-tail :earthquake :facade :fire-blast :flamethrower :frustration :giga-impact :hail :hidden-power :hyper-beam :ice-beam :ice-fang :icy-wind :incinerate :iron-head :iron-tail :leer :outrage :payback :protect :rain-dance :rest :return :roar :rock-smash :round :sandstorm :scald :sleep-talk :snore :spite :stone-edge :strength :substitute :surf :swagger :taunt :thrash :thunder :thunder-wave :thunderbolt :torment :toxic :twister :uproar :waterfall])
