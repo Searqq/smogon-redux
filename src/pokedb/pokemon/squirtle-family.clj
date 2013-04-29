@@ -1,4 +1,3 @@
-
 (defpokemon :squirtle
   :name "Squirtle"
   :introduced-in :rb
@@ -41,7 +40,7 @@
 
 (deflearnset :rb
   :squirtle [:bide :bite :blizzard :body-slam :bubble :bubblebeam :counter :dig :double-edge :double-team :hydro-pump :ice-beam :mega-kick :mega-punch :mimic :rage :reflect :rest :seismic-toss :skull-bash :strength :submission :substitute :surf :tackle :tail-whip :take-down :toxic :water-gun :withdraw]
-  :blastoise [:earthquake :fissure :hyper-beam])
+  :blastoise [:earthquake :fissure :hyper-beam :zap-cannon])
 
 (deflearnset :gs
   :squirtle [:attract :bite :blizzard :bubble :confusion :curse :defense-curl :dig :double-team :dynamicpunch :endure :flail :foresight :frustration :haze :headbutt :hidden-power :hydro-pump :ice-beam :ice-punch :icy-wind :iron-tail :mirror-coat :mist :mud-slap :protect :rain-dance :rapid-spin :rest :return :rock-smash :rollout :skull-bash :sleep-talk :snore :strength :surf :swagger :tackle :tail-whip :toxic :water-gun :waterfall :whirlpool :withdraw]
@@ -56,6 +55,6 @@
   :blastoise [:avalanche :earthquake :flash-cannon :focus-blast :giga-impact :hydro-cannon :hyper-beam :outrage :roar :rock-climb :rock-slide :signal-beam])
 
 (deflearnset :bw
-  :squirtle [:aqua-jet :aqua-ring :aqua-tail :attract :bite :blizzard :brick-break :brine :bubble :dig :dive :double-team :facade :fake-out :flail :fling :foresight :frustration :gyro-ball :hail :haze :hidden-power :hydro-pump :ice-beam :ice-punch :icy-wind :iron-defense :iron-tail :mirror-coat :mist :mud-sport :muddy-water :protect :rain-dance :rapid-spin :refresh :rest :return :rock-smash :rock-tomb :round :scald :skull-bash :sleep-talk :snore :strength :substitute :surf :swagger :tackle :tail-whip :toxic :water-gun :water-pledge :water-pulse :water-spout :waterfall :withdraw :yawn :zen-headbutt]
+  :squirtle [:aqua-jet :aqua-ring :aqua-tail :attract :bite :blizzard :brick-break :brine :bubble :dig :dive :double-team :facade :fake-out :flail :fling :foresight :frustration :gyro-ball :hail :haze :hidden-power :hydro-pump :ice-beam :ice-punch :icy-wind :iron-defense :iron-tail :mirror-coat :mist :mud-sport :muddy-water :protect :rain-dance :rapid-spin :refresh :rest :return :rock-smash :rock-tomb :round :scald :skull-bash :sleep-talk :snore :strength :substitute :surf :swagger :tackle :tail-whip :toxic :water-gun :water-pledge :water-pulse :water-spout :waterfall :withdraw :yawn :zen-headbutt :block :false-swipe :follow-me]
   :blastoise [:bulldoze :dragon-tail :earthquake :flash-cannon :focus-blast :giga-impact :hydro-cannon :hyper-beam :outrage :roar :rock-slide :signal-beam :smack-down])
 
