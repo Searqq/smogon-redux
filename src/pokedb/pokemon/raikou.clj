@@ -1,4 +1,3 @@
-
 (defpokemon :raikou
   :name "Raikou"
   :introduced-in :gs
@@ -19,7 +18,7 @@
   :raikou [:bite :body-slam :calm-mind :crunch :cut :dig :double-edge :double-team :endure :facade :flash :frustration :hidden-power :hyper-beam :iron-tail :leer :mimic :mud-slap :protect :psych-up :quick-attack :rain-dance :reflect :rest :return :roar :rock-smash :sandstorm :secret-power :shock-wave :sleep-talk :snore :spark :strength :substitute :sunny-day :swagger :swift :thunder :thunder-wave :thunderbolt :thundershock :toxic])
 
 (deflearnset :dp
-  :raikou [:bite :calm-mind :charge-beam :crunch :cut :dig :discharge :double-team :endure :extrasensory :facade :flash :frustration :giga-impact :headbutt :hidden-power :hyper-beam :iron-head :iron-tail :leer :light-screen :magnet-rise :mud-slap :natural-gift :protect :psych-up :quick-attack :rain-dance :reflect :rest :return :roar :rock-climb :rock-smash :sandstorm :secret-power :shadow-ball :shock-wave :signal-beam :sleep-talk :snore :spark :strength :substitute :sunny-day :swagger :swift :thunder :thunder-fang :thunder-wave :thunderbolt :thundershock :toxic])
+  :raikou [:bite :calm-mind :charge-beam :crunch :cut :dig :discharge :double-team :endure :extrasensory :facade :flash :frustration :giga-impact :headbutt :hidden-power :hyper-beam :iron-head :iron-tail :leer :light-screen :magnet-rise :mud-slap :natural-gift :protect :psych-up :quick-attack :rain-dance :reflect :rest :return :roar :rock-climb :rock-smash :sandstorm :secret-power :shadow-ball :shock-wave :signal-beam :sleep-talk :snore :spark :strength :substitute :sunny-day :swagger :swift :thunder :thunder-fang :thunder-wave :thunderbolt :thundershock :toxic :zap-cannon :aura-sphere :extremespeed :weather-ball])
 
 (deflearnset :bw
-  :raikou [:bite :bulldoze :calm-mind :charge-beam :crunch :cut :dig :discharge :double-team :extrasensory :facade :flash :frustration :giga-impact :hidden-power :hyper-beam :iron-head :iron-tail :leer :light-screen :magnet-rise :protect :psych-up :quash :quick-attack :rain-dance :reflect :rest :return :roar :rock-smash :round :sandstorm :shadow-ball :signal-beam :sleep-talk :snarl :snore :spark :strength :substitute :sunny-day :swagger :thunder :thunder-fang :thunder-wave :thunderbolt :thundershock :toxic :volt-switch :wild-charge])
+  :raikou [:bite :bulldoze :calm-mind :charge-beam :crunch :cut :dig :discharge :double-team :extrasensory :facade :flash :frustration :giga-impact :hidden-power :hyper-beam :iron-head :iron-tail :leer :light-screen :magnet-rise :protect :psych-up :quash :quick-attack :rain-dance :reflect :rest :return :roar :rock-smash :round :sandstorm :shadow-ball :signal-beam :sleep-talk :snarl :snore :spark :strength :substitute :sunny-day :swagger :thunder :thunder-fang :thunder-wave :thunderbolt :thundershock :toxic :volt-switch :wild-charge :zap-cannon :aura-sphere :extremespeed :weather-ball])
