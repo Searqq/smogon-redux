@@ -23,7 +23,6 @@
 
 (deffamily :wynaut :wobbuffet)
 
-
 (deflearnset :gs
   :wobbuffet [:counter :destiny-bond :mirror-coat :safeguard])
 
