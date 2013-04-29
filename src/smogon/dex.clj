@@ -73,23 +73,29 @@
 ;;
 
 
-(defmacro defdexquery [name args queryvars body & {:keys [post], :or {post identity}}]
+(defmacro defdexquery [name args queryvars & body]
   `(defn ~name
      [~@args & {gen# :gen, :or {gen# *gen*}}]
-     (~post (l/run* ~queryvars (with-gen gen# ~body)))))
+     (l/run* ~queryvars (with-gen gen# ~@body))))
 
-(defmacro defdexpred [name args body]
+(defmacro defdexpred [name args & body]
   `(defn ~name
      [~@args & {gen# :gen, :or {gen# *gen*}}]
      ;; Warning: this is not the same as not-empty because Clojure is stupid as
      ;; fuck and thinks returning the list is accetpable answer (hint: its not,
      ;; return true or false please)
-     (not (empty? (l/run* [q#] (with-gen gen# ~body))))))
+     (not (empty? (l/run* [q#] (with-gen gen# ~@body))))))
 
-(defdexquery name-of [id] 
-  [q] (name-f id q)
-  :post #(first %))
+(defmacro defdexsel [name args queryvars & body]
+  `(defn ~name
+     [~@args & {gen# :gen, :or {gen# *gen*}}]
+     ;; Warning: this is not the same as not-empty because Clojure is stupid as
+     ;; fuck and thinks returning the list is accetpable answer (hint: its not,
+     ;; return true or false please)
+     (first (l/run* ~queryvars (with-gen gen# ~@body)))))
 
+(defdexsel name-of [id] 
+  [q] (name-f id q))
 
 ;; Pokemon
 ;;
@@ -137,12 +143,16 @@
        ((evolves-r *gen* id q))))
 
 (defdexquery type-of [id] 
-  [q] (pokemon-type-f *gen* id q)
-  :post #(vec (sort %)))
+  [q] (pokemon-type-f *gen* id q))
 
 (defdexquery ability-of [id] 
-  [q] (pokemon-ability-f *gen* id q)
-  :post #(vec (sort %)))
+  [q] (pokemon-ability-f *gen* id q))
+
+(defdexsel weight-of [id]
+  [q] (pokemon-weight-f *gen* id q))
+
+(defdexsel height-of [id]
+  [q] (pokemon-height-f *gen* id q))
 
 ;; Helpers
 
