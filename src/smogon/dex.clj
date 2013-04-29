@@ -4,19 +4,6 @@
             [clojure.java.io :as io]))
 
 
-;; General
-;;
-
-(defn load-dex-files []
-  (doseq [f (file-seq (io/file (io/resource "pokedb/.")))]
-    (when (.isFile f)
-      (load-file (.getPath  f)))))
-
-;; For all dex objects
-;;
-
-(l/defrel name-f o x)
-
 
 ;; Generations
 ;;
@@ -24,13 +11,6 @@
 (def ^:dynamic *gen*
   "Current generation (for convenience). Defaults to latest generation."
   :bw)
-
-(defmacro defgenrel [name & params]
-  `(l/defrel ~name ^:index g# ~@params))
-
-(defmacro with-gen [gen & body]
-  `(with-redefs [*gen* ~gen]
-    ~@body))
 
 (def official-generations
   [:rb :gs :rs :dp :bw])
@@ -43,7 +23,7 @@
   [gen]
   (take-while #(not= gen %) official-generations))
 
-(defn fill-generations
+(defn- fill-generations
   "(fill-generations [:gs :rs :dp :bw] {:gs [:ice :grass], :dp [:fire]}) 
      --> 
    {:gs [:ice :grass], :rs [:ice grass], :dp [:fire], :bw [:fire]}"
@@ -68,34 +48,59 @@
         gens (generations-since begin-gen)] 
     (fill-generations gens gen-map)))
 
+(defmacro defgenrel [name & args]
+  (let [rel (gensym "rel")]
+    `(do
+       (l/defrel ~rel ^:index g# ~@args)
+       (defn ~name [~@args]
+         (~rel *gen* ~@args))
+       (alter-meta! #'~name #(assoc % ::genrel ~rel))
+       #'~name)))
 
-;; Utility
+(defmacro genfact
+  [gen rel & tuple]
+  `(l/fact (-> #'~rel meta ::genrel) ~gen ~@tuple))
+
+(defmacro with-gen [gen & body]
+  `(binding [*gen* ~gen]
+    ~@body))
+
+
+;; core.logic util
 ;;
 
+;; Since l/run* uses laziness, we have to force *gen* before running the body.
 
 (defmacro defdexquery [name args queryvars & body]
   `(defn ~name
-     [~@args & {gen# :gen, :or {gen# *gen*}}]
-     (l/run* ~queryvars (with-gen gen# ~@body))))
+     [~@args]
+     (doall (l/run* ~queryvars ~@body))))
 
 (defmacro defdexpred [name args & body]
   `(defn ~name
-     [~@args & {gen# :gen, :or {gen# *gen*}}]
+     [~@args]
      ;; Warning: this is not the same as not-empty because Clojure is stupid as
      ;; fuck and thinks returning the list is accetpable answer (hint: its not,
      ;; return true or false please)
-     (not (empty? (l/run* [q#] (with-gen gen# ~@body))))))
+     (not (empty? (l/run* [q#] ~@body)))))
 
 (defmacro defdexsel [name args queryvars & body]
   `(defn ~name
-     [~@args & {gen# :gen, :or {gen# *gen*}}]
+     [~@args]
      ;; Warning: this is not the same as not-empty because Clojure is stupid as
      ;; fuck and thinks returning the list is accetpable answer (hint: its not,
-     ;; return true or false please)
-     (first (l/run* ~queryvars (with-gen gen# ~@body)))))
+     ;; return true or false please
+     (first (l/run* ~queryvars ~@body))))
+
+
+;; Misc
+;;
+
+(l/defrel name-f o x)
 
 (defdexsel name-of [id] 
   [q] (name-f id q))
+
 
 ;; Pokemon
 ;;
@@ -117,42 +122,42 @@
 (defgenrel pokemon-height-f p x)
 (defgenrel evolves-f p p')
 
-(defn evolves-r [g p p']
+(defn evolves-r [p p']
   (l/conde
-   ((evolves-f g p p'))
+   ((evolves-f p p'))
    ((l/fresh [p'']
-           (evolves-f g p p'')
-           (evolves-r g p'' p')))))
+           (evolves-f p p'')
+           (evolves-r p'' p')))))
 
 ;; Queries
 
-(defdexpred pokemon? [id] (pokemon-f *gen* id))
+(defdexpred pokemon? [id] (pokemon-f id))
 
 (defdexquery list-pokemon [] 
-  [q] (pokemon-f *gen* q))
+  [q] (pokemon-f q))
 
 (defdexquery preevos-of [id]
-  [q] (evolves-r *gen* q id))
+  [q] (evolves-r id q))
 
 (defdexquery postevos-of [id]
-  [q] (evolves-r *gen* q id))
-
+  [q] (evolves-r q id))
+ 
 (defdexquery family-of [id]
   [q] (l/conde
-       ((evolves-r *gen* q id))
-       ((evolves-r *gen* id q))))
+       ((evolves-r q id))
+       ((evolves-r id q))))
 
 (defdexquery type-of [id] 
-  [q] (pokemon-type-f *gen* id q))
+  [q] (pokemon-type-f id q))
 
 (defdexquery ability-of [id] 
-  [q] (pokemon-ability-f *gen* id q))
+  [q] (pokemon-ability-f id q))
 
 (defdexsel weight-of [id]
-  [q] (pokemon-weight-f *gen* id q))
+  [q] (pokemon-weight-f id q))
 
 (defdexsel height-of [id]
-  [q] (pokemon-height-f *gen* id q))
+  [q] (pokemon-height-f id q))
 
 ;; Helpers
 
@@ -167,12 +172,13 @@
 (defn- fixup-family-tree
   [tree]
   (for [g official-generations]
-    (let [tree' (for [x tree]
-                  ;; (deffamily :sneasel :weavile) is shorthand for (deffamily [:sneasel] [:weavile])
-                  (let [alternatives (make-vector-if-not x)]
-                    ;; Ignore Pokemon not in this generation
-                    (filter #(pokemon? % :gen g) alternatives)))] 
-      [g (group-transitive tree')])))
+    (with-gen g 
+      (let [tree' (for [x tree]
+                    ;; (deffamily :sneasel :weavile) is shorthand for (deffamily [:sneasel] [:weavile])
+                    (let [alternatives (make-vector-if-not x)]
+                      ;; Ignore Pokemon not in this generation
+                      (filter #(pokemon? %) alternatives)))] 
+        [g (group-transitive tree')]))))
 
 (defn deffamily
  "Define a family tree. 
@@ -192,7 +198,7 @@
           [palts pevoalts] pairs
           p palts
           pevo pevoalts]
-    (l/fact evolves-f g p pevo)))
+    (genfact g evolves-f p pevo)))
 
 (defn defpokemon
   "Helper function to define a Pokemon."
@@ -206,45 +212,45 @@
          gheight :height}]
 
   (doseq [g (generations-since gen)]
-    (l/fact pokemon-f g id))
+    (genfact g pokemon-f id))
   
   (l/fact name-f id name)
   
   (letfn [(mg [x] (make-generational gen x))]
     (doseq [[g types] (mg gtypes)
             type types]
-      (l/fact pokemon-type-f g id type))
+      (genfact g pokemon-type-f id type))
     
     (doseq [[g abilities] (mg gabilities)
             ability abilities]
-      (l/fact pokemon-ability-f g id ability))
+      (genfact g pokemon-ability-f id ability))
     
     (doseq [[g stats] (mg gstats)]
       ;; Ugly hack; for :rb spatk/spdef are combined.
       (if (= g :rb)
         (let [[hp atk def special speed] stats]
-          (l/fact pokemon-hp-f g id hp)
-          (l/fact pokemon-atk-f g id atk)
-          (l/fact pokemon-def-f g id def)
-          (l/fact pokemon-special-f g id special)
-          (l/fact pokemon-speed-f g id speed))
+          (genfact g pokemon-hp-f id hp)
+          (genfact g pokemon-atk-f id atk)
+          (genfact g pokemon-def-f id def)
+          (genfact g pokemon-special-f id special)
+          (genfact g pokemon-speed-f id speed))
         (let [[hp atk def spatk spdef speed] stats]
-          (l/fact pokemon-hp-f g id hp)
-          (l/fact pokemon-atk-f g id atk)
-          (l/fact pokemon-def-f g id def)
-          (l/fact pokemon-spatk-f g id spatk)
-          (l/fact pokemon-spdef-f g id spdef)
-          (l/fact pokemon-speed-f g id speed))))
+          (genfact g pokemon-hp-f id hp)
+          (genfact g pokemon-atk-f id atk)
+          (genfact g pokemon-def-f id def)
+          (genfact g pokemon-spatk-f id spatk)
+          (genfact g pokemon-spdef-f id spdef)
+          (genfact g pokemon-speed-f id speed))))
     
     (doseq [[g egggroups] (mg gegggroups)
             egggroup egggroups]
-      (l/fact pokemon-egggroup-f g id egggroup))
+      (genfact g pokemon-egggroup-f id egggroup))
     
     (doseq [[g weight] (mg gweight)]
-      (l/fact pokemon-weight-f g id weight))
+      (genfact g pokemon-weight-f id weight))
     
     (doseq [[g height] (mg gheight)]
-      (l/fact pokemon-height-f g id height))))
+      (genfact g pokemon-height-f id height))))
 
 
 ;; Moves
@@ -252,16 +258,16 @@
 
 (defgenrel move-f m)
 
-(defdexpred move? [id] (move-f *gen* id))
+(defdexpred move? [id] (move-f id))
 
 (defdexquery list-moves [] 
-  [q] (move-f *gen* q))
+  [q] (move-f q))
   
 (defn defmove
   [id & {name :name,
          gen :introduced-in}]
   (doseq [g (generations-since gen)]
-    (l/fact move-f g id))
+    (genfact g move-f id))
   (l/fact name-f id name))
  
 
@@ -272,26 +278,26 @@
 (defgenrel learns-f p m)
 
 (defn learns-r
-  [g p m]
-  (l/conde ((learns-f g p m))
+  [p m]
+  (l/conde ((learns-f p m))
            ((l/fresh [p']
-                     (evolves-r g p' p) 
-                     (learns-f g p' m)))))
+                     (evolves-r p' p) 
+                     (learns-f p' m)))))
 
 (defdexpred learns? [pid mid]
-  (learns-r *gen* pid mid))
+  (learns-r pid mid))
 
 (defdexquery move-monset-of [mid]
-  [q] (learns-r *gen* q mid))
+  [q] (learns-r q mid))
 
 (defdexquery learnset-of [pid]
-  [q] (learns-r *gen* pid q))
+  [q] (learns-r pid q))
 
 (defn deflearnset
   [gen & pairs]
   (doseq [[p ms] (partition 2 pairs)
           m ms]
-    (l/fact learns-f gen p m)))
+    (genfact gen learns-f p m)))
 
 
 ;; Abilities
@@ -299,32 +305,41 @@
 
 (defgenrel ability-f a)
 
-(defdexpred ability? [id] (ability-f *gen* id))
+(defdexpred ability? [id] (ability-f id))
 
 (defdexquery list-abilities [] 
-  [q] (ability-f *gen* q))
+  [q] (ability-f q))
 
 (defdexquery ability-monset-of [aid]
-  [q] (pokemon-ability-f *gen* q aid))
+  [q] (pokemon-ability-f q aid))
 
 (defn defability
   [id & {name :name,
          gen :introduced-in}]
   (doseq [g (generations-since gen)]
-    (l/fact ability-f g id))
+    (genfact g ability-f id))
   (l/fact name-f id name))
+
 
 ;; Items
 ;;
 
 (defgenrel item-f i)
 
-(defdexpred item? [id] (item-f *gen* id))
+(defdexpred item? [id] (item-f id))
 
 (defn defitem
   [id & {name :name,
          gen :introduced-in}]
   (doseq [g (generations-since gen)]
-    (l/fact item-f g id))
+    (genfact g item-f id))
   (l/fact name-f id name))
- 
+
+
+;; Misc utilities
+;;
+
+(defn load-dex-files []
+  (doseq [f (file-seq (io/file (io/resource "pokedb/.")))]
+    (when (.isFile f)
+      (load-file (.getPath  f)))))
