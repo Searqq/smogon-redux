@@ -1,4 +1,3 @@
-
 (defpokemon :beldum
   :name "Beldum"
   :introduced-in :rs
@@ -45,5 +44,5 @@
 
 (deflearnset :bw
   :beldum [:iron-defense :iron-head :take-down :zen-headbutt]
-  :metang [:aerial-ace :agility :brick-break :bulldoze :bullet-punch :confusion :cut :double-team :earthquake :explosion :facade :flash :flash-cannon :frustration :grass-knot :gravity :gyro-ball :hidden-power :hone-claws :hyper-beam :ice-punch :icy-wind :light-screen :magnet-rise :metal-claw :meteor-mash :miracle-eye :protect :psych-up :psychic :psyshock :pursuit :rain-dance :reflect :rest :return :rock-polish :rock-slide :rock-smash :rock-tomb :round :sandstorm :scary-face :shadow-ball :signal-beam :sleep-talk :sludge-bomb :snore :stealth-rock :strength :substitute :sunny-day :swagger :telekinesis :thunderpunch :toxic :trick]
+  :metang [:aerial-ace :agility :body-slam :brick-break :bulldoze :bullet-punch :confusion :cut :double-edge :double-team :earthquake :explosion :facade :flash :flash-cannon :frustration :grass-knot :gravity :gyro-ball :hidden-power :hone-claws :hyper-beam :ice-punch :icy-wind :light-screen :magnet-rise :metal-claw :meteor-mash :mimic :miracle-eye :protect :psych-up :psychic :psyshock :pursuit :rain-dance :reflect :rest :return :rock-polish :rock-slide :rock-smash :rock-tomb :round :sandstorm :scary-face :shadow-ball :selfdestruct :signal-beam :sleep-talk :sludge-bomb :snore :stealth-rock :strength :substitute :sunny-day :swagger :telekinesis :thunderpunch :toxic :trick]
   :metagross [:block :giga-impact :hammer-arm])
