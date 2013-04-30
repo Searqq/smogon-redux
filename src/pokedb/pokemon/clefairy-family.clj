@@ -1,4 +1,3 @@
-
 (defpokemon :cleffa
   :name "Cleffa"
   :introduced-in :gs
@@ -40,11 +39,11 @@
 (deffamily :cleffa :clefairy :clefable)
 
 (deflearnset :rb
-  :clefairy [:bide :blizzard :body-slam :bubblebeam :counter :defense-curl :double-edge :double-team :doubleslap :fire-blast :flash :growl :ice-beam :light-screen :mega-kick :mega-punch :metronome :mimic :minimize :pound :psychic :psywave :rage :reflect :rest :seismic-toss :sing :skull-bash :solarbeam :strength :submission :substitute :take-down :teleport :thunder :thunder-wave :thunderbolt :toxic :tri-attack :water-gun]
+  :clefairy [:bide :blizzard :body-slam :bubblebeam :counter :defense-curl :double-edge :double-team :doubleslap :fire-blast :flash :growl :ice-beam :light-screen :mega-kick :mega-punch :metronome :mimic :minimize :pound :psychic :psywave :rage :reflect :rest :seismic-toss :sing :skull-bash :solarbeam :strength :submission :substitute :take-down :teleport :thunder :thunder-wave :thunderbolt :toxic :tri-attack :water-gun :dizzy-punch :scary-face :swift :petal-dance]
   :clefable [:hyper-beam])
 
 (deflearnset :gs
-  :cleffa [:amnesia :attract :belly-drum :charm :curse :defense-curl :detect :double-team :dream-eater :encore :endure :fire-blast :flamethrower :flash :frustration :headbutt :hidden-power :icy-wind :iron-tail :metronome :mimic :mud-slap :nightmare :pound :present :protect :psych-up :psychic :rain-dance :rest :return :rollout :shadow-ball :sing :sleep-talk :snore :solarbeam :splash :sunny-day :swagger :sweet-kiss :toxic :zap-cannon]
+  :cleffa [:amnesia :attract :belly-drum :charm :curse :defense-curl :detect :double-team :dream-eater :encore :endure :fire-blast :flamethrower :flash :frustration :headbutt :hidden-power :icy-wind :iron-tail :metronome :mimic :mud-slap :nightmare :pound :present :protect :psych-up :psychic :rain-dance :rest :return :rollout :shadow-ball :sing :sleep-talk :snore :solarbeam :splash :sunny-day :swagger :sweet-kiss :toxic :zap-cannon :dizzy-punch :scary-face :swift :petal-dance]
   :clefairy [:blizzard :doubleslap :dynamicpunch :fire-punch :growl :ice-beam :ice-punch :light-screen :minimize :moonlight :strength :thunder :thunderbolt :thunderpunch]
   :clefable [:hyper-beam])
 
