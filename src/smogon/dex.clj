@@ -346,6 +346,25 @@
 ;; Types
 ;;
 
+(defgenrel type-f t)
+(defgenrel type-effective-against-f t1 t2 modifier)
+
+(defdexpred type? [tid] (type-f tid))
+(defdexsel type-effectiveness [tid1 tid2]
+  [q] (type-effective-against-f tid1 tid2 q))
+(defdexquery type-effectiveness-row [tid]
+  [q r] (type-effective-against-f tid q r))
+
+(defn deftypechart
+  [id & {name :name
+         gen :introduced-in
+         geffectives :effective-against}]
+  (doseq [g (generations-since gen)]
+    (genfact g type-f id))
+  (doseq [[g mods] (make-generational gen geffectives)
+          [type mod] mods]
+    (genfact g type-effective-against-f id type mod))
+  (l/fact name-f id name))
 
 
 ;; Misc utilities
