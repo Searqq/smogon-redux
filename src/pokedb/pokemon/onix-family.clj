@@ -1,4 +1,3 @@
-
 (defpokemon :onix
   :name "Onix"
   :introduced-in :rb
@@ -25,10 +24,10 @@
 (deffamily :onix :steelix)
 
 (deflearnset :rb
-  :onix [:bide :bind :body-slam :dig :double-edge :double-team :earthquake :explosion :fissure :harden :mimic :rage :rest :rock-slide :rock-throw :screech :selfdestruct :skull-bash :slam :strength :substitute :tackle :take-down :toxic])
+  :onix [:bide :bind :body-slam :dig :double-edge :double-team :earthquake :explosion :fissure :harden :mimic :rage :rest :rock-slide :rock-throw :screech :selfdestruct :skull-bash :slam :strength :substitute :tackle :take-down :toxic :sharpen])
 
 (deflearnset :gs
-  :onix [:attract :bind :curse :dig :double-team :earthquake :endure :flail :frustration :harden :headbutt :hidden-power :iron-tail :mud-slap :protect :rage :rest :return :roar :rock-slide :rock-smash :rock-throw :sandstorm :screech :slam :sleep-talk :snore :strength :sunny-day :swagger :tackle :toxic]
+  :onix [:attract :bind :curse :dig :double-team :earthquake :endure :flail :frustration :harden :headbutt :hidden-power :iron-tail :mud-slap :protect :rage :rest :return :roar :rock-slide :rock-smash :rock-throw :sandstorm :screech :slam :sleep-talk :snore :strength :sunny-day :swagger :tackle :toxic :sharpen]
   :steelix [:crunch :cut :defense-curl :dragonbreath :hyper-beam :rollout])
 
 (deflearnset :rs

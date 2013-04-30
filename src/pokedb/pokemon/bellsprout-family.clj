@@ -1,4 +1,3 @@
-
 (defpokemon :bellsprout
   :name "Bellsprout"
   :introduced-in :rb
@@ -38,22 +37,22 @@
 (deffamily :bellsprout :weepinbell :victreebel)
 
 (deflearnset :rb
-  :bellsprout [:acid :bide :cut :double-edge :double-team :growth :mega-drain :mimic :poisonpowder :rage :razor-leaf :reflect :rest :slam :sleep-powder :solarbeam :stun-spore :substitute :swords-dance :take-down :toxic :vine-whip :wrap]
+  :bellsprout [:acid :bide :cut :double-edge :double-team :growth :mega-drain :mimic :poisonpowder :rage :razor-leaf :reflect :rest :slam :sleep-powder :solarbeam :stun-spore :substitute :swords-dance :take-down :toxic :vine-whip :wrap :lovely-kiss :sweet-kiss]
   :victreebel [:body-slam :hyper-beam])
 
 (deflearnset :gs
-  :bellsprout [:acid :attract :curse :cut :double-team :encore :endure :flash :frustration :giga-drain :growth :hidden-power :leech-life :poisonpowder :protect :razor-leaf :reflect :rest :return :slam :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :stun-spore :sunny-day :swagger :sweet-scent :swords-dance :synthesis :toxic :vine-whip :wrap]
+  :bellsprout [:acid :attract :curse :cut :double-team :encore :endure :flash :frustration :giga-drain :growth :hidden-power :leech-life :poisonpowder :protect :razor-leaf :reflect :rest :return :slam :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :stun-spore :sunny-day :swagger :sweet-scent :swords-dance :synthesis :toxic :vine-whip :wrap :lovely-kiss :sweet-kiss]
   :victreebel [:hyper-beam])
 
 (deflearnset :rs
-  :bellsprout [:acid :attract :bullet-seed :cut :double-edge :double-team :encore :endure :facade :flash :frustration :giga-drain :growth :hidden-power :ingrain :leech-life :magical-leaf :mimic :poisonpowder :protect :razor-leaf :reflect :rest :return :secret-power :slam :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :stun-spore :substitute :sunny-day :swagger :sweet-scent :swords-dance :synthesis :thief :toxic :vine-whip :wrap]
+  :bellsprout [:acid :attract :bullet-seed :cut :double-edge :double-team :encore :endure :facade :flash :frustration :giga-drain :growth :hidden-power :ingrain :leech-life :magical-leaf :mimic :poisonpowder :protect :razor-leaf :reflect :rest :return :secret-power :slam :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :stun-spore :substitute :sunny-day :swagger :sweet-scent :swords-dance :synthesis :thief :toxic :vine-whip :wrap :teeter-dance]
   :victreebel [:body-slam :hyper-beam :spit-up :stockpile :swallow])
 
 (deflearnset :dp
-  :bellsprout [:acid :attract :bullet-seed :captivate :cut :double-team :encore :endure :energy-ball :facade :flash :frustration :gastro-acid :giga-drain :grass-knot :growth :hidden-power :ingrain :knock-off :leech-life :magical-leaf :natural-gift :poisonpowder :protect :razor-leaf :reflect :rest :return :secret-power :seed-bomb :slam :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :stun-spore :substitute :sucker-punch :sunny-day :swagger :sweet-scent :swords-dance :synthesis :thief :tickle :toxic :vine-whip :weather-ball :worry-seed :wrap :wring-out]
+  :bellsprout [:acid :attract :bullet-seed :captivate :cut :double-team :encore :endure :energy-ball :facade :flash :frustration :gastro-acid :giga-drain :grass-knot :growth :hidden-power :ingrain :knock-off :leech-life :magical-leaf :natural-gift :poisonpowder :protect :razor-leaf :reflect :rest :return :secret-power :seed-bomb :slam :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :stun-spore :substitute :sucker-punch :sunny-day :swagger :sweet-scent :swords-dance :synthesis :thief :tickle :toxic :vine-whip :weather-ball :worry-seed :wrap :wring-out :teeter-dance]
   :victreebel [:giga-impact :hyper-beam :leaf-blade :leaf-storm :spit-up :stockpile :swallow])
 
 (deflearnset :bw
-  :bellsprout [:acid :attract :bind :bullet-seed :clear-smog :cut :double-team :encore :energy-ball :facade :flash :frustration :gastro-acid :giga-drain :grass-knot :growth :hidden-power :ingrain :knock-off :leech-life :magical-leaf :natural-gift :poisonpowder :power-whip :protect :razor-leaf :reflect :rest :return :round :seed-bomb :slam :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :stun-spore :substitute :sunny-day :swagger :sweet-scent :swords-dance :synthesis :thief :tickle :toxic :venoshock :vine-whip :weather-ball :worry-seed :wrap :wring-out]
+  :bellsprout [:acid :attract :bind :bullet-seed :clear-smog :cut :double-team :encore :energy-ball :facade :flash :frustration :gastro-acid :giga-drain :grass-knot :growth :hidden-power :ingrain :knock-off :leech-life :magical-leaf :natural-gift :poisonpowder :power-whip :protect :razor-leaf :reflect :rest :return :round :seed-bomb :slam :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :stun-spore :substitute :sunny-day :swagger :sweet-scent :swords-dance :synthesis :thief :tickle :toxic :venoshock :vine-whip :weather-ball :worry-seed :wrap :wring-out :teeter-dance]
   :weepinbell [:bug-bite]
   :victreebel [:giga-impact :hyper-beam :leaf-blade :leaf-storm :leaf-tornado :spit-up :stockpile :swallow])

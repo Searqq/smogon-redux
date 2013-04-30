@@ -1,4 +1,3 @@
-
 (defpokemon :nidoran-m
   :name "NidoranM"
   :introduced-in :rb
@@ -82,12 +81,12 @@
 (deffamily :nidoran-f :nidorina :nidoqueen)
 
 (deflearnset :rb
-  :nidoran-f [:bide :bite :blizzard :body-slam :double-edge :double-kick :double-team :fury-swipes :growl :mimic :poison-sting :rage :reflect :rest :scratch :skull-bash :substitute :tackle :tail-whip :take-down :thunder :thunderbolt :toxic]
+  :nidoran-f [:bide :bite :blizzard :body-slam :double-edge :double-kick :double-team :fury-swipes :growl :mimic :poison-sting :rage :reflect :rest :scratch :skull-bash :substitute :tackle :tail-whip :take-down :thunder :thunderbolt :toxic :lovely-kiss :sweet-kiss :moonlight]
   :nidorina [:bubblebeam :horn-drill :ice-beam :water-gun]
   :nidoqueen [:counter :earthquake :fire-blast :fissure :hyper-beam :mega-kick :mega-punch :pay-day :rock-slide :seismic-toss :strength :submission :surf])
 
 (deflearnset :gs
-  :nidoran-f [:attract :beat-up :bite :blizzard :charm :counter :curse :defense-curl :detect :disable :double-kick :double-team :endure :focus-energy :frustration :fury-swipes :growl :headbutt :hidden-power :iron-tail :mud-slap :poison-sting :protect :rain-dance :rest :return :scratch :sleep-talk :snore :sunny-day :supersonic :swagger :tackle :tail-whip :take-down :thief :thunder :thunderbolt :toxic]
+  :nidoran-f [:attract :beat-up :bite :blizzard :charm :counter :curse :defense-curl :detect :disable :double-kick :double-team :endure :focus-energy :frustration :fury-swipes :growl :headbutt :hidden-power :iron-tail :mud-slap :poison-sting :protect :rain-dance :rest :return :scratch :sleep-talk :snore :sunny-day :supersonic :swagger :tackle :tail-whip :take-down :thief :thunder :thunderbolt :toxic :lovely-kiss :sweet-kiss :moonlight]
   :nidorina [:ice-beam :rock-smash :strength]
   :nidoqueen [:body-slam :dynamicpunch :earthquake :fire-blast :fire-punch :flamethrower :fury-cutter :hyper-beam :ice-punch :icy-wind :roar :sandstorm :shadow-ball :surf :thunderpunch])
 
@@ -100,7 +99,7 @@
   :nidoqueen [:aqua-tail :avalanche :body-slam :brick-break :dragon-pulse :earth-power :earthquake :fire-blast :fire-punch :flamethrower :fling :focus-blast :focus-punch :fury-cutter :giga-impact :hyper-beam :ice-punch :icy-wind :outrage :roar :rock-climb :rock-slide :rock-tomb :sandstorm :shadow-ball :stealth-rock :stone-edge :superpower :surf :taunt :thunderpunch :torment :uproar :whirlpool])
 
 (deflearnset :bw
-  :nidoran-f [:aerial-ace :attract :beat-up :bite :blizzard :captivate :charm :chip-away :counter :crunch :cut :dig :disable :double-kick :double-team :endure :facade :flatter :focus-energy :frustration :fury-swipes :growl :helping-hand :hidden-power :hone-claws :ice-beam :iron-tail :poison-fang :poison-jab :poison-sting :poison-tail :protect :pursuit :rain-dance :rest :return :rock-smash :round :scratch :shadow-claw :skull-bash :sleep-talk :sludge-bomb :snore :strength :substitute :sunny-day :super-fang :supersonic :swagger :tail-whip :take-down :thief :thunder :thunderbolt :toxic :toxic-spikes :venoshock]
+  :nidoran-f [:aerial-ace :attract :beat-up :bite :blizzard :captivate :charm :chip-away :counter :crunch :cut :dig :disable :double-kick :double-team :endure :facade :flatter :focus-energy :frustration :fury-swipes :growl :helping-hand :hidden-power :hone-claws :ice-beam :iron-tail :poison-fang :poison-jab :poison-sting :poison-tail :protect :pursuit :rain-dance :rest :return :rock-smash :round :scratch :shadow-claw :skull-bash :sleep-talk :sludge-bomb :snore :strength :substitute :sunny-day :super-fang :supersonic :swagger :tail-whip :take-down :thief :thunder :thunderbolt :toxic :toxic-spikes :venoshock :sucker-punch]
   :nidorina [:echoed-voice]
   :nidoqueen [:aqua-tail :body-slam :brick-break :bulldoze :dragon-pulse :dragon-tail :earth-power :earthquake :fire-blast :fire-punch :flamethrower :fling :focus-blast :giga-impact :hyper-beam :ice-punch :icy-wind :incinerate :outrage :quash :roar :rock-slide :rock-tomb :sandstorm :shadow-ball :sludge-wave :smack-down :stealth-rock :stone-edge :superpower :surf :taunt :thunderpunch :torment :uproar])
 
@@ -108,12 +107,12 @@
 
 
 (deflearnset :rb
-  :nidoran-m [:bide :blizzard :body-slam :double-edge :double-kick :double-team :focus-energy :fury-attack :horn-attack :horn-drill :leer :mimic :poison-sting :rage :reflect :rest :skull-bash :substitute :tackle :take-down :thunder :thunderbolt :toxic]
+  :nidoran-m [:bide :blizzard :body-slam :double-edge :double-kick :double-team :focus-energy :fury-attack :horn-attack :horn-drill :leer :mimic :poison-sting :rage :reflect :rest :skull-bash :substitute :tackle :take-down :thunder :thunderbolt :toxic :lovely-kiss :sweet-kiss :morning-sun]
   :nidorino [:bubblebeam :ice-beam :water-gun]
   :nidoking [:counter :earthquake :fire-blast :fissure :hyper-beam :mega-kick :mega-punch :pay-day :rock-slide :seismic-toss :strength :submission :surf :thrash])
 
 (deflearnset :gs
-  :nidoran-m [:amnesia :attract :beat-up :blizzard :confusion :counter :curse :defense-curl :detect :disable :double-kick :double-team :endure :focus-energy :frustration :fury-attack :headbutt :hidden-power :horn-attack :horn-drill :iron-tail :leer :mud-slap :poison-sting :protect :rain-dance :rest :return :sleep-talk :snore :sunny-day :supersonic :swagger :tackle :take-down :thief :thunder :thunderbolt :toxic]
+  :nidoran-m [:amnesia :attract :beat-up :blizzard :confusion :counter :curse :defense-curl :detect :disable :double-kick :double-team :endure :focus-energy :frustration :fury-attack :headbutt :hidden-power :horn-attack :horn-drill :iron-tail :leer :mud-slap :poison-sting :protect :rain-dance :rest :return :sleep-talk :snore :sunny-day :supersonic :swagger :tackle :take-down :thief :thunder :thunderbolt :toxic :lovely-kiss :sweet-kiss :morning-sun]
   :nidorino [:ice-beam :rock-smash :strength]
   :nidoking [:dynamicpunch :earthquake :fire-blast :fire-punch :flamethrower :fury-cutter :hyper-beam :ice-punch :icy-wind :roar :sandstorm :shadow-ball :surf :thrash :thunderpunch])
 

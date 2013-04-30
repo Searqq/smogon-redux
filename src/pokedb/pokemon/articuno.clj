@@ -1,4 +1,3 @@
-
 (defpokemon :articuno
   :name "Articuno"
   :introduced-in :rb
@@ -26,4 +25,4 @@
   :articuno [:aerial-ace :agility :air-cutter :ancientpower :avalanche :blizzard :defog :double-team :endure :facade :fly :frustration :giga-impact :gust :hail :hidden-power :hyper-beam :ice-beam :ice-shard :icy-wind :mind-reader :mist :mud-slap :natural-gift :ominous-wind :pluck :powder-snow :protect :rain-dance :reflect :rest :return :roar :rock-smash :roost :sandstorm :secret-power :sheer-cold :signal-beam :sky-attack :sleep-talk :snore :steel-wing :substitute :sunny-day :swagger :swift :tailwind :toxic :twister :u-turn :water-pulse])
 
 (deflearnset :bw
-  :articuno [:aerial-ace :agility :ancientpower :blizzard :double-team :facade :fly :frost-breath :frustration :giga-impact :gust :hail :hidden-power :hurricane :hyper-beam :ice-beam :ice-shard :icy-wind :mind-reader :mist :pluck :powder-snow :protect :rain-dance :reflect :rest :return :roar :rock-smash :roost :round :sandstorm :sheer-cold :signal-beam :sky-attack :sky-drop :sleep-talk :snore :substitute :sunny-day :swagger :tailwind :toxic :u-turn])
+  :articuno [:aerial-ace :agility :ancientpower :blizzard :double-edge :double-team :extrasensory :facade :fly :frost-breath :frustration :giga-impact :gust :hail :haze :heal-bell :hidden-power :hurricane :hyper-beam :ice-beam :ice-shard :icy-wind :mimic :mind-reader :mist :pluck :powder-snow :protect :rain-dance :reflect :rest :return :roar :rock-smash :roost :round :sandstorm :sheer-cold :signal-beam :sky-attack :sky-drop :sleep-talk :snore :substitute :sunny-day :swagger :tailwind :toxic :u-turn])

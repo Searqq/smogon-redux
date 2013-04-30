@@ -37,11 +37,11 @@
 (deffamily :charmander :charmeleon :charizard)
 
 (deflearnset :rb
-  :charmander [:bide :body-slam :counter :cut :dig :double-edge :double-team :dragon-rage :ember :fire-blast :fire-spin :flamethrower :growl :leer :mega-kick :mega-punch :mimic :rage :reflect :rest :scratch :seismic-toss :skull-bash :slash :strength :submission :substitute :swift :swords-dance :take-down :toxic]
+  :charmander [:bide :body-slam :counter :cut :dig :double-edge :double-team :dragon-rage :ember :fire-blast :fire-spin :flamethrower :growl :leer :mega-kick :mega-punch :mimic :rage :reflect :rest :scratch :seismic-toss :skull-bash :slash :strength :submission :substitute :swift :swords-dance :take-down :toxic :crunch]
   :charizard [:earthquake :fissure :fly :hyper-beam])
 
 (deflearnset :gs
-  :charmander [:ancientpower :attract :beat-up :belly-drum :bite :curse :cut :defense-curl :dig :double-team :dragon-rage :dragonbreath :dynamicpunch :ember :endure :fire-blast :fire-punch :fire-spin :flamethrower :frustration :fury-cutter :growl :headbutt :hidden-power :iron-tail :mud-slap :outrage :protect :rage :rest :return :rock-slide :rock-smash :scary-face :scratch :slash :sleep-talk :smokescreen :snore :strength :sunny-day :swagger :swift :toxic]
+  :charmander [:ancientpower :attract :beat-up :belly-drum :bite :curse :cut :defense-curl :dig :double-team :dragon-rage :dragonbreath :dynamicpunch :ember :endure :fire-blast :fire-punch :fire-spin :flamethrower :frustration :fury-cutter :growl :headbutt :hidden-power :iron-tail :mud-slap :outrage :protect :rage :rest :return :rock-slide :rock-smash :scary-face :scratch :slash :sleep-talk :smokescreen :snore :strength :sunny-day :swagger :swift :toxic :crunch]
   :charizard [:earthquake :fly :hyper-beam :roar :sandstorm :steel-wing :wing-attack])
 
 (deflearnset :rs

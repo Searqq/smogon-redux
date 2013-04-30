@@ -1,4 +1,3 @@
-
 (defpokemon :abra
   :name "Abra"
   :introduced-in :rb
@@ -38,12 +37,12 @@
 (deffamily :abra :kadabra :alakazam)
 
 (deflearnset :rb
-  :abra [:bide :body-slam :counter :double-edge :double-team :flash :mega-kick :mega-punch :metronome :mimic :psychic :psywave :rage :reflect :rest :seismic-toss :skull-bash :submission :substitute :take-down :teleport :thunder-wave :toxic :tri-attack]
+  :abra [:bide :body-slam :counter :double-edge :double-team :flash :mega-kick :mega-punch :metronome :mimic :psychic :psywave :rage :reflect :rest :seismic-toss :skull-bash :submission :substitute :take-down :teleport :thunder-wave :toxic :tri-attack :foresight]
   :kadabra [:confusion :dig :disable :kinesis :psybeam :recover]
   :alakazam [:hyper-beam])
 
 (deflearnset :gs
-  :abra [:attract :barrier :curse :double-team :dream-eater :dynamicpunch :encore :endure :fire-punch :flash :frustration :headbutt :hidden-power :ice-punch :light-screen :nightmare :protect :psych-up :psychic :rain-dance :rest :return :shadow-ball :sleep-talk :snore :sunny-day :swagger :teleport :thief :thunderpunch :toxic :zap-cannon]
+  :abra [:attract :barrier :curse :double-team :dream-eater :dynamicpunch :encore :endure :fire-punch :flash :frustration :headbutt :hidden-power :ice-punch :light-screen :nightmare :protect :psych-up :psychic :rain-dance :rest :return :shadow-ball :sleep-talk :snore :sunny-day :swagger :teleport :thief :thunderpunch :toxic :zap-cannon :foresight]
   :kadabra [:confusion :dig :disable :future-sight :kinesis :psybeam :recover :reflect]
   :alakazam [:hyper-beam])
 
@@ -58,7 +57,7 @@
   :alakazam [:focus-blast :giga-impact :hyper-beam])
 
 (deflearnset :bw
-  :abra [:ally-switch :attract :barrier :calm-mind :charge-beam :double-team :drain-punch :dream-eater :embargo :encore :energy-ball :facade :fire-punch :flash :fling :foul-play :frustration :grass-knot :gravity :guard-split :guard-swap :hidden-power :ice-punch :iron-tail :knock-off :light-screen :magic-coat :magic-room :power-trick :protect :psych-up :psychic :psyshock :rain-dance :recycle :reflect :rest :return :role-play :round :safeguard :shadow-ball :signal-beam :skill-swap :sleep-talk :snatch :snore :substitute :sunny-day :swagger :taunt :telekinesis :teleport :thief :thunder-wave :thunderpunch :torment :toxic :trick :trick-room :wonder-room :zen-headbutt]
+  :abra [:ally-switch :attract :barrier :body-slam :calm-mind :charge-beam :double-team :double-edge :drain-punch :dream-eater :embargo :encore :energy-ball :facade :fire-punch :flash :fling :foul-play :frustration :grass-knot :gravity :guard-split :guard-swap :hidden-power :ice-punch :iron-tail :knock-off :light-screen :magic-coat :magic-room :mimic :nightmare :power-trick :protect :psych-up :psychic :psyshock :rain-dance :recycle :reflect :rest :return :role-play :round :safeguard :seismic-toss :shadow-ball :signal-beam :skill-swap :sleep-talk :snatch :snore :substitute :sunny-day :swagger :taunt :telekinesis :teleport :thief :thunder-wave :thunderpunch :torment :toxic :trick :trick-room :wonder-room :zen-headbutt]
   :kadabra [:confusion :disable :future-sight :kinesis :miracle-eye :psybeam :psycho-cut :recover]
   :alakazam [:focus-blast :giga-impact :hyper-beam])
 

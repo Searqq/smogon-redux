@@ -39,11 +39,11 @@
 
 
 (deflearnset :rb
-  :squirtle [:bide :bite :blizzard :body-slam :bubble :bubblebeam :counter :dig :double-edge :double-team :hydro-pump :ice-beam :mega-kick :mega-punch :mimic :rage :reflect :rest :seismic-toss :skull-bash :strength :submission :substitute :surf :tackle :tail-whip :take-down :toxic :water-gun :withdraw]
-  :blastoise [:earthquake :fissure :hyper-beam :zap-cannon])
+  :squirtle [:bide :bite :blizzard :body-slam :bubble :bubblebeam :counter :dig :double-edge :double-team :hydro-pump :ice-beam :mega-kick :mega-punch :mimic :rage :reflect :rest :seismic-toss :skull-bash :strength :submission :substitute :surf :tackle :tail-whip :take-down :toxic :water-gun :withdraw :zap-cannon]
+  :blastoise [:earthquake :fissure :hyper-beam])
 
 (deflearnset :gs
-  :squirtle [:attract :bite :blizzard :bubble :confusion :curse :defense-curl :dig :double-team :dynamicpunch :endure :flail :foresight :frustration :haze :headbutt :hidden-power :hydro-pump :ice-beam :ice-punch :icy-wind :iron-tail :mirror-coat :mist :mud-slap :protect :rain-dance :rapid-spin :rest :return :rock-smash :rollout :skull-bash :sleep-talk :snore :strength :surf :swagger :tackle :tail-whip :toxic :water-gun :waterfall :whirlpool :withdraw]
+  :squirtle [:attract :bite :blizzard :bubble :confusion :curse :defense-curl :dig :double-team :dynamicpunch :endure :flail :foresight :frustration :haze :headbutt :hidden-power :hydro-pump :ice-beam :ice-punch :icy-wind :iron-tail :mirror-coat :mist :mud-slap :protect :rain-dance :rapid-spin :rest :return :rock-smash :rollout :skull-bash :sleep-talk :snore :strength :surf :swagger :tackle :tail-whip :toxic :water-gun :waterfall :whirlpool :withdraw :zap-cannon]
   :blastoise [:earthquake :hyper-beam :roar])
 
 (deflearnset :rs
