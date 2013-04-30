@@ -1,4 +1,3 @@
-
 (defpokemon :geodude
   :name "Geodude"
   :introduced-in :rb
@@ -38,11 +37,11 @@
 (deffamily :geodude :graveler :golem)
 
 (deflearnset :rb
-  :geodude [:bide :body-slam :counter :defense-curl :dig :double-edge :double-team :earthquake :explosion :fire-blast :fissure :harden :mega-punch :metronome :mimic :rage :rest :rock-slide :rock-throw :seismic-toss :selfdestruct :strength :submission :substitute :tackle :take-down :toxic]
+  :geodude [:bide :body-slam :counter :defense-curl :dig :double-edge :double-team :earthquake :explosion :fire-blast :fissure :harden :mega-punch :metronome :mimic :rage :rest :rock-slide :rock-throw :seismic-toss :selfdestruct :strength :submission :substitute :tackle :take-down :toxic :rapid-spin]
   :golem [:hyper-beam :mega-kick])
 
 (deflearnset :gs
-  :geodude [:attract :curse :defense-curl :dig :double-team :dynamicpunch :earthquake :endure :explosion :fire-blast :fire-punch :flamethrower :frustration :harden :headbutt :hidden-power :magnitude :mega-punch :mud-slap :protect :rest :return :rock-slide :rock-smash :rock-throw :rollout :sandstorm :selfdestruct :sleep-talk :snore :strength :sunny-day :swagger :tackle :toxic]
+  :geodude [:attract :curse :defense-curl :dig :double-team :dynamicpunch :earthquake :endure :explosion :fire-blast :fire-punch :flamethrower :frustration :harden :headbutt :hidden-power :magnitude :mega-punch :mud-slap :protect :rest :return :rock-slide :rock-smash :rock-throw :rollout :sandstorm :selfdestruct :sleep-talk :snore :strength :sunny-day :swagger :tackle :toxic :rapid-spin]
   :golem [:fury-cutter :hyper-beam :roar])
 
 (deflearnset :rs
