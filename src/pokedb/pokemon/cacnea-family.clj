@@ -1,4 +1,3 @@
-
 (defpokemon :cacnea
   :name "Cacnea"
   :introduced-in :rs
@@ -32,5 +31,5 @@
   :cacturne [:embargo :focus-blast :giga-impact :hyper-beam :revenge :strength :superpower])
 
 (deflearnset :bw
-  :cacnea [:absorb :acid :attract :block :brick-break :cotton-spore :counter :cut :dark-pulse :destiny-bond :disable :double-team :drain-punch :dynamicpunch :energy-ball :facade :faint-attack :flash :fling :frustration :giga-drain :grass-knot :grasswhistle :growth :hidden-power :ingrain :leech-seed :leer :low-kick :magical-leaf :nasty-plot :needle-arm :payback :pin-missile :poison-jab :poison-sting :protect :rest :return :role-play :round :sand-attack :sandstorm :seed-bomb :sleep-talk :smellingsalt :snore :solarbeam :spikes :spite :substitute :sucker-punch :sunny-day :swagger :switcheroo :swords-dance :synthesis :teeter-dance :thunderpunch :toxic :venoshock :worry-seed]
+  :cacnea [:absorb :acid :attract :block :body-slam :brick-break :cotton-spore :counter :cut :dark-pulse :destiny-bond :disable :double-edge :double-team :drain-punch :dynamicpunch :energy-ball :facade :faint-attack :flash :fling :frustration :giga-drain :grass-knot :grasswhistle :growth :hidden-power :ingrain :leech-seed :leer :low-kick :magical-leaf :mimic :nasty-plot :needle-arm :payback :pin-missile :poison-jab :poison-sting :protect :rest :return :role-play :round :sand-attack :sandstorm :seed-bomb :seismic-toss :sleep-talk :smellingsalt :snore :solarbeam :spikes :spite :substitute :sucker-punch :sunny-day :swagger :switcheroo :swords-dance :synthesis :teeter-dance :thunderpunch :toxic :venoshock :worry-seed]
   :cacturne [:embargo :focus-blast :foul-play :giga-impact :hyper-beam :retaliate :revenge :strength :superpower])
