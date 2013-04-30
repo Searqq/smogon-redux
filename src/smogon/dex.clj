@@ -4,6 +4,44 @@
             [clojure.java.io :as io]))
 
 
+;; core.logic util
+;;
+
+(defmacro anon-rel
+  "Ridiculous hack because there is no way to create a relation without binding
+  it to a var."
+  [& args]
+  (let [rel (gensym "anon-rel")]
+    `(do
+       (l/defrel ~rel ~@args)
+       ~rel)))
+
+(defmacro defrel
+  "Enhancements to core.logic's defrel. In particular, it is defonce!"
+  [name & args]
+  `(defonce ~name (anon-rel ~@args)))
+
+;; Since l/run* uses laziness, we have to force *gen* before running the body.
+(defmacro defdexquery [name args queryvars & body]
+  `(defn ~name
+     [~@args]
+     (doall (l/run* ~queryvars ~@body))))
+
+(defmacro defdexpred [name args & body]
+  `(defn ~name
+     [~@args]
+     ;; Warning: this is not the same as not-empty because Clojure is stupid as
+     ;; fuck and thinks returning the list is accetpable answer (hint: its not,
+     ;; return true or false please)
+     (not (empty? (l/run* [q#] ~@body)))))
+
+(defmacro defdexsel [name args queryvars & body]
+  `(defn ~name
+     [~@args]
+     ;; Warning: this is not the same as not-empty because Clojure is stupid as
+     ;; fuck and thinks returning the list is accetpable answer (hint: its not,
+     ;; return true or false please
+     (first (l/run* ~queryvars ~@body))))
 
 ;; Generations
 ;;
@@ -49,54 +87,25 @@
     (fill-generations gens gen-map)))
 
 (defmacro defgenrel [name & args]
-  (let [rel (gensym "rel")]
-    `(do
-       (l/defrel ~rel ^:index g# ~@args)
-       (defn ~name [~@args]
-         (~rel *gen* ~@args))
-       (alter-meta! #'~name #(assoc % ::genrel ~rel))
+  `(let [rel# (anon-rel ^:index g# ~@args)] 
+     (when (defonce ~name (fn [~@args]
+                            (rel# *gen* ~@args)))
+       (alter-meta! #'~name #(assoc % ::genrel rel#))
        #'~name)))
 
 (defmacro genfact
   [gen rel & tuple]
   `(l/fact (-> #'~rel meta ::genrel) ~gen ~@tuple))
 
-(defmacro with-gen [gen & body]
+(defmacro in-gen [gen & body]
   `(binding [*gen* ~gen]
     ~@body))
-
-
-;; core.logic util
-;;
-
-;; Since l/run* uses laziness, we have to force *gen* before running the body.
-
-(defmacro defdexquery [name args queryvars & body]
-  `(defn ~name
-     [~@args]
-     (doall (l/run* ~queryvars ~@body))))
-
-(defmacro defdexpred [name args & body]
-  `(defn ~name
-     [~@args]
-     ;; Warning: this is not the same as not-empty because Clojure is stupid as
-     ;; fuck and thinks returning the list is accetpable answer (hint: its not,
-     ;; return true or false please)
-     (not (empty? (l/run* [q#] ~@body)))))
-
-(defmacro defdexsel [name args queryvars & body]
-  `(defn ~name
-     [~@args]
-     ;; Warning: this is not the same as not-empty because Clojure is stupid as
-     ;; fuck and thinks returning the list is accetpable answer (hint: its not,
-     ;; return true or false please
-     (first (l/run* ~queryvars ~@body))))
 
 
 ;; Misc
 ;;
 
-(l/defrel name-f o x)
+(defrel name-f o x)
 
 (defdexsel name-of [id] 
   [q] (name-f id q))
@@ -172,13 +181,12 @@
 (defn- fixup-family-tree
   [tree]
   (for [g official-generations]
-    (with-gen g 
-      (let [tree' (for [x tree]
-                    ;; (deffamily :sneasel :weavile) is shorthand for (deffamily [:sneasel] [:weavile])
-                    (let [alternatives (make-vector-if-not x)]
-                      ;; Ignore Pokemon not in this generation
-                      (filter #(pokemon? %) alternatives)))] 
-        [g (group-transitive tree')]))))
+    (let [tree' (for [x tree]
+                  ;; (deffamily :sneasel :weavile) is shorthand for (deffamily [:sneasel] [:weavile])
+                  (let [alternatives (make-vector-if-not x)]
+                    ;; Ignore Pokemon not in this generation
+                    (filter #(in-gen g (pokemon? %)) alternatives)))] 
+      [g (group-transitive tree')])))
 
 (defn deffamily
  "Define a family tree. 
@@ -334,6 +342,10 @@
   (doseq [g (generations-since gen)]
     (genfact g item-f id))
   (l/fact name-f id name))
+
+;; Types
+;;
+
 
 
 ;; Misc utilities
