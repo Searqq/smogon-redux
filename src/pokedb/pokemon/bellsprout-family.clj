@@ -53,6 +53,6 @@
   :victreebel [:giga-impact :hyper-beam :leaf-blade :leaf-storm :spit-up :stockpile :swallow])
 
 (deflearnset :bw
-  :bellsprout [:acid :attract :bind :bullet-seed :clear-smog :cut :double-team :encore :energy-ball :facade :flash :frustration :gastro-acid :giga-drain :grass-knot :growth :hidden-power :ingrain :knock-off :leech-life :magical-leaf :natural-gift :poisonpowder :power-whip :protect :razor-leaf :reflect :rest :return :round :seed-bomb :slam :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :stun-spore :substitute :sunny-day :swagger :sweet-scent :swords-dance :synthesis :thief :tickle :toxic :venoshock :vine-whip :weather-ball :worry-seed :wrap :wring-out :teeter-dance]
-  :weepinbell [:bug-bite]
+  :bellsprout [:acid :attract :bind :body-slam :bullet-seed :clear-smog :cut :double-team :encore :energy-ball :facade :flash :frustration :gastro-acid :giga-drain :grass-knot :growth :hidden-power :ingrain :knock-off :leech-life :magical-leaf :mimic :natural-gift :poisonpowder :power-whip :protect :razor-leaf :reflect :rest :return :round :seed-bomb :slam :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :stun-spore :substitute :sunny-day :swagger :sweet-scent :swords-dance :synthesis :thief :tickle :toxic :venoshock :vine-whip :weather-ball :worry-seed :wrap :wring-out :teeter-dance]
+  :weepinbell [:bug-bite :morning-sun]
   :victreebel [:giga-impact :hyper-beam :leaf-blade :leaf-storm :leaf-tornado :spit-up :stockpile :swallow])
