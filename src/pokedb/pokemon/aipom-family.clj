@@ -1,4 +1,3 @@
-
 (defpokemon :aipom
   :name "Aipom"
   :introduced-in :gs
@@ -33,5 +32,5 @@
   :ambipom [:giga-impact :hyper-beam])
 
 (deflearnset :bw
-  :aipom [:acrobatics :aerial-ace :agility :astonish :attract :baton-pass :beat-up :bounce :brick-break :counter :covet :cut :dig :double-hit :double-team :doubleslap :dream-eater :facade :fake-out :fire-punch :fling :foul-play :frustration :fury-swipes :grass-knot :gunk-shot :hidden-power :hone-claws :ice-punch :iron-tail :knock-off :last-resort :low-kick :low-sweep :nasty-plot :payback :protect :pursuit :rain-dance :rest :retaliate :return :revenge :rock-smash :role-play :round :sand-attack :scratch :screech :seed-bomb :shadow-ball :shadow-claw :slam :sleep-talk :snatch :snore :solarbeam :spite :strength :substitute :sunny-day :swagger :swift :switcheroo :tail-whip :taunt :thief :thunder :thunder-wave :thunderbolt :thunderpunch :tickle :toxic :u-turn :uproar :work-up]
+  :aipom [:acrobatics :aerial-ace :agility :astonish :attract :baton-pass :beat-up :body-slam :bounce :brick-break :counter :covet :cut :dig :double-edge :double-hit :double-team :doubleslap :dream-eater :facade :fake-out :fire-punch :fling :foul-play :frustration :fury-swipes :grass-knot :gunk-shot :hidden-power :hone-claws :ice-punch :iron-tail :knock-off :last-resort :low-kick :low-sweep :mimic :nasty-plot :nightmare :payback :protect :pursuit :rain-dance :rest :retaliate :return :revenge :rock-smash :role-play :round :sand-attack :scratch :screech :seed-bomb :seismic-toss :shadow-ball :shadow-claw :shock-wave :slam :sleep-talk :snatch :snore :solarbeam :spite :strength :substitute :sunny-day :swagger :swift :switcheroo :tail-whip :taunt :thief :thunder :thunder-wave :thunderbolt :thunderpunch :tickle :toxic :u-turn :uproar :work-up]
   :ambipom [:giga-impact :hyper-beam])
