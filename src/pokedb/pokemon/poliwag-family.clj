@@ -1,4 +1,3 @@
-
 (defpokemon :poliwag
   :name "Poliwag"
   :introduced-in :rb
@@ -49,21 +48,21 @@
 (deffamily :poliwag :poliwhirl [:poliwrath :politoed])
 
 (deflearnset :rb
-  :poliwag [:amnesia :bide :blizzard :body-slam :bubble :bubblebeam :double-edge :double-team :doubleslap :hydro-pump :hypnosis :ice-beam :mimic :psychic :psywave :rage :rest :skull-bash :substitute :surf :take-down :toxic :water-gun]
+  :poliwag [:amnesia :bide :blizzard :body-slam :bubble :bubblebeam :double-edge :double-team :doubleslap :hydro-pump :hypnosis :ice-beam :mimic :psychic :psywave :rage :rest :skull-bash :substitute :surf :take-down :toxic :water-gun :growth :lovely-kiss :sweet-kiss]
   :poliwhirl [:counter :earthquake :fissure :mega-kick :mega-punch :metronome :seismic-toss :strength :submission]
   :poliwrath [:hyper-beam])
 
 (deflearnset :gs
-  :poliwag [:attract :belly-drum :blizzard :body-slam :bubble :bubblebeam :curse :defense-curl :double-team :doubleslap :endure :frustration :haze :headbutt :hidden-power :hydro-pump :hypnosis :ice-beam :icy-wind :mind-reader :mist :protect :psychic :rain-dance :rest :return :sleep-talk :snore :splash :surf :swagger :thief :toxic :water-gun :waterfall :whirlpool]
+  :poliwag [:attract :belly-drum :blizzard :body-slam :bubble :bubblebeam :curse :defense-curl :double-team :doubleslap :endure :frustration :haze :headbutt :hidden-power :hydro-pump :hypnosis :ice-beam :icy-wind :mind-reader :mist :protect :psychic :rain-dance :rest :return :sleep-talk :snore :splash :surf :swagger :thief :toxic :water-gun :waterfall :whirlpool  :growth :lovely-kiss :sweet-kiss]
   :poliwhirl [:detect :earthquake :ice-punch :mud-slap :rock-smash :strength]
   :politoed [:dynamicpunch :hyper-beam :perish-song]
   :poliwrath [:submission])
 
 (deflearnset :rs
-  :poliwag [:attract :belly-drum :blizzard :body-slam :bubble :bubblebeam :defense-curl :dig :dive :double-edge :double-team :doubleslap :endure :facade :frustration :hail :haze :hidden-power :hydro-pump :hypnosis :ice-ball :ice-beam :icy-wind :mimic :mind-reader :mist :protect :psychic :rain-dance :rest :return :secret-power :sleep-talk :snore :splash :substitute :surf :swagger :thief :toxic :water-gun :water-pulse :water-sport :waterfall]
+  :poliwag [:attract :belly-drum :blizzard :body-slam :bubble :bubblebeam :defense-curl :dig :dive :double-edge :double-team :doubleslap :endure :facade :frustration :hail :haze :hidden-power :hydro-pump :hypnosis :ice-ball :ice-beam :icy-wind :mimic :mind-reader :mist :protect :psychic :rain-dance :rest :return :secret-power :sleep-talk :snore :splash :substitute :surf :swagger :thief :toxic :water-gun :water-pulse :water-sport :waterfall :sweet-kiss]
   :poliwhirl [:brick-break :counter :earthquake :focus-punch :ice-punch :mega-kick :mega-punch :metronome :mud-slap :rock-smash :seismic-toss :strength]
   :politoed [:dynamicpunch :hyper-beam :perish-song]
-  :poliwrath [:bulk-up :rock-tomb :submission])
+  :poliwrath [:bulk-up :rock-tomb :submission :helping-hand])
 
 (deflearnset :dp
   :poliwag [:attract :belly-drum :blizzard :body-slam :bubble :bubblebeam :captivate :dig :dive :double-team :doubleslap :encore :endeavor :endure :facade :frustration :hail :haze :headbutt :helping-hand :hidden-power :hydro-pump :hypnosis :ice-ball :ice-beam :icy-wind :mind-reader :mist :mud-bomb :mud-shot :natural-gift :protect :psychic :rain-dance :refresh :rest :return :secret-power :sleep-talk :snore :splash :substitute :surf :swagger :thief :toxic :wake-up-slap :water-gun :water-pulse :water-sport :waterfall :whirlpool]
