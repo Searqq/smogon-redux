@@ -1,4 +1,3 @@
-
 (defpokemon :caterpie
   :name "Caterpie"
   :introduced-in :rb
@@ -49,14 +48,14 @@
 (deflearnset :rs
   :caterpie [:string-shot :tackle]
   :metapod [:harden]
-  :butterfree [:aerial-ace :attract :confusion :double-edge :double-team :dream-eater :endure :facade :flash :frustration :giga-drain :gust :hidden-power :hyper-beam :mimic :nightmare :poisonpowder :protect :psybeam :psychic :rain-dance :rest :return :safeguard :secret-power :shadow-ball :silver-wind :skill-swap :sleep-powder :sleep-talk :snore :solarbeam :stun-spore :substitute :sunny-day :supersonic :swagger :swift :thief :toxic :whirlwind])
+  :butterfree [:aerial-ace :attract :confusion :double-edge :double-team :dream-eater :endure :facade :flash :frustration :giga-drain :gust :hidden-power :hyper-beam :mimic :morning-sun :nightmare :poisonpowder :protect :psybeam :psychic :rain-dance :rest :return :safeguard :secret-power :shadow-ball :silver-wind :skill-swap :sleep-powder :sleep-talk :snore :solarbeam :stun-spore :substitute :sunny-day :supersonic :swagger :swift :thief :toxic :whirlwind])
 
 (deflearnset :dp
   :caterpie [:bug-bite :snore :string-shot :tackle]
   :metapod [:harden :iron-defense]
-  :butterfree [:aerial-ace :air-cutter :attract :bug-buzz :captivate :confusion :defog :double-team :dream-eater :endure :energy-ball :facade :flash :frustration :giga-drain :giga-impact :gust :hidden-power :hyper-beam :natural-gift :ominous-wind :poisonpowder :protect :psybeam :psych-up :psychic :rain-dance :rest :return :roost :safeguard :secret-power :shadow-ball :signal-beam :silver-wind :skill-swap :sleep-powder :sleep-talk :solarbeam :stun-spore :substitute :sunny-day :supersonic :swagger :swift :tailwind :thief :toxic :twister :u-turn :whirlwind])
+  :butterfree [:aerial-ace :air-cutter :attract :bug-buzz :captivate :confusion :defog :double-edge :double-team :dream-eater :endure :energy-ball :facade :flash :frustration :giga-drain :giga-impact :gust :hidden-power :hyper-beam :mimic :morning-sun :natural-gift :nightmare :ominous-wind :poisonpowder :protect :psybeam :psych-up :psychic :rain-dance :rest :return :roost :safeguard :secret-power :shadow-ball :signal-beam :silver-wind :skill-swap :sleep-powder :sleep-talk :solarbeam :stun-spore :substitute :sunny-day :supersonic :swagger :swift :tailwind :thief :toxic :twister :u-turn :whirlwind])
 
 (deflearnset :bw
   :caterpie [:bug-bite :electroweb :snore :string-shot :tackle]
   :metapod [:harden :iron-defense]
-  :butterfree [:acrobatics :aerial-ace :attract :bug-buzz :captivate :confusion :double-team :dream-eater :energy-ball :facade :flash :frustration :giga-drain :giga-impact :gust :hidden-power :hyper-beam :poisonpowder :protect :psybeam :psych-up :psychic :quiver-dance :rage-powder :rain-dance :rest :return :roost :round :safeguard :shadow-ball :signal-beam :silver-wind :skill-swap :sleep-powder :sleep-talk :solarbeam :struggle-bug :stun-spore :substitute :sunny-day :supersonic :swagger :tailwind :thief :toxic :u-turn :venoshock :whirlwind])
+  :butterfree [:acrobatics :aerial-ace :attract :bug-buzz :captivate :confusion :double-edge :double-team :dream-eater :energy-ball :facade :flash :frustration :giga-drain :giga-impact :gust :hidden-power :hyper-beam :mimic :morning-sun :nightmare :poisonpowder :protect :psybeam :psych-up :psychic :quiver-dance :rage-powder :rain-dance :rest :return :roost :round :safeguard :shadow-ball :signal-beam :silver-wind :skill-swap :sleep-powder :sleep-talk :solarbeam :struggle-bug :stun-spore :substitute :sunny-day :supersonic :swagger :tailwind :thief :toxic :u-turn :venoshock :whirlwind])
