@@ -1,4 +1,3 @@
-
 (defpokemon :machop
   :name "Machop"
   :introduced-in :rb
@@ -41,11 +40,11 @@
 (deffamily :machop :machoke :machamp)
 
 (deflearnset :rb
-  :machop [:bide :body-slam :counter :dig :double-edge :double-team :earthquake :fire-blast :fissure :focus-energy :karate-chop :leer :low-kick :mega-kick :mega-punch :metronome :mimic :rage :rest :rock-slide :seismic-toss :skull-bash :strength :submission :substitute :take-down :toxic]
+  :machop [:bide :body-slam :counter :dig :double-edge :double-team :earthquake :fire-blast :fissure :focus-energy :karate-chop :leer :low-kick :mega-kick :mega-punch :metronome :mimic :rage :rest :rock-slide :seismic-toss :skull-bash :strength :submission :substitute :take-down :toxic :false-swipe :thrash]
   :machamp [:hyper-beam])
 
 (deflearnset :gs
-  :machop [:attract :cross-chop :curse :detect :dig :double-team :dynamicpunch :earthquake :encore :endure :fire-blast :fire-punch :flamethrower :focus-energy :foresight :frustration :headbutt :hidden-power :ice-punch :karate-chop :leer :light-screen :low-kick :meditate :mud-slap :protect :rest :return :rock-smash :rolling-kick :scary-face :seismic-toss :sleep-talk :snore :strength :submission :sunny-day :swagger :thief :thunderpunch :toxic :vital-throw]
+  :machop [:attract :cross-chop :curse :detect :dig :double-team :dynamicpunch :earthquake :encore :endure :fire-blast :fire-punch :flamethrower :focus-energy :foresight :frustration :headbutt :hidden-power :ice-punch :karate-chop :leer :light-screen :low-kick :meditate :mud-slap :protect :rest :return :rock-smash :rolling-kick :scary-face :seismic-toss :sleep-talk :snore :strength :submission :sunny-day :swagger :thief :thunderpunch :toxic :vital-throw :false-swipe :thrash]
   :machamp [:hyper-beam])
 
 (deflearnset :rs
