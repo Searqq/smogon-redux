@@ -36,8 +36,8 @@
 (deffamily :pichu :pikachu :raichu)
 
 (deflearnset :rb
-  :pikachu [:agility :bide :body-slam :double-edge :double-team :flash :growl :light-screen :mega-kick :mega-punch :mimic :pay-day :quick-attack :rage :reflect :rest :seismic-toss :skull-bash :slam :submission :substitute :surf :swift :tail-whip :take-down :thunder :thunder-wave :thunderbolt :thundershock :toxic :fly :sing]
-  :raichu [:hyper-beam :dizzy-punch :petal-dance :sing :scary-face])
+  :pikachu [:agility :bide :body-slam :double-edge :double-team :flash :growl :light-screen :mega-kick :mega-punch :mimic :pay-day :quick-attack :rage :reflect :rest :seismic-toss :skull-bash :slam :submission :substitute :surf :swift :tail-whip :take-down :thunder :thunder-wave :thunderbolt :thundershock :toxic :fly :dizzy-punch :petal-dance :sing :scary-face]
+  :raichu [:hyper-beam])
 
 (deflearnset :gs
   :pichu [:attract :bide :charm :curse :defense-curl :detect :double-team :doubleslap :encore :endure :flash :frustration :headbutt :hidden-power :iron-tail :mud-slap :present :protect :rain-dance :rest :return :reversal :rollout :sleep-talk :snore :swagger :sweet-kiss :swift :tail-whip :thunder :thunder-wave :thunderbolt :thundershock :toxic :zap-cannon :dizzy-punch :petal-dance :sing :scary-face]
