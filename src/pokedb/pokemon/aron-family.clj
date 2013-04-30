@@ -1,4 +1,3 @@
-
 (defpokemon :aron
   :name "Aron"
   :introduced-in :rs
@@ -44,6 +43,6 @@
   :aggron [:aqua-tail :avalanche :blizzard :block :brick-break :dark-pulse :dragon-claw :dragon-pulse :fire-blast :fire-punch :flamethrower :flash-cannon :fling :focus-blast :focus-punch :giga-impact :hyper-beam :ice-beam :ice-punch :icy-wind :low-kick :outrage :payback :rock-climb :solarbeam :surf :taunt :thunder :thunder-wave :thunderbolt :thunderpunch :whirlpool])
 
 (deflearnset :bw
-  :aron [:aerial-ace :attract :autotomize :body-slam :bulldoze :curse :cut :dig :double-edge :double-team :dragon-rush :earth-power :earthquake :endeavor :facade :frustration :harden :head-smash :headbutt :heavy-slam :hidden-power :hone-claws :iron-defense :iron-head :iron-tail :magnet-rise :metal-burst :metal-claw :metal-sound :mud-slap :protect :rain-dance :rest :return :roar :rock-polish :rock-slide :rock-smash :rock-tomb :round :sandstorm :screech :shadow-claw :sleep-talk :smellingsalt :snore :spite :stealth-rock :stomp :strength :substitute :sunny-day :superpower :swagger :tackle :take-down :toxic :uproar]
+  :aron [:aerial-ace :attract :autotomize :body-slam :bulldoze :curse :cut :dig :double-edge :double-team :dragon-rush :earth-power :earthquake :endeavor :facade :frustration :harden :head-smash :headbutt :heavy-slam :hidden-power :hone-claws :iron-defense :iron-head :iron-tail :magnet-rise :metal-burst :metal-claw :metal-sound :mimic :mud-slap :protect :rain-dance :rest :return :roar :rock-polish :rock-slide :rock-smash :rock-tomb :round :sandstorm :screech :shadow-claw :shock-wave :sleep-talk :smellingsalt :snore :spite :stealth-rock :stomp :strength :substitute :sunny-day :superpower :swagger :tackle :take-down :toxic :uproar]
   :lairon [:stone-edge]
   :aggron [:aqua-tail :blizzard :block :brick-break :dark-pulse :dragon-claw :dragon-pulse :dragon-tail :fire-blast :fire-punch :flamethrower :flash-cannon :fling :focus-blast :giga-impact :hyper-beam :ice-beam :ice-punch :icy-wind :incinerate :low-kick :outrage :payback :smack-down :solarbeam :surf :taunt :thunder :thunder-wave :thunderbolt :thunderpunch])
