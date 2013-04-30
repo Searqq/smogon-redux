@@ -1,4 +1,3 @@
-
 (defpokemon :abra
   :name "Abra"
   :introduced-in :rb
@@ -58,7 +57,7 @@
   :alakazam [:focus-blast :giga-impact :hyper-beam])
 
 (deflearnset :bw
-  :abra [:ally-switch :attract :barrier :calm-mind :charge-beam :double-team :drain-punch :dream-eater :embargo :encore :energy-ball :facade :fire-punch :flash :fling :foul-play :frustration :grass-knot :gravity :guard-split :guard-swap :hidden-power :ice-punch :iron-tail :knock-off :light-screen :magic-coat :magic-room :power-trick :protect :psych-up :psychic :psyshock :rain-dance :recycle :reflect :rest :return :role-play :round :safeguard :shadow-ball :signal-beam :skill-swap :sleep-talk :snatch :snore :substitute :sunny-day :swagger :taunt :telekinesis :teleport :thief :thunder-wave :thunderpunch :torment :toxic :trick :trick-room :wonder-room :zen-headbutt]
+  :abra [:ally-switch :attract :barrier :body-slam :calm-mind :charge-beam :double-team :double-edge :drain-punch :dream-eater :embargo :encore :energy-ball :facade :fire-punch :flash :fling :foul-play :frustration :grass-knot :gravity :guard-split :guard-swap :hidden-power :ice-punch :iron-tail :knock-off :light-screen :magic-coat :magic-room :mimic :nightmare :power-trick :protect :psych-up :psychic :psyshock :rain-dance :recycle :reflect :rest :return :role-play :round :safeguard :seismic-toss :shadow-ball :signal-beam :skill-swap :sleep-talk :snatch :snore :substitute :sunny-day :swagger :taunt :telekinesis :teleport :thief :thunder-wave :thunderpunch :torment :toxic :trick :trick-room :wonder-room :zen-headbutt]
   :kadabra [:confusion :disable :future-sight :kinesis :miracle-eye :psybeam :psycho-cut :recover]
   :alakazam [:focus-blast :giga-impact :hyper-beam])
 
