@@ -1,4 +1,3 @@
-
 (defpokemon :ponyta
   :name "Ponyta"
   :introduced-in :rb
@@ -26,21 +25,21 @@
 (deffamily :ponyta :rapidash)
 
 (deflearnset :rb
-  :ponyta [:agility :bide :body-slam :double-edge :double-team :ember :fire-blast :fire-spin :growl :horn-drill :mimic :rage :reflect :rest :skull-bash :stomp :substitute :swift :tail-whip :take-down :toxic]
+  :ponyta [:agility :bide :body-slam :double-edge :double-team :ember :fire-blast :fire-spin :growl :horn-drill :mimic :rage :reflect :rest :skull-bash :stomp :substitute :swift :tail-whip :take-down :toxic :low-kick]
   :rapidash [:hyper-beam])
 
 (deflearnset :gs
-  :ponyta [:agility :attract :charm :curse :double-kick :double-team :ember :endure :fire-blast :fire-spin :flame-wheel :flamethrower :frustration :growl :headbutt :hidden-power :hypnosis :iron-tail :protect :quick-attack :rest :return :sleep-talk :snore :stomp :sunny-day :swagger :swift :tackle :tail-whip :take-down :thrash :toxic]
+  :ponyta [:agility :attract :charm :curse :double-kick :double-team :ember :endure :fire-blast :fire-spin :flame-wheel :flamethrower :frustration :growl :headbutt :hidden-power :hypnosis :iron-tail :protect :quick-attack :rest :return :sleep-talk :snore :stomp :sunny-day :swagger :swift :tackle :tail-whip :take-down :thrash :toxic :low-kick]
   :rapidash [:fury-attack :hyper-beam])
 
 (deflearnset :rs
   :ponyta [:agility :attract :body-slam :bounce :charm :double-edge :double-kick :double-team :ember :endure :facade :fire-blast :fire-spin :flame-wheel :flamethrower :frustration :growl :hidden-power :hypnosis :iron-tail :mimic :overheat :protect :quick-attack :rest :return :secret-power :sleep-talk :snore :solarbeam :stomp :strength :substitute :sunny-day :swagger :swift :tackle :tail-whip :take-down :thrash :toxic]
-  :rapidash [:fury-attack :hyper-beam])
+  :rapidash [:fury-attack :hyper-beam :baton-pass])
 
 (deflearnset :dp
   :ponyta [:agility :attract :bounce :captivate :charm :double-edge :double-kick :double-team :ember :endure :facade :fire-blast :fire-spin :flame-wheel :flamethrower :flare-blitz :frustration :growl :headbutt :heat-wave :hidden-power :horn-drill :hypnosis :iron-tail :morning-sun :natural-gift :overheat :protect :rest :return :secret-power :sleep-talk :snore :solarbeam :stomp :strength :substitute :sunny-day :swagger :swift :tackle :tail-whip :take-down :thrash :toxic :will-o-wisp]
-  :rapidash [:fury-attack :giga-impact :hyper-beam :megahorn :poison-jab :quick-attack])
+  :rapidash [:fury-attack :giga-impact :hyper-beam :megahorn :poison-jab :quick-attack :baton-pass])
 
 (deflearnset :bw
   :ponyta [:agility :attract :bounce :captivate :charm :double-edge :double-kick :double-team :echoed-voice :ember :facade :fire-blast :fire-spin :flame-charge :flame-wheel :flamethrower :flare-blitz :frustration :growl :heat-wave :hidden-power :horn-drill :hypnosis :incinerate :inferno :iron-tail :low-kick :morning-sun :overheat :protect :rest :return :round :sleep-talk :snore :solarbeam :stomp :strength :substitute :sunny-day :swagger :tackle :tail-whip :take-down :thrash :toxic :wild-charge :will-o-wisp]
-  :rapidash [:drill-run :fury-attack :giga-impact :hyper-beam :megahorn :poison-jab :quick-attack])
+  :rapidash [:drill-run :fury-attack :giga-impact :hyper-beam :megahorn :poison-jab :quick-attack :baton-pass])
