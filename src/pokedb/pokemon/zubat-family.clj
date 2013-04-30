@@ -1,4 +1,3 @@
-
 (defpokemon :zubat
   :name "Zubat"
   :introduced-in :rb
@@ -37,11 +36,11 @@
 (deffamily :zubat :golbat :crobat)
 
 (deflearnset :rb
-  :zubat [:bide :bite :confuse-ray :double-edge :double-team :haze :leech-life :mega-drain :mimic :rage :razor-wind :rest :substitute :supersonic :swift :take-down :toxic :whirlwind :wing-attack]
+  :zubat [:bide :bite :confuse-ray :double-edge :double-team :haze :leech-life :mega-drain :mimic :rage :razor-wind :rest :substitute :supersonic :swift :take-down :toxic :whirlwind :wing-attack :flail]
   :golbat [:hyper-beam :screech])
 
 (deflearnset :gs
-  :zubat [:attract :bite :confuse-ray :curse :detect :double-team :endure :faint-attack :frustration :giga-drain :gust :haze :hidden-power :leech-life :mean-look :protect :pursuit :quick-attack :rest :return :sleep-talk :snore :steel-wing :sunny-day :supersonic :swagger :swift :thief :toxic :whirlwind :wing-attack]
+  :zubat [:attract :bite :confuse-ray :curse :detect :double-team :endure :faint-attack :frustration :giga-drain :gust :haze :hidden-power :leech-life :mean-look :protect :pursuit :quick-attack :rest :return :sleep-talk :snore :steel-wing :sunny-day :supersonic :swagger :swift :thief :toxic :whirlwind :wing-attack :flail]
   :golbat [:hyper-beam :screech]
   :crobat [:fly])
 
