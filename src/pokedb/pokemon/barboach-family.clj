@@ -1,4 +1,3 @@
-
 (defpokemon :barboach
   :name "Barboach"
   :introduced-in :rs
@@ -34,5 +33,5 @@
   :whiscash [:giga-impact :hyper-beam :rock-slide :rock-smash :stone-edge :strength :tickle :zen-headbutt])
 
 (deflearnset :bw
-  :barboach [:amnesia :aqua-tail :attract :blizzard :bounce :bulldoze :dive :double-team :dragon-dance :earth-power :earthquake :facade :fissure :flail :frustration :future-sight :hail :hidden-power :hydro-pump :ice-beam :icy-wind :magnitude :mud-bomb :mud-shot :mud-slap :mud-sport :muddy-water :protect :rain-dance :rest :return :rock-tomb :round :sandstorm :scald :sleep-talk :snore :spark :substitute :surf :swagger :take-down :thrash :toxic :water-gun :water-pulse :water-sport :waterfall :whirlpool]
+  :barboach [:amnesia :aqua-tail :attract :blizzard :bounce :bulldoze :dive :double-edge :double-team :dragon-dance :earth-power :earthquake :facade :fissure :flail :frustration :future-sight :hail :hidden-power :hydro-pump :ice-beam :icy-wind :magnitude :mimic :mud-bomb :mud-shot :mud-slap :mud-sport :muddy-water :protect :rain-dance :rest :return :rock-tomb :round :sandstorm :scald :sleep-talk :snore :spark :substitute :surf :swagger :take-down :thrash :toxic :water-gun :water-pulse :water-sport :waterfall :whirlpool]
   :whiscash [:giga-impact :hyper-beam :rock-slide :rock-smash :stone-edge :strength :tickle :zen-headbutt])
