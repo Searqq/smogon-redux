@@ -1,4 +1,3 @@
-
 (defpokemon :tentacool
   :name "Tentacool"
   :introduced-in :rb
@@ -28,11 +27,11 @@
 
 
 (deflearnset :rb
-  :tentacool [:acid :barrier :bide :blizzard :bubblebeam :constrict :cut :double-edge :double-team :hydro-pump :ice-beam :mega-drain :mimic :poison-sting :rage :reflect :rest :screech :skull-bash :substitute :supersonic :surf :swords-dance :take-down :toxic :water-gun :wrap]
+  :tentacool [:acid :barrier :bide :blizzard :bubblebeam :constrict :cut :double-edge :double-team :hydro-pump :ice-beam :mega-drain :mimic :poison-sting :rage :reflect :rest :screech :skull-bash :substitute :supersonic :surf :swords-dance :take-down :toxic :water-gun :wrap :confuse-ray]
   :tentacruel [:hyper-beam])
 
 (deflearnset :gs
-  :tentacool [:acid :attract :aurora-beam :barrier :blizzard :bubblebeam :constrict :curse :cut :double-team :endure :frustration :giga-drain :haze :hidden-power :hydro-pump :ice-beam :icy-wind :mirror-coat :poison-sting :protect :rain-dance :rapid-spin :rest :return :safeguard :screech :sleep-talk :sludge-bomb :snore :supersonic :surf :swagger :toxic :whirlpool :wrap]
+  :tentacool [:acid :attract :aurora-beam :barrier :blizzard :bubblebeam :constrict :curse :cut :double-team :endure :frustration :giga-drain :haze :hidden-power :hydro-pump :ice-beam :icy-wind :mirror-coat :poison-sting :protect :rain-dance :rapid-spin :rest :return :safeguard :screech :sleep-talk :sludge-bomb :snore :supersonic :surf :swagger :toxic :whirlpool :wrap :confuse-ray]
   :tentacruel [:hyper-beam])
 
 (deflearnset :rs
