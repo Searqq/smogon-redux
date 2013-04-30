@@ -39,11 +39,11 @@
 (use 'smogon.dex)
 
 (deflearnset :rb
-  :bulbasaur [:bide :body-slam :cut :double-edge :double-team :growl :growth :leech-seed :mega-drain :mimic :poisonpowder :rage :razor-leaf :reflect :rest :sleep-powder :solarbeam :substitute :swords-dance :tackle :take-down :toxic :vine-whip]
-  :venusaur [:hyper-beam :ancientpower :rock-throw])
+  :bulbasaur [:bide :body-slam :cut :double-edge :double-team :growl :growth :leech-seed :mega-drain :mimic :poisonpowder :rage :razor-leaf :reflect :rest :sleep-powder :solarbeam :substitute :swords-dance :tackle :take-down :toxic :vine-whip :ancientpower :rock-throw]
+  :venusaur [:hyper-beam])
 
 (deflearnset :gs
-  :bulbasaur [:attract :charm :curse :cut :defense-curl :double-team :endure :flash :frustration :fury-cutter :giga-drain :growl :growth :headbutt :hidden-power :leech-seed :light-screen :mud-slap :petal-dance :poisonpowder :protect :razor-leaf :razor-wind :rest :return :safeguard :skull-bash :sleep-powder :sleep-talk :snore :solarbeam :sunny-day :swagger :sweet-scent :synthesis :tackle :toxic :vine-whip]
+  :bulbasaur [:attract :charm :curse :cut :defense-curl :double-team :endure :flash :frustration :fury-cutter :giga-drain :growl :growth :headbutt :hidden-power :leech-seed :light-screen :mud-slap :petal-dance :poisonpowder :protect :razor-leaf :razor-wind :rest :return :safeguard :skull-bash :sleep-powder :sleep-talk :snore :solarbeam :sunny-day :swagger :sweet-scent :synthesis :tackle :toxic :vine-whip :ancientpower :rock-throw]
   :venusaur [:hyper-beam :roar])
 
 (deflearnset :rs
