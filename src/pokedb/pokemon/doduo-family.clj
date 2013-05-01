@@ -37,9 +37,9 @@
   :dodrio [:hyper-beam :taunt :torment :baton-pass])
 
 (deflearnset :dp
-  :doduo [:acupressure :aerial-ace :agility :air-cutter :attract :brave-bird :captivate :double-hit :double-team :drill-peck :endeavor :endure :facade :faint-attack :flail :fly :frustration :fury-attack :growl :haze :hidden-power :knock-off :mirror-move :mud-slap :natural-gift :peck :pluck :protect :pursuit :quick-attack :rage :rest :return :roost :secret-power :sleep-talk :snore :steel-wing :substitute :sunny-day :supersonic :swagger :swift :thief :toxic :uproar]
-  :dodrio [:giga-impact :hyper-beam :payback :sky-attack :taunt :torment :tri-attack :baton-pass])
+  :doduo [:acupressure :aerial-ace :agility :air-cutter :attract :body-slam :brave-bird :captivate :double-hit :double-team :drill-peck :endeavor :endure :facade :faint-attack :flail :fly :frustration :fury-attack :growl :haze :hidden-power :knock-off :mimic :mirror-move :mud-slap :natural-gift :peck :pluck :protect :pursuit :quick-attack :rage :rest :return :roost :secret-power :sky-attack :sleep-talk :snore :steel-wing :substitute :sunny-day :supersonic :swagger :swift :thief :toxic :uproar]
+  :dodrio [:baton-pass :giga-impact :hyper-beam :payback :sky-attack :taunt :torment :tri-attack :baton-pass])
 
 (deflearnset :bw
-  :doduo [:acupressure :aerial-ace :agility :assurance :attract :brave-bird :double-hit :double-team :drill-peck :echoed-voice :endeavor :facade :faint-attack :flail :fly :frustration :fury-attack :growl :haze :hidden-power :knock-off :mirror-move :natural-gift :peck :pluck :protect :pursuit :quick-attack :rage :rest :return :roost :round :sleep-talk :snore :substitute :sunny-day :supersonic :swagger :thief :thrash :toxic :uproar :work-up]
-  :dodrio [:giga-impact :hyper-beam :payback :sky-attack :taunt :torment :tri-attack :baton-pass])
+  :doduo [:acupressure :aerial-ace :agility :assurance :attract :body-slam :brave-bird :double-edge :double-hit :double-team :drill-peck :echoed-voice :endeavor :endure :facade :faint-attack :flail :fly :frustration :fury-attack :growl :haze :hidden-power :knock-off :mimic :mirror-move :natural-gift :peck :pluck :protect :pursuit :quick-attack :rage :rest :return :roost :round :sky-attack :sleep-talk :snore :substitute :sunny-day :supersonic :swagger :thief :thrash :toxic :uproar :work-up]
+  :dodrio [:baton-pass :giga-impact :hyper-beam :payback :sky-attack :taunt :torment :tri-attack :baton-pass])
