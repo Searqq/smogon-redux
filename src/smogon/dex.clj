@@ -4,10 +4,19 @@
             [clojure.java.io :as io]))
 
 
-;; core.logic util
-;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Utilities
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defmacro anon-rel
+(defn load-dex-files
+  "Load every .clj script under src/pokedb. The intention is to initialize the
+  pokedex relations."
+  []
+  (doseq [f (file-seq (io/file (io/resource "pokedb/.")))]
+    (when (.isFile f)
+      (load-file (.getPath  f)))))
+
+(defmacro ^:private anon-rel
   "Ridiculous hack because there is no way to create a relation without binding
   it to a var."
   [& args]
@@ -43,7 +52,20 @@
      ;; return true or false please
      (first (l/run* ~queryvars ~@body))))
 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; All dex objects :)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defrel name-f o x)
+
+(defdexsel name-of [id] 
+  [q] (name-f id q))
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Generations
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
 
 (def ^:dynamic *gen*
@@ -61,7 +83,7 @@
   [gen]
   (take-while #(not= gen %) official-generations))
 
-(defn- fill-generations
+(defn ^:private fill-generations
   "(fill-generations [:gs :rs :dp :bw] {:gs [:ice :grass], :dp [:fire]}) 
      --> 
    {:gs [:ice :grass], :rs [:ice grass], :dp [:fire], :bw [:fire]}"
@@ -102,17 +124,92 @@
     ~@body))
 
 
-;; Misc
-;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Types
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defrel name-f o x)
+(defgenrel type-f t)
+(defgenrel type-effective-against-f t1 t2 modifier)
 
-(defdexsel name-of [id] 
-  [q] (name-f id q))
+(defdexpred type? [tid] (type-f tid))
+(defdexsel type-effectiveness [tid1 tid2]
+  [q] (type-effective-against-f tid1 tid2 q))
+(defdexquery type-effectiveness-row [tid]
+  [q r] (type-effective-against-f tid q r))
+
+(defn deftypechart
+  [id & {name :name
+         gen :introduced-in
+         geffectives :effective-against}]
+  (doseq [g (generations-since gen)]
+    (genfact g type-f id))
+  (doseq [[g mods] (make-generational gen geffectives)
+          [type mod] mods]
+    (genfact g type-effective-against-f id type mod))
+  (l/fact name-f id name))
 
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Moves
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defgenrel move-f m)
+
+(defdexpred move? [id] (move-f id))
+
+(defdexquery list-moves [] 
+  [q] (move-f q))
+  
+(defn defmove
+  [id & {name :name,
+         gen :introduced-in}]
+  (doseq [g (generations-since gen)]
+    (genfact g move-f id))
+  (l/fact name-f id name))
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Abilities
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+(defgenrel ability-f a)
+
+(defdexpred ability? [id] (ability-f id))
+
+(defdexquery list-abilities [] 
+  [q] (ability-f q))
+
+(defdexquery ability-monset-of [aid]
+  [q] (pokemon-ability-f q aid))
+
+(defn defability
+  [id & {name :name,
+         gen :introduced-in}]
+  (doseq [g (generations-since gen)]
+    (genfact g ability-f id))
+  (l/fact name-f id name))
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Items
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defgenrel item-f i)
+
+(defdexpred item? [id] (item-f id))
+
+(defn defitem
+  [id & {name :name,
+         gen :introduced-in}]
+  (doseq [g (generations-since gen)]
+    (genfact g item-f id))
+  (l/fact name-f id name))
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Pokemon
-;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (def generations-without-abilities [:rb :gs])
 
@@ -129,14 +226,6 @@
 (defgenrel pokemon-speed-f p x)
 (defgenrel pokemon-weight-f p x)
 (defgenrel pokemon-height-f p x)
-(defgenrel evolves-f p p')
-
-(defn evolves-r [p p']
-  (l/conde
-   ((evolves-f p p'))
-   ((l/fresh [p'']
-           (evolves-f p p'')
-           (evolves-r p'' p')))))
 
 ;; Queries
 
@@ -144,17 +233,6 @@
 
 (defdexquery list-pokemon [] 
   [q] (pokemon-f q))
-
-(defdexquery preevos-of [id]
-  [q] (evolves-r id q))
-
-(defdexquery postevos-of [id]
-  [q] (evolves-r q id))
- 
-(defdexquery family-of [id]
-  [q] (l/conde
-       ((evolves-r q id))
-       ((evolves-r id q))))
 
 (defdexquery type-of [id] 
   [q] (pokemon-type-f id q))
@@ -167,46 +245,6 @@
 
 (defdexsel height-of [id]
   [q] (pokemon-height-f id q))
-
-;; Helpers
-
-(defn- group-transitive
-  "(group-transitive [1 2 3]) -> [[1 2] [2 3]]"
-  [xs] (map vector xs (rest xs)))
-
-(defn- make-vector-if-not
-  "Take a wild guess."
-  [x] (if (vector? x) x [x]))
-
-(defn- fixup-family-tree
-  [tree]
-  (for [g official-generations]
-    (let [tree' (for [x tree]
-                  ;; (deffamily :sneasel :weavile) is shorthand for (deffamily [:sneasel] [:weavile])
-                  (let [alternatives (make-vector-if-not x)]
-                    ;; Ignore Pokemon not in this generation
-                    (filter #(in-gen g (pokemon? %)) alternatives)))] 
-      [g (group-transitive tree')])))
-
-(defn deffamily
- "Define a family tree. 
-
-  For example, (deffamily :bulbasaur :ivysaur :venusaur) creates evolution
-  relations between [:bulbasaur :ivysaur], [:ivysaur :venusaur] in every
-  generation. 
-
-  To specify different evolution paths, you may enclose alternatives in a
-  vector. For example, (deffamily :slowpoke [:slowbro :slowking]) creates
-  evolution relations between [:slowpoke, :slowbro] and [:slowpoke :slowking] in
-  every generation (sans the latter in :rb).
-
-  Pokemon that did not exist in a particular generation are ignored."
-  [& tree]
-  (doseq [[g pairs] (fixup-family-tree tree)
-          [palts pevoalts] pairs
-          p palts
-          pevo pevoalts]
-    (genfact g evolves-f p pevo)))
 
 (defn defpokemon
   "Helper function to define a Pokemon."
@@ -261,26 +299,72 @@
       (genfact g pokemon-height-f id height))))
 
 
-;; Moves
-;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Evolutions
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defgenrel move-f m)
+(defgenrel evolves-f p p')
 
-(defdexpred move? [id] (move-f id))
+(defn evolves-r [p p']
+  (l/conde
+   ((evolves-f p p'))
+   ((l/fresh [p'']
+           (evolves-f p p'')
+           (evolves-r p'' p')))))
 
-(defdexquery list-moves [] 
-  [q] (move-f q))
-  
-(defn defmove
-  [id & {name :name,
-         gen :introduced-in}]
-  (doseq [g (generations-since gen)]
-    (genfact g move-f id))
-  (l/fact name-f id name))
+(defdexquery preevos-of [id]
+  [q] (evolves-r id q))
+
+(defdexquery postevos-of [id]
+  [q] (evolves-r q id))
  
+(defdexquery family-of [id]
+  [q] (l/conde
+       ((evolves-r q id))
+       ((evolves-r id q))))
 
+(defn ^:private group-transitive
+  "(group-transitive [1 2 3]) -> [[1 2] [2 3]]"
+  [xs] (map vector xs (rest xs)))
+
+(defn ^:private make-vector-if-not
+  "Take a wild guess."
+  [x] (if (vector? x) x [x]))
+
+(defn ^:private fixup-family-tree
+  [tree]
+  (for [g official-generations]
+    (let [tree' (for [x tree]
+                  ;; (deffamily :sneasel :weavile) is shorthand for (deffamily [:sneasel] [:weavile])
+                  (let [alternatives (make-vector-if-not x)]
+                    ;; Ignore Pokemon not in this generation
+                    (filter #(in-gen g (pokemon? %)) alternatives)))] 
+      [g (group-transitive tree')])))
+
+(defn deffamily
+ "Define a family tree. 
+
+  For example, (deffamily :bulbasaur :ivysaur :venusaur) creates evolution
+  relations between [:bulbasaur :ivysaur], [:ivysaur :venusaur] in every
+  generation. 
+
+  To specify different evolution paths, you may enclose alternatives in a
+  vector. For example, (deffamily :slowpoke [:slowbro :slowking]) creates
+  evolution relations between [:slowpoke, :slowbro] and [:slowpoke :slowking] in
+  every generation (sans the latter in :rb).
+
+  Pokemon that did not exist in a particular generation are ignored."
+  [& tree]
+  (doseq [[g pairs] (fixup-family-tree tree)
+          [palts pevoalts] pairs
+          p palts
+          pevo pevoalts]
+    (genfact g evolves-f p pevo)))
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Learnsets
-;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; You don't need to include moves preevos learns; these are handled by learns-r
 (defgenrel learns-f p m)
@@ -306,71 +390,3 @@
   (doseq [[p ms] (partition 2 pairs)
           m ms]
     (genfact gen learns-f p m)))
-
-
-;; Abilities
-;;
-
-(defgenrel ability-f a)
-
-(defdexpred ability? [id] (ability-f id))
-
-(defdexquery list-abilities [] 
-  [q] (ability-f q))
-
-(defdexquery ability-monset-of [aid]
-  [q] (pokemon-ability-f q aid))
-
-(defn defability
-  [id & {name :name,
-         gen :introduced-in}]
-  (doseq [g (generations-since gen)]
-    (genfact g ability-f id))
-  (l/fact name-f id name))
-
-
-;; Items
-;;
-
-(defgenrel item-f i)
-
-(defdexpred item? [id] (item-f id))
-
-(defn defitem
-  [id & {name :name,
-         gen :introduced-in}]
-  (doseq [g (generations-since gen)]
-    (genfact g item-f id))
-  (l/fact name-f id name))
-
-;; Types
-;;
-
-(defgenrel type-f t)
-(defgenrel type-effective-against-f t1 t2 modifier)
-
-(defdexpred type? [tid] (type-f tid))
-(defdexsel type-effectiveness [tid1 tid2]
-  [q] (type-effective-against-f tid1 tid2 q))
-(defdexquery type-effectiveness-row [tid]
-  [q r] (type-effective-against-f tid q r))
-
-(defn deftypechart
-  [id & {name :name
-         gen :introduced-in
-         geffectives :effective-against}]
-  (doseq [g (generations-since gen)]
-    (genfact g type-f id))
-  (doseq [[g mods] (make-generational gen geffectives)
-          [type mod] mods]
-    (genfact g type-effective-against-f id type mod))
-  (l/fact name-f id name))
-
-
-;; Misc utilities
-;;
-
-(defn load-dex-files []
-  (doseq [f (file-seq (io/file (io/resource "pokedb/.")))]
-    (when (.isFile f)
-      (load-file (.getPath  f)))))
