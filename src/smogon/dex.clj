@@ -21,10 +21,10 @@
 ;; All dex objects :)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(lhacks/defrel name-f o x)
+(lhacks/defrel name-r o x)
 
 (lhacks/defsingleton name-of [id] 
-  [q] (name-f id q))
+  [q] (name-r id q))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Generations
@@ -92,44 +92,44 @@
 ;; Types
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defgenrel type-f t)
-(defgenrel type-effective-against-f t1 t2 modifier)
+(defgenrel type-r t)
+(defgenrel type-effective-against-r t1 t2 modifier)
 
-(lhacks/defpredicate type? [tid] (type-f tid))
+(lhacks/defpredicate type? [tid] (type-r tid))
 (lhacks/defsingleton type-effectiveness [tid1 tid2]
-  [q] (type-effective-against-f tid1 tid2 q))
+  [q] (type-effective-against-r tid1 tid2 q))
 (lhacks/defquery type-effectiveness-row [tid]
-  [q r] (type-effective-against-f tid q r))
+  [q r] (type-effective-against-r tid q r))
 
 (defn deftypechart
   [id & {name :name
          gen :introduced-in
          geffectives :effective-against}]
   (doseq [g (generations-since gen)]
-    (genfact g type-f id))
+    (genfact g type-r id))
   (doseq [[g mods] (make-generational gen geffectives)
           [type mod] mods]
-    (genfact g type-effective-against-f id type mod))
-  (l/fact name-f id name))
+    (genfact g type-effective-against-r id type mod))
+  (l/fact name-r id name))
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Moves
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defgenrel move-f m)
+(defgenrel move-r m)
 
-(lhacks/defpredicate move? [id] (move-f id))
+(lhacks/defpredicate move? [id] (move-r id))
 
 (lhacks/defquery list-moves [] 
-  [q] (move-f q))
+  [q] (move-r q))
   
 (defn defmove
   [id & {name :name,
          gen :introduced-in}]
   (doseq [g (generations-since gen)]
-    (genfact g move-f id))
-  (l/fact name-f id name))
+    (genfact g move-r id))
+  (l/fact name-r id name))
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -137,35 +137,35 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
-(defgenrel ability-f a)
+(defgenrel ability-r a)
 
-(lhacks/defpredicate ability? [id] (ability-f id))
+(lhacks/defpredicate ability? [id] (ability-r id))
 
 (lhacks/defquery list-abilities [] 
-  [q] (ability-f q))
+  [q] (ability-r q))
 
 (defn defability
   [id & {name :name,
          gen :introduced-in}]
   (doseq [g (generations-since gen)]
-    (genfact g ability-f id))
-  (l/fact name-f id name))
+    (genfact g ability-r id))
+  (l/fact name-r id name))
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Items
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defgenrel item-f i)
+(defgenrel item-r i)
 
-(lhacks/defpredicate item? [id] (item-f id))
+(lhacks/defpredicate item? [id] (item-r id))
 
 (defn defitem
   [id & {name :name,
          gen :introduced-in}]
   (doseq [g (generations-since gen)]
-    (genfact g item-f id))
-  (l/fact name-f id name))
+    (genfact g item-r id))
+  (l/fact name-r id name))
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -174,41 +174,41 @@
 
 (def generations-without-abilities [:rb :gs])
 
-(defgenrel pokemon-f x)
-(defgenrel pokemon-type-f p x)
-(defgenrel pokemon-ability-f p x)
-(defgenrel pokemon-egggroup-f p x)
-(defgenrel pokemon-hp-f p x)
-(defgenrel pokemon-atk-f p x)
-(defgenrel pokemon-def-f p x)
-(defgenrel pokemon-spatk-f p x)
-(defgenrel pokemon-spdef-f p x)
-(defgenrel pokemon-special-f p x)
-(defgenrel pokemon-speed-f p x)
-(defgenrel pokemon-weight-f p x)
-(defgenrel pokemon-height-f p x)
+(defgenrel pokemon-r x)
+(defgenrel pokemon-type-r p x)
+(defgenrel pokemon-ability-r p x)
+(defgenrel pokemon-egggroup-r p x)
+(defgenrel pokemon-hp-r p x)
+(defgenrel pokemon-atk-r p x)
+(defgenrel pokemon-def-r p x)
+(defgenrel pokemon-spatk-r p x)
+(defgenrel pokemon-spdef-r p x)
+(defgenrel pokemon-special-r p x)
+(defgenrel pokemon-speed-r p x)
+(defgenrel pokemon-weight-r p x)
+(defgenrel pokemon-height-r p x)
 
 ;; Queries
 
-(lhacks/defpredicate pokemon? [id] (pokemon-f id))
+(lhacks/defpredicate pokemon? [id] (pokemon-r id))
 
 (lhacks/defquery list-pokemon [] 
-  [q] (pokemon-f q))
+  [q] (pokemon-r q))
 
 (lhacks/defquery type-of [id] 
-  [q] (pokemon-type-f id q))
+  [q] (pokemon-type-r id q))
 
 (lhacks/defquery ability-of [id] 
-  [q] (pokemon-ability-f id q))
+  [q] (pokemon-ability-r id q))
 
 (lhacks/defquery ability-monset-of [aid]
-  [q] (pokemon-ability-f q aid))
+  [q] (pokemon-ability-r q aid))
 
 (lhacks/defsingleton weight-of [id]
-  [q] (pokemon-weight-f id q))
+  [q] (pokemon-weight-r id q))
 
 (lhacks/defsingleton height-of [id]
-  [q] (pokemon-height-f id q))
+  [q] (pokemon-height-r id q))
 
 (defn defpokemon
   "Helper function to define a Pokemon."
@@ -222,58 +222,58 @@
          gheight :height}]
 
   (doseq [g (generations-since gen)]
-    (genfact g pokemon-f id))
+    (genfact g pokemon-r id))
   
-  (l/fact name-f id name)
+  (l/fact name-r id name)
   
   (letfn [(mg [x] (make-generational gen x))]
     (doseq [[g types] (mg gtypes)
             type types]
-      (genfact g pokemon-type-f id type))
+      (genfact g pokemon-type-r id type))
     
     (doseq [[g abilities] (mg gabilities)
             ability abilities]
-      (genfact g pokemon-ability-f id ability))
+      (genfact g pokemon-ability-r id ability))
     
     (doseq [[g stats] (mg gstats)]
       ;; Ugly hack; for :rb spatk/spdef are combined.
       (if (= g :rb)
         (let [[hp atk def special speed] stats]
-          (genfact g pokemon-hp-f id hp)
-          (genfact g pokemon-atk-f id atk)
-          (genfact g pokemon-def-f id def)
-          (genfact g pokemon-special-f id special)
-          (genfact g pokemon-speed-f id speed))
+          (genfact g pokemon-hp-r id hp)
+          (genfact g pokemon-atk-r id atk)
+          (genfact g pokemon-def-r id def)
+          (genfact g pokemon-special-r id special)
+          (genfact g pokemon-speed-r id speed))
         (let [[hp atk def spatk spdef speed] stats]
-          (genfact g pokemon-hp-f id hp)
-          (genfact g pokemon-atk-f id atk)
-          (genfact g pokemon-def-f id def)
-          (genfact g pokemon-spatk-f id spatk)
-          (genfact g pokemon-spdef-f id spdef)
-          (genfact g pokemon-speed-f id speed))))
+          (genfact g pokemon-hp-r id hp)
+          (genfact g pokemon-atk-r id atk)
+          (genfact g pokemon-def-r id def)
+          (genfact g pokemon-spatk-r id spatk)
+          (genfact g pokemon-spdef-r id spdef)
+          (genfact g pokemon-speed-r id speed))))
     
     (doseq [[g egggroups] (mg gegggroups)
             egggroup egggroups]
-      (genfact g pokemon-egggroup-f id egggroup))
+      (genfact g pokemon-egggroup-r id egggroup))
     
     (doseq [[g weight] (mg gweight)]
-      (genfact g pokemon-weight-f id weight))
+      (genfact g pokemon-weight-r id weight))
     
     (doseq [[g height] (mg gheight)]
-      (genfact g pokemon-height-f id height))))
+      (genfact g pokemon-height-r id height))))
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Evolutions
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defgenrel evolves-f p p')
+(defgenrel directly-evolves-r p p')
 
 (defn evolves-r [p p']
   (l/conde
-   ((evolves-f p p'))
+   ((directly-evolves-r p p'))
    ((l/fresh [p'']
-           (evolves-f p p'')
+           (directly-evolves-r p p'')
            (evolves-r p'' p')))))
 
 (lhacks/defquery preevos-of [id]
@@ -323,7 +323,7 @@
           [palts pevoalts] pairs
           p palts
           pevo pevoalts]
-    (genfact g evolves-f p pevo)))
+    (genfact g directly-evolves-r p pevo)))
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -331,14 +331,14 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; You don't need to include moves preevos learns; these are handled by learns-r
-(defgenrel learns-f p m)
+(defgenrel learns-sans-preevos-r p m)
 
 (defn learns-r
   [p m]
-  (l/conde ((learns-f p m))
+  (l/conde ((learns-sans-preevos-r p m))
            ((l/fresh [p']
                      (evolves-r p' p) 
-                     (learns-f p' m)))))
+                     (learns-sans-preevos-r p' m)))))
 
 (lhacks/defpredicate learns? [pid mid]
   (learns-r pid mid))
@@ -353,4 +353,4 @@
   [gen & pairs]
   (doseq [[p ms] (partition 2 pairs)
           m ms]
-    (genfact gen learns-f p m)))
+    (genfact gen learns-sans-preevos-r p m)))
