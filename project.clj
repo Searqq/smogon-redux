@@ -4,19 +4,18 @@
   :url "http://www.smogon.com/"
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/core.logic "0.8.3"]
-                 [org.clojure/tools.namespace "0.2.3"]
+                 [org.clojure/tools.trace "0.7.5"]
+                 [org.clojure/tools.macro "0.1.2"]
                  [enlive "1.1.1"]
                  [compojure "1.1.5"]
                  [http-kit "2.0.1"]
                  [com.taoensso/timbre "1.5.2"] ;; Logger
-                 [ring "1.1.8"]
-                 [org.clojure/tools.trace "0.7.5"]]
+                 [ring "1.1.8"]]
   :plugins [[lein-exec "0.3.0"]]
   :repl-options {
                  :init (do
                          ;; Useful libraries
                          (use 'clojure.repl)
-                         (use '[clojure.tools.namespace.repl :only (refresh)])
                          (require '[clojure.core.logic :as l])
                          (require '[clojure.java.io :as io])
                          (use 'clojure.tools.trace)

@@ -1,8 +1,9 @@
 
 (ns smogon.dex
   (:require [clojure.core.logic :as l]
+            [clojure.tools.macro :as m]
+            [smogon.core-logic-hacks :as lhacks]
             [clojure.java.io :as io]))
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Utilities
@@ -16,52 +17,14 @@
     (when (.isFile f)
       (load-file (.getPath  f)))))
 
-(defmacro ^:private anon-rel
-  "Ridiculous hack because there is no way to create a relation without binding
-  it to a var."
-  [& args]
-  (let [rel (gensym "anon-rel")]
-    `(do
-       (l/defrel ~rel ~@args)
-       ~rel)))
-
-(defmacro defrel
-  "Enhancements to core.logic's defrel. In particular, it is defonce!"
-  [name & args]
-  `(defonce ~name (anon-rel ~@args)))
-
-;; Since l/run* uses laziness, we have to force *gen* before running the body.
-(defmacro defdexquery [name args queryvars & body]
-  `(defn ~name
-     [~@args]
-     (doall (l/run* ~queryvars ~@body))))
-
-(defmacro defdexpred [name args & body]
-  `(defn ~name
-     [~@args]
-     ;; Warning: this is not the same as not-empty because Clojure is stupid as
-     ;; fuck and thinks returning the list is accetpable answer (hint: its not,
-     ;; return true or false please)
-     (not (empty? (l/run* [q#] ~@body)))))
-
-(defmacro defdexsel [name args queryvars & body]
-  `(defn ~name
-     [~@args]
-     ;; Warning: this is not the same as not-empty because Clojure is stupid as
-     ;; fuck and thinks returning the list is accetpable answer (hint: its not,
-     ;; return true or false please
-     (first (l/run* ~queryvars ~@body))))
-
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; All dex objects :)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defrel name-f o x)
+(lhacks/defrel name-f o x)
 
-(defdexsel name-of [id] 
+(lhacks/defsingleton name-of [id] 
   [q] (name-f id q))
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Generations
@@ -109,11 +72,12 @@
     (fill-generations gens gen-map)))
 
 (defmacro defgenrel [name & args]
-  `(let [rel# (anon-rel ^:index g# ~@args)] 
-     (when (defonce ~name (fn [~@args]
-                            (rel# *gen* ~@args)))
-       (alter-meta! #'~name #(assoc % ::genrel rel#))
-       #'~name)))
+  (let [[name [& args]] (m/name-with-attributes name args)] 
+    `(let [rel# (lhacks/rel ^:index g# ~@args)] 
+       (when (defonce ~name (fn [~@args]
+                              (rel# *gen* ~@args)))
+         (alter-meta! #'~name #(assoc % ::genrel rel#))
+         #'~name))))
 
 (defmacro genfact
   [gen rel & tuple]
@@ -131,10 +95,10 @@
 (defgenrel type-f t)
 (defgenrel type-effective-against-f t1 t2 modifier)
 
-(defdexpred type? [tid] (type-f tid))
-(defdexsel type-effectiveness [tid1 tid2]
+(lhacks/defpredicate type? [tid] (type-f tid))
+(lhacks/defsingleton type-effectiveness [tid1 tid2]
   [q] (type-effective-against-f tid1 tid2 q))
-(defdexquery type-effectiveness-row [tid]
+(lhacks/defquery type-effectiveness-row [tid]
   [q r] (type-effective-against-f tid q r))
 
 (defn deftypechart
@@ -155,9 +119,9 @@
 
 (defgenrel move-f m)
 
-(defdexpred move? [id] (move-f id))
+(lhacks/defpredicate move? [id] (move-f id))
 
-(defdexquery list-moves [] 
+(lhacks/defquery list-moves [] 
   [q] (move-f q))
   
 (defn defmove
@@ -175,13 +139,10 @@
 
 (defgenrel ability-f a)
 
-(defdexpred ability? [id] (ability-f id))
+(lhacks/defpredicate ability? [id] (ability-f id))
 
-(defdexquery list-abilities [] 
+(lhacks/defquery list-abilities [] 
   [q] (ability-f q))
-
-(defdexquery ability-monset-of [aid]
-  [q] (pokemon-ability-f q aid))
 
 (defn defability
   [id & {name :name,
@@ -197,7 +158,7 @@
 
 (defgenrel item-f i)
 
-(defdexpred item? [id] (item-f id))
+(lhacks/defpredicate item? [id] (item-f id))
 
 (defn defitem
   [id & {name :name,
@@ -229,21 +190,24 @@
 
 ;; Queries
 
-(defdexpred pokemon? [id] (pokemon-f id))
+(lhacks/defpredicate pokemon? [id] (pokemon-f id))
 
-(defdexquery list-pokemon [] 
+(lhacks/defquery list-pokemon [] 
   [q] (pokemon-f q))
 
-(defdexquery type-of [id] 
+(lhacks/defquery type-of [id] 
   [q] (pokemon-type-f id q))
 
-(defdexquery ability-of [id] 
+(lhacks/defquery ability-of [id] 
   [q] (pokemon-ability-f id q))
 
-(defdexsel weight-of [id]
+(lhacks/defquery ability-monset-of [aid]
+  [q] (pokemon-ability-f q aid))
+
+(lhacks/defsingleton weight-of [id]
   [q] (pokemon-weight-f id q))
 
-(defdexsel height-of [id]
+(lhacks/defsingleton height-of [id]
   [q] (pokemon-height-f id q))
 
 (defn defpokemon
@@ -312,13 +276,13 @@
            (evolves-f p p'')
            (evolves-r p'' p')))))
 
-(defdexquery preevos-of [id]
+(lhacks/defquery preevos-of [id]
   [q] (evolves-r id q))
 
-(defdexquery postevos-of [id]
+(lhacks/defquery postevos-of [id]
   [q] (evolves-r q id))
  
-(defdexquery family-of [id]
+(lhacks/defquery family-of [id]
   [q] (l/conde
        ((evolves-r q id))
        ((evolves-r id q))))
@@ -376,13 +340,13 @@
                      (evolves-r p' p) 
                      (learns-f p' m)))))
 
-(defdexpred learns? [pid mid]
+(lhacks/defpredicate learns? [pid mid]
   (learns-r pid mid))
 
-(defdexquery move-monset-of [mid]
+(lhacks/defquery move-monset-of [mid]
   [q] (learns-r q mid))
 
-(defdexquery learnset-of [pid]
+(lhacks/defquery learnset-of [pid]
   [q] (learns-r pid q))
 
 (defn deflearnset
