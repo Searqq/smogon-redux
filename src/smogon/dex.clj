@@ -330,7 +330,6 @@
 ;; Learnsets
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; You don't need to include moves preevos learns; these are handled by learns-r
 (defgenrel learns-sans-preevos-r p m)
 
 (defn learns-r
