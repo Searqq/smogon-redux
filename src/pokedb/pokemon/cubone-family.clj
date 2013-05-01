@@ -1,4 +1,3 @@
-
 (defpokemon :cubone
   :name "Cubone"
   :introduced-in :rb
@@ -35,12 +34,12 @@
 
 (deflearnset :rs
   :cubone [:aerial-ace :ancientpower :attract :belly-drum :blizzard :body-slam :bone-club :bone-rush :bonemerang :brick-break :counter :dig :double-edge :double-team :dynamicpunch :earthquake :endure :facade :false-swipe :fire-blast :fire-punch :flamethrower :focus-energy :focus-punch :frustration :growl :headbutt :hidden-power :ice-beam :icy-wind :iron-tail :leer :mega-kick :mega-punch :mimic :mud-slap :perish-song :protect :rage :rest :return :rock-slide :rock-smash :rock-tomb :sandstorm :screech :secret-power :seismic-toss :skull-bash :sleep-talk :snore :strength :substitute :sunny-day :swagger :swords-dance :tail-whip :thief :thrash :thunderpunch :toxic]
-  :marowak [:hyper-beam])
+  :marowak [:hyper-beam :sing])
 
 (deflearnset :dp
-  :cubone [:aerial-ace :ancientpower :attract :belly-drum :blizzard :bone-club :bone-rush :bonemerang :brick-break :captivate :detect :dig :double-edge :double-kick :double-team :earth-power :earthquake :endeavor :endure :facade :false-swipe :fire-blast :fire-punch :flamethrower :fling :focus-energy :focus-punch :frustration :fury-cutter :growl :headbutt :hidden-power :ice-beam :icy-wind :iron-defense :iron-head :iron-tail :knock-off :leer :low-kick :mud-slap :natural-gift :perish-song :protect :rage :rest :return :rock-climb :rock-slide :rock-smash :rock-tomb :sandstorm :screech :secret-power :skull-bash :sleep-talk :snore :stealth-rock :strength :substitute :sunny-day :swagger :swords-dance :tail-whip :thief :thrash :thunderpunch :toxic :uproar]
-  :marowak [:focus-blast :giga-impact :hyper-beam :outrage :stone-edge])
+  :cubone [:aerial-ace :ancientpower :attract :belly-drum :blizzard :body-slam :bone-club :bone-rush :bonemerang :brick-break :captivate :detect :dig :double-edge :double-kick :double-team :earth-power :earthquake :endeavor :endure :facade :false-swipe :fire-blast :fire-punch :flamethrower :fling :focus-energy :focus-punch :frustration :fury-cutter :growl :headbutt :hidden-power :ice-beam :icy-wind :iron-defense :iron-head :iron-tail :knock-off :leer :low-kick :mimic :mud-slap :natural-gift :perish-song :protect :rage :rest :return :rock-climb :rock-slide :rock-smash :rock-tomb :sandstorm :screech :secret-power :seismic-toss :skull-bash :sleep-talk :snore :stealth-rock :strength :substitute :sunny-day :swagger :swords-dance :tail-whip :thief :thrash :thunderpunch :toxic :uproar]
+  :marowak [:focus-blast :giga-impact :hyper-beam :outrage :sing :stone-edge])
 
 (deflearnset :bw
-  :cubone [:aerial-ace :ancientpower :attract :belly-drum :blizzard :bone-club :bone-rush :bonemerang :brick-break :bulldoze :chip-away :detect :dig :double-edge :double-kick :double-team :earth-power :earthquake :echoed-voice :endeavor :endure :facade :false-swipe :fire-blast :fire-punch :flamethrower :fling :focus-energy :frustration :growl :headbutt :hidden-power :ice-beam :icy-wind :incinerate :iron-defense :iron-head :iron-tail :knock-off :leer :low-kick :perish-song :protect :rage :rest :retaliate :return :rock-slide :rock-smash :rock-tomb :round :sandstorm :screech :skull-bash :sleep-talk :smack-down :snore :stealth-rock :strength :substitute :sunny-day :swagger :swords-dance :tail-whip :thief :thrash :thunderpunch :toxic :uproar]
-  :marowak [:focus-blast :giga-impact :hyper-beam :outrage :stone-edge])
+  :cubone [:aerial-ace :ancientpower :attract :belly-drum :blizzard :bone-club :bone-rush :bonemerang :brick-break :bulldoze :chip-away :detect :dig :double-edge :double-kick :double-team :earth-power :earthquake :echoed-voice :endeavor :endure :facade :false-swipe :fire-blast :fire-punch :flamethrower :fling :focus-energy :frustration :growl :headbutt :hidden-power :ice-beam :icy-wind :incinerate :iron-defense :iron-head :iron-tail :knock-off :leer :low-kick :mimic :perish-song :protect :rage :rest :retaliate :return :rock-slide :rock-smash :rock-tomb :round :sandstorm :screech :seismic-toss :skull-bash :sleep-talk :smack-down :snore :stealth-rock :strength :substitute :sunny-day :swagger :swords-dance :tail-whip :thief :thrash :thunderpunch :toxic :uproar]
+  :marowak [:focus-blast :giga-impact :hyper-beam :outrage :sing :stone-edge])
