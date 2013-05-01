@@ -1,4 +1,3 @@
-
 (defpokemon :corphish
   :name "Corphish"
   :introduced-in :rs
@@ -28,9 +27,9 @@
   :crawdaunt [:dive :hyper-beam :swift])
 
 (deflearnset :dp
-  :corphish [:aerial-ace :ancientpower :attract :blizzard :body-slam :brick-break :bubble :bubblebeam :captivate :crabhammer :crunch :cut :dig :double-team :dragon-dance :endeavor :endure :facade :false-swipe :fling :frustration :fury-cutter :guillotine :hail :harden :hidden-power :ice-beam :icy-wind :iron-defense :knock-off :leer :metal-claw :mud-slap :mud-sport :natural-gift :night-slash :payback :protect :rain-dance :rest :return :rock-slide :rock-smash :rock-tomb :secret-power :sleep-talk :sludge-bomb :snore :spite :strength :substitute :superpower :surf :swagger :swords-dance :taunt :toxic :vicegrip :water-pulse :waterfall :whirlpool :x-scissor]
+  :corphish [:aerial-ace :ancientpower :attract :blizzard :body-slam :brick-break :bubble :bubblebeam :captivate :crabhammer :crunch :cut :dig :double-team :dragon-dance :endeavor :endure :facade :false-swipe :fling :frustration :fury-cutter :guillotine :hail :harden :hidden-power :ice-beam :icy-wind :iron-defense :knock-off :leer :metal-claw :mimic :mud-slap :mud-sport :natural-gift :night-slash :payback :protect :rain-dance :rest :return :rock-slide :rock-smash :rock-tomb :secret-power :sleep-talk :sludge-bomb :snore :spite :strength :substitute :superpower :surf :swagger :swords-dance :taunt :toxic :vicegrip :water-pulse :waterfall :whirlpool :x-scissor]
   :crawdaunt [:avalanche :dark-pulse :dive :giga-impact :hyper-beam :swift])
 
 (deflearnset :bw
-  :corphish [:aerial-ace :ancientpower :attract :blizzard :body-slam :brick-break :bubble :bubblebeam :chip-away :crabhammer :crunch :cut :dig :double-edge :double-team :dragon-dance :endeavor :facade :false-swipe :fling :frustration :guillotine :hail :harden :hidden-power :hone-claws :ice-beam :icy-wind :iron-defense :knock-off :leer :metal-claw :mud-sport :night-slash :payback :protect :rain-dance :rest :return :rock-slide :rock-smash :rock-tomb :round :scald :sleep-talk :sludge-bomb :snore :spite :strength :substitute :superpower :surf :swagger :swords-dance :taunt :toxic :trump-card :vicegrip :waterfall :x-scissor]
+  :corphish [:aerial-ace :ancientpower :attract :blizzard :body-slam :brick-break :bubble :bubblebeam :chip-away :crabhammer :crunch :cut :dig :double-edge :double-team :dragon-dance :endeavor :facade :false-swipe :fling :frustration :fury-cutter :guillotine :hail :harden :hidden-power :hone-claws :ice-beam :icy-wind :iron-defense :knock-off :leer :metal-claw :mimic :mud-sport :night-slash :payback :protect :rain-dance :rest :return :rock-slide :rock-smash :rock-tomb :round :scald :sleep-talk :sludge-bomb :snore :spite :strength :substitute :superpower :surf :swagger :swords-dance :taunt :toxic :trump-card :vicegrip :waterfall :x-scissor]
   :crawdaunt [:dark-pulse :dive :giga-impact :hyper-beam :retaliate :sludge-wave :snarl :swift])
