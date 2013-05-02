@@ -204,6 +204,27 @@
 (lhacks/defquery ability-monset-of [aid]
   [q] (pokemon-ability-r q aid))
 
+(lhacks/defsingleton hp-of [id]
+  [q] (pokemon-hp-r id q))
+
+(lhacks/defsingleton atk-of [id]
+  [q] (pokemon-atk-r id q))
+
+(lhacks/defsingleton def-of [id]
+  [q] (pokemon-def-r id q))
+
+(lhacks/defsingleton spatk-of [id]
+  [q] (pokemon-spatk-r id q))
+
+(lhacks/defsingleton spdef-of [id]
+  [q] (pokemon-spdef-r id q))
+
+(lhacks/defsingleton special-of [id]
+  [q] (pokemon-special-r id q))
+
+(lhacks/defsingleton speed-of [id]
+  [q] (pokemon-speed-r id q))
+
 (lhacks/defsingleton weight-of [id]
   [q] (pokemon-weight-r id q))
 
