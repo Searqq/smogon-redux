@@ -38,16 +38,16 @@
 
 (deflearnset :rs
   :treecko [:absorb :aerial-ace :agility :attract :body-slam :brick-break :bullet-seed :counter :crunch :crush-claw :cut :detect :dig :double-edge :double-team :dragonbreath :dynamicpunch :endeavor :endure :facade :flash :focus-punch :frustration :fury-cutter :giga-drain :hidden-power :iron-tail :leech-seed :leer :mega-drain :mega-kick :mega-punch :mimic :mud-slap :mud-sport :pound :protect :pursuit :quick-attack :rest :return :rock-smash :rock-tomb :safeguard :screech :secret-power :seismic-toss :slam :sleep-talk :snore :solarbeam :strength :substitute :sunny-day :swagger :swift :swords-dance :thunderpunch :toxic]
-  :grovyle [:false-swipe :leaf-blade]
+  :grovyle [:false-swipe :leaf-blade :body-slam :double-edge :mimic :seismic-toss]
   :sceptile [:dragon-claw :earthquake :hyper-beam :roar])
 
 (deflearnset :dp
   :treecko [:absorb :aerial-ace :agility :attract :brick-break :bullet-seed :captivate :crunch :crush-claw :cut :detect :dig :double-kick :double-team :dragonbreath :drain-punch :endeavor :endure :energy-ball :facade :flash :fling :focus-punch :frustration :fury-cutter :giga-drain :grass-knot :grasswhistle :headbutt :hidden-power :iron-tail :leaf-storm :leech-seed :leer :low-kick :magical-leaf :mega-drain :mud-slap :mud-sport :natural-gift :pound :protect :pursuit :quick-attack :razor-wind :rest :return :rock-slide :rock-smash :rock-tomb :safeguard :screech :secret-power :seed-bomb :slam :sleep-talk :snore :solarbeam :strength :substitute :sunny-day :swagger :swift :swords-dance :synthesis :thunderpunch :toxic :worry-seed]
-  :grovyle [:false-swipe :leaf-blade :x-scissor]
+  :grovyle [:false-swipe :leaf-blade :x-scissor :body-slam :double-edge :mimic :seismic-toss]
   :sceptile [:dragon-claw :dragon-pulse :earthquake :focus-blast :frenzy-plant :giga-impact :hyper-beam :night-slash :outrage :roar :rock-climb])
 
 (deflearnset :bw
   :treecko [:absorb :acrobatics :aerial-ace :agility :attract :brick-break :bullet-seed :crunch :crush-claw :cut :detect :dig :double-kick :double-team :dragonbreath :drain-punch :endeavor :energy-ball :facade :flash :fling :frustration :giga-drain :grass-knot :grass-pledge :grasswhistle :hidden-power :iron-tail :leaf-storm :leech-seed :leer :low-kick :magical-leaf :mega-drain :mud-sport :natural-gift :pound :protect :pursuit :quick-attack :razor-wind :rest :return :rock-slide :rock-smash :rock-tomb :round :safeguard :screech :seed-bomb :slam :sleep-talk :snore :solarbeam :strength :substitute :sunny-day :swagger :swords-dance :synthesis :thunderpunch :toxic :worry-seed]
-  :grovyle [:false-swipe :fury-cutter :leaf-blade :low-sweep :x-scissor]
+  :grovyle [:false-swipe :fury-cutter :leaf-blade :low-sweep :x-scissor :body-slam :double-edge :mimic :seismic-toss]
   :sceptile [:bulldoze :dragon-claw :dragon-pulse :earthquake :focus-blast :frenzy-plant :giga-impact :hone-claws :hyper-beam :night-slash :outrage :roar])
 
