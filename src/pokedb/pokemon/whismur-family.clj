@@ -39,15 +39,15 @@
 (deflearnset :rs
   :whismur [:astonish :attract :blizzard :body-slam :counter :defense-curl :double-edge :double-team :dynamicpunch :endure :extrasensory :facade :fire-blast :fire-punch :flamethrower :frustration :hidden-power :howl :hyper-voice :ice-beam :ice-punch :icy-wind :mega-kick :mega-punch :mimic :mud-slap :pound :protect :psych-up :rain-dance :rest :return :roar :rollout :screech :secret-power :seismic-toss :shadow-ball :shock-wave :sleep-talk :smellingsalt :snore :solarbeam :stomp :substitute :sunny-day :supersonic :swagger :take-down :thunderpunch :toxic :uproar :water-pulse]
   :loudred [:brick-break :earthquake :overheat :rock-slide :rock-smash :strength :taunt :torment]
-  :exploud [:hyper-beam])
+  :exploud [:hyper-beam :body-slam :double-edge :icy-wind :mimic :seismic-toss])
 
 (deflearnset :dp
   :whismur [:astonish :attract :blizzard :captivate :double-team :endeavor :endure :extrasensory :facade :fire-blast :fire-punch :flamethrower :fling :frustration :hammer-arm :headbutt :hidden-power :howl :hyper-voice :ice-beam :ice-punch :icy-wind :mud-slap :natural-gift :pound :protect :rain-dance :rest :return :roar :rollout :screech :secret-power :shadow-ball :shock-wave :sleep-talk :smellingsalt :smokescreen :snore :solarbeam :stomp :substitute :sunny-day :supersonic :swagger :take-down :thunderpunch :toxic :uproar :water-pulse :zen-headbutt]
   :loudred [:bite :brick-break :earthquake :low-kick :overheat :rock-slide :rock-smash :rock-tomb :strength :taunt :torment]
-  :exploud [:avalanche :crunch :fire-fang :focus-blast :giga-impact :hyper-beam :ice-fang :outrage :rock-climb :surf :thunder-fang :whirlpool])
+  :exploud [:avalanche :crunch :fire-fang :focus-blast :giga-impact :hyper-beam :ice-fang :outrage :rock-climb :surf :thunder-fang :whirlpool :body-slam :double-edge :icy-wind :mimic :seismic-toss])
 
 (deflearnset :bw
   :whismur [:astonish :attract :blizzard :circle-throw :double-team :echoed-voice :endeavor :extrasensory :facade :fake-tears :fire-blast :fire-punch :flamethrower :fling :frustration :hammer-arm :hidden-power :howl :hyper-voice :ice-beam :ice-punch :icy-wind :incinerate :pound :protect :rain-dance :rest :retaliate :return :roar :round :screech :shadow-ball :sleep-talk :smellingsalt :smokescreen :snore :solarbeam :stomp :substitute :sunny-day :supersonic :swagger :synchronoise :take-down :thunderpunch :toxic :uproar :work-up :zen-headbutt]
   :loudred [:bite :brick-break :bulldoze :earthquake :low-kick :overheat :rock-slide :rock-smash :rock-tomb :smack-down :strength :taunt :torment]
-  :exploud [:crunch :fire-fang :focus-blast :giga-impact :hyper-beam :ice-fang :outrage :surf :thunder-fang])
+  :exploud [:crunch :fire-fang :focus-blast :giga-impact :hyper-beam :ice-fang :outrage :surf :thunder-fang :body-slam :double-edge :icy-wind :mimic :seismic-toss])
 

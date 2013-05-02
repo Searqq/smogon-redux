@@ -24,13 +24,13 @@
 (deffamily :electrike :manectric)
 
 (deflearnset :rs
-  :electrike [:attract :bite :body-slam :charge :crunch :curse :double-edge :double-team :endure :facade :flash :frustration :headbutt :hidden-power :howl :iron-tail :leer :mimic :mud-slap :odor-sleuth :protect :quick-attack :rain-dance :rest :return :roar :secret-power :shock-wave :sleep-talk :snore :spark :strength :substitute :swagger :swift :tackle :thief :thunder :thunder-wave :thunderbolt :toxic :uproar]
+  :electrike [:attract :bite :body-slam :charge :crunch :curse :double-edge :double-team :endure :facade :flash :frustration :headbutt :hidden-power :howl :iron-tail :leer :mimic :mud-slap :odor-sleuth :protect :quick-attack :rain-dance :rest :return :roar :secret-power :shock-wave :sleep-talk :snore :spark :strength :substitute :swagger :swift :tackle :thief :thunder :thunder-wave :thunderbolt :toxic :uproar :body-slam :double-edge :mimic]
   :manectric [:hyper-beam])
 
 (deflearnset :dp
-  :electrike [:attract :bite :captivate :charge :charge-beam :crunch :curse :discharge :double-team :endure :facade :fire-fang :flamethrower :flash :frustration :headbutt :hidden-power :howl :ice-fang :iron-tail :leer :light-screen :magnet-rise :mud-slap :natural-gift :odor-sleuth :protect :quick-attack :rain-dance :rest :return :roar :secret-power :shock-wave :signal-beam :sleep-talk :snore :spark :strength :substitute :swagger :swift :switcheroo :tackle :thief :thunder :thunder-fang :thunder-wave :thunderbolt :toxic :uproar]
+  :electrike [:attract :bite :captivate :charge :charge-beam :crunch :curse :discharge :double-team :endure :facade :fire-fang :flamethrower :flash :frustration :headbutt :hidden-power :howl :ice-fang :iron-tail :leer :light-screen :magnet-rise :mud-slap :natural-gift :odor-sleuth :protect :quick-attack :rain-dance :rest :return :roar :secret-power :shock-wave :signal-beam :sleep-talk :snore :spark :strength :substitute :swagger :swift :switcheroo :tackle :thief :thunder :thunder-fang :thunder-wave :thunderbolt :toxic :uproar :body-slam :double-edge :mimic]
   :manectric [:giga-impact :hyper-beam :overheat])
 
 (deflearnset :bw
-  :electrike [:attract :bite :charge :charge-beam :crunch :curse :discharge :double-team :electro-ball :facade :fire-fang :flame-burst :flamethrower :flash :frustration :headbutt :hidden-power :howl :ice-fang :iron-tail :leer :light-screen :magnet-rise :odor-sleuth :protect :quick-attack :rain-dance :rest :return :roar :round :shock-wave :signal-beam :sleep-talk :snarl :snore :spark :strength :substitute :swagger :swift :switcheroo :tackle :thief :thunder :thunder-fang :thunder-wave :thunderbolt :toxic :uproar :volt-switch :wild-charge]
+  :electrike [:attract :bite :charge :charge-beam :crunch :curse :discharge :double-team :electro-ball :facade :fire-fang :flame-burst :flamethrower :flash :frustration :headbutt :hidden-power :howl :ice-fang :iron-tail :leer :light-screen :magnet-rise :odor-sleuth :protect :quick-attack :rain-dance :rest :return :roar :round :shock-wave :signal-beam :sleep-talk :snarl :snore :spark :strength :substitute :swagger :swift :switcheroo :tackle :thief :thunder :thunder-fang :thunder-wave :thunderbolt :toxic :uproar :volt-switch :wild-charge :body-slam :double-edge :mimic]
   :manectric [:giga-impact :hyper-beam :overheat])
