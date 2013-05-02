@@ -26,6 +26,6 @@
 
                          (load-dex-files))
                  }
-  :local-repo ".repo")
+  :local-repo ".m2")
 
 
