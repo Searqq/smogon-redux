@@ -36,14 +36,14 @@
   :electrode [:hyper-beam])
 
 (deflearnset :rs
-  :voltorb [:charge :double-team :endure :explosion :facade :flash :frustration :hidden-power :light-screen :mimic :mirror-coat :protect :rain-dance :rest :return :rollout :screech :secret-power :selfdestruct :shock-wave :sleep-talk :snore :sonicboom :spark :substitute :swagger :swift :tackle :taunt :thief :thunder :thunder-wave :thunderbolt :torment :toxic]
+  :voltorb [:charge :double-team :endure :explosion :facade :flash :frustration :hidden-power :light-screen :mimic :mirror-coat :protect :rain-dance :rest :return :rollout :screech :secret-power :selfdestruct :shock-wave :sleep-talk :snore :sonicboom :spark :substitute :swagger :swift :tackle :taunt :thief :thunder :thunder-wave :thunderbolt :torment :toxic :mimic :refresh]
   :electrode [:hyper-beam :mimic])
 
 (deflearnset :dp
-  :voltorb [:charge :charge-beam :double-team :endure :explosion :facade :flash :frustration :gyro-ball :headbutt :hidden-power :light-screen :magic-coat :magnet-rise :mirror-coat :natural-gift :protect :rain-dance :rest :return :rollout :screech :secret-power :selfdestruct :shock-wave :signal-beam :sleep-talk :snore :sonicboom :spark :substitute :sucker-punch :swagger :swift :tackle :taunt :thief :thunder :thunder-wave :thunderbolt :torment :toxic]
+  :voltorb [:charge :charge-beam :double-team :endure :explosion :facade :flash :frustration :gyro-ball :headbutt :hidden-power :light-screen :magic-coat :magnet-rise :mirror-coat :natural-gift :protect :rain-dance :rest :return :rollout :screech :secret-power :selfdestruct :shock-wave :signal-beam :sleep-talk :snore :sonicboom :spark :substitute :sucker-punch :swagger :swift :tackle :taunt :thief :thunder :thunder-wave :thunderbolt :torment :toxic :mimic :refresh]
   :electrode [:giga-impact :hyper-beam :mimic])
 
 (deflearnset :bw
-  :voltorb [:charge :charge-beam :double-team :electro-ball :explosion :facade :flash :foul-play :frustration :gyro-ball :hidden-power :light-screen :magic-coat :magnet-rise :mirror-coat :protect :rain-dance :rest :return :rollout :round :screech :selfdestruct :signal-beam :sleep-talk :snore :sonicboom :spark :substitute :swagger :swift :tackle :taunt :thief :thunder :thunder-wave :thunderbolt :torment :toxic :volt-switch :wild-charge]
+  :voltorb [:charge :charge-beam :double-team :electro-ball :explosion :facade :flash :foul-play :frustration :gyro-ball :hidden-power :light-screen :magic-coat :magnet-rise :mirror-coat :protect :rain-dance :rest :return :rollout :round :screech :selfdestruct :signal-beam :sleep-talk :snore :sonicboom :spark :substitute :swagger :swift :tackle :taunt :thief :thunder :thunder-wave :thunderbolt :torment :toxic :volt-switch :wild-charge :mimic :refresh]
   :electrode [:giga-impact :hyper-beam :mimic])
 

@@ -32,12 +32,12 @@
 
 (deflearnset :rs
   :onix [:attract :bind :block :body-slam :dig :double-edge :double-team :dragonbreath :earthquake :endure :explosion :facade :flail :frustration :harden :hidden-power :iron-tail :mimic :mud-slap :protect :psych-up :rage :rest :return :roar :rock-slide :rock-smash :rock-throw :rock-tomb :sand-tomb :sandstorm :screech :secret-power :selfdestruct :slam :sleep-talk :snore :strength :substitute :sunny-day :swagger :tackle :taunt :torment :toxic :body-slam :mimic :selfdestruct]
-  :steelix [:crunch :cut :defense-curl :hyper-beam :rollout])
+  :steelix [:crunch :cut :defense-curl :hyper-beam :rollout :body-slam :mimic :selfdestruct])
 
 (deflearnset :dp
   :onix [:ancientpower :attract :bind :block :captivate :curse :defense-curl :dig :double-edge :double-team :dragon-pulse :dragonbreath :earth-power :earthquake :endure :explosion :facade :flail :flash-cannon :frustration :gyro-ball :harden :headbutt :hidden-power :iron-head :iron-tail :mud-slap :mud-sport :natural-gift :payback :protect :psych-up :rage :rest :return :roar :rock-blast :rock-climb :rock-polish :rock-slide :rock-smash :rock-throw :rock-tomb :rollout :sand-tomb :sandstorm :screech :secret-power :slam :sleep-talk :snore :stealth-rock :stone-edge :strength :substitute :sunny-day :swagger :tackle :taunt :torment :toxic :twister :body-slam :mimic :selfdestruct]
-  :steelix [:aqua-tail :crunch :cut :dark-pulse :fire-fang :giga-impact :hyper-beam :ice-fang :magnet-rise :thunder-fang])
+  :steelix [:aqua-tail :crunch :cut :dark-pulse :fire-fang :giga-impact :hyper-beam :ice-fang :magnet-rise :thunder-fang :body-slam :mimic :selfdestruct])
 
 (deflearnset :bw
   :onix [:attract :bind :block :bulldoze :curse :defense-curl :dig :double-edge :double-team :dragon-pulse :dragon-tail :dragonbreath :earth-power :earthquake :explosion :facade :flail :flash-cannon :frustration :gyro-ball :harden :heavy-slam :hidden-power :iron-head :iron-tail :mud-sport :payback :protect :psych-up :rage :rest :return :roar :rock-blast :rock-climb :rock-polish :rock-slide :rock-smash :rock-throw :rock-tomb :rollout :round :sand-tomb :sandstorm :screech :slam :sleep-talk :smack-down :snore :stealth-rock :stone-edge :strength :substitute :sunny-day :swagger :tackle :taunt :torment :toxic :body-slam :mimic :selfdestruct]
-  :steelix [:aqua-tail :autotomize :crunch :cut :dark-pulse :fire-fang :giga-impact :hyper-beam :ice-fang :magnet-rise :thunder-fang])
+  :steelix [:aqua-tail :autotomize :crunch :cut :dark-pulse :fire-fang :giga-impact :hyper-beam :ice-fang :magnet-rise :thunder-fang :body-slam :mimic :selfdestruct])

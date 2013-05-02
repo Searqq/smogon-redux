@@ -112,8 +112,8 @@
   :espeon [:calm-mind :confusion :cut :dream-eater :flash :hyper-beam :light-screen :morning-sun :nightmare :psybeam :psych-up :psychic :reflect :skill-swap :body-slam :double-edge :mimic :nightmare]
   :flareon [:ember :fire-blast :fire-spin :flamethrower :leer :overheat :roar :smog :body-slam :double-edge :mimic]
   :jolteon [:agility :double-kick :pin-missile :shock-wave :thunder :thunder-wave :thunderbolt :thundershock :body-slam :double-edge :mimic]
-  :umbreon [:confuse-ray :faint-attack :mean-look :moonlight :pursuit :screech :snatch :taunt :torment]
-  :vaporeon [:acid-armor :aurora-beam :blizzard :dive :hail :haze :hydro-pump :ice-beam :icy-wind :surf :water-gun :water-pulse :waterfall])
+  :umbreon [:confuse-ray :faint-attack :mean-look :moonlight :pursuit :screech :snatch :taunt :torment :body-slam :double-edge :mimic :nightmare]
+  :vaporeon [:acid-armor :aurora-beam :blizzard :dive :hail :haze :hydro-pump :ice-beam :icy-wind :surf :water-gun :water-pulse :waterfall :body-slam :double-edge :icy-wind :mimic])
 
 (deflearnset :dp
   :eevee [:attract :baton-pass :bite :captivate :charm :covet :curse :detect :dig :double-team :endure :facade :fake-tears :flail :frustration :growl :headbutt :heal-bell :helping-hand :hidden-power :iron-tail :last-resort :mud-slap :natural-gift :protect :quick-attack :rain-dance :rest :return :sand-attack :secret-power :shadow-ball :sleep-talk :snore :substitute :sunny-day :swagger :swift :tackle :tail-whip :take-down :tickle :toxic :trump-card :wish :yawn :body-slam :double-edge :mimic]
@@ -122,8 +122,8 @@
   :glaceon [:aqua-tail :avalanche :barrier :blizzard :hail :ice-beam :ice-fang :ice-shard :icy-wind :mirror-coat :water-pulse]
   :jolteon [:agility :charge-beam :discharge :double-kick :magnet-rise :pin-missile :shock-wave :thunder :thunder-fang :thunder-wave :thunderbolt :thundershock :body-slam :double-edge :mimic]
   :leafeon [:aerial-ace :bullet-seed :energy-ball :fury-cutter :giga-drain :grasswhistle :knock-off :leaf-blade :magical-leaf :razor-leaf :seed-bomb :solarbeam :swords-dance :synthesis :worry-seed :x-scissor]
-  :umbreon [:assurance :confuse-ray :dark-pulse :faint-attack :guard-swap :mean-look :moonlight :payback :pursuit :screech :snatch :spite :sucker-punch :taunt :torment]
-  :vaporeon [:acid-armor :aqua-ring :aurora-beam :brine :dive :haze :hydro-pump :muddy-water :surf :water-gun :waterfall :whirlpool])
+  :umbreon [:assurance :confuse-ray :dark-pulse :faint-attack :guard-swap :mean-look :moonlight :payback :pursuit :screech :snatch :spite :sucker-punch :taunt :torment :body-slam :double-edge :mimic :nightmare]
+  :vaporeon [:acid-armor :aqua-ring :aurora-beam :brine :dive :haze :hydro-pump :muddy-water :surf :water-gun :waterfall :whirlpool :body-slam :double-edge :icy-wind :mimic])
 
 (deflearnset :bw
   :eevee [:attract :baton-pass :bite :charm :covet :curse :detect :dig :double-edge :double-team :echoed-voice :endure :facade :fake-tears :flail :frustration :growl :heal-bell :helping-hand :hidden-power :hyper-voice :iron-tail :last-resort :natural-gift :protect :quick-attack :rain-dance :rest :retaliate :return :round :sand-attack :shadow-ball :sleep-talk :snore :stored-power :substitute :sunny-day :swagger :synchronoise :tackle :tail-whip :take-down :tickle :toxic :trump-card :wish :work-up :yawn :body-slam :double-edge :mimic]
@@ -132,5 +132,5 @@
   :glaceon [:aqua-tail :barrier :blizzard :frost-breath :hail :ice-beam :ice-fang :ice-shard :icy-wind :mirror-coat]
   :jolteon [:agility :charge-beam :discharge :double-kick :magnet-rise :pin-missile :thunder :thunder-fang :thunder-wave :thunderbolt :thundershock :volt-switch :wild-charge :body-slam :double-edge :mimic]
   :leafeon [:aerial-ace :energy-ball :giga-drain :grasswhistle :knock-off :leaf-blade :magical-leaf :razor-leaf :seed-bomb :solarbeam :swords-dance :synthesis :worry-seed :x-scissor]
-  :umbreon [:assurance :confuse-ray :dark-pulse :faint-attack :foul-play :guard-swap :mean-look :moonlight :payback :pursuit :screech :snarl :snatch :spite :taunt :torment :wonder-room]
-  :vaporeon [:acid-armor :aqua-ring :aurora-beam :dive :haze :hydro-pump :muddy-water :scald :surf :water-gun :water-pulse :waterfall])
+  :umbreon [:assurance :confuse-ray :dark-pulse :faint-attack :foul-play :guard-swap :mean-look :moonlight :payback :pursuit :screech :snarl :snatch :spite :taunt :torment :wonder-room :body-slam :double-edge :mimic :nightmare]
+  :vaporeon [:acid-armor :aqua-ring :aurora-beam :dive :haze :hydro-pump :muddy-water :scald :surf :water-gun :water-pulse :waterfall :body-slam :double-edge :icy-wind :mimic])

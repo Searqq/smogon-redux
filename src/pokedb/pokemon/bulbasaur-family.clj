@@ -48,12 +48,12 @@
 
 (deflearnset :rs
   :bulbasaur [:attract :body-slam :bullet-seed :charm :curse :cut :defense-curl :double-edge :double-team :endure :facade :flash :frustration :fury-cutter :giga-drain :grasswhistle :growl :growth :hidden-power :leech-seed :light-screen :magical-leaf :mimic :mud-slap :petal-dance :poisonpowder :protect :razor-leaf :rest :return :rock-smash :safeguard :secret-power :skull-bash :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :strength :substitute :sunny-day :swagger :sweet-scent :swords-dance :synthesis :tackle :toxic :vine-whip]
-  :venusaur [:body-slam :earthquake :frenzy-plant :hyper-beam :mimic :roar])
+  :venusaur [:body-slam :earthquake :frenzy-plant :hyper-beam :mimic :roar :body-slam :mimic])
 
 (deflearnset :dp
   :bulbasaur [:amnesia :attract :bullet-seed :captivate :charm :curse :cut :double-edge :double-team :endure :energy-ball :facade :flash :frustration :fury-cutter :giga-drain :grass-knot :grasswhistle :growl :growth :headbutt :hidden-power :ingrain :knock-off :leaf-storm :leech-seed :light-screen :magical-leaf :mud-slap :natural-gift :nature-power :petal-dance :poisonpowder :power-whip :protect :razor-leaf :rest :return :rock-smash :safeguard :secret-power :seed-bomb :skull-bash :sleep-powder :sleep-talk :sludge :sludge-bomb :snore :solarbeam :strength :string-shot :substitute :sunny-day :swagger :sweet-scent :swords-dance :synthesis :tackle :take-down :toxic :vine-whip :worry-seed]
-  :venusaur [:block :earthquake :frenzy-plant :giga-impact :hyper-beam :outrage :roar :rock-climb])
+  :venusaur [:block :earthquake :frenzy-plant :giga-impact :hyper-beam :outrage :roar :rock-climb :body-slam :mimic])
 
 (deflearnset :bw
   :bulbasaur [:amnesia :attract :bind :charm :curse :cut :double-edge :double-team :echoed-voice :endure :energy-ball :facade :flash :frustration :giga-drain :grass-knot :grass-pledge :grasswhistle :growl :growth :hidden-power :ingrain :knock-off :leaf-storm :leech-seed :light-screen :magical-leaf :nature-power :petal-dance :poisonpowder :power-whip :protect :razor-leaf :rest :return :rock-smash :round :safeguard :seed-bomb :skull-bash :sleep-powder :sleep-talk :sludge :sludge-bomb :snore :solarbeam :strength :substitute :sunny-day :swagger :sweet-scent :swords-dance :synthesis :tackle :take-down :toxic :venoshock :vine-whip :worry-seed :block :weather-ball :false-swipe]
-  :venusaur [:bulldoze :earthquake :frenzy-plant :giga-impact :hyper-beam :outrage :roar])
+  :venusaur [:bulldoze :earthquake :frenzy-plant :giga-impact :hyper-beam :outrage :roar :body-slam :mimic])

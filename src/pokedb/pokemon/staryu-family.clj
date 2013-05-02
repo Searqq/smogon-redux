@@ -36,14 +36,14 @@
   :starmie [:confuse-ray :dream-eater :hyper-beam :nightmare])
 
 (deflearnset :rs
-  :staryu [:blizzard :bubblebeam :camouflage :cosmic-power :dive :double-edge :double-team :endure :facade :flash :frustration :hail :harden :hidden-power :hydro-pump :ice-beam :icy-wind :light-screen :mimic :minimize :protect :psych-up :psychic :rain-dance :rapid-spin :recover :reflect :rest :return :secret-power :sleep-talk :snore :substitute :surf :swagger :swift :tackle :thunder :thunder-wave :thunderbolt :toxic :water-gun :water-pulse :waterfall]
-  :starmie [:confuse-ray :dream-eater :hyper-beam :nightmare :skill-swap])
+  :staryu [:blizzard :bubblebeam :camouflage :cosmic-power :dive :double-edge :double-team :endure :facade :flash :frustration :hail :harden :hidden-power :hydro-pump :ice-beam :icy-wind :light-screen :mimic :minimize :protect :psych-up :psychic :rain-dance :rapid-spin :recover :reflect :rest :return :secret-power :sleep-talk :snore :substitute :surf :swagger :swift :tackle :thunder :thunder-wave :thunderbolt :toxic :water-gun :water-pulse :waterfall :double-edge :icy-wind :mimic]
+  :starmie [:confuse-ray :dream-eater :hyper-beam :nightmare :skill-swap :double-edge :icy-wind :mimic :nightmare :refresh])
 
 (deflearnset :dp
-  :staryu [:blizzard :brine :bubblebeam :camouflage :cosmic-power :dive :double-team :endure :facade :flash :flash-cannon :frustration :gravity :gyro-ball :hail :harden :hidden-power :hydro-pump :ice-beam :icy-wind :light-screen :magic-coat :minimize :natural-gift :pain-split :power-gem :protect :psych-up :psychic :rain-dance :rapid-spin :recover :recycle :reflect :rest :return :rollout :secret-power :signal-beam :sleep-talk :snore :substitute :surf :swagger :swift :tackle :thunder :thunder-wave :thunderbolt :toxic :twister :water-gun :water-pulse :waterfall :whirlpool]
-  :starmie [:avalanche :confuse-ray :dream-eater :giga-impact :grass-knot :hyper-beam :skill-swap :trick :trick-room])
+  :staryu [:blizzard :brine :bubblebeam :camouflage :cosmic-power :dive :double-team :endure :facade :flash :flash-cannon :frustration :gravity :gyro-ball :hail :harden :hidden-power :hydro-pump :ice-beam :icy-wind :light-screen :magic-coat :minimize :natural-gift :pain-split :power-gem :protect :psych-up :psychic :rain-dance :rapid-spin :recover :recycle :reflect :rest :return :rollout :secret-power :signal-beam :sleep-talk :snore :substitute :surf :swagger :swift :tackle :thunder :thunder-wave :thunderbolt :toxic :twister :water-gun :water-pulse :waterfall :whirlpool :double-edge :icy-wind :mimic]
+  :starmie [:avalanche :confuse-ray :dream-eater :giga-impact :grass-knot :hyper-beam :skill-swap :trick :trick-room :double-edge :icy-wind :mimic :nightmare :refresh])
 
 (deflearnset :bw
-  :staryu [:blizzard :brine :bubblebeam :camouflage :cosmic-power :dive :double-team :facade :flash :flash-cannon :frustration :gravity :gyro-ball :hail :harden :hidden-power :hydro-pump :ice-beam :icy-wind :light-screen :magic-coat :minimize :pain-split :power-gem :protect :psych-up :psychic :rain-dance :rapid-spin :recover :recycle :reflect :reflect-type :rest :return :round :scald :signal-beam :sleep-talk :snore :substitute :surf :swagger :swift :tackle :thunder :thunder-wave :thunderbolt :toxic :water-gun :waterfall]
-  :starmie [:confuse-ray :dream-eater :giga-impact :grass-knot :hyper-beam :psyshock :skill-swap :telekinesis :trick :trick-room :wonder-room])
+  :staryu [:blizzard :brine :bubblebeam :camouflage :cosmic-power :dive :double-team :facade :flash :flash-cannon :frustration :gravity :gyro-ball :hail :harden :hidden-power :hydro-pump :ice-beam :icy-wind :light-screen :magic-coat :minimize :pain-split :power-gem :protect :psych-up :psychic :rain-dance :rapid-spin :recover :recycle :reflect :reflect-type :rest :return :round :scald :signal-beam :sleep-talk :snore :substitute :surf :swagger :swift :tackle :thunder :thunder-wave :thunderbolt :toxic :water-gun :waterfall :double-edge :icy-wind :mimic]
+  :starmie [:confuse-ray :dream-eater :giga-impact :grass-knot :hyper-beam :psyshock :skill-swap :telekinesis :trick :trick-room :wonder-room :double-edge :icy-wind :mimic :nightmare :refresh])
 

@@ -36,14 +36,14 @@
   :fearow [:hyper-beam])
 
 (deflearnset :rs
-  :spearow [:aerial-ace :agility :astonish :attract :double-edge :double-team :drill-peck :endure :facade :faint-attack :false-swipe :fly :frustration :fury-attack :growl :hidden-power :leer :mimic :mirror-move :mud-slap :peck :protect :pursuit :quick-attack :rain-dance :rest :return :scary-face :secret-power :sky-attack :sleep-talk :snore :steel-wing :substitute :sunny-day :swagger :swift :thief :toxic :tri-attack]
+  :spearow [:aerial-ace :agility :astonish :attract :double-edge :double-team :drill-peck :endure :facade :faint-attack :false-swipe :fly :frustration :fury-attack :growl :hidden-power :leer :mimic :mirror-move :mud-slap :peck :protect :pursuit :quick-attack :rain-dance :rest :return :scary-face :secret-power :sky-attack :sleep-talk :snore :steel-wing :substitute :sunny-day :swagger :swift :thief :toxic :tri-attack :baton-pass :double-edge :mimic]
   :fearow [:hyper-beam :double-edge :mimic])
 
 (deflearnset :dp
-  :spearow [:aerial-ace :agility :air-cutter :assurance :astonish :attract :captivate :defog :double-team :drill-peck :endure :facade :faint-attack :false-swipe :featherdance :fly :frustration :fury-attack :growl :heat-wave :hidden-power :leer :mirror-move :mud-slap :natural-gift :ominous-wind :peck :pluck :protect :pursuit :quick-attack :rain-dance :rest :return :roost :scary-face :secret-power :sky-attack :sleep-talk :snore :steel-wing :substitute :sunny-day :swagger :swift :tailwind :thief :toxic :tri-attack :twister :u-turn :uproar :whirlwind]
+  :spearow [:aerial-ace :agility :air-cutter :assurance :astonish :attract :captivate :defog :double-team :drill-peck :endure :facade :faint-attack :false-swipe :featherdance :fly :frustration :fury-attack :growl :heat-wave :hidden-power :leer :mirror-move :mud-slap :natural-gift :ominous-wind :peck :pluck :protect :pursuit :quick-attack :rain-dance :rest :return :roost :scary-face :secret-power :sky-attack :sleep-talk :snore :steel-wing :substitute :sunny-day :swagger :swift :tailwind :thief :toxic :tri-attack :twister :u-turn :uproar :whirlwind :baton-pass :double-edge :mimic]
   :fearow [:giga-impact :hyper-beam :double-edge :mimic])
 
 (deflearnset :bw
-  :spearow [:aerial-ace :agility :assurance :astonish :attract :double-team :drill-peck :drill-run :echoed-voice :facade :faint-attack :false-swipe :featherdance :fly :frustration :fury-attack :growl :heat-wave :hidden-power :leer :mirror-move :peck :pluck :protect :pursuit :quick-attack :rain-dance :razor-wind :rest :return :roost :round :scary-face :sky-attack :sleep-talk :snore :steel-wing :substitute :sunny-day :swagger :tailwind :thief :toxic :tri-attack :u-turn :uproar :whirlwind :work-up]
+  :spearow [:aerial-ace :agility :assurance :astonish :attract :double-team :drill-peck :drill-run :echoed-voice :facade :faint-attack :false-swipe :featherdance :fly :frustration :fury-attack :growl :heat-wave :hidden-power :leer :mirror-move :peck :pluck :protect :pursuit :quick-attack :rain-dance :razor-wind :rest :return :roost :round :scary-face :sky-attack :sleep-talk :snore :steel-wing :substitute :sunny-day :swagger :tailwind :thief :toxic :tri-attack :u-turn :uproar :whirlwind :work-up :baton-pass :double-edge :mimic]
   :fearow [:giga-impact :hyper-beam :double-edge :mimic])
 

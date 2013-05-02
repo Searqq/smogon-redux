@@ -45,17 +45,17 @@
   :crobat [:fly])
 
 (deflearnset :rs
-  :zubat [:aerial-ace :air-cutter :astonish :attract :bite :confuse-ray :curse :double-edge :double-team :endure :facade :faint-attack :frustration :giga-drain :gust :haze :hidden-power :leech-life :mean-look :mimic :poison-fang :protect :pursuit :quick-attack :rain-dance :rest :return :secret-power :shadow-ball :sleep-talk :sludge-bomb :snatch :snore :steel-wing :substitute :sunny-day :supersonic :swagger :swift :taunt :thief :torment :toxic :whirlwind :wing-attack]
+  :zubat [:aerial-ace :air-cutter :astonish :attract :bite :confuse-ray :curse :double-edge :double-team :endure :facade :faint-attack :frustration :giga-drain :gust :haze :hidden-power :leech-life :mean-look :mimic :poison-fang :protect :pursuit :quick-attack :rain-dance :rest :return :secret-power :shadow-ball :sleep-talk :sludge-bomb :snatch :snore :steel-wing :substitute :sunny-day :supersonic :swagger :swift :taunt :thief :torment :toxic :whirlwind :wing-attack :double-edge :mimic :mimic]
   :golbat [:hyper-beam :screech :double-edge :mimic]
   :crobat [:fly])
 
 (deflearnset :dp
-  :zubat [:aerial-ace :air-cutter :air-slash :astonish :attract :bite :brave-bird :captivate :confuse-ray :curse :defog :double-team :endure :facade :faint-attack :fly :frustration :giga-drain :gust :haze :heat-wave :hidden-power :hypnosis :leech-life :mean-look :nasty-plot :natural-gift :ominous-wind :payback :pluck :poison-fang :protect :pursuit :quick-attack :rain-dance :rest :return :roost :secret-power :shadow-ball :sleep-talk :sludge-bomb :snatch :snore :steel-wing :substitute :sunny-day :super-fang :supersonic :swagger :swift :tailwind :taunt :thief :torment :toxic :twister :u-turn :uproar :whirlwind :wing-attack :zen-headbutt]
+  :zubat [:aerial-ace :air-cutter :air-slash :astonish :attract :bite :brave-bird :captivate :confuse-ray :curse :defog :double-team :endure :facade :faint-attack :fly :frustration :giga-drain :gust :haze :heat-wave :hidden-power :hypnosis :leech-life :mean-look :nasty-plot :natural-gift :ominous-wind :payback :pluck :poison-fang :protect :pursuit :quick-attack :rain-dance :rest :return :roost :secret-power :shadow-ball :sleep-talk :sludge-bomb :snatch :snore :steel-wing :substitute :sunny-day :super-fang :supersonic :swagger :swift :tailwind :taunt :thief :torment :toxic :twister :u-turn :uproar :whirlwind :wing-attack :zen-headbutt :double-edge :mimic :mimic]
   :golbat [:giga-impact :hyper-beam :screech :double-edge :mimic]
   :crobat [:cross-poison :dark-pulse :sky-attack :x-scissor])
 
 (deflearnset :bw
-  :zubat [:acrobatics :aerial-ace :air-cutter :air-slash :astonish :attract :bite :brave-bird :confuse-ray :curse :defog :double-team :facade :faint-attack :fly :frustration :giga-drain :gust :haze :heat-wave :hidden-power :hypnosis :leech-life :mean-look :nasty-plot :payback :pluck :poison-fang :protect :pursuit :quick-attack :rain-dance :rest :return :roost :round :shadow-ball :sleep-talk :sludge-bomb :snatch :snore :steel-wing :substitute :sunny-day :super-fang :supersonic :swagger :swift :tailwind :taunt :thief :torment :toxic :u-turn :uproar :venoshock :whirlwind :wing-attack :zen-headbutt]
+  :zubat [:acrobatics :aerial-ace :air-cutter :air-slash :astonish :attract :bite :brave-bird :confuse-ray :curse :defog :double-team :facade :faint-attack :fly :frustration :giga-drain :gust :haze :heat-wave :hidden-power :hypnosis :leech-life :mean-look :nasty-plot :payback :pluck :poison-fang :protect :pursuit :quick-attack :rain-dance :rest :return :roost :round :shadow-ball :sleep-talk :sludge-bomb :snatch :snore :steel-wing :substitute :sunny-day :super-fang :supersonic :swagger :swift :tailwind :taunt :thief :torment :toxic :u-turn :uproar :venoshock :whirlwind :wing-attack :zen-headbutt :double-edge :mimic :mimic]
   :golbat [:giga-impact :hyper-beam :screech :double-edge :mimic]
   :crobat [:cross-poison :dark-pulse :sky-attack :x-scissor])
 

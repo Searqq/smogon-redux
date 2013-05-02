@@ -62,16 +62,16 @@
   :oddish [:absorb :acid :attract :bullet-seed :charm :cut :double-edge :double-team :endure :facade :flail :flash :frustration :giga-drain :hidden-power :ingrain :mimic :moonlight :petal-dance :poisonpowder :protect :razor-leaf :rest :return :secret-power :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :stun-spore :substitute :sunny-day :swagger :sweet-scent :swords-dance :synthesis :toxic :leech-seed :body-slam :double-edge :mimic]
   :gloom [:double-edge :mimic]
   :bellossom [:hyper-beam :magical-leaf :safeguard]
-  :vileplume [:aromatherapy :body-slam :mega-drain])
+  :vileplume [:aromatherapy :body-slam :mega-drain :body-slam :double-edge :mimic])
 
 (deflearnset :dp
   :oddish [:absorb :acid :attract :bullet-seed :captivate :charm :cut :double-team :endure :energy-ball :facade :flail :flash :frustration :gastro-acid :giga-drain :grass-knot :hidden-power :ingrain :lucky-chant :mega-drain :moonlight :natural-gift :petal-dance :poisonpowder :protect :razor-leaf :rest :return :secret-power :seed-bomb :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :stun-spore :substitute :sunny-day :swagger :sweet-scent :swords-dance :synthesis :teeter-dance :tickle :toxic :worry-seed :leech-seed :body-slam :double-edge :mimic]
   :gloom [:drain-punch :fling :double-edge :mimic]
   :bellossom [:giga-impact :hyper-beam :leaf-blade :leaf-storm :magical-leaf :safeguard :uproar]
-  :vileplume [:aromatherapy])
+  :vileplume [:aromatherapy :body-slam :double-edge :mimic])
 
 (deflearnset :bw
   :oddish [:absorb :acid :after-you :attract :charm :cut :double-team :energy-ball :facade :flail :flash :frustration :gastro-acid :giga-drain :grass-knot :hidden-power :ingrain :lucky-chant :mega-drain :moonlight :natural-gift :nature-power :petal-dance :poisonpowder :protect :razor-leaf :rest :return :round :secret-power :seed-bomb :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :stun-spore :substitute :sunny-day :swagger :sweet-scent :swords-dance :synthesis :teeter-dance :tickle :toxic :venoshock :worry-seed :leech-seed :body-slam :double-edge :mimic]
   :gloom [:drain-punch :fling :double-edge :mimic]
   :bellossom [:giga-impact :hyper-beam :leaf-blade :leaf-storm :magical-leaf :safeguard :uproar]
-  :vileplume [:aromatherapy])
+  :vileplume [:aromatherapy :body-slam :double-edge :mimic])

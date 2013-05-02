@@ -36,13 +36,13 @@
   :cloyster [:hyper-beam :spike-cannon :spikes])
 
 (deflearnset :rs
-  :shellder [:attract :aurora-beam :barrier :blizzard :bubblebeam :clamp :dive :double-edge :double-team :endure :explosion :facade :frustration :hail :hidden-power :ice-beam :icicle-spear :icy-wind :leer :mimic :protect :rain-dance :rapid-spin :rest :return :screech :secret-power :selfdestruct :sleep-talk :snore :substitute :supersonic :surf :swagger :swift :tackle :take-down :toxic :water-pulse :withdraw]
+  :shellder [:attract :aurora-beam :barrier :blizzard :bubblebeam :clamp :dive :double-edge :double-team :endure :explosion :facade :frustration :hail :hidden-power :ice-beam :icicle-spear :icy-wind :leer :mimic :protect :rain-dance :rapid-spin :rest :return :screech :secret-power :selfdestruct :sleep-talk :snore :substitute :supersonic :surf :swagger :swift :tackle :take-down :toxic :water-pulse :withdraw :double-edge :icy-wind :mimic :refresh :selfdestruct]
   :cloyster [:hyper-beam :spike-cannon :spikes :torment])
 
 (deflearnset :dp
-  :shellder [:attract :aurora-beam :barrier :blizzard :brine :bubblebeam :captivate :clamp :dive :double-team :endure :explosion :facade :frustration :hail :hidden-power :ice-beam :ice-shard :icicle-spear :icy-wind :iron-defense :leer :mud-shot :natural-gift :payback :protect :rain-dance :rapid-spin :rest :return :rock-blast :screech :secret-power :sleep-talk :snore :substitute :supersonic :surf :swagger :swift :tackle :take-down :toxic :water-pulse :whirlpool :withdraw]
+  :shellder [:attract :aurora-beam :barrier :blizzard :brine :bubblebeam :captivate :clamp :dive :double-team :endure :explosion :facade :frustration :hail :hidden-power :ice-beam :ice-shard :icicle-spear :icy-wind :iron-defense :leer :mud-shot :natural-gift :payback :protect :rain-dance :rapid-spin :rest :return :rock-blast :screech :secret-power :sleep-talk :snore :substitute :supersonic :surf :swagger :swift :tackle :take-down :toxic :water-pulse :whirlpool :withdraw :double-edge :icy-wind :mimic :refresh :selfdestruct]
   :cloyster [:avalanche :giga-impact :hyper-beam :poison-jab :signal-beam :spike-cannon :spikes :torment :toxic-spikes])
 
 (deflearnset :bw
-  :shellder [:aqua-ring :attract :aurora-beam :avalanche :barrier :blizzard :brine :bubblebeam :clamp :dive :double-team :explosion :facade :frustration :hail :hidden-power :hydro-pump :ice-beam :ice-shard :icicle-spear :icy-wind :iron-defense :leer :mud-shot :payback :protect :rain-dance :rapid-spin :razor-shell :rest :return :rock-blast :round :screech :shell-smash :sleep-talk :snore :substitute :supersonic :surf :swagger :tackle :take-down :toxic :twineedle :water-pulse :whirlpool :withdraw]
+  :shellder [:aqua-ring :attract :aurora-beam :avalanche :barrier :blizzard :brine :bubblebeam :clamp :dive :double-team :explosion :facade :frustration :hail :hidden-power :hydro-pump :ice-beam :ice-shard :icicle-spear :icy-wind :iron-defense :leer :mud-shot :payback :protect :rain-dance :rapid-spin :razor-shell :rest :return :rock-blast :round :screech :shell-smash :sleep-talk :snore :substitute :supersonic :surf :swagger :tackle :take-down :toxic :twineedle :water-pulse :whirlpool :withdraw :double-edge :icy-wind :mimic :refresh :selfdestruct]
   :cloyster [:frost-breath :giga-impact :hyper-beam :icicle-crash :poison-jab :signal-beam :spike-cannon :spikes :torment :toxic-spikes])

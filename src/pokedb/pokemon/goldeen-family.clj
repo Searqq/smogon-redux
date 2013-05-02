@@ -35,12 +35,12 @@
 
 (deflearnset :rs
   :goldeen [:agility :attract :blizzard :dive :double-edge :double-team :endure :facade :flail :frustration :fury-attack :hail :haze :hidden-power :horn-attack :horn-drill :hydro-pump :ice-beam :icy-wind :megahorn :mimic :mud-sport :peck :protect :psybeam :rain-dance :rest :return :secret-power :sleep-talk :snore :substitute :supersonic :surf :swagger :swift :tail-whip :toxic :water-pulse :water-sport :waterfall :double-edge :icy-wind :mimic]
-  :seaking [:hyper-beam])
+  :seaking [:hyper-beam :double-edge :icy-wind :mimic])
 
 (deflearnset :dp
   :goldeen [:agility :aqua-ring :aqua-tail :attract :blizzard :body-slam :bounce :captivate :dive :double-team :endure :facade :flail :frustration :fury-attack :fury-cutter :hail :haze :hidden-power :horn-attack :horn-drill :hydro-pump :ice-beam :icy-wind :knock-off :megahorn :mud-slap :mud-sport :natural-gift :peck :poison-jab :protect :psybeam :rain-dance :rest :return :secret-power :sleep-talk :snore :substitute :supersonic :surf :swagger :swift :tail-whip :toxic :water-pulse :water-sport :waterfall :whirlpool :double-edge :icy-wind :mimic]
-  :seaking [:giga-impact :hyper-beam])
+  :seaking [:giga-impact :hyper-beam :double-edge :icy-wind :mimic])
 
 (deflearnset :bw
   :goldeen [:agility :aqua-ring :aqua-tail :attract :blizzard :body-slam :bounce :dive :double-team :drill-run :facade :flail :frustration :fury-attack :hail :haze :hidden-power :horn-attack :horn-drill :hydro-pump :ice-beam :icy-wind :knock-off :megahorn :mud-shot :mud-slap :mud-sport :peck :poison-jab :protect :psybeam :rain-dance :rest :return :round :scald :signal-beam :skull-bash :sleep-talk :snore :soak :substitute :supersonic :surf :swagger :tail-whip :toxic :water-pulse :water-sport :waterfall :double-edge :icy-wind :mimic]
-  :seaking [:giga-impact :hyper-beam])
+  :seaking [:giga-impact :hyper-beam :double-edge :icy-wind :mimic])

@@ -35,12 +35,12 @@
 
 (deflearnset :rs
   :koffing [:attract :destiny-bond :double-team :endure :explosion :facade :fire-blast :flamethrower :flash :frustration :haze :hidden-power :memento :mimic :pain-split :poison-gas :protect :psybeam :psywave :rain-dance :rest :return :rollout :screech :secret-power :selfdestruct :shadow-ball :shock-wave :sleep-talk :sludge :sludge-bomb :smog :smokescreen :snore :substitute :sunny-day :swagger :tackle :taunt :thief :thunder :thunderbolt :torment :toxic :will-o-wisp :mimic]
-  :weezing [:hyper-beam])
+  :weezing [:hyper-beam :mimic])
 
 (deflearnset :dp
   :koffing [:assurance :attract :captivate :curse :dark-pulse :destiny-bond :double-team :endure :explosion :facade :fire-blast :flamethrower :flash :frustration :grudge :gyro-ball :haze :hidden-power :memento :natural-gift :pain-split :payback :poison-gas :protect :psybeam :psywave :rain-dance :rest :return :rollout :screech :secret-power :selfdestruct :shadow-ball :shock-wave :sleep-talk :sludge :sludge-bomb :smog :smokescreen :snore :spite :substitute :sunny-day :swagger :tackle :taunt :thief :thunder :thunderbolt :torment :toxic :uproar :will-o-wisp :mimic]
-  :weezing [:double-hit :giga-impact :hyper-beam])
+  :weezing [:double-hit :giga-impact :hyper-beam :mimic])
 
 (deflearnset :bw
   :koffing [:assurance :attract :clear-smog :curse :dark-pulse :destiny-bond :double-team :explosion :facade :fire-blast :flamethrower :flash :frustration :grudge :gyro-ball :haze :hidden-power :incinerate :memento :pain-split :payback :poison-gas :protect :psybeam :psywave :rain-dance :rest :return :round :screech :selfdestruct :shadow-ball :sleep-talk :sludge :sludge-bomb :smog :smokescreen :snore :spit-up :spite :stockpile :substitute :sunny-day :swagger :swallow :tackle :taunt :thief :thunder :thunderbolt :torment :toxic :uproar :venoshock :will-o-wisp :mimic]
-  :weezing [:double-hit :giga-impact :hyper-beam])
+  :weezing [:double-hit :giga-impact :hyper-beam :mimic])

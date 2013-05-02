@@ -38,14 +38,14 @@
   :venomoth [:flash :gust :hyper-beam])
 
 (deflearnset :rs
-  :venonat [:attract :baton-pass :confusion :disable :double-edge :double-team :endure :facade :flash :foresight :frustration :giga-drain :hidden-power :leech-life :mimic :poisonpowder :protect :psybeam :psychic :rest :return :screech :secret-power :signal-beam :skill-swap :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :stun-spore :substitute :sunny-day :supersonic :swagger :swift :tackle :thief :toxic]
-  :venomoth [:aerial-ace :gust :hyper-beam :silver-wind])
+  :venonat [:attract :baton-pass :confusion :disable :double-edge :double-team :endure :facade :flash :foresight :frustration :giga-drain :hidden-power :leech-life :mimic :poisonpowder :protect :psybeam :psychic :rest :return :screech :secret-power :signal-beam :skill-swap :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :stun-spore :substitute :sunny-day :supersonic :swagger :swift :tackle :thief :toxic :double-edge :mimic]
+  :venomoth [:aerial-ace :gust :hyper-beam :silver-wind :double-edge :mimic :refresh])
 
 (deflearnset :dp
-  :venonat [:agility :attract :baton-pass :bug-bite :captivate :confusion :disable :double-team :endure :facade :flash :foresight :frustration :giga-drain :hidden-power :leech-life :morning-sun :natural-gift :poison-fang :poisonpowder :protect :psybeam :psychic :rest :return :screech :secret-power :signal-beam :skill-swap :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :string-shot :stun-spore :substitute :sunny-day :supersonic :swagger :swift :tackle :thief :toxic :toxic-spikes :zen-headbutt]
-  :venomoth [:aerial-ace :air-cutter :bug-buzz :defog :energy-ball :giga-impact :gust :hyper-beam :ominous-wind :roost :silver-wind :tailwind :twister :u-turn])
+  :venonat [:agility :attract :baton-pass :bug-bite :captivate :confusion :disable :double-team :endure :facade :flash :foresight :frustration :giga-drain :hidden-power :leech-life :morning-sun :natural-gift :poison-fang :poisonpowder :protect :psybeam :psychic :rest :return :screech :secret-power :signal-beam :skill-swap :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :string-shot :stun-spore :substitute :sunny-day :supersonic :swagger :swift :tackle :thief :toxic :toxic-spikes :zen-headbutt :double-edge :mimic]
+  :venomoth [:aerial-ace :air-cutter :bug-buzz :defog :energy-ball :giga-impact :gust :hyper-beam :ominous-wind :roost :silver-wind :tailwind :twister :u-turn :double-edge :mimic :refresh])
 
 (deflearnset :bw
-  :venonat [:agility :attract :baton-pass :bug-bite :confusion :disable :double-team :facade :flash :foresight :frustration :giga-drain :hidden-power :leech-life :morning-sun :poison-fang :poisonpowder :protect :psybeam :psychic :rage-powder :rest :return :round :screech :secret-power :signal-beam :skill-swap :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :struggle-bug :stun-spore :substitute :sunny-day :supersonic :swagger :tackle :thief :toxic :toxic-spikes :venoshock :zen-headbutt]
-  :venomoth [:acrobatics :aerial-ace :bug-buzz :energy-ball :giga-impact :gust :hyper-beam :quiver-dance :roost :silver-wind :tailwind :u-turn])
+  :venonat [:agility :attract :baton-pass :bug-bite :confusion :disable :double-team :facade :flash :foresight :frustration :giga-drain :hidden-power :leech-life :morning-sun :poison-fang :poisonpowder :protect :psybeam :psychic :rage-powder :rest :return :round :screech :secret-power :signal-beam :skill-swap :sleep-powder :sleep-talk :sludge-bomb :snore :solarbeam :struggle-bug :stun-spore :substitute :sunny-day :supersonic :swagger :tackle :thief :toxic :toxic-spikes :venoshock :zen-headbutt :double-edge :mimic]
+  :venomoth [:acrobatics :aerial-ace :bug-buzz :energy-ball :giga-impact :gust :hyper-beam :quiver-dance :roost :silver-wind :tailwind :u-turn :double-edge :mimic :refresh])
 
