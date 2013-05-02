@@ -35,16 +35,16 @@
 (deffamily :lotad :lombre :ludicolo)
 
 (deflearnset :rs
-  :lotad [:absorb :astonish :attract :blizzard :body-slam :bullet-seed :double-edge :double-team :endure :facade :flail :flash :frustration :giga-drain :growl :hail :hidden-power :ice-beam :icy-wind :leech-seed :mega-drain :mimic :mist :nature-power :protect :rain-dance :razor-leaf :rest :return :secret-power :sleep-talk :snore :solarbeam :substitute :sunny-day :surf :swagger :sweet-scent :swords-dance :synthesis :thief :toxic :water-gun :water-pulse]
-  :lombre [:brick-break :dive :dynamicpunch :fake-out :fire-punch :fury-swipes :hydro-pump :ice-punch :mud-slap :rock-smash :strength :thunderpunch :uproar :water-sport :waterfall]
-  :ludicolo [:counter :focus-punch :hyper-beam :mega-kick :mega-punch :metronome :seismic-toss])
+  :lotad [:absorb :astonish :attract :blizzard :body-slam :bullet-seed :double-edge :double-team :endure :facade :flail :flash :frustration :giga-drain :growl :hail :hidden-power :ice-beam :icy-wind :leech-seed :mega-drain :mimic :mist :nature-power :protect :rain-dance :razor-leaf :rest :return :secret-power :sleep-talk :snore :solarbeam :substitute :sunny-day :surf :swagger :sweet-scent :swords-dance :synthesis :thief :toxic :water-gun :water-pulse :body-slam :double-edge :icy-wind :mimic]
+  :lombre [:brick-break :dive :dynamicpunch :fake-out :fire-punch :fury-swipes :hydro-pump :ice-punch :mud-slap :rock-smash :strength :thunderpunch :uproar :water-sport :waterfall :body-slam :double-edge :icy-wind :mimic]
+  :ludicolo [:counter :focus-punch :hyper-beam :mega-kick :mega-punch :metronome :seismic-toss :body-slam :double-edge :icy-wind :mimic :seismic-toss])
 
 (deflearnset :dp
-  :lotad [:absorb :astonish :attract :blizzard :bubblebeam :bullet-seed :captivate :counter :double-team :endure :energy-ball :facade :flail :flash :frustration :giga-drain :grass-knot :growl :hail :headbutt :hidden-power :ice-beam :icy-wind :leech-seed :mega-drain :mist :natural-gift :nature-power :protect :rain-dance :razor-leaf :rest :return :secret-power :seed-bomb :sleep-talk :snore :solarbeam :substitute :sunny-day :surf :swagger :sweet-scent :swords-dance :synthesis :thief :tickle :toxic :uproar :water-gun :water-pulse :whirlpool :zen-headbutt]
-  :lombre [:brick-break :dive :drain-punch :fake-out :fire-punch :fling :fury-swipes :hydro-pump :ice-punch :mud-slap :rock-smash :strength :thunderpunch :water-sport :waterfall]
-  :ludicolo [:focus-blast :focus-punch :giga-impact :hyper-beam :rock-climb])
+  :lotad [:absorb :astonish :attract :blizzard :bubblebeam :bullet-seed :captivate :counter :double-team :endure :energy-ball :facade :flail :flash :frustration :giga-drain :grass-knot :growl :hail :headbutt :hidden-power :ice-beam :icy-wind :leech-seed :mega-drain :mist :natural-gift :nature-power :protect :rain-dance :razor-leaf :rest :return :secret-power :seed-bomb :sleep-talk :snore :solarbeam :substitute :sunny-day :surf :swagger :sweet-scent :swords-dance :synthesis :thief :tickle :toxic :uproar :water-gun :water-pulse :whirlpool :zen-headbutt :body-slam :double-edge :icy-wind :mimic]
+  :lombre [:brick-break :dive :drain-punch :fake-out :fire-punch :fling :fury-swipes :hydro-pump :ice-punch :mud-slap :rock-smash :strength :thunderpunch :water-sport :waterfall :body-slam :double-edge :icy-wind :mimic]
+  :ludicolo [:focus-blast :focus-punch :giga-impact :hyper-beam :rock-climb :body-slam :double-edge :icy-wind :mimic :seismic-toss])
 
 (deflearnset :bw
-  :lotad [:absorb :astonish :attract :blizzard :bubblebeam :counter :double-team :echoed-voice :energy-ball :facade :flail :flash :frustration :giga-drain :grass-knot :growl :hail :hidden-power :ice-beam :icy-wind :leech-seed :mega-drain :mist :natural-gift :nature-power :protect :rain-dance :razor-leaf :rest :return :round :scald :seed-bomb :sleep-talk :snore :solarbeam :substitute :sunny-day :surf :swagger :sweet-scent :swords-dance :synthesis :teeter-dance :thief :tickle :toxic :uproar :water-gun :zen-headbutt]
-  :lombre [:brick-break :dive :drain-punch :fake-out :fire-punch :fling :fury-swipes :hone-claws :hydro-pump :hyper-voice :ice-punch :rock-smash :strength :thunderpunch :water-sport :waterfall]
-  :ludicolo [:focus-blast :giga-impact :hyper-beam])
+  :lotad [:absorb :astonish :attract :blizzard :bubblebeam :counter :double-team :echoed-voice :energy-ball :facade :flail :flash :frustration :giga-drain :grass-knot :growl :hail :hidden-power :ice-beam :icy-wind :leech-seed :mega-drain :mist :natural-gift :nature-power :protect :rain-dance :razor-leaf :rest :return :round :scald :seed-bomb :sleep-talk :snore :solarbeam :substitute :sunny-day :surf :swagger :sweet-scent :swords-dance :synthesis :teeter-dance :thief :tickle :toxic :uproar :water-gun :zen-headbutt :body-slam :double-edge :icy-wind :mimic]
+  :lombre [:brick-break :dive :drain-punch :fake-out :fire-punch :fling :fury-swipes :hone-claws :hydro-pump :hyper-voice :ice-punch :rock-smash :strength :thunderpunch :water-sport :waterfall :body-slam :double-edge :icy-wind :mimic]
+  :ludicolo [:focus-blast :giga-impact :hyper-beam :body-slam :double-edge :icy-wind :mimic :seismic-toss])
