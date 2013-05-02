@@ -48,16 +48,16 @@
 
 (deflearnset :rs
   :abra [:attract :barrier :body-slam :calm-mind :counter :double-edge :double-team :dream-eater :dynamicpunch :encore :endure :facade :fire-punch :flash :focus-punch :frustration :hidden-power :ice-punch :iron-tail :knock-off :light-screen :mega-kick :mega-punch :metronome :mimic :nightmare :protect :psych-up :psychic :rain-dance :reflect :rest :return :safeguard :secret-power :seismic-toss :shadow-ball :shock-wave :skill-swap :sleep-talk :snatch :snore :substitute :sunny-day :swagger :taunt :teleport :thief :thunder-wave :thunderpunch :torment :toxic]
-  :kadabra [:confusion :disable :future-sight :kinesis :psybeam :recover :role-play :trick]
+  :kadabra [:confusion :disable :future-sight :kinesis :psybeam :recover :role-play :trick :body-slam :double-edge :mimic :nightmare :seismic-toss :substitute]
   :alakazam [:hyper-beam])
 
 (deflearnset :dp
   :abra [:attract :barrier :calm-mind :captivate :charge-beam :double-team :drain-punch :dream-eater :embargo :encore :endure :energy-ball :facade :fire-punch :flash :fling :focus-punch :frustration :grass-knot :gravity :guard-swap :headbutt :hidden-power :ice-punch :iron-tail :knock-off :light-screen :magic-coat :natural-gift :power-trick :protect :psych-up :psychic :rain-dance :recycle :reflect :rest :return :role-play :safeguard :secret-power :shadow-ball :shock-wave :signal-beam :skill-swap :sleep-talk :snatch :snore :substitute :sunny-day :swagger :taunt :teleport :thief :thunder-wave :thunderpunch :torment :toxic :trick :trick-room :zen-headbutt]
-  :kadabra [:confusion :disable :future-sight :kinesis :miracle-eye :psybeam :psycho-cut :recover]
+  :kadabra [:confusion :disable :future-sight :kinesis :miracle-eye :psybeam :psycho-cut :recover :body-slam :double-edge :mimic :nightmare :seismic-toss :substitute]
   :alakazam [:focus-blast :giga-impact :hyper-beam])
 
 (deflearnset :bw
   :abra [:ally-switch :attract :barrier :body-slam :calm-mind :charge-beam :double-team :double-edge :drain-punch :dream-eater :embargo :encore :energy-ball :facade :fire-punch :flash :fling :foul-play :frustration :grass-knot :gravity :guard-split :guard-swap :hidden-power :ice-punch :iron-tail :knock-off :light-screen :magic-coat :magic-room :mimic :nightmare :power-trick :protect :psych-up :psychic :psyshock :rain-dance :recycle :reflect :rest :return :role-play :round :safeguard :seismic-toss :shadow-ball :signal-beam :skill-swap :sleep-talk :snatch :snore :substitute :sunny-day :swagger :taunt :telekinesis :teleport :thief :thunder-wave :thunderpunch :torment :toxic :trick :trick-room :wonder-room :zen-headbutt]
-  :kadabra [:confusion :disable :future-sight :kinesis :miracle-eye :psybeam :psycho-cut :recover]
+  :kadabra [:confusion :disable :future-sight :kinesis :miracle-eye :psybeam :psycho-cut :recover :body-slam :double-edge :mimic :nightmare :seismic-toss :substitute]
   :alakazam [:focus-blast :giga-impact :hyper-beam])
 

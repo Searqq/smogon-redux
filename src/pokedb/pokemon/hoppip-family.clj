@@ -43,12 +43,12 @@
 
 (deflearnset :rs
   :hoppip [:aerial-ace :amnesia :attract :bullet-seed :confusion :cotton-spore :defense-curl :double-edge :double-team :encore :endure :facade :flash :frustration :giga-drain :helping-hand :hidden-power :leech-seed :mega-drain :mimic :poisonpowder :protect :psych-up :reflect :rest :return :secret-power :sleep-powder :sleep-talk :snore :solarbeam :splash :stun-spore :substitute :sunny-day :swagger :swords-dance :synthesis :tackle :tail-whip :toxic :mimic]
-  :jumpluff [:hyper-beam])
+  :jumpluff [:hyper-beam :mimic])
 
 (deflearnset :dp
   :hoppip [:aerial-ace :amnesia :aromatherapy :attract :bounce :bullet-seed :captivate :confusion :cotton-spore :double-edge :double-team :encore :endure :energy-ball :facade :flash :frustration :giga-drain :grass-knot :headbutt :helping-hand :hidden-power :leech-seed :mega-drain :memento :natural-gift :poisonpowder :protect :psych-up :reflect :rest :return :secret-power :seed-bomb :silver-wind :sleep-powder :sleep-talk :snore :solarbeam :splash :stun-spore :substitute :sunny-day :swagger :swords-dance :synthesis :tackle :tail-whip :toxic :u-turn :worry-seed :mimic]
-  :jumpluff [:giga-impact :hyper-beam])
+  :jumpluff [:giga-impact :hyper-beam :mimic])
 
 (deflearnset :bw
   :hoppip [:acrobatics :aerial-ace :amnesia :aromatherapy :attract :bounce :bullet-seed :confusion :cotton-guard :cotton-spore :double-edge :double-team :encore :endure :energy-ball :facade :flash :frustration :giga-drain :grass-knot :helping-hand :hidden-power :leech-seed :mega-drain :memento :poisonpowder :protect :psych-up :rage-powder :reflect :rest :return :round :seed-bomb :sleep-powder :sleep-talk :snore :solarbeam :splash :stun-spore :substitute :sunny-day :swagger :swords-dance :synthesis :tackle :tail-whip :toxic :u-turn :worry-seed :mimic]
-  :jumpluff [:giga-impact :hyper-beam])
+  :jumpluff [:giga-impact :hyper-beam :mimic])

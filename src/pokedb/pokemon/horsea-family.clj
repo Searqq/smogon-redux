@@ -50,14 +50,14 @@
 (deflearnset :rs
   :horsea [:agility :attract :aurora-beam :blizzard :bubble :disable :dive :double-edge :double-team :dragon-dance :dragon-rage :dragonbreath :endure :facade :flail :frustration :hail :hidden-power :hydro-pump :ice-beam :icy-wind :leer :mimic :octazooka :protect :rain-dance :rest :return :secret-power :sleep-talk :smokescreen :snore :splash :substitute :surf :swagger :swift :toxic :twister :water-gun :water-pulse :waterfall :double-edge :icy-wind :mimic]
   :seadra [:hyper-beam]
-  :kingdra [:body-slam])
+  :kingdra [:body-slam :body-slam :double-edge :icy-wind :mimic])
 
 (deflearnset :dp
   :horsea [:agility :attract :aurora-beam :blizzard :bounce :brine :bubble :bubblebeam :captivate :disable :dive :double-team :dragon-dance :dragon-pulse :dragon-rage :dragonbreath :endure :facade :flail :flash-cannon :focus-energy :frustration :hail :headbutt :hidden-power :hydro-pump :ice-beam :icy-wind :leer :muddy-water :natural-gift :octazooka :outrage :protect :rain-dance :razor-wind :rest :return :secret-power :signal-beam :sleep-talk :smokescreen :snore :splash :substitute :surf :swagger :swift :toxic :twister :water-gun :water-pulse :waterfall :whirlpool :double-edge :icy-wind :mimic]
   :seadra [:giga-impact :hyper-beam]
-  :kingdra [:draco-meteor :iron-head :yawn])
+  :kingdra [:draco-meteor :iron-head :yawn :body-slam :double-edge :icy-wind :mimic])
 
 (deflearnset :bw
   :horsea [:agility :attract :aurora-beam :blizzard :bounce :brine :bubble :bubblebeam :clear-smog :disable :dive :double-team :dragon-dance :dragon-pulse :dragon-rage :dragonbreath :facade :flail :flash-cannon :focus-energy :frustration :hail :hidden-power :hydro-pump :ice-beam :icy-wind :leer :muddy-water :octazooka :outrage :protect :rain-dance :razor-wind :rest :return :round :scald :signal-beam :sleep-talk :smokescreen :snore :splash :substitute :surf :swagger :toxic :twister :water-gun :water-pulse :waterfall :double-edge :icy-wind :mimic]
   :seadra [:giga-impact :hyper-beam]
-  :kingdra [:draco-meteor :iron-head :quash :yawn])
+  :kingdra [:draco-meteor :iron-head :quash :yawn :body-slam :double-edge :icy-wind :mimic])
