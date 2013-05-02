@@ -29,12 +29,12 @@
 
 (deflearnset :rs
   :slugma [:acid-armor :amnesia :attract :body-slam :defense-curl :double-edge :double-team :ember :endure :facade :fire-blast :flamethrower :frustration :harden :heat-wave :hidden-power :light-screen :mimic :mud-slap :overheat :protect :reflect :rest :return :rock-slide :rock-smash :rock-throw :rollout :secret-power :selfdestruct :sleep-talk :smog :snore :substitute :sunny-day :swagger :toxic :yawn]
-  :magcargo [:earthquake :hyper-beam :rock-tomb :sandstorm :strength])
+  :magcargo [:earthquake :hyper-beam :rock-tomb :sandstorm :strength :double-edge :mimic :refresh :selfdestruct])
 
 (deflearnset :dp
   :slugma [:acid-armor :amnesia :ancientpower :attract :body-slam :captivate :curse :double-team :earth-power :ember :endure :facade :fire-blast :flamethrower :frustration :harden :heat-wave :hidden-power :iron-defense :lava-plume :light-screen :memento :mud-slap :natural-gift :overheat :pain-split :protect :recover :reflect :rest :return :rock-slide :rock-smash :rock-throw :rock-tomb :rollout :secret-power :sleep-talk :smog :smokescreen :snore :spit-up :stockpile :substitute :sunny-day :swagger :swallow :toxic :will-o-wisp :yawn]
-  :magcargo [:earthquake :explosion :giga-impact :gyro-ball :hyper-beam :rock-polish :sandstorm :solarbeam :stealth-rock :stone-edge :strength])
+  :magcargo [:earthquake :explosion :giga-impact :gyro-ball :hyper-beam :rock-polish :sandstorm :solarbeam :stealth-rock :stone-edge :strength :double-edge :mimic :refresh :selfdestruct])
 
 (deflearnset :bw
   :slugma [:acid-armor :after-you :amnesia :ancientpower :attract :body-slam :curse :double-team :earth-power :ember :facade :fire-blast :flame-burst :flame-charge :flamethrower :frustration :harden :heat-wave :hidden-power :incinerate :inferno :iron-defense :lava-plume :light-screen :memento :overheat :pain-split :protect :recover :reflect :rest :return :rock-slide :rock-smash :rock-throw :rock-tomb :rollout :round :sleep-talk :smog :smokescreen :snore :spit-up :stockpile :substitute :sunny-day :swagger :swallow :toxic :will-o-wisp :yawn]
-  :magcargo [:bulldoze :earthquake :explosion :giga-impact :gyro-ball :hyper-beam :rock-polish :sandstorm :shell-smash :smack-down :solarbeam :stealth-rock :stone-edge :strength])
+  :magcargo [:bulldoze :earthquake :explosion :giga-impact :gyro-ball :hyper-beam :rock-polish :sandstorm :shell-smash :smack-down :solarbeam :stealth-rock :stone-edge :strength :double-edge :mimic :refresh :selfdestruct])

@@ -43,15 +43,15 @@
   :magneton [:hyper-beam :tri-attack])
 
 (deflearnset :rs
-  :magnemite [:double-edge :double-team :endure :facade :flash :frustration :hidden-power :lock-on :metal-sound :mimic :protect :rain-dance :reflect :rest :return :rollout :screech :secret-power :shock-wave :sleep-talk :snore :sonicboom :spark :substitute :sunny-day :supersonic :swagger :swift :tackle :thunder :thunder-wave :thunderbolt :thundershock :toxic :zap-cannon]
-  :magneton [:hyper-beam :tri-attack :refresh])
+  :magnemite [:double-edge :double-team :endure :facade :flash :frustration :hidden-power :lock-on :metal-sound :mimic :protect :rain-dance :reflect :rest :return :rollout :screech :secret-power :shock-wave :sleep-talk :snore :sonicboom :spark :substitute :sunny-day :supersonic :swagger :swift :tackle :thunder :thunder-wave :thunderbolt :thundershock :toxic :zap-cannon :double-edge :mimic]
+  :magneton [:hyper-beam :tri-attack :refresh :double-edge :double-edge :mimic :refresh])
 
 (deflearnset :dp
-  :magnemite [:charge-beam :discharge :double-team :endure :explosion :facade :flash :flash-cannon :frustration :gravity :gyro-ball :hidden-power :iron-defense :light-screen :lock-on :magic-coat :magnet-bomb :magnet-rise :metal-sound :mirror-shot :natural-gift :protect :psych-up :rain-dance :recycle :reflect :rest :return :rollout :screech :secret-power :shock-wave :signal-beam :sleep-talk :snore :sonicboom :spark :substitute :sunny-day :supersonic :swagger :swift :tackle :thunder :thunder-wave :thunderbolt :thundershock :toxic :zap-cannon]
-  :magneton [:giga-impact :hyper-beam :tri-attack :refresh]
+  :magnemite [:charge-beam :discharge :double-team :endure :explosion :facade :flash :flash-cannon :frustration :gravity :gyro-ball :hidden-power :iron-defense :light-screen :lock-on :magic-coat :magnet-bomb :magnet-rise :metal-sound :mirror-shot :natural-gift :protect :psych-up :rain-dance :recycle :reflect :rest :return :rollout :screech :secret-power :shock-wave :signal-beam :sleep-talk :snore :sonicboom :spark :substitute :sunny-day :supersonic :swagger :swift :tackle :thunder :thunder-wave :thunderbolt :thundershock :toxic :zap-cannon :double-edge :mimic]
+  :magneton [:giga-impact :hyper-beam :tri-attack :refresh :double-edge :double-edge :mimic :refresh]
   :magnezone [:barrier :iron-head :mirror-coat])
 
 (deflearnset :bw
-  :magnemite [:charge-beam :discharge :double-team :electro-ball :electroweb :explosion :facade :flash :flash-cannon :frustration :gravity :gyro-ball :hidden-power :iron-defense :light-screen :lock-on :magic-coat :magnet-bomb :magnet-rise :metal-sound :mirror-shot :protect :psych-up :rain-dance :recycle :reflect :rest :return :round :screech :signal-beam :sleep-talk :snore :sonicboom :spark :substitute :sunny-day :supersonic :swagger :tackle :thunder :thunder-wave :thunderbolt :thundershock :toxic :volt-switch :wild-charge :zap-cannon]
-  :magneton [:giga-impact :hyper-beam :tri-attack :refresh]
+  :magnemite [:charge-beam :discharge :double-team :electro-ball :electroweb :explosion :facade :flash :flash-cannon :frustration :gravity :gyro-ball :hidden-power :iron-defense :light-screen :lock-on :magic-coat :magnet-bomb :magnet-rise :metal-sound :mirror-shot :protect :psych-up :rain-dance :recycle :reflect :rest :return :round :screech :signal-beam :sleep-talk :snore :sonicboom :spark :substitute :sunny-day :supersonic :swagger :tackle :thunder :thunder-wave :thunderbolt :thundershock :toxic :volt-switch :wild-charge :zap-cannon :double-edge :mimic]
+  :magneton [:giga-impact :hyper-beam :tri-attack :refresh :double-edge :double-edge :mimic :refresh]
   :magnezone [:barrier :iron-head :mirror-coat])
