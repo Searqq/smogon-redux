@@ -34,12 +34,12 @@
 
 (deflearnset :rs
   :ponyta [:agility :attract :body-slam :bounce :charm :double-edge :double-kick :double-team :ember :endure :facade :fire-blast :fire-spin :flame-wheel :flamethrower :frustration :growl :hidden-power :hypnosis :iron-tail :mimic :overheat :protect :quick-attack :rest :return :secret-power :sleep-talk :snore :solarbeam :stomp :strength :substitute :sunny-day :swagger :swift :tackle :tail-whip :take-down :thrash :toxic :body-slam :mimic]
-  :rapidash [:fury-attack :hyper-beam :baton-pass])
+  :rapidash [:fury-attack :hyper-beam :baton-pass :baton-pass :body-slam :mimic])
 
 (deflearnset :dp
   :ponyta [:agility :attract :bounce :captivate :charm :double-edge :double-kick :double-team :ember :endure :facade :fire-blast :fire-spin :flame-wheel :flamethrower :flare-blitz :frustration :growl :headbutt :heat-wave :hidden-power :horn-drill :hypnosis :iron-tail :morning-sun :natural-gift :overheat :protect :rest :return :secret-power :sleep-talk :snore :solarbeam :stomp :strength :substitute :sunny-day :swagger :swift :tackle :tail-whip :take-down :thrash :toxic :will-o-wisp :body-slam :mimic]
-  :rapidash [:fury-attack :giga-impact :hyper-beam :megahorn :poison-jab :quick-attack :baton-pass])
+  :rapidash [:fury-attack :giga-impact :hyper-beam :megahorn :poison-jab :quick-attack :baton-pass :baton-pass :body-slam :mimic])
 
 (deflearnset :bw
   :ponyta [:agility :attract :bounce :captivate :charm :double-edge :double-kick :double-team :echoed-voice :ember :facade :fire-blast :fire-spin :flame-charge :flame-wheel :flamethrower :flare-blitz :frustration :growl :heat-wave :hidden-power :horn-drill :hypnosis :incinerate :inferno :iron-tail :low-kick :morning-sun :overheat :protect :rest :return :round :sleep-talk :snore :solarbeam :stomp :strength :substitute :sunny-day :swagger :tackle :tail-whip :take-down :thrash :toxic :wild-charge :will-o-wisp :body-slam :mimic]
-  :rapidash [:drill-run :fury-attack :giga-impact :hyper-beam :megahorn :poison-jab :quick-attack :baton-pass])
+  :rapidash [:drill-run :fury-attack :giga-impact :hyper-beam :megahorn :poison-jab :quick-attack :baton-pass :baton-pass :body-slam :mimic])
