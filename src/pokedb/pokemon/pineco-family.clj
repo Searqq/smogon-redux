@@ -29,12 +29,12 @@
 
 (deflearnset :rs
   :pineco [:attract :bide :body-slam :counter :defense-curl :dig :double-edge :double-team :earthquake :endure :explosion :facade :flail :frustration :giga-drain :hidden-power :light-screen :mimic :pin-missile :protect :rapid-spin :reflect :rest :return :rock-slide :rock-smash :rollout :sand-tomb :sandstorm :secret-power :selfdestruct :sleep-talk :snore :solarbeam :spikes :strength :substitute :sunny-day :swagger :swift :tackle :take-down :toxic]
-  :forretress [:hyper-beam :zap-cannon])
+  :forretress [:hyper-beam :zap-cannon :body-slam :mimic])
 
 (deflearnset :dp
   :pineco [:attract :bide :bug-bite :captivate :counter :dig :double-edge :double-team :earthquake :endure :explosion :facade :flail :frustration :giga-drain :gravity :gyro-ball :headbutt :hidden-power :iron-defense :light-screen :natural-gift :pain-split :payback :pin-missile :power-trick :protect :rapid-spin :reflect :rest :return :revenge :rock-slide :rock-smash :rock-tomb :rollout :sand-tomb :sandstorm :secret-power :selfdestruct :sleep-talk :snore :solarbeam :spikes :stealth-rock :strength :string-shot :substitute :sunny-day :swagger :swift :tackle :take-down :toxic :toxic-spikes]
-  :forretress [:block :flash-cannon :giga-impact :hyper-beam :magnet-rise :mirror-shot :rock-polish :signal-beam :zap-cannon])
+  :forretress [:block :flash-cannon :giga-impact :hyper-beam :magnet-rise :mirror-shot :rock-polish :signal-beam :zap-cannon :body-slam :mimic])
 
 (deflearnset :bw
   :pineco [:attract :bide :bug-bite :bulldoze :counter :dig :double-edge :double-team :drill-run :earthquake :endure :explosion :facade :flail :frustration :giga-drain :gravity :gyro-ball :hidden-power :iron-defense :light-screen :natural-gift :pain-split :payback :pin-missile :power-trick :protect :rapid-spin :reflect :rest :return :revenge :rock-slide :rock-smash :rock-tomb :round :sand-tomb :sandstorm :selfdestruct :sleep-talk :snore :solarbeam :spikes :stealth-rock :strength :struggle-bug :substitute :sunny-day :swagger :swift :tackle :take-down :toxic :toxic-spikes :venoshock]
-  :forretress [:autotomize :block :flash-cannon :giga-impact :heavy-slam :hyper-beam :magnet-rise :mirror-shot :rock-polish :signal-beam :volt-switch :zap-cannon])
+  :forretress [:autotomize :block :flash-cannon :giga-impact :heavy-slam :hyper-beam :magnet-rise :mirror-shot :rock-polish :signal-beam :volt-switch :zap-cannon :body-slam :mimic])
