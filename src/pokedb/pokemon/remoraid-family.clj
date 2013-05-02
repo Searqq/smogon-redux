@@ -31,12 +31,12 @@
 
 (deflearnset :rs
   :remoraid [:attract :aurora-beam :blizzard :bubblebeam :defense-curl :dive :double-edge :double-team :endure :facade :fire-blast :flamethrower :focus-energy :frustration :haze :hidden-power :hyper-beam :ice-beam :lock-on :mimic :mud-slap :octazooka :protect :psybeam :psychic :rain-dance :rest :return :rock-blast :screech :secret-power :sleep-talk :snore :substitute :sunny-day :supersonic :surf :swagger :swift :thief :thunder-wave :toxic :water-gun :water-pulse :waterfall]
-  :octillery [:bullet-seed :constrict :seismic-toss :sludge-bomb])
+  :octillery [:bullet-seed :constrict :seismic-toss :sludge-bomb :double-edge :mimic :seismic-toss])
 
 (deflearnset :dp
   :remoraid [:attract :aurora-beam :blizzard :bounce :brine :bubblebeam :bullet-seed :captivate :charge-beam :dive :double-team :endure :facade :fire-blast :flail :flamethrower :focus-energy :frustration :gunk-shot :haze :hidden-power :hyper-beam :ice-beam :icy-wind :lock-on :mud-slap :natural-gift :octazooka :protect :psybeam :psychic :rain-dance :rest :return :rock-blast :screech :secret-power :seed-bomb :signal-beam :sleep-talk :snore :string-shot :substitute :sunny-day :supersonic :surf :swagger :swift :thief :thunder-wave :toxic :water-gun :water-pulse :water-spout :waterfall :whirlpool]
-  :octillery [:constrict :energy-ball :flash-cannon :giga-impact :payback :sludge-bomb :wring-out])
+  :octillery [:constrict :energy-ball :flash-cannon :giga-impact :payback :sludge-bomb :wring-out :double-edge :mimic :seismic-toss])
 
 (deflearnset :bw
   :remoraid [:acid-spray :attract :aurora-beam :blizzard :bounce :bubblebeam :bullet-seed :charge-beam :dive :double-team :facade :fire-blast :flail :flamethrower :focus-energy :frustration :gunk-shot :haze :hidden-power :hydro-pump :hyper-beam :ice-beam :icy-wind :incinerate :lock-on :mud-shot :octazooka :protect :psybeam :psychic :rain-dance :rest :return :rock-blast :round :scald :screech :seed-bomb :signal-beam :sleep-talk :smack-down :snore :soak :substitute :sunny-day :supersonic :surf :swagger :swift :thief :thunder-wave :toxic :water-gun :water-pulse :water-spout :waterfall]
-  :octillery [:bind :constrict :energy-ball :flash-cannon :giga-impact :payback :sludge-bomb :sludge-wave :wring-out])
+  :octillery [:bind :constrict :energy-ball :flash-cannon :giga-impact :payback :sludge-bomb :sludge-wave :wring-out :double-edge :mimic :seismic-toss])

@@ -46,15 +46,15 @@
   :porygon2 [:defense-curl])
 
 (deflearnset :rs
-  :porygon [:aerial-ace :agility :blizzard :conversion :conversion-2 :double-edge :double-team :dream-eater :endure :facade :flash :frustration :hidden-power :hyper-beam :ice-beam :icy-wind :iron-tail :lock-on :mimic :nightmare :protect :psybeam :psych-up :psychic :rain-dance :recover :recycle :rest :return :secret-power :shadow-ball :sharpen :shock-wave :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :swift :tackle :thief :thunder :thunder-wave :thunderbolt :toxic :tri-attack :zap-cannon]
-  :porygon2 [:defense-curl])
+  :porygon [:aerial-ace :agility :blizzard :conversion :conversion-2 :double-edge :double-team :dream-eater :endure :facade :flash :frustration :hidden-power :hyper-beam :ice-beam :icy-wind :iron-tail :lock-on :mimic :nightmare :protect :psybeam :psych-up :psychic :rain-dance :recover :recycle :rest :return :secret-power :shadow-ball :sharpen :shock-wave :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :swift :tackle :thief :thunder :thunder-wave :thunderbolt :toxic :tri-attack :zap-cannon :double-edge :icy-wind :mimic :nightmare]
+  :porygon2 [:defense-curl :double-edge :icy-wind :mimic :nightmare])
 
 (deflearnset :dp
-  :porygon [:aerial-ace :agility :blizzard :charge-beam :conversion :conversion-2 :discharge :double-team :dream-eater :endure :facade :flash :frustration :giga-impact :gravity :hidden-power :hyper-beam :ice-beam :icy-wind :iron-tail :last-resort :lock-on :magic-coat :magnet-rise :natural-gift :pain-split :protect :psybeam :psych-up :psychic :rain-dance :recover :recycle :rest :return :secret-power :shadow-ball :sharpen :shock-wave :signal-beam :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :swift :tackle :thief :thunder :thunder-wave :thunderbolt :toxic :tri-attack :trick :trick-room :zap-cannon :zen-headbutt]
-  :porygon2 [:defense-curl]
+  :porygon [:aerial-ace :agility :blizzard :charge-beam :conversion :conversion-2 :discharge :double-team :dream-eater :endure :facade :flash :frustration :giga-impact :gravity :hidden-power :hyper-beam :ice-beam :icy-wind :iron-tail :last-resort :lock-on :magic-coat :magnet-rise :natural-gift :pain-split :protect :psybeam :psych-up :psychic :rain-dance :recover :recycle :rest :return :secret-power :shadow-ball :sharpen :shock-wave :signal-beam :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :swift :tackle :thief :thunder :thunder-wave :thunderbolt :toxic :tri-attack :trick :trick-room :zap-cannon :zen-headbutt :double-edge :icy-wind :mimic :nightmare]
+  :porygon2 [:defense-curl :double-edge :icy-wind :mimic :nightmare]
   :porygon-z [:dark-pulse :embargo :nasty-plot :uproar])
 
 (deflearnset :bw
-  :porygon [:aerial-ace :agility :blizzard :charge-beam :conversion :conversion-2 :discharge :double-team :dream-eater :electroweb :facade :flash :foul-play :frustration :giga-impact :gravity :hidden-power :hyper-beam :ice-beam :icy-wind :iron-tail :last-resort :lock-on :magic-coat :magnet-rise :pain-split :protect :psybeam :psych-up :psychic :psyshock :rain-dance :recover :recycle :rest :return :round :shadow-ball :sharpen :signal-beam :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :tackle :thief :thunder :thunder-wave :thunderbolt :toxic :tri-attack :trick :trick-room :wonder-room :zap-cannon :zen-headbutt]
-  :porygon2 [:defense-curl]
+  :porygon [:aerial-ace :agility :blizzard :charge-beam :conversion :conversion-2 :discharge :double-team :dream-eater :electroweb :facade :flash :foul-play :frustration :giga-impact :gravity :hidden-power :hyper-beam :ice-beam :icy-wind :iron-tail :last-resort :lock-on :magic-coat :magnet-rise :pain-split :protect :psybeam :psych-up :psychic :psyshock :rain-dance :recover :recycle :rest :return :round :shadow-ball :sharpen :signal-beam :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :tackle :thief :thunder :thunder-wave :thunderbolt :toxic :tri-attack :trick :trick-room :wonder-room :zap-cannon :zen-headbutt :double-edge :icy-wind :mimic :nightmare]
+  :porygon2 [:defense-curl :double-edge :icy-wind :mimic :nightmare]
   :porygon-z [:dark-pulse :embargo :nasty-plot :uproar])

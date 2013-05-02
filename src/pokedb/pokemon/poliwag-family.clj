@@ -59,19 +59,19 @@
   :poliwrath [:submission])
 
 (deflearnset :rs
-  :poliwag [:attract :belly-drum :blizzard :body-slam :bubble :bubblebeam :defense-curl :dig :dive :double-edge :double-team :doubleslap :endure :facade :frustration :hail :haze :hidden-power :hydro-pump :hypnosis :ice-ball :ice-beam :icy-wind :mimic :mind-reader :mist :protect :psychic :rain-dance :rest :return :secret-power :sleep-talk :snore :splash :substitute :surf :swagger :thief :toxic :water-gun :water-pulse :water-sport :waterfall :sweet-kiss]
-  :poliwhirl [:brick-break :counter :earthquake :focus-punch :ice-punch :mega-kick :mega-punch :metronome :mud-slap :rock-smash :seismic-toss :strength]
-  :politoed [:dynamicpunch :hyper-beam :perish-song]
-  :poliwrath [:bulk-up :rock-tomb :submission :helping-hand])
+  :poliwag [:attract :belly-drum :blizzard :body-slam :bubble :bubblebeam :defense-curl :dig :dive :double-edge :double-team :doubleslap :endure :facade :frustration :hail :haze :hidden-power :hydro-pump :hypnosis :ice-ball :ice-beam :icy-wind :mimic :mind-reader :mist :protect :psychic :rain-dance :rest :return :secret-power :sleep-talk :snore :splash :substitute :surf :swagger :thief :toxic :water-gun :water-pulse :water-sport :waterfall :sweet-kiss :double-edge :icy-wind :mimic]
+  :poliwhirl [:brick-break :counter :earthquake :focus-punch :ice-punch :mega-kick :mega-punch :metronome :mud-slap :rock-smash :seismic-toss :strength :double-edge :icy-wind :mimic :seismic-toss]
+  :politoed [:dynamicpunch :hyper-beam :perish-song :double-edge :icy-wind :mimic :seismic-toss]
+  :poliwrath [:bulk-up :rock-tomb :submission :helping-hand :double-edge :helping-hand :icy-wind :mimic :seismic-toss])
 
 (deflearnset :dp
-  :poliwag [:attract :belly-drum :blizzard :body-slam :bubble :bubblebeam :captivate :dig :dive :double-team :doubleslap :encore :endeavor :endure :facade :frustration :hail :haze :headbutt :helping-hand :hidden-power :hydro-pump :hypnosis :ice-ball :ice-beam :icy-wind :mind-reader :mist :mud-bomb :mud-shot :natural-gift :protect :psychic :rain-dance :refresh :rest :return :secret-power :sleep-talk :snore :splash :substitute :surf :swagger :thief :toxic :wake-up-slap :water-gun :water-pulse :water-sport :waterfall :whirlpool]
-  :poliwhirl [:brick-break :earthquake :fling :focus-punch :ice-punch :mud-slap :rock-smash :strength]
-  :politoed [:bounce :focus-blast :giga-impact :hyper-beam :hyper-voice :payback :perish-song]
-  :poliwrath [:bulk-up :dynamicpunch :poison-jab :rock-climb :rock-slide :rock-tomb :submission :vacuum-wave])
+  :poliwag [:attract :belly-drum :blizzard :body-slam :bubble :bubblebeam :captivate :dig :dive :double-team :doubleslap :encore :endeavor :endure :facade :frustration :hail :haze :headbutt :helping-hand :hidden-power :hydro-pump :hypnosis :ice-ball :ice-beam :icy-wind :mind-reader :mist :mud-bomb :mud-shot :natural-gift :protect :psychic :rain-dance :refresh :rest :return :secret-power :sleep-talk :snore :splash :substitute :surf :swagger :thief :toxic :wake-up-slap :water-gun :water-pulse :water-sport :waterfall :whirlpool :double-edge :icy-wind :mimic]
+  :poliwhirl [:brick-break :earthquake :fling :focus-punch :ice-punch :mud-slap :rock-smash :strength :double-edge :icy-wind :mimic :seismic-toss]
+  :politoed [:bounce :focus-blast :giga-impact :hyper-beam :hyper-voice :payback :perish-song :double-edge :icy-wind :mimic :seismic-toss]
+  :poliwrath [:bulk-up :dynamicpunch :poison-jab :rock-climb :rock-slide :rock-tomb :submission :vacuum-wave :double-edge :helping-hand :icy-wind :mimic :seismic-toss])
 
 (deflearnset :bw
-  :poliwag [:attract :belly-drum :blizzard :body-slam :bubble :bubblebeam :dig :dive :double-team :doubleslap :encore :endeavor :endure :facade :frustration :hail :haze :helping-hand :hidden-power :hydro-pump :hypnosis :ice-ball :ice-beam :icy-wind :mind-reader :mist :mud-bomb :mud-shot :protect :psychic :rain-dance :refresh :rest :return :round :scald :sleep-talk :snore :splash :substitute :surf :swagger :thief :toxic :wake-up-slap :water-gun :water-pulse :water-sport :waterfall]
-  :poliwhirl [:brick-break :bulldoze :earthquake :fling :ice-punch :rock-smash :strength]
-  :politoed [:bounce :echoed-voice :focus-blast :giga-impact :hyper-beam :hyper-voice :payback :perish-song]
-  :poliwrath [:bulk-up :circle-throw :dynamicpunch :low-sweep :poison-jab :rock-slide :rock-tomb :submission :work-up])
+  :poliwag [:attract :belly-drum :blizzard :body-slam :bubble :bubblebeam :dig :dive :double-team :doubleslap :encore :endeavor :endure :facade :frustration :hail :haze :helping-hand :hidden-power :hydro-pump :hypnosis :ice-ball :ice-beam :icy-wind :mind-reader :mist :mud-bomb :mud-shot :protect :psychic :rain-dance :refresh :rest :return :round :scald :sleep-talk :snore :splash :substitute :surf :swagger :thief :toxic :wake-up-slap :water-gun :water-pulse :water-sport :waterfall :double-edge :icy-wind :mimic]
+  :poliwhirl [:brick-break :bulldoze :earthquake :fling :ice-punch :rock-smash :strength :double-edge :icy-wind :mimic :seismic-toss]
+  :politoed [:bounce :echoed-voice :focus-blast :giga-impact :hyper-beam :hyper-voice :payback :perish-song :double-edge :icy-wind :mimic :seismic-toss]
+  :poliwrath [:bulk-up :circle-throw :dynamicpunch :low-sweep :poison-jab :rock-slide :rock-tomb :submission :work-up :double-edge :helping-hand :icy-wind :mimic :seismic-toss])
