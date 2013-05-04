@@ -3,10 +3,12 @@
   (:use org.httpkit.server
         (compojure core route handler)
         (ring.middleware stacktrace reload))
-  (:require [taoensso.timbre :as log]))
+  (:require [taoensso.timbre :as log]
+            [smogon.dexweb :as dexweb]))
 
 (defroutes app-routes
   (GET "/" [] "Hello World")
+  dexweb/dex-routes
   (compojure.route/not-found "Not Found"))
 
 (def app (-> app-routes site wrap-stacktrace-log))
@@ -18,10 +20,3 @@
   (run-server app {:port port})
   (log/info "Starting Smogon web server on port" port))
 
-(defn runweb-dev
-  "Run the server."
-  []
-  ;; The #' lets us dynamically update app-routes.
-  (let [app-dev (-> #'app wrap-reload)] 
-    (run-server app-dev {:port port})
-    (log/info "Starting Smogon web server (DEV!!!) on port" port)))
