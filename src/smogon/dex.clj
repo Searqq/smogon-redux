@@ -25,7 +25,7 @@
 ;; All dex objects :)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(lhacks/defrel name-r o x)
+(lhacks/defrel name-r ^:index o x)
 
 (lhacks/defsingleton name-of [id] 
   [q] (name-r id q))
@@ -179,18 +179,18 @@
 (def generations-without-abilities [:rb :gs])
 
 (defgenrel pokemon-r x)
-(defgenrel pokemon-type-r p x)
-(defgenrel pokemon-ability-r p x)
-(defgenrel pokemon-egggroup-r p x)
-(defgenrel pokemon-hp-r p x)
-(defgenrel pokemon-atk-r p x)
-(defgenrel pokemon-def-r p x)
-(defgenrel pokemon-spatk-r p x)
-(defgenrel pokemon-spdef-r p x)
-(defgenrel pokemon-special-r p x)
-(defgenrel pokemon-speed-r p x)
-(defgenrel pokemon-weight-r p x)
-(defgenrel pokemon-height-r p x)
+(defgenrel pokemon-type-r ^:index p ^:index x)
+(defgenrel pokemon-ability-r ^:index p ^:index x)
+(defgenrel pokemon-egggroup-r ^:index p ^:index x)
+(defgenrel pokemon-hp-r ^:index p x)
+(defgenrel pokemon-atk-r ^:index p x)
+(defgenrel pokemon-def-r ^:index p x)
+(defgenrel pokemon-spatk-r ^:index p x)
+(defgenrel pokemon-spdef-r ^:index p x)
+(defgenrel pokemon-special-r ^:index p x)
+(defgenrel pokemon-speed-r ^:index p x)
+(defgenrel pokemon-weight-r ^:index p x)
+(defgenrel pokemon-height-r ^:index p x)
 
 ;; Queries
 
