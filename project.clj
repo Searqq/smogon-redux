@@ -7,12 +7,14 @@
                  [org.clojure/tools.nrepl "0.2.2"]
                  [org.clojure/tools.trace "0.7.5"]
                  [org.clojure/tools.macro "0.1.2"]
-                 [hiccup "1.0.3"]
+                 [enlive "1.1.1"]
                  [compojure "1.1.5"]
                  [http-kit "2.0.1"]
                  [com.taoensso/timbre "1.5.2"] ;; Logger
                  [ring "1.1.8"]
-                 [clojure-complete "0.2.3"]]
+                 [potemkin "0.2.2"]
+                 [clojure-complete "0.2.3"] ;; for nrepl.el
+                 ]
   :plugins [[lein-exec "0.3.0"]]
   :local-repo ".m2")
 

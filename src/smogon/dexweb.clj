@@ -1,8 +1,15 @@
 
 (ns smogon.dexweb
   "Web interface to the smogdex."
-  (:use compojure.core)
-  (:require [smogon.dex :as dex]))
+  (:require [smogon.web-helpers :refer :all]
+            [smogon.dex :as dex]))
+
+(defn list-pokemon
+  ""
+  [pokemon]
+  [:div
+   (for [p pokemon]
+     [:h2 (dex/name-of p)])])
 
 (defroutes dex-routes
-  (GET "/dex" [] "hello world from dex"))
+  (GET "/pokemon" [] (list-pokemon (dex/list-pokemon))))

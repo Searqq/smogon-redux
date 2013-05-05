@@ -10,7 +10,7 @@
   This is a ridiculous hack because there is no way to create a relation without
   binding it to a var."
   [& args]
-  (let [relsym (gensym "rel")]
+  (let [relsym (with-meta (gensym "rel") {:private true})]
     `(do
        (l/defrel ~relsym ~@args)
        ~relsym)))
