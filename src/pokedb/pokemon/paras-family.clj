@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :paras
   :name "Paras"
   :introduced-in :rb

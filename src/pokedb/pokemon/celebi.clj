@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :celebi
   :name "Celebi"
   :introduced-in :gs

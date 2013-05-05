@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :lugia
   :name "Lugia"
   :introduced-in :gs

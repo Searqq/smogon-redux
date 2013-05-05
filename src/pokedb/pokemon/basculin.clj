@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :basculin
   :name "Basculin"
   :introduced-in :bw

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :pidgey
   :name "Pidgey"
   :introduced-in :rb

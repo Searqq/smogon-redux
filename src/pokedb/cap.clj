@@ -1,4 +1,6 @@
 
+(in-ns 'smogon.dex)
+
 (deffamily :arghonaut)
 (deffamily :aurumoth)
 (deffamily :colossoil)

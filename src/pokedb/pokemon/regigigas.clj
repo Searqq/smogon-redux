@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :regigigas
   :name "Regigigas"
   :introduced-in :dp

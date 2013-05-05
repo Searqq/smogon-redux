@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :slugma
   :name "Slugma"
   :introduced-in :gs

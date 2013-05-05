@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :mawile
   :name "Mawile"
   :introduced-in :rs

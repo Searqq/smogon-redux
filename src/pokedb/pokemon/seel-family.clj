@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :seel
   :name "Seel"
   :introduced-in :rb

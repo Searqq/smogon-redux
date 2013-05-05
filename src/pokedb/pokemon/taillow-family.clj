@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :taillow
   :name "Taillow"
   :introduced-in :rs

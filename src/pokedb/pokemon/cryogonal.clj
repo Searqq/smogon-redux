@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :cryogonal
   :name "Cryogonal"
   :introduced-in :bw

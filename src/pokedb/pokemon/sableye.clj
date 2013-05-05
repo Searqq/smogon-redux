@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :sableye
   :name "Sableye"
   :introduced-in :rs

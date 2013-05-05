@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :squirtle
   :name "Squirtle"
   :introduced-in :rb

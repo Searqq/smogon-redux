@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :voltorb
   :name "Voltorb"
   :introduced-in :rb

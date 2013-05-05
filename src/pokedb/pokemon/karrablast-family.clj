@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :karrablast
   :name "Karrablast"
   :introduced-in :bw

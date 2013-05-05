@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :purrloin
   :name "Purrloin"
   :introduced-in :dp

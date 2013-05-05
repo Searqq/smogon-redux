@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :magnemite
   :name "Magnemite"
   :introduced-in :rb

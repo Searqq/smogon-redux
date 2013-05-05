@@ -11,22 +11,9 @@
                  [compojure "1.1.5"]
                  [http-kit "2.0.1"]
                  [com.taoensso/timbre "1.5.2"] ;; Logger
-                 [ring "1.1.8"]]
+                 [ring "1.1.8"]
+                 [clojure-complete "0.2.3"]]
   :plugins [[lein-exec "0.3.0"]]
-  :repl-options {
-                 :init (do
-                         ;; Useful libraries
-                         (use 'clojure.repl)
-                         (require '[clojure.core.logic :as l])
-                         (require '[clojure.java.io :as io])
-                         (use 'clojure.tools.trace)
-                         
-                         ;; Smogon stuff
-                         (use 'smogon.dex)
-                         (use 'smogon.runweb)
-
-                         (load-dex-files))
-                 }
   :local-repo ".m2")
 
 

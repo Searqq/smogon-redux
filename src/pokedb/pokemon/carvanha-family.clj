@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :carvanha
   :name "Carvanha"
   :introduced-in :rs

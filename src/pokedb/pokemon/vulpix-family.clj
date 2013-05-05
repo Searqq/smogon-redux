@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :vulpix
   :name "Vulpix"
   :introduced-in :rb

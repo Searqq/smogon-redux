@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :tepig
   :name "Tepig"
   :introduced-in :dp

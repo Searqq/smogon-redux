@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :moltres
   :name "Moltres"
   :introduced-in :rb

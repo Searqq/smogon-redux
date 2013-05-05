@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :scraggy
   :name "Scraggy"
   :introduced-in :bw

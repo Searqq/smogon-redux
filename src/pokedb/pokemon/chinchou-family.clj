@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :chinchou
   :name "Chinchou"
   :introduced-in :gs

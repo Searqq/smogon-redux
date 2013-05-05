@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :tauros
   :name "Tauros"
   :introduced-in :rb

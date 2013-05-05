@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :yamask
   :name "Yamask"
   :introduced-in :bw

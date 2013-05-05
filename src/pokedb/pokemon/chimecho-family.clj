@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :chingling
   :name "Chingling"
   :introduced-in :dp

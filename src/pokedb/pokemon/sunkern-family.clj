@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :sunkern
   :name "Sunkern"
   :introduced-in :gs

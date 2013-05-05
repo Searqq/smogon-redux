@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :burmy
   :name "Burmy"
   :introduced-in :dp

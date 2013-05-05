@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :oshawott
   :name "Oshawott"
   :introduced-in :dp

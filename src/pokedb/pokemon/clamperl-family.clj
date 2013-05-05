@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :clamperl
   :name "Clamperl"
   :introduced-in :rs

@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :corsola
   :name "Corsola"
   :introduced-in :gs

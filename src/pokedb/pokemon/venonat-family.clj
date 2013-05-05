@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :venonat
   :name "Venonat"
   :introduced-in :rb

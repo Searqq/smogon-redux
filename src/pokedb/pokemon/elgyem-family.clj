@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :elgyem
   :name "Elgyem"
   :introduced-in :bw

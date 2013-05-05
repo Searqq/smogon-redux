@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :dwebble
   :name "Dwebble"
   :introduced-in :bw

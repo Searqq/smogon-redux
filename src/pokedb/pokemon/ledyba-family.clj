@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :ledyba
   :name "Ledyba"
   :introduced-in :gs

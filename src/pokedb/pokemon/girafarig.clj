@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :girafarig
   :name "Girafarig"
   :introduced-in :gs

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :totodile
   :name "Totodile"
   :introduced-in :gs

@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :anorith
   :name "Anorith"
   :introduced-in :rs

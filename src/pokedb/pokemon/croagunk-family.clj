@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :croagunk
   :name "Croagunk"
   :introduced-in :dp

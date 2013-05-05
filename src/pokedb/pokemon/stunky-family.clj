@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :stunky
   :name "Stunky"
   :introduced-in :dp

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :rattata
   :name "Rattata"
   :introduced-in :rb

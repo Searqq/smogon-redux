@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :smoochum
   :name "Smoochum"
   :introduced-in :gs

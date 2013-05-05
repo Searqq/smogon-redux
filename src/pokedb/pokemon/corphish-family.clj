@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :corphish
   :name "Corphish"
   :introduced-in :rs

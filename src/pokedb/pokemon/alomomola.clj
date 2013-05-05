@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :alomomola
   :name "Alomomola"
   :introduced-in :bw

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :makuhita
   :name "Makuhita"
   :introduced-in :rs

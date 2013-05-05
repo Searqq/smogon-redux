@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :machop
   :name "Machop"
   :introduced-in :rb

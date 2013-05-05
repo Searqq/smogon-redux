@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :archen
   :name "Archen"
   :introduced-in :bw

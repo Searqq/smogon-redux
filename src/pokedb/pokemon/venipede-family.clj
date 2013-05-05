@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :venipede
   :name "Venipede"
   :introduced-in :bw

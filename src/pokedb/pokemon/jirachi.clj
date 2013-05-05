@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :jirachi
   :name "Jirachi"
   :introduced-in :rs

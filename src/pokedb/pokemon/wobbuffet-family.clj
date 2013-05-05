@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :wynaut
   :name "Wynaut"
   :introduced-in :rs

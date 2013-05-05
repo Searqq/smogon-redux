@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :rhyhorn
   :name "Rhyhorn"
   :introduced-in :rb

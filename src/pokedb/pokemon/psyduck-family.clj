@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :psyduck
   :name "Psyduck"
   :introduced-in :rb

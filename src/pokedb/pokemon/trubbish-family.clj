@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :trubbish
   :name "Trubbish"
   :introduced-in :bw

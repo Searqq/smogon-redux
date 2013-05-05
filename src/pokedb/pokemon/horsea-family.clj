@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :horsea
   :name "Horsea"
   :introduced-in :rb

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :munchlax
   :name "Munchlax"
   :introduced-in :dp

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :dunsparce
   :name "Dunsparce"
   :introduced-in :gs

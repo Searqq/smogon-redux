@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :feebas
   :name "Feebas"
   :introduced-in :rs

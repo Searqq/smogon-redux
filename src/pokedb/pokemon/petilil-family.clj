@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :petilil
   :name "Petilil"
   :introduced-in :bw

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :budew
   :name "Budew"
   :introduced-in :dp

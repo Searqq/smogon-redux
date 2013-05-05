@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :houndour
   :name "Houndour"
   :introduced-in :gs

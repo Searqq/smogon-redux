@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :heatmor
   :name "Heatmor"
   :introduced-in :bw

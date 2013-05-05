@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :kecleon
   :name "Kecleon"
   :introduced-in :rs

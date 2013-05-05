@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :goldeen
   :name "Goldeen"
   :introduced-in :rb

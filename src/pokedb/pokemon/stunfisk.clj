@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :stunfisk
   :name "Stunfisk"
   :introduced-in :bw

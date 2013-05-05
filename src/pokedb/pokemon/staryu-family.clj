@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :staryu
   :name "Staryu"
   :introduced-in :rb

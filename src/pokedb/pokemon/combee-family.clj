@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :combee
   :name "Combee"
   :introduced-in :dp

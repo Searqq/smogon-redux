@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :piplup
   :name "Piplup"
   :introduced-in :dp

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :mudkip
   :name "Mudkip"
   :introduced-in :rs

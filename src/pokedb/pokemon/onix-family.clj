@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :onix
   :name "Onix"
   :introduced-in :rb

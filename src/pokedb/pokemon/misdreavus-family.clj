@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :misdreavus
   :name "Misdreavus"
   :introduced-in :gs

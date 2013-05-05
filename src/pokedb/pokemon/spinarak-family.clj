@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :spinarak
   :name "Spinarak"
   :introduced-in :gs

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :trapinch
   :name "Trapinch"
   :introduced-in :rs

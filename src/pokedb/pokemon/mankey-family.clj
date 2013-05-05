@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :mankey
   :name "Mankey"
   :introduced-in :rb

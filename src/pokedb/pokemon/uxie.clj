@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :uxie
   :name "Uxie"
   :introduced-in :dp

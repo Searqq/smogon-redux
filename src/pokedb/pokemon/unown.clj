@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :unown
   :name "Unown"
   :introduced-in :gs

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :lickitung
   :name "Lickitung"
   :introduced-in :rb

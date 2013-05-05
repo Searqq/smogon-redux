@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :miltank
   :name "Miltank"
   :introduced-in :gs

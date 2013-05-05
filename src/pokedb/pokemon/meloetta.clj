@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :meloetta
   :name "Meloetta"
   :introduced-in :bw

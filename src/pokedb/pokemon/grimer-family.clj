@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :grimer
   :name "Grimer"
   :introduced-in :rb

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :glameow
   :name "Glameow"
   :introduced-in :dp

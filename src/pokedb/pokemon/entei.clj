@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :entei
   :name "Entei"
   :introduced-in :gs

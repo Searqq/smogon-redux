@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :roggenrola
   :name "Roggenrola"
   :introduced-in :bw

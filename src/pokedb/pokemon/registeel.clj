@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :registeel
   :name "Registeel"
   :introduced-in :rs

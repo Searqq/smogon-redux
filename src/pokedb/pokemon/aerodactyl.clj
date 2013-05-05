@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :aerodactyl
   :name "Aerodactyl"
   :introduced-in :rb

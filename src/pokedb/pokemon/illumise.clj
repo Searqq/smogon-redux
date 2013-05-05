@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :illumise
   :name "Illumise"
   :introduced-in :rs

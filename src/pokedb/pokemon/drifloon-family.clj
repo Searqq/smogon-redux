@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :drifloon
   :name "Drifloon"
   :introduced-in :dp

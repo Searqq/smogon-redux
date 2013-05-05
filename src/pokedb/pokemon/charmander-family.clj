@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :charmander
   :name "Charmander"
   :introduced-in :rb

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :gothita
   :name "Gothita"
   :introduced-in :bw

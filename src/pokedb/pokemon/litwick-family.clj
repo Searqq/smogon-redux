@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :litwick
   :name "Litwick"
   :introduced-in :bw

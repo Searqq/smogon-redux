@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :riolu
   :name "Riolu"
   :introduced-in :dp

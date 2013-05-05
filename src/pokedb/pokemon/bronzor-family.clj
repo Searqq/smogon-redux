@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :bronzor
   :name "Bronzor"
   :introduced-in :dp

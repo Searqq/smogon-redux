@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :torkoal
   :name "Torkoal"
   :introduced-in :rs

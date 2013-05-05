@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :ralts
   :name "Ralts"
   :introduced-in :rs

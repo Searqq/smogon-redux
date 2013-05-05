@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :woobat
   :name "Woobat"
   :introduced-in :bw

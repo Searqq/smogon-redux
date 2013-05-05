@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :cacnea
   :name "Cacnea"
   :introduced-in :rs

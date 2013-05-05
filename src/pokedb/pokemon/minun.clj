@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :minun
   :name "Minun"
   :introduced-in :rs

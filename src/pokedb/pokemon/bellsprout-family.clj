@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :bellsprout
   :name "Bellsprout"
   :introduced-in :rb

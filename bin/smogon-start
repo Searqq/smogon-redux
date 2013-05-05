@@ -1,0 +1,3 @@
+#!/bin/bash
+
+su www-data -c "/smogon/bin/smogon-exec \"(use 'smogon.core) (start-all)\""

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :finneon
   :name "Finneon"
   :introduced-in :dp

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :cottonee
   :name "Cottonee"
   :introduced-in :bw

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :koffing
   :name "Koffing"
   :introduced-in :rb

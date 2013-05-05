@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :tympole
   :name "Tympole"
   :introduced-in :bw

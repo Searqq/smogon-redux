@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :snubbull
   :name "Snubbull"
   :introduced-in :gs

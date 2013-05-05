@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :spinda
   :name "Spinda"
   :introduced-in :rs

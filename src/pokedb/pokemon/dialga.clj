@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :dialga
   :name "Dialga"
   :introduced-in :dp

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :shroomish
   :name "Shroomish"
   :introduced-in :rs

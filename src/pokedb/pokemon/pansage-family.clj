@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :pansage
   :name "Pansage"
   :introduced-in :dp

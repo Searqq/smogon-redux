@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :suicune
   :name "Suicune"
   :introduced-in :gs

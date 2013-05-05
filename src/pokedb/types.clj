@@ -1,4 +1,6 @@
 
+(in-ns 'smogon.dex)
+
 (deftypechart :bug
   :name "Bug"
   :introduced-in :rb

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :kricketot
   :name "Kricketot"
   :introduced-in :dp

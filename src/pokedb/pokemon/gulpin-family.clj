@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :gulpin
   :name "Gulpin"
   :introduced-in :rs

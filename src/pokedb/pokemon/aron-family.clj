@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :aron
   :name "Aron"
   :introduced-in :rs

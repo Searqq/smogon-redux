@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :timburr
   :name "Timburr"
   :introduced-in :bw

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :wurmple
   :name "Wurmple"
   :introduced-in :rs

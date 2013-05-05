@@ -9,13 +9,17 @@
 ;; Utilities
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defn load-dex-files
+(defn ^:private load-dex-files
   "Load every .clj script under src/pokedb. The intention is to initialize the
   pokedex relations."
   []
   (doseq [f (file-seq (io/file (io/resource "pokedb/.")))]
     (when (.isFile f)
       (load-file (.getPath  f)))))
+
+(defn start-dex
+  []
+  (load-dex-files))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; All dex objects :)

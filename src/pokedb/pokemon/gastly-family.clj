@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :gastly
   :name "Gastly"
   :introduced-in :rb

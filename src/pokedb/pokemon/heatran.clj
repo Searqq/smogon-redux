@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :heatran
   :name "Heatran"
   :introduced-in :dp

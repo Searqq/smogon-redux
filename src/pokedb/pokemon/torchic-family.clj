@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :torchic
   :name "Torchic"
   :introduced-in :rs

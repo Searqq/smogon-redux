@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :lotad
   :name "Lotad"
   :introduced-in :rs

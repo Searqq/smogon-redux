@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :raikou
   :name "Raikou"
   :introduced-in :gs

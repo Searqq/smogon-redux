@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :shelmet
   :name "Shelmet"
   :introduced-in :bw

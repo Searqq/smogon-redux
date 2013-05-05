@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :azelf
   :name "Azelf"
   :introduced-in :dp

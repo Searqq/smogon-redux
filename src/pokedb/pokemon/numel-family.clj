@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :numel
   :name "Numel"
   :introduced-in :rs

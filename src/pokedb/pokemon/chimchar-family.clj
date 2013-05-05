@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :chimchar
   :name "Chimchar"
   :introduced-in :dp

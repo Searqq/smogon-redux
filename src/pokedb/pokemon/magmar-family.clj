@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :magby
   :name "Magby"
   :introduced-in :gs

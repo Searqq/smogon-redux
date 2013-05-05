@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :shuppet
   :name "Shuppet"
   :introduced-in :rs

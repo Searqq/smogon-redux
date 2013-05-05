@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 
 (defpokemon :phione
   :name "Phione"

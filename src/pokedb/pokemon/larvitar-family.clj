@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :larvitar
   :name "Larvitar"
   :introduced-in :gs

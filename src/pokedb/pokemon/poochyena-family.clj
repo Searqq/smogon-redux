@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :poochyena
   :name "Poochyena"
   :introduced-in :rs

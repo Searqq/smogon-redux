@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :munna
   :name "Munna"
   :introduced-in :dp

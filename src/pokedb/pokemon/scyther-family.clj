@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :scyther
   :name "Scyther"
   :introduced-in :rb

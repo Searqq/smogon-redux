@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :cranidos
   :name "Cranidos"
   :introduced-in :dp

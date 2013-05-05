@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :beldum
   :name "Beldum"
   :introduced-in :rs

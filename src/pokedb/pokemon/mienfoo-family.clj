@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :mienfoo
   :name "Mienfoo"
   :introduced-in :bw

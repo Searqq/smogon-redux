@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :rufflet
   :name "Rufflet"
   :introduced-in :bw

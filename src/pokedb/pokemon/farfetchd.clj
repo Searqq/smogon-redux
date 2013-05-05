@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :farfetchd
   :name "Farfetch'd"
   :introduced-in :rb

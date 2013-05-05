@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :bagon
   :name "Bagon"
   :introduced-in :rs

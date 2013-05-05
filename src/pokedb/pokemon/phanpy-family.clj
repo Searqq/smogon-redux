@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :phanpy
   :name "Phanpy"
   :introduced-in :gs

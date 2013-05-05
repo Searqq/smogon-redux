@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :sigilyph
   :name "Sigilyph"
   :introduced-in :bw

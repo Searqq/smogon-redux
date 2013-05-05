@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :sandshrew
   :name "Sandshrew"
   :introduced-in :rb

@@ -1,4 +1,6 @@
 
+(in-ns 'smogon.dex)
+
 (defmove :absorb
   :name "Absorb"
   :introduced-in :rb)

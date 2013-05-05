@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :shinx
   :name "Shinx"
   :introduced-in :dp

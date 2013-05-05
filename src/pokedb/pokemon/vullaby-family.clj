@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :vullaby
   :name "Vullaby"
   :introduced-in :bw

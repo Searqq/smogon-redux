@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :igglybuff
   :name "Igglybuff"
   :introduced-in :gs

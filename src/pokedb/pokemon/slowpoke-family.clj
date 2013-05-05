@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :slowpoke
   :name "Slowpoke"
   :introduced-in :rb

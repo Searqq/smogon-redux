@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :omanyte
   :name "Omanyte"
   :introduced-in :rb

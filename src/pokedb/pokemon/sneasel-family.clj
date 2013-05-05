@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :sneasel
   :name "Sneasel"
   :introduced-in :gs

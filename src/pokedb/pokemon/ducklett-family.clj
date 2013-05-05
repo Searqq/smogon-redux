@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :ducklett
   :name "Ducklett"
   :introduced-in :bw

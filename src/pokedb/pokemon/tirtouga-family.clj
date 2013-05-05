@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :tirtouga
   :name "Tirtouga"
   :introduced-in :bw

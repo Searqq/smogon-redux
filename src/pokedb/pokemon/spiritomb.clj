@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :spiritomb
   :name "Spiritomb"
   :introduced-in :dp

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :snover
   :name "Snover"
   :introduced-in :dp

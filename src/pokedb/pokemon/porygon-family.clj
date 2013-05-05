@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :porygon
   :name "Porygon"
   :introduced-in :rb

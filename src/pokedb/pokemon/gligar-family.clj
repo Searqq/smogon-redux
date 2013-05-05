@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :gligar
   :name "Gligar"
   :introduced-in :gs

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :tornadus
   :name "Tornadus"
   :introduced-in :bw

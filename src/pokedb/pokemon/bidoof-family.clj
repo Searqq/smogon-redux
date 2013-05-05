@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :bidoof
   :name "Bidoof"
   :introduced-in :dp

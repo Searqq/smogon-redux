@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :patrat
   :name "Patrat"
   :introduced-in :dp

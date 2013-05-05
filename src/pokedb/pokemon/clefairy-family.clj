@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :cleffa
   :name "Cleffa"
   :introduced-in :gs

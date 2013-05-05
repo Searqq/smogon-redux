@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :plusle
   :name "Plusle"
   :introduced-in :rs

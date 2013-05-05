@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :tangela
   :name "Tangela"
   :introduced-in :rb

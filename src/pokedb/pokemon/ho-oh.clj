@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :ho-oh
   :name "Ho-Oh"
   :introduced-in :gs

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :slakoth
   :name "Slakoth"
   :introduced-in :rs

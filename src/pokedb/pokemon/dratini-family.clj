@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :dratini
   :name "Dratini"
   :introduced-in :rb

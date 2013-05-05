@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :spearow
   :name "Spearow"
   :introduced-in :rb

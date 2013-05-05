@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :emolga
   :name "Emolga"
   :introduced-in :bw

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :audino
   :name "Audino"
   :introduced-in :bw

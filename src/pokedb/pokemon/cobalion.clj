@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :cobalion
   :name "Cobalion"
   :introduced-in :bw

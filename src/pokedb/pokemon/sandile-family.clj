@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :sandile
   :name "Sandile"
   :introduced-in :bw

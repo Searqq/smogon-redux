@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :sawk
   :name "Sawk"
   :introduced-in :bw

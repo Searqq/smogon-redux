@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :caterpie
   :name "Caterpie"
   :introduced-in :rb

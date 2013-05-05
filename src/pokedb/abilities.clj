@@ -1,4 +1,6 @@
 
+(in-ns 'smogon.dex)
+
 (defability :adaptability
   :name "Adaptability"
   :introduced-in :dp)

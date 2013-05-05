@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :snorunt
   :name "Snorunt"
   :introduced-in :rs

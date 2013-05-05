@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :buizel
   :name "Buizel"
   :introduced-in :dp

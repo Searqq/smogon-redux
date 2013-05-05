@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :meowth
   :name "Meowth"
   :introduced-in :rb

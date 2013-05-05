@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :articuno
   :name "Articuno"
   :introduced-in :rb

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :maractus
   :name "Maractus"
   :introduced-in :bw

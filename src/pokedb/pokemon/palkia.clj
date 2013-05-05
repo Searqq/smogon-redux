@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :palkia
   :name "Palkia"
   :introduced-in :dp

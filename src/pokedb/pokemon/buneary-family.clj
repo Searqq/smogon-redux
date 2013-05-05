@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :buneary
   :name "Buneary"
   :introduced-in :dp

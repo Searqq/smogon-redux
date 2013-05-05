@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :relicanth
   :name "Relicanth"
   :introduced-in :rs

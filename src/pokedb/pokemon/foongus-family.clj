@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :foongus
   :name "Foongus"
   :introduced-in :bw

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :durant
   :name "Durant"
   :introduced-in :bw

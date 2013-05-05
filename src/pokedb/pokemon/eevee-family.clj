@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :eevee
   :name "Eevee"
   :introduced-in :rb

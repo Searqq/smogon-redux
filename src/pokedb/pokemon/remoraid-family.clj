@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :remoraid
   :name "Remoraid"
   :introduced-in :gs

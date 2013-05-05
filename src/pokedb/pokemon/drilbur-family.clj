@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :drilbur
   :name "Drilbur"
   :introduced-in :bw

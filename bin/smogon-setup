@@ -37,6 +37,5 @@ cp /smogon/conf/sudoers-no-secure-path /etc/sudoers.d/no-secure-path
 chmod 0440 /etc/sudoers.d/no-secure-path
 ln -s /smogon/conf/nginx.conf /etc/nginx/sites-enabled/smogon
 rm /etc/nginx/sites-enabled/default # conflicts...
-ln -s /smogon/conf/init-smogon.conf /etc/init/smogon.conf
+/smogon/bin/smogon-reload-upstart
 
-initctl reload-configuration

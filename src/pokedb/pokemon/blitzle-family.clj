@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :blitzle
   :name "Blitzle"
   :introduced-in :bw

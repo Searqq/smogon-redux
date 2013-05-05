@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :surskit
   :name "Surskit"
   :introduced-in :rs

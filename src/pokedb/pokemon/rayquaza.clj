@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :rayquaza
   :name "Rayquaza"
   :introduced-in :rs

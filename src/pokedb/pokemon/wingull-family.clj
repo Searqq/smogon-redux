@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :wingull
   :name "Wingull"
   :introduced-in :rs

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :virizion
   :name "Virizion"
   :introduced-in :bw

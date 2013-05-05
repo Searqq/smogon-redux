@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :togepi
   :name "Togepi"
   :introduced-in :gs

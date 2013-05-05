@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :deino
   :name "Deino"
   :introduced-in :bw

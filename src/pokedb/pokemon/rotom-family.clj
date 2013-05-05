@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :rotom
   :name "Rotom"
   :introduced-in :dp

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :pineco
   :name "Pineco"
   :introduced-in :gs

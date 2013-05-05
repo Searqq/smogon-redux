@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :darkrai
   :name "Darkrai"
   :introduced-in :dp

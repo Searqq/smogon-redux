@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :hoothoot
   :name "Hoothoot"
   :introduced-in :gs

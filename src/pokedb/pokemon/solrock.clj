@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :solrock
   :name "Solrock"
   :introduced-in :rs

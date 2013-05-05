@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :delibird
   :name "Delibird"
   :introduced-in :gs   

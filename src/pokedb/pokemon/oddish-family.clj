@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :oddish
   :name "Oddish"
   :introduced-in :rb

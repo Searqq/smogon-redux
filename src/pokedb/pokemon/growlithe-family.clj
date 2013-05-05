@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :growlithe
   :name "Growlithe"
   :introduced-in :rb

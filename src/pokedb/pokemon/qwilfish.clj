@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :qwilfish
   :name "Qwilfish"
   :introduced-in :gs

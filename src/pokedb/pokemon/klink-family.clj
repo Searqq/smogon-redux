@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :klink
   :name "Klink"
   :introduced-in :bw

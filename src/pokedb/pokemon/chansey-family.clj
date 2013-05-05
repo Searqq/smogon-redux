@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :happiny
   :name "Happiny"
   :introduced-in :dp

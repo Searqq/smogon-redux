@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :terrakion
   :name "Terrakion"
   :introduced-in :bw

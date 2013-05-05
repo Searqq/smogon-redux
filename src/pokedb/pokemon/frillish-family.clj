@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :frillish
   :name "Frillish"
   :introduced-in :bw

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :groudon
   :name "Groudon"
   :introduced-in :rs

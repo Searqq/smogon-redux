@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :shaymin
   :name "Shaymin"
   :introduced-in :dp

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :skarmory
   :name "Skarmory"
   :introduced-in :gs

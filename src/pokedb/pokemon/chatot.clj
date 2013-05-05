@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :chatot
   :name "Chatot"
   :introduced-in :dp

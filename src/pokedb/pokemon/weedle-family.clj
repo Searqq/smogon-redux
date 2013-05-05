@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :weedle
   :name "Weedle"
   :introduced-in :rb

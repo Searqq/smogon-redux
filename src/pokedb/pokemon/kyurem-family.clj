@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :kyurem
   :name "Kyurem"
   :introduced-in :bw

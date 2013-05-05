@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :mime-jr
   :name "Mime Jr."
   :introduced-in :dp

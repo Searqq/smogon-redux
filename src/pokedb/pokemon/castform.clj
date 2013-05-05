@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :castform
   :name "Castform"
   :introduced-in :rs

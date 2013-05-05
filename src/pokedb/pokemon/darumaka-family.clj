@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :darumaka
   :name "Darumaka"
   :introduced-in :bw

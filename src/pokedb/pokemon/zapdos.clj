@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :zapdos
   :name "Zapdos"
   :introduced-in :rb

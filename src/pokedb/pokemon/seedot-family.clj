@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :seedot
   :name "Seedot"
   :introduced-in :rs

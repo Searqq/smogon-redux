@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :seviper
   :name "Seviper"
   :introduced-in :rs

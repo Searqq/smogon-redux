@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :pidove
   :name "Pidove"
   :introduced-in :dp

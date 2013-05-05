@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :poliwag
   :name "Poliwag"
   :introduced-in :rb

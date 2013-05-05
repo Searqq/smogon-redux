@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :zigzagoon
   :name "Zigzagoon"
   :introduced-in :rs

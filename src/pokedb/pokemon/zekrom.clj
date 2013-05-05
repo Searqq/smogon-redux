@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :zekrom
   :name "Zekrom"
   :introduced-in :bw

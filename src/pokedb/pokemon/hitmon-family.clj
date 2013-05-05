@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :tyrogue
   :name "Tyrogue"
   :introduced-in :gs

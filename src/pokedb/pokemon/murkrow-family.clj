@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :murkrow
   :name "Murkrow"
   :introduced-in :gs

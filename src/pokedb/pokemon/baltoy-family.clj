@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :baltoy
   :name "Baltoy"
   :introduced-in :rs

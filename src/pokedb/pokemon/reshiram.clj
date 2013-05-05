@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :reshiram
   :name "Reshiram"
   :introduced-in :bw

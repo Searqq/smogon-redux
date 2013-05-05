@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :smeargle
   :name "Smeargle"
   :introduced-in :gs

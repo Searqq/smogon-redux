@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :arceus
   :name "Arceus"
   :introduced-in :dp

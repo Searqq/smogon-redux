@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :abra
   :name "Abra"
   :introduced-in :rb

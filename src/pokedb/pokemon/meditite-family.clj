@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :meditite
   :name "Meditite"
   :introduced-in :rs

@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :barboach
   :name "Barboach"
   :introduced-in :rs

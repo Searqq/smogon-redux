@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :hippopotas
   :name "Hippopotas"
   :introduced-in :dp

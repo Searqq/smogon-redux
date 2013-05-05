@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :ferroseed
   :name "Ferroseed"
   :introduced-in :bw

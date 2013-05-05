@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :regice
   :name "Regice"
   :introduced-in :rs

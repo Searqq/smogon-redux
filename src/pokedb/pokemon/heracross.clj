@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :heracross
   :name "Heracross"
   :introduced-in :gs

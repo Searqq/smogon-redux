@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :volbeat
   :name "Volbeat"
   :introduced-in :rs

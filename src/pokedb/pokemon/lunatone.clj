@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :lunatone
   :name "Lunatone"
   :introduced-in :rs

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :sewaddle
   :name "Sewaddle"
   :introduced-in :bw

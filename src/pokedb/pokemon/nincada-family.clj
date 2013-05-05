@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :nincada
   :name "Nincada"
   :introduced-in :rs

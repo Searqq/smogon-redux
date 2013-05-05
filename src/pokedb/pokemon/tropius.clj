@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :tropius
   :name "Tropius"
   :introduced-in :rs

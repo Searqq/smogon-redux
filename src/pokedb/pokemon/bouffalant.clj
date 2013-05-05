@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :bouffalant
   :name "Bouffalant"
   :introduced-in :bw

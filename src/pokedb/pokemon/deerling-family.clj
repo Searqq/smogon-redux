@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :deerling
   :name "Deerling"
   :introduced-in :bw

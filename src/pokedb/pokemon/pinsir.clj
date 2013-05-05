@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :pinsir
   :name "Pinsir"
   :introduced-in :rb

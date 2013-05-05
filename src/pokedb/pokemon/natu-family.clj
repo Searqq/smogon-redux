@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :natu
   :name "Natu"
   :introduced-in :gs

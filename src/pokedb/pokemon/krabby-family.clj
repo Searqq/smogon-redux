@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :krabby
   :name "Krabby"
   :introduced-in :rb

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :elekid
   :name "Elekid"
   :introduced-in :gs

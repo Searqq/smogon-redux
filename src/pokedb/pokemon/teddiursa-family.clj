@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :teddiursa
   :name "Teddiursa"
   :introduced-in :gs

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :sentret
   :name "Sentret"
   :introduced-in :gs

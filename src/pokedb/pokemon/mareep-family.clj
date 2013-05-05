@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :mareep
   :name "Mareep"
   :introduced-in :gs

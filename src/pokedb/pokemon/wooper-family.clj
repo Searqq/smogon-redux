@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :wooper
   :name "Wooper"
   :introduced-in :gs

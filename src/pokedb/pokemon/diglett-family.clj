@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :diglett
   :name "Diglett"
   :introduced-in :rb

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :treecko
   :name "Treecko"
   :introduced-in :rs

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :pawniard
   :name "Pawniard"
   :introduced-in :bw

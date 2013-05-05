@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :spheal
   :name "Spheal"
   :introduced-in :rs

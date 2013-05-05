@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :swablu
   :name "Swablu"
   :introduced-in :rs

@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :kyogre
   :name "Kyogre"
   :introduced-in :rs

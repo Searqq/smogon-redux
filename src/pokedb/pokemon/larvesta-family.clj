@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :larvesta
   :name "Larvesta"
   :introduced-in :bw

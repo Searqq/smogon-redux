@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :starly
   :name "Starly"
   :introduced-in :dp

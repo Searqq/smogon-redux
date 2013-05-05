@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :ponyta
   :name "Ponyta"
   :introduced-in :rb

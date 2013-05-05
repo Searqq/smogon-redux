@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :azurill
   :name "Azurill"
   :introduced-in :rs

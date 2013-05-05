@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :shuckle
   :name "Shuckle"
   :introduced-in :gs

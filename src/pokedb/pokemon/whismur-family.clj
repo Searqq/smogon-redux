@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :whismur
   :name "Whismur"
   :introduced-in :rs

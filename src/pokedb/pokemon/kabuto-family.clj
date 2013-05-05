@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :kabuto
   :name "Kabuto"
   :introduced-in :rb

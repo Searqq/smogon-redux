@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :drowzee
   :name "Drowzee"
   :introduced-in :rb

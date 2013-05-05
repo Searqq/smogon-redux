@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :giratina
   :name "Giratina"
   :introduced-in :dp

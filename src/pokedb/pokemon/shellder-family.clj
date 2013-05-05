@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :shellder
   :name "Shellder"
   :introduced-in :rb

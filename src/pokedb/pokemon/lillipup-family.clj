@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :lillipup
   :name "Lillipup"
   :introduced-in :dp

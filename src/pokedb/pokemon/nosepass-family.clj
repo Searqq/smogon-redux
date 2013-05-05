@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :nosepass
   :name "Nosepass"
   :introduced-in :rs

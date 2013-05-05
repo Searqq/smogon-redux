@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :ekans
   :name "Ekans"
   :introduced-in :rb

@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :doduo
   :name "Doduo"
   :introduced-in :rb

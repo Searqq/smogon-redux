@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :latios
   :name "Latios"
   :introduced-in :rs

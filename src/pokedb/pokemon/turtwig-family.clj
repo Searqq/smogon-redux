@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :turtwig
   :name "Turtwig"
   :introduced-in :dp

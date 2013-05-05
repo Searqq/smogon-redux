@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :exeggcute
   :name "Exeggcute"
   :introduced-in :rb

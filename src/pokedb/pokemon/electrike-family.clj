@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :electrike
   :name "Electrike"
   :introduced-in :rs

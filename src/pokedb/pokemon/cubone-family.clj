@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :cubone
   :name "Cubone"
   :introduced-in :rb

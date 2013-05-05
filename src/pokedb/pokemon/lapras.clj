@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :lapras
   :name "Lapras"
   :introduced-in :rb

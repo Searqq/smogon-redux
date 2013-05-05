@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :vanillish
   :name "Vanillish"
   :introduced-in :bw

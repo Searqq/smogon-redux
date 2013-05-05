@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :shellos
   :name "Shellos"
   :introduced-in :dp

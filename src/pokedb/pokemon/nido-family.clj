@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :nidoran-m
   :name "NidoranM"
   :introduced-in :rb

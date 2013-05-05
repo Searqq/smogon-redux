@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :stantler
   :name "Stantler"
   :introduced-in :gs

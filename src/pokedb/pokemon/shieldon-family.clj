@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :shieldon
   :name "Shieldon"
   :introduced-in :dp

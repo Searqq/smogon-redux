@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :cherubi
   :name "Cherubi"
   :introduced-in :dp

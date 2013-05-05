@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :mesprit
   :name "Mesprit"
   :introduced-in :dp

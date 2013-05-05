@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :cyndaquil
   :name "Cyndaquil"
   :introduced-in :gs

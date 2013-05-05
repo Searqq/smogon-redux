@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :chikorita
   :name "Chikorita"
   :introduced-in :gs

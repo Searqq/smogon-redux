@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :tynamo
   :name "Tynamo"
   :introduced-in :bw

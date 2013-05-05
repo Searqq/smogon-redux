@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :aipom
   :name "Aipom"
   :introduced-in :gs

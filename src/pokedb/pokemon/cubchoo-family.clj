@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :cubchoo
   :name "Cubchoo"
   :introduced-in :bw

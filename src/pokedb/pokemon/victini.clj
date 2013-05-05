@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (defpokemon :victini
   :name "Victini"
   :introduced-in :bw

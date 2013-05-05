@@ -1,3 +1,6 @@
+
+(in-ns 'smogon.dex)
+
 (deffamily :bulbasaur :ivysaur :venusaur)
 
 (defpokemon :bulbasaur

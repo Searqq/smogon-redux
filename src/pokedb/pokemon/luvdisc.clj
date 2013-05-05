@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :luvdisc
   :name "Luvdisc"
   :introduced-in :rs

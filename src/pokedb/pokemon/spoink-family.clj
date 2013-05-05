@@ -1,4 +1,7 @@
 
+(in-ns 'smogon.dex)
+
+
 (defpokemon :spoink
   :name "Spoink"
   :introduced-in :rs
