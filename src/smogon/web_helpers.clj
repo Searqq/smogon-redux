@@ -22,6 +22,4 @@
      (emit-maybe-hiccup ~@body)))
 
 (potemkin/import-vars
- [compojure
-
-  defroutes])
+ [compojure defroutes])
