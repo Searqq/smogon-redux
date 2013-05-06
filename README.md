@@ -1,4 +1,3 @@
-
 Installation (VirtualBox, shared folders)
 ==========================================
 
@@ -7,7 +6,7 @@ Installation (VirtualBox, shared folders)
   things easier, use the same username as you use on your host machine.
 
 - Take a snapshot with Machine > Take Snapshot. Now, if you ever want to
-  reinstall Smogon from scranch (or something goes wrong), you can revert back
+  reinstall Smogon from scratch (or something goes wrong), you can revert back
   to the clean install in an instant.
 
 - (Optional): If you have trouble connecting to the Internet from the VBox
