@@ -22,7 +22,7 @@ Installation (VirtualBox, shared folders)
 - Install by `curl -L http://is.gd/A1y6y6 | sudo bash -s virtualbox`
 
 - Reboot: `sudo reboot`
-  (Yes, this step is necessary as the setup script modifies /etc/environment)
+  (Yes, this step is necessary as the setup script modifies `/etc/environment`)
   
 nREPL
 =====
