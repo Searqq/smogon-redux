@@ -44,7 +44,7 @@ esac
 #
 #
 
-useradd -d /var/lib/smogon -m -s /bin/false smogon
+useradd -d /var/lib/smogon -m smogon
 
 rm /etc/environment
 ln -s /smogon/conf/environment /etc/environment
@@ -66,7 +66,7 @@ rm /etc/nginx/sites-enabled/default
 wget https://raw.github.com/technomancy/leiningen/stable/bin/lein -O /usr/local/bin/lein
 chmod +x /usr/local/bin/lein
 
-sudo smogon -c "mkdir /var/lib/smogon/.lein"
+su smogon -c "mkdir /var/lib/smogon/.lein"
 ln -s /smogon/conf/lein-profiles.clj /var/lib/smogon/.lein/profiles.clj
 
 echo "Installation complete. Now, sudo reboot"
