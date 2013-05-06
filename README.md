@@ -6,6 +6,10 @@ Installation (VirtualBox, shared folders)
   (http://releases.ubuntu.com/quantal/ubuntu-12.10-server-amd64.iso). To make
   things easier, use the same username as you use on your host machine.
 
+- Take a snapshot with Machine > Take Snapshot. Now, if you ever want to
+  reinstall Smogon from scranch (or something goes wrong), you can revert back
+  to the clean install in an instant.
+
 - (Optional): If you have trouble connecting to the Internet from the VBox
   guest, try `VBoxManage modifyvm <name of vm> --natdnshostresolver1 on` from
   the command line.
@@ -19,7 +23,7 @@ Installation (VirtualBox, shared folders)
   ports (I use 2222 and 2280 myself). Now you can ssh into the box using `ssh
   localhost -p 2222` and access the webserver via `localhost:2280`.
 
-- Install by `curl -L http://is.gd/A1y6y6 | sudo bash -s virtualbox`
+- Install by `curl -sL http://is.gd/A1y6y6 | sudo bash -s virtualbox`
 
 - Reboot: `sudo reboot`
   (Yes, this step is necessary as the setup script modifies `/etc/environment`)
