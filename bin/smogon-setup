@@ -64,6 +64,8 @@ rm /etc/nginx/sites-enabled/default
 wget https://raw.github.com/technomancy/leiningen/stable/bin/lein -O /usr/local/bin/lein
 chmod +x /usr/local/bin/lein
 
+export LEIN_HOME=/usr/local/lib/lein
+
 # Run lein once as root to install it to /usr/local/lib/lein
 #
 # WARNING make sure this path matches up with /etc/environment!  We repeat the
@@ -74,7 +76,6 @@ chmod +x /usr/local/bin/lein
 mkdir /usr/local/lib/lein
 ln -s /smogon/conf/lein-profiles.clj /usr/local/lib/lein/profiles.clj
 
-LEIN_ROOT=1 LEIN_HOME=/usr/local/lib/lein lein > /dev/null
 /smogon/bin/smogon-update-deps
 
 echo "Installation complete. Now, sudo reboot"
