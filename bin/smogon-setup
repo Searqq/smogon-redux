@@ -22,20 +22,6 @@ apt-get install build-essential git openssh-server nginx ruby ruby-dev openjdk-7
 gem install sass
 gem install --version '~> 0.8.8' rb-inotify
 
-# Install leiningen
-wget https://raw.github.com/technomancy/leiningen/stable/bin/lein -O /usr/local/bin/lein
-chmod +x /usr/local/bin/lein
-
-# Run lein once as root to install it to /usr/local/lib/lein
-#
-# WARNING make sure this path matches up with /etc/environment!  We repeat the
-# path here explicitly because the user will not have restarted yet.
-#
-# This combined with setting :local-repo in profiles.clj ensures that the user
-# we are logged in as doesn't matter.
-mkdir /usr/local/lib/lein
-LEIN_ROOT=1 LEIN_HOME=/usr/local/lib/lein lein > /dev/null
-
 #
 #
 
@@ -72,5 +58,23 @@ rm /etc/nginx/sites-enabled/default
 
 /smogon/bin/smogon-reload-upstart
 
+#
+#
+
+wget https://raw.github.com/technomancy/leiningen/stable/bin/lein -O /usr/local/bin/lein
+chmod +x /usr/local/bin/lein
+
+# Run lein once as root to install it to /usr/local/lib/lein
+#
+# WARNING make sure this path matches up with /etc/environment!  We repeat the
+# path here explicitly because the user will not have restarted yet.
+#
+# This combined with setting :local-repo in profiles.clj ensures that the user
+# we are logged in as doesn't matter.
+mkdir /usr/local/lib/lein
 ln -s /smogon/conf/lein-profiles.clj /usr/local/lib/lein/profiles.clj
+
+LEIN_ROOT=1 LEIN_HOME=/usr/local/lib/lein lein > /dev/null
 /smogon/bin/smogon-update-deps
+
+echo "Installation complete. Now, `sudo reboot`"
