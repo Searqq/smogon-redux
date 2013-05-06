@@ -1,20 +1,10 @@
 
-Installation
-============
+Installation (VirtualBox, shared folders)
+==========================================
 
 - Install a fresh Ubuntu 12.10 server image
-  (http://releases.ubuntu.com/quantal/ubuntu-12.10-server-amd64.iso)
-  
-- Jump to the section that describes either VirtualBox setup or Git setup.
-
-- Run the setup script: `sudo /smogon/bin/smogon-setup`
-
-- Reboot: `sudo reboot`
-  (Yes, this step is necessary as the setup script modifies /etc/environment)
- 
-
-Installation (VirtualBox, w/ shared folders)
-============================================
+  (http://releases.ubuntu.com/quantal/ubuntu-12.10-server-amd64.iso). To make
+  things easier, use the same username as you use on your host machine.
 
 - (Optional): If you have trouble connecting to the Internet from the VBox
   guest, try `VBoxManage modifyvm <name of vm> --natdnshostresolver1 on` from
@@ -26,19 +16,13 @@ Installation (VirtualBox, w/ shared folders)
 
 - Setup port forwarding so we can access the SSH server and web server from
   outside the VM. Devices > Network Adapters, and map guest ports 22 and 80 host
-  ports (I use 2222 and 2280 myself). Now you can ssh into the box
-  using `ssh localhost -p 2222` and access the webserver via `localhost:2280`.
+  ports (I use 2222 and 2280 myself). Now you can ssh into the box using `ssh
+  localhost -p 2222` and access the webserver via `localhost:2280`.
 
-- Now, run the Smogon virtualbox bootstrap script:
-  `sudo sh -c 'curl -L https://raw.github.com/monsanto/smogon-redux/master/bin/bootstrap-virtualbox | sh'`
+- Install by `curl -L http://is.gd/A1y6y6 | sudo bash -s virtualbox`
 
-  
-Installation (Git)
-==================
-
-- Run the Smogon Git bootstrap script:
-  `sudo sh -c 'curl -L https://raw.github.com/monsanto/smogon-redux/master/bin/bootstrap-git | sh'`
-
+- Reboot: `sudo reboot`
+  (Yes, this step is necessary as the setup script modifies /etc/environment)
   
 nREPL
 =====
