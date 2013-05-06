@@ -77,4 +77,4 @@ ln -s /smogon/conf/lein-profiles.clj /usr/local/lib/lein/profiles.clj
 LEIN_ROOT=1 LEIN_HOME=/usr/local/lib/lein lein > /dev/null
 /smogon/bin/smogon-update-deps
 
-echo "Installation complete. Now, `sudo reboot`"
+echo "Installation complete. Now, sudo reboot"
