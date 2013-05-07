@@ -18,7 +18,6 @@
 
 (defn start-web
   "Run the web server."
-  []
-  (let [port 9001] 
-    (httpkit.server/run-server #'app {:port port})
-    (log/info "Starting Smogon web server on port" port)))
+  [& {:keys [port], :or {port 9001}}]
+  (httpkit.server/run-server #'app {:port port})
+  (log/info "Starting Smogon web server on port" port))
