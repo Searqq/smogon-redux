@@ -92,6 +92,24 @@
              {}
              valgens))
 
+(defn in-gens-relative*
+  [gens f]
+  (let [genvals (in-gens* gens f)
+        ;; Sort the results by generation
+        valgens (sort-by (fn [[val gs]]
+                           (reduce min (map (gens->ordering gens) gs)))
+                         (group-gens genvals))
+        [[v _] & rest] valgens]
+    [v rest]))
+
+(defmacro in-gens-relative
+  "Return a vector [base-val diffs] where diffs is a list of [val gens] pairs.
+
+  (in-gens-relative official-generations (abilities-of :clefable))
+  [(:cute-charm) ([(:magic-guard :cute-charm) #{:dp}] [(:unaware :cute-charm :magic-guard) #{:bw}])]"
+  [gens & body]
+  `(in-gens-relative* ~gens (fn [] ~@body)))
+
 (defn ^:private fill-gens
   "(fill-gens [:gs :rs :dp :bw] {:gs [:ice :grass], :dp [:fire]}) 
      --> 
@@ -245,7 +263,10 @@
              t)))
 
 (lhacks/defquery abilities-of [id] 
-  [q] (pokemon-ability-r id q))
+  [q] (pokemon-ability-r id q)
+  :post #(let [as (sort %)]
+           (when (not-empty as)
+             as)))
 
 (lhacks/defquery ability-monset-of [aid]
   [q] (pokemon-ability-r q aid))
@@ -424,35 +445,17 @@
 ;; Summarizations
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defn in-gens-relative*
-  [[base-gen & rest-gens] f]
-  (let [genvals (in-gens* official-gens f)
-        v (base-gen genvals)
-        ;; Remove any generations that share the value of the base generation
-        valgens (dissoc (group-gens genvals) v)
-        ;; Sort the results by generation
-        valgens (sort-by (fn [[val gens]]
-                           (reduce min (map (gens->ordering rest-gens) gens)))
-                         valgens)]
-    [v valgens]))
-
-(defmacro in-gens-relative
-  "Return a vector [base-val diffs] where diffs is a list of [val gens] pairs.
-
-  (in-gens-relative official-generations (abilities-of :clefable))
-  [(:cute-charm) ([(:magic-guard :cute-charm) #{:dp}] [(:unaware :cute-charm :magic-guard) #{:bw}])]"
-  [gens & body]
-  `(in-gens-relative* ~gens (fn [] ~@body)))
 
 (defn summarize-pokemon
   "Summarize a Pokemon across generations."
   [p]
-  {:name (name-of p)
-   :type (type-of p)
-   :abilities (abilities-of p)
-   :hp (hp-of p)
-   :atk (atk-of p)
-   :def (def-of p)
-   :spatk (spatk-of p)
-   :spdef (spdef-of p)
-   :speed (speed-of p)})
+  (let [rgens (reverse official-gens)] 
+    {:type (in-gens-relative rgens (type-of p))
+     ;; this is intentionally not rgens, because abilities are always additions.
+     :abilities (in-gens-relative official-gens (abilities-of p))
+     :hp (in-gens-relative rgens (hp-of p))
+     :atk (in-gens-relative rgens (atk-of p))
+     :def (in-gens-relative rgens (def-of p))
+     :spatk (in-gens-relative rgens (spatk-of p))
+     :spdef (in-gens-relative rgens (spdef-of p))
+     :speed (in-gens-relative rgens (speed-of p))}))
