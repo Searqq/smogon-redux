@@ -40,16 +40,19 @@
   "Current generation (for convenience). Defaults to latest generation."
   :bw)
 
-(def official-generations
-  [:rb :gs :rs :dp :bw])
+(def official-gens
+  '(:rb :gs :rs :dp :bw))
 
-(defn generations-since
-  [gen]
-  (drop-while #(not= gen %) official-generations))
+(def official-gen->ordinal
+  (into {} (map-indexed #(vector %2 %1) official-gens)))
 
-(defn generations-upto
+(defn gens-since
   [gen]
-  (take-while #(not= gen %) official-generations))
+  (drop-while #(not= gen %) official-gens))
+
+(defn gens-upto
+  [gen]
+  (take-while #(not= gen %) official-gens))
 
 (defmacro in-gen
   "Evaluate body in the context of a different generation."
@@ -88,8 +91,8 @@
              {}
              valgens))
 
-(defn ^:private fill-generations
-  "(fill-generations [:gs :rs :dp :bw] {:gs [:ice :grass], :dp [:fire]}) 
+(defn ^:private fill-gens
+  "(fill-gens [:gs :rs :dp :bw] {:gs [:ice :grass], :dp [:fire]}) 
      --> 
    {:gs [:ice :grass], :rs [:ice grass], :dp [:fire], :bw [:fire]}"
   [[prev-gen & [gen :as next-gens]] gen-map]
@@ -102,7 +105,7 @@
           ;; ... and carry it over to the current generation (if the current
           ;; generation has no set value--merge works left to right)
           gen-map' (merge {gen prev} gen-map)]
-      (fill-generations next-gens gen-map'))))
+      (fill-gens next-gens gen-map'))))
 
 (defn make-generational
   "(make-generational :gs [[:ice :grass] :dp [:fire]] 
@@ -110,8 +113,8 @@
    {:gs [:ice :grass], :rs [:ice grass], :dp [:fire], :bw [:fire]}"
   [begin-gen [v & {:as overrides}]]
   (let [gen-map (merge overrides {begin-gen v})
-        gens (generations-since begin-gen)] 
-    (fill-generations gens gen-map)))
+        gens (gens-since begin-gen)] 
+    (fill-gens gens gen-map)))
 
 ;; Relations
 ;;
@@ -145,7 +148,7 @@
   [id & {name :name
          gen :introduced-in
          geffectives :effective-against}]
-  (doseq [g (generations-since gen)]
+  (doseq [g (gens-since gen)]
     (genfact g type-r id))
   (doseq [[g mods] (make-generational gen geffectives)
           [type mod] mods]
@@ -167,7 +170,7 @@
 (defn defmove
   [id & {name :name,
          gen :introduced-in}]
-  (doseq [g (generations-since gen)]
+  (doseq [g (gens-since gen)]
     (genfact g move-r id))
   (l/fact name-r id name))
 
@@ -187,7 +190,7 @@
 (defn defability
   [id & {name :name,
          gen :introduced-in}]
-  (doseq [g (generations-since gen)]
+  (doseq [g (gens-since gen)]
     (genfact g ability-r id))
   (l/fact name-r id name))
 
@@ -203,7 +206,7 @@
 (defn defitem
   [id & {name :name,
          gen :introduced-in}]
-  (doseq [g (generations-since gen)]
+  (doseq [g (gens-since gen)]
     (genfact g item-r id))
   (l/fact name-r id name))
 
@@ -285,7 +288,7 @@
          gweight :weight,
          gheight :height}]
 
-  (doseq [g (generations-since gen)]
+  (doseq [g (gens-since gen)]
     (genfact g pokemon-r id))
   
   (l/fact name-r id name)
@@ -361,7 +364,7 @@
 
 (defn ^:private fixup-family-tree
   [tree]
-  (for [g official-generations]
+  (for [g official-gens]
     (let [tree' (for [x tree]
                   ;; (deffamily :sneasel :weavile) is shorthand for (deffamily [:sneasel] [:weavile])
                   (let [alternatives (make-vector-if-not x)]
@@ -421,6 +424,26 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Summarizations
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defn in-gens-relative*
+  [base-gen f]
+  (let [genvals (in-gens* official-gens f)
+        v (base-gen genvals)
+        ;; Remove any generations that share the value of the base generation
+        valgens (dissoc (group-gens genvals) v)
+        ;; Sort the results by generation
+        valgens (sort-by (fn [[val gens]]
+                           (reduce (comp max official-gen->ordinal) gens))
+                         valgens)]
+    [v valgens]))
+
+(defmacro in-gens-relative
+  "Return a vector [base-val diffs] where diffs is a list of [val gens] pairs.
+
+  (in-gens-relative :bw (type-of :rotom-wash)) -> 
+  [[:electric :water] ([[:electric :ghost] #{:dp}])]"
+  [base-gen & body]
+  `(in-gens-relative* ~base-gen (fn [] ~@body)))
 
 (defn summarize-pokemon
   "Summarize a Pokemon across generations."
