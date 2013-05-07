@@ -17,7 +17,8 @@
              ring.middleware.stacktrace/wrap-stacktrace-log))
 
 (defn start-web
-  "Run the web server."
+  "Don't call this function directly; prefer smogon.core/start-all with
+  :start-web true"
   [& {:keys [port], :or {port 9001}}]
   (httpkit.server/run-server #'app {:port port})
   (log/info "Starting Smogon web server on port" port))

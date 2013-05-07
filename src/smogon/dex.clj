@@ -18,6 +18,8 @@
       (load-file (.getPath  f)))))
 
 (defn start-dex
+  "Don't call this function directly; prefer smogon.core/start-all with
+  :start-dex true"
   []
   (load-dex-files))
 
