@@ -51,7 +51,9 @@
   [gen]
   (take-while #(not= gen %) official-generations))
 
-(defmacro in-gen [gen & body]
+(defmacro in-gen
+  "Evaluate body in the context of a different generation."
+  [gen & body]
   `(binding [*gen* ~gen]
     ~@body))
 
@@ -63,21 +65,28 @@
              [gen v])))
 
 (defmacro in-gens
+  "Evaluate body in the context of each generation, and collect the results in a
+  map keyed by generation."
   [gens & body]
   `(in-gens* ~gens (fn [] ~@body)))
 
 (defn group-gens
-  [gendict]
-  (cond
-   (empty? gendict) {}
-   :else (let [[gen v] (first gendict)]
-           (merge-with clojure.set/union
-                       {v #{gen}}
-                       (group-gens (rest gendict))))))
+  "(group-gens {:rb 3, :gs 4, :rs 5, :dp 3, :bw 4}) -> 
+   {3 #{:rb :dp}, 4 #{:gs :bw}, 5 #{:rs}}"
+  [genval]
+  (reduce-kv (fn [cur gen val]
+               (merge-with clojure.set/union {val #{gen}} cur))
+             {}
+             genval))
 
-(defn diff-gens
-  [gendict]
-  (group-gens gendict))
+(defn ungroup-gens
+  "(ungroup-gens {3 #{:rb :dp}, 4 #{:gs :bw}, 5 #{:rs}}) -> 
+   {:rb 3, :gs 4, :rs 5, :dp 3, :bw 4}"
+  [valgens]
+  (reduce-kv (fn [cur val gens]
+               (reduce #(assoc %1 %2 val) cur gens))
+             {}
+             valgens))
 
 (defn ^:private fill-generations
   "(fill-generations [:gs :rs :dp :bw] {:gs [:ice :grass], :dp [:fire]}) 
