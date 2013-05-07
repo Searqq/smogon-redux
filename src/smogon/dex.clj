@@ -43,8 +43,9 @@
 (def official-gens
   '(:rb :gs :rs :dp :bw))
 
-(def official-gen->ordinal
-  (into {} (map-indexed #(vector %2 %1) official-gens)))
+(defn gens->ordering
+  [gens]
+  (into {} (map-indexed #(vector %2 %1) gens)))
 
 (defn gens-since
   [gen]
@@ -426,24 +427,24 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (defn in-gens-relative*
-  [base-gen f]
+  [[base-gen & rest-gens] f]
   (let [genvals (in-gens* official-gens f)
         v (base-gen genvals)
         ;; Remove any generations that share the value of the base generation
         valgens (dissoc (group-gens genvals) v)
         ;; Sort the results by generation
         valgens (sort-by (fn [[val gens]]
-                           (reduce (comp max official-gen->ordinal) gens))
+                           (reduce (comp (gens->ordering rest-gens) official-gen->ordinal) gens))
                          valgens)]
     [v valgens]))
 
 (defmacro in-gens-relative
   "Return a vector [base-val diffs] where diffs is a list of [val gens] pairs.
 
-  (in-gens-relative :bw (type-of :rotom-wash)) -> 
-  [[:electric :water] ([[:electric :ghost] #{:dp}])]"
-  [base-gen & body]
-  `(in-gens-relative* ~base-gen (fn [] ~@body)))
+  (in-gens-relative (gens-since :rs) (abilities-of :clefable)) ->
+  [(:cute-charm) ([(:unaware :cute-charm :magic-guard) #{:bw}] [(:magic-guard :cute-charm) #{:dp}])]"
+  [gens & body]
+  `(in-gens-relative* ~gens (fn [] ~@body)))
 
 (defn summarize-pokemon
   "Summarize a Pokemon across generations."
