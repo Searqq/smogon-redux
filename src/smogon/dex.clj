@@ -35,7 +35,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Generations
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;
 
 (def ^:dynamic *gen*
   "Current generation (for convenience). Defaults to latest generation."
@@ -51,6 +50,34 @@
 (defn generations-upto
   [gen]
   (take-while #(not= gen %) official-generations))
+
+(defmacro in-gen [gen & body]
+  `(binding [*gen* ~gen]
+    ~@body))
+
+(defn in-gens*
+  [gens f]
+  (into {} (for [gen gens
+                 :let [v (in-gen gen (f))]
+                 :when v]
+             [gen v])))
+
+(defmacro in-gens
+  [gens & body]
+  `(in-gens* ~gens (fn [] ~@body)))
+
+(defn group-gens
+  [gendict]
+  (cond
+   (empty? gendict) {}
+   :else (let [[gen v] (first gendict)]
+           (merge-with clojure.set/union
+                       {v #{gen}}
+                       (group-gens (rest gendict))))))
+
+(defn diff-gens
+  [gendict]
+  (group-gens gendict))
 
 (defn ^:private fill-generations
   "(fill-generations [:gs :rs :dp :bw] {:gs [:ice :grass], :dp [:fire]}) 
@@ -77,6 +104,9 @@
         gens (generations-since begin-gen)] 
     (fill-generations gens gen-map)))
 
+;; Relations
+;;
+
 (defmacro defgenrel [name & args]
   (let [[name [& args]] (m/name-with-attributes name args)] 
     `(let [rel# (lhacks/rel ^:index g# ~@args)] 
@@ -88,11 +118,6 @@
 (defmacro genfact
   [gen rel & tuple]
   `(l/fact (-> #'~rel meta ::genrel) ~gen ~@tuple))
-
-(defmacro in-gen [gen & body]
-  `(binding [*gen* ~gen]
-    ~@body))
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Types
@@ -202,7 +227,10 @@
   [q] (pokemon-r q))
 
 (lhacks/defquery type-of [id] 
-  [q] (pokemon-type-r id q))
+  [q] (pokemon-type-r id q)
+  :post #(let [t (vec (sort %))]
+           (when (not-empty t)
+             t)))
 
 (lhacks/defquery abilities-of [id] 
   [q] (pokemon-ability-r id q))
@@ -236,18 +264,6 @@
 
 (lhacks/defsingleton height-of [id]
   [q] (pokemon-height-r id q))
-
-(defn summarize-pokemon
-  [p]
-  {:name (name-of p)
-   :type (type-of p)
-   :abilities (abilities-of p)
-   :hp (hp-of p)
-   :atk (atk-of p)
-   :def (def-of p)
-   :spatk (spatk-of p)
-   :spdef (spdef-of p)
-   :speed (speed-of p)})
 
 (defn defpokemon
   "Helper function to define a Pokemon."
@@ -392,3 +408,20 @@
   (doseq [[p ms] (partition 2 pairs)
           m ms]
     (genfact gen learns-sans-preevos-r p m)))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Summarizations
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defn summarize-pokemon
+  "Summarize a Pokemon across generations."
+  [p]
+  {:name (name-of p)
+   :type (type-of p)
+   :abilities (abilities-of p)
+   :hp (hp-of p)
+   :atk (atk-of p)
+   :def (def-of p)
+   :spatk (spatk-of p)
+   :spdef (spdef-of p)
+   :speed (speed-of p)})
