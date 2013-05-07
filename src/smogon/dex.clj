@@ -434,15 +434,15 @@
         valgens (dissoc (group-gens genvals) v)
         ;; Sort the results by generation
         valgens (sort-by (fn [[val gens]]
-                           (reduce (comp (gens->ordering rest-gens) official-gen->ordinal) gens))
+                           (reduce min (map (gens->ordering rest-gens) gens)))
                          valgens)]
     [v valgens]))
 
 (defmacro in-gens-relative
   "Return a vector [base-val diffs] where diffs is a list of [val gens] pairs.
 
-  (in-gens-relative (gens-since :rs) (abilities-of :clefable)) ->
-  [(:cute-charm) ([(:unaware :cute-charm :magic-guard) #{:bw}] [(:magic-guard :cute-charm) #{:dp}])]"
+  (in-gens-relative official-generations (abilities-of :clefable))
+  [(:cute-charm) ([(:magic-guard :cute-charm) #{:dp}] [(:unaware :cute-charm :magic-guard) #{:bw}])]"
   [gens & body]
   `(in-gens-relative* ~gens (fn [] ~@body)))
 
