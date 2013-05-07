@@ -216,7 +216,7 @@
 ;; Pokemon
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(def generations-without-abilities [:rb :gs])
+(def official-gens-without-abilities #{:rb :gs})
 
 (defgenrel pokemon-r x)
 (defgenrel pokemon-type-r ^:index p ^:index x)
@@ -297,7 +297,8 @@
     
     (doseq [[g abilities] (mg gabilities)
             ability abilities]
-      (genfact g pokemon-ability-r id ability))
+      (when-not (contains? official-gens-without-abilities g) 
+        (genfact g pokemon-ability-r id ability)))
     
     (doseq [[g stats] (mg gstats)]
       ;; Ugly hack; for :rb spatk/spdef are combined.
