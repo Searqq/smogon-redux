@@ -204,7 +204,7 @@
 (lhacks/defquery type-of [id] 
   [q] (pokemon-type-r id q))
 
-(lhacks/defquery ability-of [id] 
+(lhacks/defquery abilities-of [id] 
   [q] (pokemon-ability-r id q))
 
 (lhacks/defquery ability-monset-of [aid]
@@ -236,6 +236,18 @@
 
 (lhacks/defsingleton height-of [id]
   [q] (pokemon-height-r id q))
+
+(defn summarize-pokemon
+  [p]
+  {:name (name-of p)
+   :type (type-of p)
+   :abilities (abilities-of p)
+   :hp (hp-of p)
+   :atk (atk-of p)
+   :def (def-of p)
+   :spatk (spatk-of p)
+   :spdef (spdef-of p)
+   :speed (speed-of p)})
 
 (defn defpokemon
   "Helper function to define a Pokemon."
