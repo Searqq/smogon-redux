@@ -227,7 +227,6 @@
 (defgenrel pokemon-def-r ^:index p x)
 (defgenrel pokemon-spatk-r ^:index p x)
 (defgenrel pokemon-spdef-r ^:index p x)
-(defgenrel pokemon-special-r ^:index p x)
 (defgenrel pokemon-speed-r ^:index p x)
 (defgenrel pokemon-weight-r ^:index p x)
 (defgenrel pokemon-height-r ^:index p x)
@@ -265,9 +264,6 @@
 
 (lhacks/defsingleton spdef-of [id]
   [q] (pokemon-spdef-r id q))
-
-(lhacks/defsingleton special-of [id]
-  [q] (pokemon-special-r id q))
 
 (lhacks/defsingleton speed-of [id]
   [q] (pokemon-speed-r id q))
@@ -310,7 +306,8 @@
           (genfact g pokemon-hp-r id hp)
           (genfact g pokemon-atk-r id atk)
           (genfact g pokemon-def-r id def)
-          (genfact g pokemon-special-r id special)
+          (genfact g pokemon-spatk-r id special)
+          (genfact g pokemon-spdef-r id special)
           (genfact g pokemon-speed-r id speed))
         (let [[hp atk def spatk spdef speed] stats]
           (genfact g pokemon-hp-r id hp)
