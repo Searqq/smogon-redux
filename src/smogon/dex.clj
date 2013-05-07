@@ -15,7 +15,7 @@
   []
   (doseq [f (file-seq (io/file (io/resource "pokedb/.")))]
     (when (.isFile f)
-      (load-file (.getPath  f)))))
+      (load-file (.getPath f)))))
 
 (defn start-dex
   "Don't call this function directly; prefer smogon.core/start-all with
