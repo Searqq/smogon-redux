@@ -9,6 +9,7 @@
 (defroutes app-routes
   (GET "/" [] "Hello World")
   #'dexweb/dex-routes
+  (compojure.route/files "" {:root "public"})
   (compojure.route/not-found "Not Found"))
 
 (def app (-> #'app-routes
