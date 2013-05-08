@@ -139,16 +139,28 @@
 ;;
 
 (defmacro defgenrel [name & args]
-  (let [[name [& args]] (m/name-with-attributes name args)] 
-    `(let [rel# (lhacks/rel ^:index g# ~@args)] 
-       (when (defonce ~name (fn [~@args]
-                              (rel# *gen* ~@args)))
+  (let [[name [& args]] (m/name-with-attributes name args)]
+    ;; defonce clears metadata, so use this hack instead.
+    ;; can't just use (bound? #'~name) due to some macroexpand quirk.
+    ;; ... whatever.
+    `(when-not (bound? (resolve '~name))
+       (let [rel# (lhacks/rel ^:index g# ~@args)] 
+         (defn ~name [~@args]
+           (rel# *gen* ~@args))
          (alter-meta! #'~name #(assoc % ::genrel rel#))
          #'~name))))
 
+;; Genrels hide their gen argument. This gives you a relation
+;; that doesn't hide it.
+(defmacro genrel->rel
+  [name & args]
+  (if args
+    `((-> #'~name meta ::genrel) ~@args) 
+    `(-> #'~name meta ::genrel)))
+
 (defmacro genfact
   [gen rel & tuple]
-  `(l/fact (-> #'~rel meta ::genrel) ~gen ~@tuple))
+  `(l/fact (genrel->rel ~rel) ~gen ~@tuple))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Types
