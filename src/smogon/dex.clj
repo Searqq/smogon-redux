@@ -104,8 +104,8 @@
 ;; Types
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defgenrel type-r t)
-(defgenrel type-effective-against-r t1 t2 modifier)
+(defgenrel type-r ^:index t)
+(defgenrel type-effective-against-r ^:index t1 ^:index t2 modifier)
 
 (defn type? [t]
   (lhacks/run-bool (type-r *gen* t)))
@@ -131,7 +131,7 @@
 ;; Moves
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defgenrel move-r m)
+(defgenrel move-r ^:index m)
 
 (defn move? [m]
   (lhacks/run-bool (move-r *gen* m)))
@@ -153,7 +153,7 @@
 ;; Abilities
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defgenrel ability-r a)
+(defgenrel ability-r ^:index a)
 
 (defn ability? [a]
   (lhacks/run-bool (ability-r *gen* a)))
@@ -193,7 +193,7 @@
 
 (def official-gens-without-abilities #{:rb :gs})
 
-(defgenrel pokemon-r x)
+(defgenrel pokemon-r ^:index x)
 (defgenrel pokemon-type-r ^:index p ^:index x)
 (defgenrel pokemon-ability-r ^:index p ^:index x)
 (defgenrel pokemon-egggroup-r ^:index p ^:index x)
@@ -348,43 +348,60 @@
 ;; Evolutions
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defgenrel directly-evolves-r ^:index p ^:index p')
+(defgenrel evolves-r ^:index p ^:index p')
 
-(defn evolves-r [g p p']
-  (l/conde
-   ((directly-evolves-r g p p'))
-   ((l/fresh [p'']
-           (directly-evolves-r g p p'')
-           (evolves-r g p'' p')))))
+(defn preevos-of [p]
+  (lhacks/run-strict [q] (evolves-r *gen* q p)))
 
-(defn preevos-of [id]
-  (lhacks/run-strict [q] (evolves-r *gen* id q)))
-
-(defn postevos-of [id]
-  (lhacks/run-strict [q] (evolves-r *gen* q id)))
+(defn postevos-of [p]
+  (lhacks/run-strict [q] (evolves-r *gen* p q)))
  
-(defn family-of [id]
+(defn family-of [p]
   (lhacks/run-strict [q] (l/conde
-                          ((evolves-r *gen* q id))
-                          ((evolves-r *gen* id q)))))
-
-(defn ^:private group-transitive
-  "(group-transitive [1 2 3]) -> [[1 2] [2 3]]"
-  [xs] (map vector xs (rest xs)))
+                          ((evolves-r *gen* q p))
+                          ((evolves-r *gen* p q)))))
 
 (defn ^:private make-vector-if-not
   "Take a wild guess."
   [x] (if (vector? x) x [x]))
 
+(defn ^:private filter-alternatives
+  [g alternatives]
+  (filterv #(in-gen g (pokemon? %)) alternatives))
+
+(defn ^:private zip
+  "You know, like Python or Haskell."
+  [xs ys]
+  (map vector xs ys))
+
+(defn ^:private group-evos
+  "(group-evos '([:bulbasaur] [:ivysaur] [:venusaur])) -> 
+   '([:bulbasaur :ivysaur] [:bulbasaur :venusaur] [:ivysaur :venusaur])"
+  [[palts & rest]]
+  (cond
+   (empty? rest) nil 
+   :else (concat (for [p palts
+                       pevoalts rest
+                       pevo pevoalts]
+                   [p pevo])
+                 (group-evos rest))))
+
 (defn ^:private fixup-family-tree
   [tree]
   (for [g official-gens]
-    (let [tree' (for [x tree]
-                  ;; (deffamily :sneasel :weavile) is shorthand for (deffamily [:sneasel] [:weavile])
-                  (let [alternatives (make-vector-if-not x)]
-                    ;; Ignore Pokemon not in this generation
-                    (filter #(in-gen g (pokemon? %)) alternatives)))] 
-      [g (group-transitive tree')])))
+    [g (->> tree
+            (map #(->> %
+                       ;; Ensure each element is a vector, b/c (deffamily
+                       ;; :sneasel :weavile) is shorthand for (deffamily
+                       ;; [:sneasel] [:weavile])
+                       make-vector-if-not
+                       ;; Then, ignore Pokemon not in this generation
+                       (filter-alternatives g)))
+            ;; We now have a sequence of vectors, where each vector represents
+            ;; alternatives.  Pair up adjacents, so '([:bulbasaur] [:ivysaur]
+            ;; [:venusaur]) -> '([:bulbasaur :ivysaur] [:ivysaur :venusaur]) and
+            ;; then apply the transitive closure.
+            group-evos)]))
 
 (defn deffamily
  "Define a family tree. 
@@ -401,10 +418,8 @@
   Pokemon that did not exist in a particular generation are ignored."
   [& tree]
   (doseq [[g pairs] (fixup-family-tree tree)
-          [palts pevoalts] pairs
-          p palts
-          pevo pevoalts]
-    (l/fact directly-evolves-r g p pevo)))
+          [p pevo] pairs]
+    (l/fact evolves-r g p pevo)))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Learnsets
@@ -438,7 +453,7 @@
   [g & pairs]
   (doseq [[p ms] (partition 2 pairs)
           m ms]
-    (learns-sans-preevos-r g p m)))
+    (l/fact learns-sans-preevos-r g p m)))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Dex server
