@@ -495,9 +495,12 @@
   (mapcat #(l/run* [q] (learns-sans-preevos-r *gen* % q)) (preevos-of p)))
 
 (defn moves-of* [p]
-  (group-keys (mapcat #(l/run* [g q]
-                               (learns-sans-preevos-r g % q))
-                      (preevos-of p))))
+  (group-keys (mapcat (fn [[preevo _]]
+                        (l/run* [g q]
+                                (learns-sans-preevos-r g preevo q)))
+                      ;; We abuse this command to get all of the preevos,
+                      ;; irrespective of generation.
+                      (preevos-of* p))))
 
 (defn deflearnset
   [g & pairs]
