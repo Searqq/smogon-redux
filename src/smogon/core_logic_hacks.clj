@@ -20,6 +20,9 @@
   [name & args]
   `(defonce ~name (rel ~@args)))
 
+(defmacro run-set [args & body]
+  `(set (l/run* ~args ~@body)))
+
 (defmacro run-1 [args & body]
   `(first (l/run 1 ~args ~@body)))
 

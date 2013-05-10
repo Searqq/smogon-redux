@@ -240,7 +240,7 @@
                        (coll? t) (l/everyg #(pokemon-type-r g q %) t)))))
 
 (defn abilities-of [p]
-  (set (l/run* [q] (pokemon-ability-r *gen* p q))))
+  (lhacks/run-set [q] (pokemon-ability-r *gen* p q)))
 
 (defn abilities-of* [p]
   (group-keys (l/run* [g q] (pokemon-ability-r g p q))))
@@ -348,27 +348,41 @@
 ;; Evolutions
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defgenrel evolves-r ^:index p ^:index p')
+(defgenrel evolves-r ^:index p1 ^:index p2)
+
+(defn evolves?
+  [p1 p2]
+  (lhacks/run-bool (evolves-r *gen* p1 p2)))
 
 (defn preevos-of [p]
-  (lhacks/run-strict [q]
-                     (l/conde
-                      ((evolves-r *gen* q p))
-                      ((l/== q p)
-                       (pokemon-r *gen* p)))))
+  (lhacks/run-set [q]
+        (l/conde
+         ((evolves-r *gen* q p))
+         ((l/== q p)
+          (pokemon-r *gen* p)))))
 
 (defn preevos-of* [p]
-  (group-keys (lhacks/run-strict [g q]
-                     (l/conde
-                      ((evolves-r g q p))
-                      ((l/== q p)
-                       (pokemon-r g p))))))
+  (group-keys (l/run* [g q]
+                      (l/conde
+                       ((evolves-r g q p))
+                       ((l/== q p)
+                        (pokemon-r g p))))))
+
+;; FIXME sorting is slow here
+(defn firstevo-of [p]
+  (first (sort evolves? (l/run* [q]
+                                (l/conde
+                                 ((evolves-r *gen* q p))
+                                 ((l/== q p)
+                                  (pokemon-r *gen* p)))))))
+
+;; FIXME need firstevo-of*
 
 (defn postevos-of [p]
-  (lhacks/run-strict [q]
-                     (l/conde
-                      ((l/== q p))
-                      ((evolves-r *gen* p q)))))
+  (lhacks/run-set [q]
+                  (l/conde
+                   ((l/== q p))
+                   ((evolves-r *gen* p q)))))
 
 (defn postevos-of* [p]
   (group-keys (lhacks/run-strict [g q]
@@ -378,19 +392,9 @@
                        (pokemon-r g p))))))
 
 (defn family-of [p]
-  (lhacks/run-strict [q] (l/conde
-                          ((evolves-r *gen* q p))
-                          ((l/== q p)
-                           (pokemon-r *gen* q))
-                          ((evolves-r *gen* p q)))))
+  (postevos-of (firstevo-of p)))
 
-(defn family-of* [p]
-  (group-keys (lhacks/run-strict [g q]
-                                 (l/conde
-                                  ((evolves-r g q p))
-                                  ((l/== q p)
-                                   (pokemon-r g q))
-                                  ((evolves-r g p q))))))
+;; FIXME need family-of*
 
 (defn ^:private make-vector-if-not
   "Take a wild guess."
