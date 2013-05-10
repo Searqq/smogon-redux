@@ -351,15 +351,46 @@
 (defgenrel evolves-r ^:index p ^:index p')
 
 (defn preevos-of [p]
-  (lhacks/run-strict [q] (evolves-r *gen* q p)))
+  (lhacks/run-strict [q]
+                     (l/conde
+                      ((evolves-r *gen* q p))
+                      ((l/== q p)
+                       (pokemon-r *gen* p)))))
+
+(defn preevos-of* [p]
+  (group-keys (lhacks/run-strict [g q]
+                     (l/conde
+                      ((evolves-r g q p))
+                      ((l/== q p)
+                       (pokemon-r g p))))))
 
 (defn postevos-of [p]
-  (lhacks/run-strict [q] (evolves-r *gen* p q)))
- 
+  (lhacks/run-strict [q]
+                     (l/conde
+                      ((l/== q p))
+                      ((evolves-r *gen* p q)))))
+
+(defn postevos-of* [p]
+  (group-keys (lhacks/run-strict [g q]
+                     (l/conde
+                      ((evolves-r g p q))
+                      ((l/== q p)
+                       (pokemon-r g p))))))
+
 (defn family-of [p]
   (lhacks/run-strict [q] (l/conde
                           ((evolves-r *gen* q p))
+                          ((l/== q p)
+                           (pokemon-r *gen* q))
                           ((evolves-r *gen* p q)))))
+
+(defn family-of* [p]
+  (group-keys (lhacks/run-strict [g q]
+                                 (l/conde
+                                  ((evolves-r g q p))
+                                  ((l/== q p)
+                                   (pokemon-r g q))
+                                  ((evolves-r g p q))))))
 
 (defn ^:private make-vector-if-not
   "Take a wild guess."
@@ -427,27 +458,46 @@
 
 (defgenrel learns-sans-preevos-r ^:index p ^:index m)
 
-(defn learns-r
+;; You'd think this would work fine, but it is SLOW. It seems to just ignore any
+;; indexes we throw at it. A smarter query optimizer would not have this
+;; problem. We comment it out, and use more specialized queries in the below
+;; functions.
+;;
+;; ... I'd really like to move away from core.logic.
+;;
+;; For that matter, most of these functions are slow for some reason. 
+#_(defn learns-r
   [g p m]
   (l/conde ((learns-sans-preevos-r g p m))
            ((l/fresh [p']
-                     (evolves-r g p' p) 
+                     (evolves-r g p' p)
                      (learns-sans-preevos-r g p' m)))))
 
+;; FIXME Slow...
 (defn has-move? [p m]
-  (lhacks/run-bool (learns-r *gen* p m)))
+  (some #(lhacks/run-bool (learns-sans-preevos-r *gen* % m))
+        (preevos-of p)))
 
+;; FIXME fragile when postevos are listed as learning the move as well.
 (defn who-has-move [m]
-  (lhacks/run-strict [q] (learns-r *gen* q m)))
+  (doall (mapcat postevos-of
+                 (l/run* [q] (learns-sans-preevos-r *gen* q m)))))
 
 (defn who-has-move* [m]
-  (group-keys (l/run* [g q] (learns-r g q m))))
+  (group-keys (mapcat (fn [[g p]]
+                        (for [postevo (postevos-of p)
+                              :when (in-gen g (pokemon? postevo))]
+                          [g postevo]))
+                      (l/run* [g q] (learns-sans-preevos-r g q m)))))
 
+;; FIXME fragile when postevos are listed as learning the move as well.
 (defn moves-of [p]
-  (lhacks/run-strict [q] (learns-r *gen* p q)))
+  (mapcat #(l/run* [q] (learns-sans-preevos-r *gen* % q)) (preevos-of p)))
 
 (defn moves-of* [p]
-  (group-keys (l/run* [g q] (learns-r g p q))))
+  (group-keys (mapcat #(l/run* [g q]
+                               (learns-sans-preevos-r g % q))
+                      (preevos-of p))))
 
 (defn deflearnset
   [g & pairs]
