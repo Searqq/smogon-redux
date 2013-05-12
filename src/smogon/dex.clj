@@ -4,26 +4,18 @@
             [clojure.tools.macro :as m]
             [smogon.core-logic-hacks :as lhacks]
             [clojure.java.io :as io]
-            [clojure.set :as set]))
+            [clojure.set :as set]
+            [smogon.util :as util]))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Utilities
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-(defn ^:private vec-sort [x]
-  (vec (sort x)))
 
 (defn ^:private vec-union [x y]
   (vec (sort (concat x y)))) 
 
 (defn ^:private group-vals-vec [coll]
   (reduce (fn [m [k v]] (merge-with vec-union m {k #{v}})) {} coll))
-
-(defn ^:private group-vals [coll]
-  (reduce (fn [m [k v]] (merge-with set/union m {k #{v}})) {} coll))
-
-(defn ^:private group-keys [coll]
-  (reduce (fn [m [k v]]  (merge-with set/union m {v #{k}})) {} coll))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; All dex objects :)
@@ -104,7 +96,7 @@
      (lhacks/run-bool (type-r g t))))
 
 (defn type-effectiveness [t1 t2]
-  (group-keys (l/run* [g q] (type-effective-against-r g t1 t2 q))))
+  (util/group-keys (l/run* [g q] (type-effective-against-r g t1 t2 q))))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Moves
@@ -119,7 +111,7 @@
      (lhacks/run-bool (move-r g m))))
 
 (defn list-moves [] 
-  (group-keys (lhacks/run-strict [g q] (move-r g q))))
+  (util/group-keys (lhacks/run-strict [g q] (move-r g q))))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Abilities
@@ -134,7 +126,7 @@
      (lhacks/run-bool (ability-r g a))))
 
 (defn list-abilities [] 
-  (group-keys (lhacks/run-strict [g q] (ability-r g q))))
+  (util/group-keys (lhacks/run-strict [g q] (ability-r g q))))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Items
@@ -174,47 +166,48 @@
      (lhacks/run-bool (pokemon-r g p))))
 
 (defn list-pokemon []
-  (group-keys (l/run* [g q] (pokemon-r g q))))
+  (util/group-keys (l/run* [g q] (pokemon-r g q))))
 
 (defn type-of [p]
-  (group-keys (group-vals-vec (l/run* [g q] (pokemon-type-r g p q)))))
+  (util/group-keys (group-vals-vec (l/run* [g q] (pokemon-type-r g p q)))))
 
 (defn has-type [t]
-  (group-keys
+  (util/group-keys
    (lhacks/run-strict [g q]
                       (cond
                        (keyword? t) (pokemon-type-r g q t)
                        (coll? t) (l/everyg #(pokemon-type-r g q %) t)))))
 
 (defn abilities-of [p]
-  (group-keys (l/run* [g q] (pokemon-ability-r g p q))))
+  (util/group-keys (l/run* [g q] (pokemon-ability-r g p q))))
 
 (defn has-ability [a]
-  (group-keys (l/run* [g q] (pokemon-ability-r g q a))))
+  (util/group-keys (l/run* [g q] (pokemon-ability-r g q a))))
 
 (defn hp-of [p]
-  (group-keys (l/run* [g q] (pokemon-hp-r g p q))))
+  (util/group-keys (l/run* [g q] (pokemon-hp-r g p q))))
 
 (defn atk-of [p]
-  (group-keys (l/run* [g q] (pokemon-atk-r g p q))))
+  (util/group-keys (l/run* [g q] (pokemon-atk-r g p q))))
 
 (defn def-of [p]
-  (group-keys (l/run* [g q] (pokemon-def-r g p q))))
+  (util/group-keys (l/run* [g q] (pokemon-def-r g p q))))
 
 (defn spatk-of [p]
-  (group-keys (l/run* [g q] (pokemon-spatk-r g p q))))
+  (util/group-keys (l/run* [g q] (pokemon-spatk-r g p q))))
 
 (defn spdef-of [p]
-  (group-keys (l/run* [g q] (pokemon-spdef-r g p q))))
+  (util/group-keys (l/run* [g q] (pokemon-spdef-r g p q))))
 
 (defn speed-of [p]
-  (group-keys (l/run* [g q] (pokemon-speed-r g p q))))
+  (util/group-keys (l/run* [g q] (pokemon-speed-r g p q))))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Evolutions
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (lhacks/defrel evolves-r ^:index p1 ^:index p2)
+(lhacks/defrel representative-r ^:index p rep)
 
 (defn ^:private immediate-preevos-of
   "In the current generation, return the set of Pokemon that directly evolve into
@@ -248,6 +241,20 @@
       :else (reduce helper (conj s p) (immediate-postevos-of p))))
    #{} p))
 
+(defn representative-of
+  "The value returned by this function has no meaning in and of itself, but you
+  can be assured that members of the same family share the same representative."
+  [p]
+  (lhacks/run-1 [p'] (representative-r p p')))
+
+(defn related?
+  [& ps]
+  (->> ps
+       (map representative-of)
+       set
+       count
+       (= 1)))
+
 (defn family-of
   "In graph theoretic terms, find the connected component p resides in, in the
   current generation."
@@ -279,14 +286,14 @@
 (defgenrel learns-sans-preevos-r ^:index p ^:index m)
 
 (defn has-move [m]
-  (group-keys (mapcat (fn [[g p]]
+  (util/group-keys (mapcat (fn [[g p]]
                         (for [postevo (postevos-of p)
                               :when (pokemon? postevo g)]
                           [g postevo]))
                       (l/run* [g q] (learns-sans-preevos-r g q m)))))
 
 (defn moves-of [p]
-  (group-keys (mapcat #(l/run* [g q] (learns-sans-preevos-r g % q))
+  (util/group-keys (mapcat #(l/run* [g q] (learns-sans-preevos-r g % q))
                       (preevos-of p))))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -415,8 +422,11 @@
 
 (defn deffamilygraph
   [relations]
-  (doseq [[p pevo] relations]
-    (l/fact evolves-r p pevo)))
+  (let [[rep _] (first relations)] 
+    (doseq [[p pevo] relations]
+      (l/fact representative-r p rep)
+      (l/fact representative-r pevo rep)
+      (l/fact evolves-r p pevo))))
 
 (defn deffamily
  "Define a family tree. 
