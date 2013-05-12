@@ -402,30 +402,31 @@
         pevo pevoalts]
     [p pevo]))
 
-(defn ^:private fixup-family-tree
+(defn ^:private family-tree->graph
   [tree]
-  (->> tree
-       ;; Ensure each element is a vector, b/c (deffamily :sneasel :weavile) is
-       ;; shorthand for (deffamily [:sneasel] [:weavile])
-       (map make-vector-if-not)
-       ;; We now have a sequence of vectors, where each vector represents
-       ;; alternatives.  Pair up adjacents, so '([:bulbasaur] [:ivysaur]
-       ;; [:venusaur]) -> '([:bulbasaur :ivysaur] [:ivysaur :venusaur])
-       group-adjacent))
+  [(set (flatten tree))
+   (set (->> tree
+             ;; Ensure each element is a vector, b/c (deffamily :sneasel :weavile) is
+             ;; shorthand for (deffamily [:sneasel] [:weavile])
+             (map make-vector-if-not)
+             ;; We now have a sequence of vectors, where each vector represents
+             ;; alternatives.  Pair up adjacents, so '([:bulbasaur] [:ivysaur]
+             ;; [:venusaur]) -> '([:bulbasaur :ivysaur] [:ivysaur :venusaur])
+             group-adjacent))])
 
 (defn familyclique
   [& ps]
-  (for [p ps
-        p' ps
-        :when (not= p p')]
-    [p p']))
+  [(set ps) (set (for [p ps
+                       p' ps
+                       :when (not= p p')]
+                   [p p']))])
 
 (defn deffamilygraph
-  [relations]
-  (let [[rep _] (first relations)] 
-    (doseq [[p pevo] relations]
-      (l/fact representative-r p rep)
-      (l/fact representative-r pevo rep)
+  [[nodes links]]
+  (let [rep (first nodes)]
+    (doseq [p nodes]
+      (l/fact representative-r p rep))
+    (doseq [[p pevo] links]
       (l/fact evolves-r p pevo))))
 
 (defn deffamily
@@ -442,7 +443,7 @@
 
   Pokemon that did not exist in a particular generation are ignored."
   [& tree]
-  (deffamilygraph (fixup-family-tree tree)))
+  (deffamilygraph (family-tree->graph tree)))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Dex server
