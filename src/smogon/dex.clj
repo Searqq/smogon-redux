@@ -45,12 +45,6 @@
   [gen]
   (take-while #(not= gen %) official-gens))
 
-(defn sort-grouped-gens
-  [gen-ordering valgens]
-  (sort-by (fn [[val gs]]
-             (reduce min (map (gens->ordering gen-ordering) gs)))
-           valgens))
-
 (defn ^:private fill-gens
   "(fill-gens [:gs :rs :dp :bw] {:gs [:ice :grass], :dp [:fire]}) 
      --> 
@@ -295,6 +289,44 @@
 (defn moves-of [p]
   (util/group-keys (mapcat #(l/run* [g q] (learns-sans-preevos-r g % q))
                       (preevos-of p))))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Helpers
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defn in-gen
+  "Given gen-summarized data, return only the entries valid in a specific gen."
+  [g xgs]
+  (let [xs (for [[x gs] xgs
+                 :when (contains? gs g)]
+             x)]
+    (if (= (count xs) 1)
+      (first xs)
+      xs)))
+
+(defn not-in-gen
+  "Given gen-summarized data, return only the entries invalid in a specific gen."
+  [g xgs]
+  (into {} (remove #(contains? (second %) g) xgs)))
+
+(defn relative-to-gen
+  [g xgs]
+  [(in-gen g xgs)
+   (not-in-gen g xgs)])
+
+(defn diff-gens
+  "Assuming the input \"stacks\" with each gen, we will give the diffs."
+  [xgs]
+  (->> xgs
+       (group-by second)
+       (map (fn [[gs xgs]] [gs (map first xgs)]))
+       (sort-by (fn [[gs xs]] (count xs)))
+       (reduce (fn [[gens-so-far gsxs] [gs xs]]
+                 [(set/union gs gens-so-far)
+                  (cons [(set/difference gs gens-so-far) xs] gsxs)])
+               ;; Initial state: no gens seen so far.
+               [#{} []])
+       second))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Definitions
