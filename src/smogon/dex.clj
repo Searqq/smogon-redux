@@ -37,38 +37,13 @@
   [gens]
   (into {} (map-indexed #(vector %2 %1) gens)))
 
-(defn gens-since
+(defn ogens-since
   [gen]
   (drop-while #(not= gen %) official-gens))
 
-(defn gens-upto
+(defn ogens-upto
   [gen]
   (take-while #(not= gen %) official-gens))
-
-(defn ^:private fill-gens
-  "(fill-gens [:gs :rs :dp :bw] {:gs [:ice :grass], :dp [:fire]}) 
-     --> 
-   {:gs [:ice :grass], :rs [:ice grass], :dp [:fire], :bw [:fire]}"
-  [[prev-gen & [gen :as next-gens]] gen-map]
-  (cond
-    (nil? gen) gen-map
-
-    :else
-    (let [;; Get the value from the previous generation,
-          prev (get gen-map prev-gen)
-          ;; ... and carry it over to the current generation (if the current
-          ;; generation has no set value--merge works left to right)
-          gen-map' (merge {gen prev} gen-map)]
-      (fill-gens next-gens gen-map'))))
-
-(defn make-generational
-  "(make-generational :gs [[:ice :grass] :dp [:fire]] 
-     --> 
-   {:gs [:ice :grass], :rs [:ice grass], :dp [:fire], :bw [:fire]}"
-  [begin-gen [v & {:as overrides}]]
-  (let [gen-map (merge overrides {begin-gen v})
-        gens (gens-since begin-gen)] 
-    (fill-gens gens gen-map)))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Types
@@ -326,11 +301,36 @@
 ;; Definitions
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+(defn ^:private fill-gens
+  "(fill-gens [:gs :rs :dp :bw] {:gs [:ice :grass], :dp [:fire]}) 
+     --> 
+   {:gs [:ice :grass], :rs [:ice grass], :dp [:fire], :bw [:fire]}"
+  [[prev-gen & [gen :as next-gens]] gen-map]
+  (cond
+    (nil? gen) gen-map
+
+    :else
+    (let [;; Get the value from the previous generation,
+          prev (get gen-map prev-gen)
+          ;; ... and carry it over to the current generation (if the current
+          ;; generation has no set value--merge works left to right)
+          gen-map' (merge {gen prev} gen-map)]
+      (fill-gens next-gens gen-map'))))
+
+(defn ^:private make-generational
+  "(make-generational :gs [[:ice :grass] :dp [:fire]] 
+     --> 
+   {:gs [:ice :grass], :rs [:ice grass], :dp [:fire], :bw [:fire]}"
+  [begin-gen [v & {:as overrides}]]
+  (let [gen-map (merge overrides {begin-gen v})
+        gens (ogens-since begin-gen)] 
+    (fill-gens gens gen-map)))
+
 (defn deftypechart
   [id & {name :name
          gen :introduced-in
          geffectives :effective-against}]
-  (doseq [g (gens-since gen)]
+  (doseq [g (ogens-since gen)]
     (l/fact type-r g id))
   (doseq [[g mods] (make-generational gen geffectives)
           [type mod] mods]
@@ -340,21 +340,21 @@
 (defn defmove
   [id & {name :name,
          gen :introduced-in}]
-  (doseq [g (gens-since gen)]
+  (doseq [g (ogens-since gen)]
     (l/fact move-r g id))
   (l/fact name-r id name))
 
 (defn defability
   [id & {name :name,
          gen :introduced-in}]
-  (doseq [g (gens-since gen)]
+  (doseq [g (ogens-since gen)]
     (l/fact ability-r g id))
   (l/fact name-r id name))
 
 (defn defitem
   [id & {name :name,
          gen :introduced-in}]
-  (doseq [g (gens-since gen)]
+  (doseq [g (ogens-since gen)]
     (l/fact item-r g id))
   (l/fact name-r id name))
 
@@ -368,7 +368,7 @@
          gegggroups :egggroups,
          gweight :weight,
          gheight :height}]
-  (doseq [g (gens-since gen)]
+  (doseq [g (ogens-since gen)]
     (l/fact pokemon-r g id))
   (l/fact name-r id name)
   (letfn [(mg [x] (make-generational gen x))]
