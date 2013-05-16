@@ -22,7 +22,7 @@
   :weight [14.3]
   :height [0.8])
 
-(deffamilygraph (familychain :joltik :galvantula))
+(deffamily (familychain :joltik :galvantula))
 
 (deflearnset :bw
   :joltik [:agility :attract :bounce :bug-bite :bug-buzz :charge-beam :cross-poison :cut :disable :discharge :double-team :electro-ball :electroweb :energy-ball :facade :faint-attack :flash :frustration :fury-cutter :gastro-acid :giga-drain :hidden-power :leech-life :light-screen :magnet-rise :pin-missile :poison-jab :poison-sting :protect :pursuit :rain-dance :rest :return :rock-climb :round :screech :signal-beam :slash :sleep-talk :snore :spider-web :string-shot :struggle-bug :substitute :sucker-punch :swagger :thief :thunder-wave :thunderbolt :toxic :volt-switch :wild-charge :x-scissor]

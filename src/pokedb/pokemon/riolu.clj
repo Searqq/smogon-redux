@@ -22,7 +22,7 @@
   :weight [54]
   :height [1.2])
 
-(deffamilygraph (familychain :riolu :lucario))
+(deffamily (familychain :riolu :lucario))
 
 (deflearnset :dp
   :riolu [:agility :attract :bite :blaze-kick :brick-break :bulk-up :bullet-punch :captivate :copycat :counter :cross-chop :crunch :detect :dig :double-team :drain-punch :earthquake :endure :facade :feint :fling :focus-blast :focus-punch :follow-me :force-palm :foresight :frustration :fury-cutter :headbutt :helping-hand :hi-jump-kick :hidden-power :ice-punch :iron-defense :iron-tail :low-kick :magnet-rise :mind-reader :mud-slap :natural-gift :payback :poison-jab :protect :quick-attack :rain-dance :rest :return :reversal :roar :rock-slide :rock-smash :rock-tomb :role-play :screech :secret-power :shadow-claw :sky-uppercut :sleep-talk :snore :strength :substitute :sunny-day :swagger :swift :swords-dance :thunderpunch :toxic :vacuum-wave :zen-headbutt]

@@ -40,7 +40,7 @@
   :weight [62]
   :height [1.4])
 
-(deffamilygraph (familychain :nidoran-m :nidorino :nidoking))
+(deffamily (familychain :nidoran-m :nidorino :nidoking))
 
 (deflearnset :rb
   :nidoran-m [:bide :blizzard :body-slam :double-edge :double-kick :double-team :focus-energy :fury-attack :horn-attack :horn-drill :leer :mimic :poison-sting :rage :reflect :rest :skull-bash :substitute :tackle :take-down :thunder :thunderbolt :toxic :lovely-kiss :sweet-kiss :morning-sun :body-slam :double-edge :mimic]

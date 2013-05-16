@@ -27,7 +27,7 @@
   :weight [32]
   :height [1])
 
-(deffamilygraph (familychain :meowth :persian))
+(deffamily (familychain :meowth :persian))
 
 (deflearnset :rb
   :meowth [:bide :bite :body-slam :bubblebeam :double-edge :double-team :fury-swipes :growl :mimic :pay-day :rage :rest :scratch :screech :skull-bash :slash :substitute :swift :take-down :thunder :thunderbolt :toxic :water-gun]

@@ -26,7 +26,7 @@
   :weight [32.6]
   :height [1.1])
 
-(deffamilygraph (familychain :skitty :delcatty))
+(deffamily (familychain :skitty :delcatty))
 
 (deflearnset :rs
   :skitty [:assist :attract :baton-pass :blizzard :body-slam :calm-mind :charm :covet :defense-curl :dig :double-edge :double-team :doubleslap :dream-eater :endure :facade :faint-attack :fake-tears :flash :frustration :growl :heal-bell :helping-hand :hidden-power :ice-beam :icy-wind :iron-tail :mimic :mud-slap :protect :psych-up :rain-dance :rest :return :rollout :safeguard :secret-power :shadow-ball :shock-wave :sing :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :swift :tackle :tail-whip :thunder :thunder-wave :thunderbolt :tickle :toxic :uproar :water-pulse :wish :body-slam :double-edge :icy-wind :mimic]

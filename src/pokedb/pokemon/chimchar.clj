@@ -32,7 +32,7 @@
   :weight [55]
   :height [1.2])
 
-(deffamilygraph (familychain :chimchar :monferno :infernape))
+(deffamily (familychain :chimchar :monferno :infernape))
 
 (deflearnset :dp
   :chimchar [:aerial-ace :assist :attract :blaze-kick :brick-break :bulk-up :captivate :counter :cut :dig :double-kick :double-team :ember :encore :endeavor :endure :facade :fake-out :fire-blast :fire-punch :fire-spin :flame-wheel :flamethrower :fling :focus-energy :focus-punch :frustration :fury-swipes :grass-knot :gunk-shot :headbutt :heat-wave :helping-hand :hidden-power :iron-tail :leer :low-kick :mud-slap :nasty-plot :natural-gift :overheat :protect :rest :return :rock-climb :rock-smash :role-play :rollout :scratch :secret-power :shadow-claw :slack-off :sleep-talk :snore :stealth-rock :strength :substitute :sunny-day :swagger :swift :swords-dance :taunt :thunderpunch :torment :toxic :u-turn :uproar :vacuum-wave :will-o-wisp]

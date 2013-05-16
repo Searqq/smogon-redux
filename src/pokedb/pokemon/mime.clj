@@ -25,7 +25,7 @@
   :weight [54.5]
   :height [1.3])
 
-(deffamilygraph (familychain :mime-jr :mr-mime))
+(deffamily (familychain :mime-jr :mr-mime))
 
 (deflearnset :rb
   :mr-mime [:barrier :bide :body-slam :confusion :counter :double-edge :double-team :doubleslap :flash :hyper-beam :light-screen :meditate :mega-kick :mega-punch :metronome :mimic :psychic :psywave :rage :reflect :rest :seismic-toss :skull-bash :solarbeam :submission :substitute :take-down :teleport :thunder :thunder-wave :thunderbolt :toxic])

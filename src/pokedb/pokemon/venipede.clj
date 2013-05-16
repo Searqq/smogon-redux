@@ -32,7 +32,7 @@
   :weight [200.5]
   :height [2.5])
 
-(deffamilygraph (familychain :venipede :whirlipede :scolipede))
+(deffamily (familychain :venipede :whirlipede :scolipede))
 
 
 

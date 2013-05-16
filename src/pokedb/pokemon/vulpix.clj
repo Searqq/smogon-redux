@@ -26,7 +26,7 @@
   :weight [19.9]
   :height [1.1])
 
-(deffamilygraph (familychain :vulpix :ninetales))
+(deffamily (familychain :vulpix :ninetales))
 
 
 

@@ -55,7 +55,7 @@
   :weight [31.6]
   :height [1.2])
 
-(deffamilygraph (familychain :wurmple [:silcoon :beautifly :cascoon :dustox]))
+(deffamily (familychain :wurmple [:silcoon :beautifly :cascoon :dustox]))
 
 
 

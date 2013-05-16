@@ -22,7 +22,7 @@
   :weight [81]
   :height [1.2])
 
-(deffamilygraph (familychain :tirtouga :carracosta))
+(deffamily (familychain :tirtouga :carracosta))
 
 
 

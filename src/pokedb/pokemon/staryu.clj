@@ -26,7 +26,7 @@
   :weight [80]
   :height [1.1])
 
-(deffamilygraph (familychain :staryu :starmie))
+(deffamily (familychain :staryu :starmie))
 
 
 

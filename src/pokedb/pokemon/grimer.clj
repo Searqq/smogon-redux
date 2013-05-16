@@ -26,7 +26,7 @@
   :weight [30]
   :height [1.2])
 
-(deffamilygraph (familychain :grimer :muk))
+(deffamily (familychain :grimer :muk))
 
 (deflearnset :rb
   :grimer [:acid-armor :bide :body-slam :disable :double-team :explosion :fire-blast :harden :mega-drain :mimic :minimize :poison-gas :pound :rage :rest :screech :selfdestruct :sludge :substitute :thunder :thunderbolt :toxic]

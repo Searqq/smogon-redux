@@ -24,7 +24,7 @@
   :weight [3.6]
   :height [0.8])
 
-(deffamilygraph (familychain :surskit :masquerain))
+(deffamily (familychain :surskit :masquerain))
 
 
 

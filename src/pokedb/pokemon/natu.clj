@@ -24,7 +24,7 @@
   :weight [15]
   :height [1.5])
 
-(deffamilygraph (familychain :natu :xatu))
+(deffamily (familychain :natu :xatu))
 
 (deflearnset :gs
   :natu [:attract :confuse-ray :curse :detect :double-team :dream-eater :drill-peck :endure :faint-attack :flash :frustration :future-sight :giga-drain :haze :hidden-power :leer :night-shade :nightmare :peck :protect :psych-up :psychic :quick-attack :rest :return :sleep-talk :snore :solarbeam :steel-wing :sunny-day :swagger :swift :teleport :thief :toxic]

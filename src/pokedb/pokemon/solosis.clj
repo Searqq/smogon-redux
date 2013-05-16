@@ -32,7 +32,7 @@
   :weight [20.1]
   :height [1])
 
-(deffamilygraph (familychain :solosis :duosion :reuniclus))
+(deffamily (familychain :solosis :duosion :reuniclus))
 
 
 

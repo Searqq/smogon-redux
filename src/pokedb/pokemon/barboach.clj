@@ -25,7 +25,7 @@
   :weight [23.6]
   :height [0.9])
 
-(deffamilygraph (familychain :barboach :whiscash))
+(deffamily (familychain :barboach :whiscash))
 
 (deflearnset :rs
   :barboach [:amnesia :attract :blizzard :dive :double-edge :double-team :earthquake :endure :facade :fissure :frustration :future-sight :hail :hidden-power :ice-beam :icy-wind :magnitude :mimic :mud-slap :mud-sport :protect :rain-dance :rest :return :rock-tomb :sandstorm :secret-power :sleep-talk :snore :spark :substitute :surf :swagger :thrash :toxic :water-gun :water-pulse :water-sport :waterfall :whirlpool]

@@ -35,7 +35,7 @@
   :weight [59.6]
   :height [1.3])
 
-(deffamilygraph (familychain :seedot :nuzleaf :shiftry))
+(deffamily (familychain :seedot :nuzleaf :shiftry))
 
 (deflearnset :rs
   :seedot [:amnesia :attract :bide :body-slam :bullet-seed :defense-curl :dig :double-edge :double-team :endure :explosion :facade :false-swipe :flash :frustration :giga-drain :growth :harden :hidden-power :leech-seed :mimic :nature-power :protect :quick-attack :razor-wind :rest :return :rock-smash :rollout :secret-power :selfdestruct :shadow-ball :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :swords-dance :synthesis :take-down :toxic :body-slam :double-edge :giga-drain :mimic :refresh :secret-power :selfdestruct]

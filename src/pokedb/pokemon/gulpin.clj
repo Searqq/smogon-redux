@@ -24,7 +24,7 @@
   :weight [80]
   :height [1.7])
 
-(deffamilygraph (familychain :gulpin :swalot))
+(deffamily (familychain :gulpin :swalot))
 
 (deflearnset :rs
   :gulpin [:acid-armor :amnesia :attract :body-slam :bullet-seed :counter :defense-curl :double-edge :double-team :dream-eater :dynamicpunch :encore :endure :explosion :facade :fire-punch :frustration :giga-drain :hidden-power :ice-beam :ice-punch :mimic :mud-slap :nightmare :pain-split :poison-gas :pound :protect :rain-dance :rest :return :rock-smash :rollout :secret-power :selfdestruct :shadow-ball :shock-wave :sleep-talk :sludge :sludge-bomb :smog :snatch :snore :solarbeam :spit-up :stockpile :strength :substitute :sunny-day :swagger :swallow :thunderpunch :toxic :water-pulse :yawn :body-slam :double-edge :mimic :nightmare :selfdestruct :shock-wave :sing]

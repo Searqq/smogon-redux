@@ -23,7 +23,7 @@
   :weight [220]
   :height [2.1])
 
-(deffamilygraph (familychain :mantyke :mantine))
+(deffamily (familychain :mantyke :mantine))
 
 (deflearnset :gs
   :mantine [:agility :attract :blizzard :bubble :bubblebeam :confuse-ray :curse :double-team :endure :frustration :haze :headbutt :hidden-power :hydro-pump :ice-beam :icy-wind :mud-slap :protect :rain-dance :rest :return :slam :sleep-talk :snore :supersonic :surf :swagger :swift :tackle :take-down :toxic :twister :waterfall :whirlpool :wing-attack])

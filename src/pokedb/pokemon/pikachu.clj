@@ -36,7 +36,7 @@
   :weight [30]
   :height [0.8])
 
-(deffamilygraph (familychain :pichu :pikachu :raichu))
+(deffamily (familychain :pichu :pikachu :raichu))
 
 (deflearnset :rb
   :pikachu [:agility :bide :body-slam :double-edge :double-team :flash :growl :light-screen :mega-kick :mega-punch :mimic :pay-day :quick-attack :rage :reflect :rest :seismic-toss :skull-bash :slam :submission :substitute :surf :swift :tail-whip :take-down :thunder :thunder-wave :thunderbolt :thundershock :toxic :fly :dizzy-punch :petal-dance :sing :scary-face]

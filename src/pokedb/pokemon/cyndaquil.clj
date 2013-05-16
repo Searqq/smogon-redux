@@ -35,7 +35,7 @@
   :weight [79.5]
   :height [1.7])
 
-(deffamilygraph (familychain :cyndaquil :quilava :typhlosion))
+(deffamily (familychain :cyndaquil :quilava :typhlosion))
 
 (deflearnset :gs
   :cyndaquil [:attract :curse :cut :defense-curl :detect :dig :double-team :ember :endure :fire-blast :flame-wheel :flamethrower :foresight :frustration :fury-swipes :headbutt :hidden-power :iron-tail :leer :mud-slap :protect :quick-attack :rest :return :reversal :rollout :sleep-talk :smokescreen :snore :submission :sunny-day :swagger :swift :tackle :thrash :toxic]

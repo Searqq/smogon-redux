@@ -22,7 +22,7 @@
   :weight [76.5]
   :height [1.7])
 
-(deffamilygraph (familychain :yamask :cofagrigus))
+(deffamily (familychain :yamask :cofagrigus))
 
 
 

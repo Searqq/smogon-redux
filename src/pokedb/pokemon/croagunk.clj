@@ -22,7 +22,7 @@
   :weight [44.4]
   :height [1.3])
 
-(deffamilygraph (familychain :croagunk :toxicroak))
+(deffamily (familychain :croagunk :toxicroak))
 
 (deflearnset :dp
   :croagunk [:astonish :attract :bounce :brick-break :bulk-up :bullet-punch :captivate :counter :cross-chop :dark-pulse :dig :double-team :dynamicpunch :earthquake :embargo :endure :facade :faint-attack :fake-out :feint :flatter :fling :focus-blast :focus-punch :frustration :fury-cutter :gunk-shot :headbutt :helping-hand :hidden-power :ice-punch :icy-wind :knock-off :low-kick :me-first :meditate :mud-bomb :mud-slap :nasty-plot :natural-gift :payback :poison-jab :poison-sting :protect :pursuit :rain-dance :rest :return :revenge :rock-climb :rock-slide :rock-smash :rock-tomb :role-play :secret-power :shadow-ball :sleep-talk :sludge-bomb :smellingsalt :snatch :snore :spite :strength :substitute :sucker-punch :sunny-day :super-fang :swagger :taunt :thief :thunderpunch :torment :toxic :vacuum-wave :wake-up-slap :x-scissor]

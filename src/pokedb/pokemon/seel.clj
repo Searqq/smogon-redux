@@ -27,7 +27,7 @@
   :weight [120]
   :height [1.7])
 
-(deffamilygraph (familychain :seel :dewgong))
+(deffamily (familychain :seel :dewgong))
 
 (deflearnset :rb
   :seel [:aurora-beam :bide :blizzard :body-slam :bubblebeam :double-edge :double-team :growl :headbutt :horn-drill :ice-beam :mimic :pay-day :rage :rest :skull-bash :strength :substitute :surf :take-down :toxic :water-gun :flail]

@@ -52,7 +52,7 @@
   :weight [23.3]
   :height [0.9])
 
-(deffamilygraph (familychain :burmy [:wormadam :mothim]))
+(deffamily (familychain :burmy [:wormadam :mothim]))
 
 (deflearnset :dp
   :burmy [:bug-bite :hidden-power :protect :snore :string-shot :tackle]

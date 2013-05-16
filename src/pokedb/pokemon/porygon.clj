@@ -39,7 +39,7 @@
 
 
 
-(deffamilygraph (familychain :porygon :porygon2 :porygon-z))
+(deffamily (familychain :porygon :porygon2 :porygon-z))
 
 (deflearnset :rb
   :porygon [:agility :bide :blizzard :conversion :double-edge :double-team :flash :hyper-beam :ice-beam :mimic :psybeam :psychic :psywave :rage :recover :reflect :rest :sharpen :skull-bash :substitute :swift :tackle :take-down :teleport :thunder :thunder-wave :thunderbolt :toxic :tri-attack])

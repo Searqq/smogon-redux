@@ -24,7 +24,7 @@
   :weight [35.6]
   :height [1.4])
 
-(deffamilygraph (familychain :ledyba :ledian))
+(deffamily (familychain :ledyba :ledian))
 
 (deflearnset :gs
   :ledyba [:agility :attract :baton-pass :bide :comet-punch :curse :dig :double-edge :double-team :dynamicpunch :endure :flash :frustration :giga-drain :headbutt :hidden-power :ice-punch :light-screen :protect :psybeam :reflect :rest :return :rollout :safeguard :sleep-talk :snore :solarbeam :sunny-day :supersonic :swagger :sweet-scent :swift :tackle :thief :thunderpunch :toxic]

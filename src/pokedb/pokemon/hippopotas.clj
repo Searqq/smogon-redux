@@ -22,7 +22,7 @@
   :weight [300]
   :height [2])
 
-(deffamilygraph (familychain :hippopotas :hippowdon))
+(deffamily (familychain :hippopotas :hippowdon))
 
 (deflearnset :dp
   :hippopotas [:attract :bite :body-slam :captivate :crunch :curse :dig :double-edge :double-team :earth-power :earthquake :endure :facade :fissure :frustration :headbutt :hidden-power :iron-tail :mud-slap :natural-gift :protect :rest :return :revenge :roar :rock-slide :rock-smash :rock-tomb :sand-attack :sand-tomb :sandstorm :secret-power :slack-off :sleep-talk :snore :spit-up :stealth-rock :stockpile :strength :substitute :sunny-day :superpower :swagger :swallow :tackle :take-down :toxic :water-pulse :yawn]

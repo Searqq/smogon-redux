@@ -37,7 +37,7 @@
   :weight [48]
   :height [1.5])
 
-(deffamilygraph
+(deffamily
   (familychain :abra :kadabra :alakazam))
 
 (deflearnset :rb

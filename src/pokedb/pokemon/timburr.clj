@@ -32,7 +32,7 @@
   :weight [87]
   :height [1.4])
 
-(deffamilygraph (familychain :timburr :gurdurr :conkeldurr))
+(deffamily (familychain :timburr :gurdurr :conkeldurr))
 
 
 

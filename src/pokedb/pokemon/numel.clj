@@ -26,7 +26,7 @@
   :weight [220]
   :height [1.9])
 
-(deffamilygraph (familychain :numel :camerupt))
+(deffamily (familychain :numel :camerupt))
 
 (deflearnset :rs
   :numel [:amnesia :attract :body-slam :defense-curl :dig :double-edge :double-team :earthquake :ember :endure :facade :fire-blast :flamethrower :focus-energy :frustration :growl :hidden-power :howl :magnitude :mimic :mud-slap :overheat :protect :rest :return :rock-slide :rock-smash :rock-tomb :rollout :sandstorm :scary-face :secret-power :sleep-talk :snore :stomp :strength :substitute :sunny-day :swagger :tackle :take-down :toxic :charm :mimic]

@@ -32,7 +32,7 @@
   :weight [80.5]
   :height [2.1])
 
-(deffamilygraph (familychain :tynamo :eelektrik :eelektross))
+(deffamily (familychain :tynamo :eelektrik :eelektross))
 
 
 

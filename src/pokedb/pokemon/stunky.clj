@@ -22,7 +22,7 @@
   :weight [38]
   :height [1])
 
-(deffamilygraph (familychain :stunky :skuntank))
+(deffamily (familychain :stunky :skuntank))
 
 
 

@@ -26,7 +26,7 @@
   :weight [39.2]
   :height [1.2])
 
-(deffamilygraph (familychain :shroomish :breloom))
+(deffamily (familychain :shroomish :breloom))
 
 (deflearnset :rs
   :shroomish [:absorb :attract :body-slam :bullet-seed :charm :double-edge :double-team :endure :facade :fake-tears :false-swipe :flash :frustration :giga-drain :growth :headbutt :helping-hand :hidden-power :leech-seed :mega-drain :mimic :poisonpowder :protect :rest :return :safeguard :secret-power :sleep-talk :sludge-bomb :snatch :snore :solarbeam :spore :stun-spore :substitute :sunny-day :swagger :swords-dance :tackle :toxic :body-slam :double-edge :mimic :refresh]

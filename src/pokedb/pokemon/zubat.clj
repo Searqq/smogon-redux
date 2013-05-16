@@ -36,7 +36,7 @@
   :weight [75]
   :height [1.8])
 
-(deffamilygraph (familychain :zubat :golbat :crobat))
+(deffamily (familychain :zubat :golbat :crobat))
 
 (deflearnset :rb
   :zubat [:bide :bite :confuse-ray :double-edge :double-team :haze :leech-life :mega-drain :mimic :rage :razor-wind :rest :substitute :supersonic :swift :take-down :toxic :whirlwind :wing-attack :flail]

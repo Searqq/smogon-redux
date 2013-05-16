@@ -11,7 +11,7 @@
   :weight [3.1]
   :height [0.4])
 
-(deffamilygraph (familychain :phione))
+(deffamily (familychain :phione))
 
 (deflearnset :dp
   :phione [:acid-armor :ancientpower :aqua-ring :blizzard :bounce :brine :bubble :bubblebeam :charm :dive :double-team :endure :facade :fling :frustration :grass-knot :hail :heal-bell :helping-hand :hidden-power :ice-beam :icy-wind :knock-off :last-resort :mud-slap :natural-gift :protect :psych-up :rain-dance :rest :return :safeguard :secret-power :signal-beam :sleep-talk :snore :substitute :supersonic :surf :swagger :swift :toxic :u-turn :uproar :water-pulse :water-sport :waterfall :whirlpool])

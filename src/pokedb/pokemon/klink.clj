@@ -32,7 +32,7 @@
   :weight [81]
   :height [0.6])
 
-(deffamilygraph (familychain :klink :klang :klinklang))
+(deffamily (familychain :klink :klang :klinklang))
 
 (deflearnset :bw
   :klink [:autotomize :bind :charge :charge-beam :discharge :double-team :facade :flash-cannon :frustration :gear-grind :gravity :hidden-power :hyper-beam :iron-defense :lock-on :magic-coat :magnet-rise :metal-sound :mirror-shot :protect :recycle :rest :return :rock-polish :rock-smash :round :sandstorm :screech :shift-gear :signal-beam :sleep-talk :snore :substitute :swagger :thunder-wave :thunderbolt :thundershock :toxic :uproar :vicegrip :volt-switch :wild-charge :zap-cannon]

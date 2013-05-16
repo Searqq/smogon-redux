@@ -25,7 +25,7 @@
   :weight [128.6]
   :height [2])
 
-(deffamilygraph (familychain :tangela :tangrowth))
+(deffamily (familychain :tangela :tangrowth))
 
 
 

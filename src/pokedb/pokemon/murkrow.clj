@@ -24,7 +24,7 @@
   :weight [27.3]
   :height [0.9])
 
-(deffamilygraph (familychain :murkrow :honchkrow))
+(deffamily (familychain :murkrow :honchkrow))
 
 (deflearnset :gs
   :murkrow [:attract :curse :detect :double-team :dream-eater :drill-peck :endure :faint-attack :fly :frustration :haze :hidden-power :icy-wind :mean-look :mirror-move :mud-slap :night-shade :nightmare :peck :protect :psych-up :pursuit :quick-attack :rest :return :shadow-ball :sky-attack :sleep-talk :snore :steel-wing :sunny-day :swagger :swift :thief :toxic :whirlwind :wing-attack])

@@ -32,7 +32,7 @@
   :weight [105.5]
   :height [1.8])
 
-(deffamilygraph (familychain :axew :fraxure :haxorus))
+(deffamily (familychain :axew :fraxure :haxorus))
 
 (deflearnset :bw
   :axew [:aerial-ace :aqua-tail :assurance :attract :counter :cut :dig :double-team :draco-meteor :dragon-claw :dragon-dance :dragon-pulse :dragon-rage :dual-chop :endeavor :endure :facade :false-swipe :fling :focus-energy :frustration :giga-impact :guillotine :harden :hidden-power :hone-claws :incinerate :iron-tail :leer :night-slash :outrage :payback :poison-jab :protect :rain-dance :razor-wind :rest :return :reversal :roar :rock-smash :rock-tomb :round :scary-face :scratch :slash :sleep-talk :snore :strength :substitute :sunny-day :superpower :swagger :swords-dance :taunt :toxic :x-scissor]

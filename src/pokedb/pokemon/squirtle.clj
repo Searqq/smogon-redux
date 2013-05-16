@@ -37,7 +37,7 @@
   :weight [85.5]
   :height [1.6])
 
-(deffamilygraph (familychain :squirtle :wartortle :blastoise))
+(deffamily (familychain :squirtle :wartortle :blastoise))
 
 
 

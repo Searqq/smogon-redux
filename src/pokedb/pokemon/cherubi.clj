@@ -22,7 +22,7 @@
   :weight [9.3]
   :height [0.5])
 
-(deffamilygraph (familychain :cherubi :cherrim))
+(deffamily (familychain :cherubi :cherrim))
 
 (deflearnset :dp
   :cherubi [:aromatherapy :attract :bullet-seed :captivate :double-team :endure :energy-ball :facade :flash :frustration :giga-drain :grass-knot :grasswhistle :growth :helping-hand :hidden-power :leech-seed :lucky-chant :magical-leaf :natural-gift :nature-power :protect :razor-leaf :rest :return :rollout :safeguard :secret-power :seed-bomb :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :sweet-scent :swords-dance :synthesis :tackle :take-down :tickle :toxic :weather-ball :worry-seed]

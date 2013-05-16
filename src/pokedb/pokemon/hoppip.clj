@@ -38,7 +38,7 @@
   :weight [3]
   :height [0.8])
 
-(deffamilygraph (familychain :hoppip :skiploom :jumpluff))
+(deffamily (familychain :hoppip :skiploom :jumpluff))
 
 (deflearnset :gs
   :hoppip [:amnesia :attract :confusion :cotton-spore :curse :defense-curl :double-edge :double-team :encore :endure :flash :frustration :giga-drain :growl :headbutt :hidden-power :leech-seed :mega-drain :pay-day :poisonpowder :protect :reflect :rest :return :sleep-powder :sleep-talk :snore :solarbeam :splash :stun-spore :sunny-day :swagger :sweet-scent :synthesis :tackle :tail-whip :toxic]

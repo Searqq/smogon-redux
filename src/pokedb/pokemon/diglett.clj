@@ -25,7 +25,7 @@
   :weight [33.3]
   :height [0.7])
 
-(deffamilygraph (familychain :diglett :dugtrio))
+(deffamily (familychain :diglett :dugtrio))
 
 (deflearnset :rb
   :diglett [:bide :body-slam :cut :dig :double-edge :double-team :earthquake :fissure :growl :mimic :rage :rest :rock-slide :sand-attack :scratch :slash :substitute :take-down :toxic]

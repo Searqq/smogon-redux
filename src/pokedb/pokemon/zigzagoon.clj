@@ -25,7 +25,7 @@
   :weight [32.5]
   :height [0.5])
 
-(deffamilygraph (familychain :zigzagoon :linoone))
+(deffamily (familychain :zigzagoon :linoone))
 
 
 

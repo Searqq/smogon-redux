@@ -34,7 +34,7 @@
   :weight [360]
   :height [2.1])
 
-(deffamilygraph (familychain :aron :lairon :aggron))
+(deffamily (familychain :aron :lairon :aggron))
 
 (deflearnset :rs
   :aron [:aerial-ace :attract :body-slam :cut :defense-curl :dig :double-edge :double-team :earthquake :endeavor :endure :facade :frustration :fury-cutter :harden :headbutt :hidden-power :iron-defense :iron-tail :metal-claw :metal-sound :mimic :mud-slap :protect :rain-dance :rest :return :roar :rock-slide :rock-smash :rock-tomb :rollout :sandstorm :secret-power :shock-wave :sleep-talk :smellingsalt :snore :stomp :strength :substitute :sunny-day :swagger :tackle :take-down :toxic :water-pulse]

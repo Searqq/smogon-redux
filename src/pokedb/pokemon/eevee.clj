@@ -94,7 +94,7 @@
   :weight [25.9]
   :height [0.8])
 
-(deffamilygraph
+(deffamily
   (familyalts #(familychain :eevee %)
               :vaporeon
               :jolteon

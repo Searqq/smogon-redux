@@ -24,7 +24,7 @@
   :weight [28]
   :height [1.2])
 
-(deffamilygraph (familychain :wingull :pelipper))
+(deffamily (familychain :wingull :pelipper))
 
 
 

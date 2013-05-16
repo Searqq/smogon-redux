@@ -38,7 +38,7 @@
   :weight [150.6]
   :height [1.4])
 
-(deffamilygraph (familychain :spheal :sealeo :walrein))
+(deffamily (familychain :spheal :sealeo :walrein))
 
 
 

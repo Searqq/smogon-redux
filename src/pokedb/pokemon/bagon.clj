@@ -34,7 +34,7 @@
   :weight [102.6]
   :height [1.5])
 
-(deffamilygraph (familychain :bagon :shelgon :salamence))
+(deffamily (familychain :bagon :shelgon :salamence))
 
 (deflearnset :rs
   :bagon [:aerial-ace :attract :bite :body-slam :brick-break :crunch :cut :double-edge :double-team :dragon-claw :dragon-dance :dragon-rage :dragonbreath :ember :endure :facade :fire-blast :flamethrower :focus-energy :frustration :fury-cutter :headbutt :hidden-power :hydro-pump :leer :mimic :mud-slap :protect :rage :rain-dance :rest :return :roar :rock-slide :rock-smash :rock-tomb :scary-face :secret-power :sleep-talk :snore :strength :substitute :sunny-day :swagger :thrash :toxic :twister]

@@ -22,7 +22,7 @@
   :weight [61.5]
   :height [1.3])
 
-(deffamilygraph (familychain :skorupi :drapion))
+(deffamily (familychain :skorupi :drapion))
 
 (deflearnset :dp
   :skorupi [:acupressure :aerial-ace :agility :aqua-tail :attract :bite :brick-break :bug-bite :captivate :confuse-ray :cross-poison :crunch :cut :dark-pulse :dig :double-team :endure :facade :faint-attack :false-swipe :flash :fling :frustration :fury-cutter :headbutt :hidden-power :iron-tail :knock-off :leer :mud-slap :natural-gift :night-slash :payback :pin-missile :poison-fang :poison-jab :poison-sting :protect :pursuit :rain-dance :rest :return :rock-smash :rock-tomb :sand-attack :scary-face :screech :secret-power :shadow-ball :slash :sleep-talk :sludge-bomb :snore :strength :substitute :sunny-day :swagger :swords-dance :taunt :thief :torment :toxic :toxic-spikes :whirlwind :x-scissor]

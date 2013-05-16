@@ -23,7 +23,7 @@
   :weight [77.4]
   :height [1.3])
 
-(deffamilygraph (familychain :cacnea :cacturne))
+(deffamily (familychain :cacnea :cacturne))
 
 (deflearnset :rs
   :cacnea [:absorb :acid :attract :body-slam :bullet-seed :cotton-spore :counter :cut :destiny-bond :double-edge :double-team :dynamicpunch :endure :facade :faint-attack :flash :focus-punch :frustration :fury-cutter :giga-drain :grasswhistle :growth :hidden-power :ingrain :leech-seed :leer :mega-punch :mimic :mud-slap :needle-arm :pin-missile :poison-sting :protect :rest :return :sand-attack :sandstorm :secret-power :seismic-toss :sleep-talk :snore :solarbeam :spikes :substitute :sunny-day :swagger :swords-dance :teeter-dance :thunderpunch :toxic]

@@ -22,7 +22,7 @@
   :weight [650]
   :height [6.9])
 
-(deffamilygraph
+(deffamily
   (familyclique :giratina :giratina-o))
 
 (deflearnset :dp

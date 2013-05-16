@@ -52,7 +52,7 @@
   :weight [48]
   :height [1.4])
 
-(deffamilygraph (familychain :tyrogue [:hitmonlee :hitmonchan :hitmontop]))
+(deffamily (familychain :tyrogue [:hitmonlee :hitmonchan :hitmontop]))
 
 (deflearnset :rb
   :hitmonchan [:agility :bide :body-slam :comet-punch :counter :double-edge :double-team :fire-punch :ice-punch :mega-kick :mega-punch :metronome :mimic :rage :rest :seismic-toss :skull-bash :strength :submission :substitute :swift :take-down :thunderpunch :toxic]

@@ -26,7 +26,7 @@
   :weight [28.5]
   :height [0.9])
 
-(deffamilygraph (familychain :remoraid :octillery))
+(deffamily (familychain :remoraid :octillery))
 
 (deflearnset :gs
   :remoraid [:attract :aurora-beam :bubblebeam :curse :defense-curl :double-team :endure :flamethrower :focus-energy :frustration :haze :hidden-power :hyper-beam :ice-beam :lock-on :mud-slap :octazooka :protect :psybeam :rain-dance :rest :return :screech :sleep-talk :snore :supersonic :surf :swagger :swift :thief :toxic :water-gun :whirlpool]

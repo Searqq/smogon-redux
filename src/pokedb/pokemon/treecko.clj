@@ -35,7 +35,7 @@
   :weight [52.2]
   :height [1.7])
 
-(deffamilygraph (familychain :treecko :grovyle :sceptile))
+(deffamily (familychain :treecko :grovyle :sceptile))
 
 
 

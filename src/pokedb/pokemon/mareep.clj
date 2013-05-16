@@ -35,7 +35,7 @@
   :weight [61.5]
   :height [1.4])
 
-(deffamilygraph (familychain :mareep :flaaffy :ampharos))
+(deffamily (familychain :mareep :flaaffy :ampharos))
 
 (deflearnset :gs
   :mareep [:attract :body-slam :cotton-spore :curse :defense-curl :double-team :endure :flash :frustration :growl :headbutt :hidden-power :iron-tail :light-screen :protect :rain-dance :reflect :rest :return :safeguard :screech :sleep-talk :snore :swagger :swift :tackle :take-down :thunder :thunder-wave :thunderbolt :thundershock :toxic :zap-cannon]

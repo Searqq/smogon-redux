@@ -26,7 +26,7 @@
   :weight [39]
   :height [1.3])
 
-(deffamilygraph (familychain :goldeen :seaking))
+(deffamily (familychain :goldeen :seaking))
 
 (deflearnset :rb
   :goldeen [:agility :bide :blizzard :bubblebeam :double-edge :double-team :fury-attack :horn-attack :horn-drill :ice-beam :mimic :peck :rage :rest :skull-bash :substitute :supersonic :surf :swift :tail-whip :take-down :toxic :water-gun :waterfall]

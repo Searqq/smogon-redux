@@ -32,7 +32,7 @@
   :weight [63]
   :height [3.3])
 
-(deffamilygraph (familychain :snivy :servine :serperior))
+(deffamily (familychain :snivy :servine :serperior))
 
 (deflearnset :bw
   :snivy [:aerial-ace :aqua-tail :attract :bind :calm-mind :captivate :coil :cut :double-team :energy-ball :facade :flash :frustration :gastro-acid :giga-drain :glare :grass-knot :grass-pledge :growth :hidden-power :iron-tail :knock-off :leaf-blade :leaf-storm :leaf-tornado :leech-seed :leer :light-screen :magical-leaf :mean-look :mega-drain :mirror-coat :natural-gift :protect :pursuit :reflect :rest :return :round :safeguard :seed-bomb :slam :sleep-talk :snatch :snore :solarbeam :substitute :sunny-day :swagger :sweet-scent :swords-dance :synthesis :tackle :taunt :torment :toxic :twister :vine-whip :worry-seed :wrap :wring-out]

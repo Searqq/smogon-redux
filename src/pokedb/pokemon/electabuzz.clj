@@ -35,7 +35,7 @@
   :weight [138.6]
   :height [1.8])
 
-(deffamilygraph (familychain :elekid :electabuzz :electivire))
+(deffamily (familychain :elekid :electabuzz :electivire))
 
 (deflearnset :rb
   :electabuzz [:bide :body-slam :counter :double-edge :double-team :flash :hyper-beam :leer :light-screen :mega-kick :mega-punch :metronome :mimic :psychic :psywave :quick-attack :rage :reflect :rest :screech :seismic-toss :skull-bash :strength :submission :substitute :swift :take-down :teleport :thunder :thunder-wave :thunderbolt :thunderpunch :thundershock :toxic])

@@ -24,7 +24,7 @@
   :weight [32.5]
   :height [1.8])
 
-(deffamilygraph (familychain :sentret :furret))
+(deffamily (familychain :sentret :furret))
 
 (deflearnset :gs
   :sentret [:amnesia :attract :curse :cut :defense-curl :detect :dig :double-edge :double-team :dynamicpunch :endure :fire-punch :focus-energy :frustration :fury-cutter :fury-swipes :headbutt :hidden-power :ice-punch :iron-tail :mud-slap :protect :pursuit :quick-attack :rest :return :reversal :rollout :shadow-ball :slam :slash :sleep-talk :snore :sunny-day :surf :swagger :swift :tackle :thief :thunderpunch :toxic]

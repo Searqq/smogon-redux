@@ -26,7 +26,7 @@
   :weight [65]
   :height [3.5])
 
-(deffamilygraph (familychain :ekans :arbok))
+(deffamily (familychain :ekans :arbok))
 
 (deflearnset :rb
   :ekans [:acid :bide :bite :body-slam :dig :double-edge :double-team :earthquake :fissure :glare :leer :mega-drain :mimic :poison-sting :rage :rest :rock-slide :screech :skull-bash :strength :substitute :take-down :toxic :wrap]

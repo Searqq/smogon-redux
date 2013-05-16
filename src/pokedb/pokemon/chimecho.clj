@@ -22,7 +22,7 @@
   :weight [1]
   :height [0.6])
 
-(deffamilygraph (familychain :chingling :chimecho))
+(deffamily (familychain :chingling :chimecho))
 
 (deflearnset :rs
   :chimecho [:astonish :attract :calm-mind :confusion :curse :defense-curl :disable :double-edge :double-team :dream-eater :endure :facade :flash :frustration :growl :heal-bell :hidden-power :hypnosis :icy-wind :light-screen :mimic :nightmare :protect :psych-up :psychic :psywave :rain-dance :reflect :rest :return :rollout :safeguard :secret-power :shadow-ball :shock-wave :skill-swap :sleep-talk :snatch :snore :substitute :sunny-day :swagger :take-down :taunt :torment :toxic :uproar :wrap :yawn])

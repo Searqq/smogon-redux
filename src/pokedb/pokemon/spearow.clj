@@ -26,7 +26,7 @@
   :weight [38]
   :height [1.2])
 
-(deffamilygraph (familychain :spearow :fearow))
+(deffamily (familychain :spearow :fearow))
 
 
 

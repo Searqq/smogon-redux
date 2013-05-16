@@ -24,7 +24,7 @@
   :weight [400]
   :height [9.2])
 
-(deffamilygraph (familychain :onix :steelix))
+(deffamily (familychain :onix :steelix))
 
 (deflearnset :rb
   :onix [:bide :bind :body-slam :dig :double-edge :double-team :earthquake :explosion :fissure :harden :mimic :rage :rest :rock-slide :rock-throw :screech :selfdestruct :skull-bash :slam :strength :substitute :tackle :take-down :toxic :sharpen])

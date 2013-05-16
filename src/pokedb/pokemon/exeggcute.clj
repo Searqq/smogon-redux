@@ -26,7 +26,7 @@
   :weight [120]
   :height [2])
 
-(deffamilygraph (familychain :exeggcute :exeggutor))
+(deffamily (familychain :exeggcute :exeggutor))
 
 (deflearnset :rb
   :exeggcute [:barrage :bide :double-edge :double-team :egg-bomb :explosion :hypnosis :leech-seed :mimic :poisonpowder :psychic :psywave :rage :reflect :rest :selfdestruct :sleep-powder :solarbeam :stun-spore :substitute :take-down :teleport :toxic]

@@ -32,7 +32,7 @@
   :weight [150]
   :height [1.6])
 
-(deffamilygraph (familychain :tepig :pignite :emboar))
+(deffamily (familychain :tepig :pignite :emboar))
 
 
 

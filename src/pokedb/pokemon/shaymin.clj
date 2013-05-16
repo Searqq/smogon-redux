@@ -22,7 +22,7 @@
   :weight [5.2]
   :height [0.4])
 
-(deffamilygraph (familychain :shaymin :shaymin-s))
+(deffamily (familychain :shaymin :shaymin-s))
 
 (deflearnset :dp
   :shaymin [:aromatherapy :bullet-seed :defense-curl :double-team :earth-power :endeavor :endure :energy-ball :facade :flash :frustration :giga-drain :giga-impact :grass-knot :grasswhistle :growth :headbutt :healing-wish :hidden-power :hyper-beam :last-resort :leech-seed :lucky-chant :magical-leaf :mud-slap :natural-gift :protect :psych-up :psychic :rest :return :safeguard :secret-power :seed-bomb :seed-flare :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :sweet-kiss :sweet-scent :swift :swords-dance :synthesis :toxic :worry-seed :zen-headbutt])

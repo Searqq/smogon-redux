@@ -37,7 +37,7 @@
   :weight [29.5]
   :height [1])
 
-(deffamilygraph (familychain :weedle :kakuna :beedrill))
+(deffamily (familychain :weedle :kakuna :beedrill))
 
 
 

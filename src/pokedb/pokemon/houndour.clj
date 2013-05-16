@@ -24,7 +24,7 @@
   :weight [35]
   :height [1.4])
 
-(deffamilygraph (familychain :houndour :houndoom))
+(deffamily (familychain :houndour :houndoom))
 
 (deflearnset :gs
   :houndour [:attract :beat-up :bite :counter :crunch :curse :detect :double-team :dream-eater :ember :endure :faint-attack :fire-blast :fire-spin :flamethrower :frustration :headbutt :hidden-power :iron-tail :leer :mud-slap :nightmare :protect :pursuit :rage :rest :return :reversal :roar :rock-smash :shadow-ball :sleep-talk :sludge-bomb :smog :snore :solarbeam :spite :sunny-day :swagger :swift :thief :toxic]

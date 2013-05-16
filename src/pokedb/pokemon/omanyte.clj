@@ -26,7 +26,7 @@
   :weight [35]
   :height [1])
 
-(deffamilygraph (familychain :omanyte :omastar))
+(deffamily (familychain :omanyte :omastar))
 
 (deflearnset :rb
   :omanyte [:bide :blizzard :body-slam :bubblebeam :double-edge :double-team :horn-attack :hydro-pump :ice-beam :leer :mimic :rage :reflect :rest :spike-cannon :substitute :surf :take-down :toxic :water-gun :withdraw]

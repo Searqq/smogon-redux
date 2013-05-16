@@ -40,7 +40,7 @@
   :weight [152]
   :height [1.8])
 
-(deffamilygraph (familychain :horsea :seadra :kingdra))
+(deffamily (familychain :horsea :seadra :kingdra))
 
 (deflearnset :rb
   :horsea [:agility :bide :blizzard :bubble :bubblebeam :double-edge :double-team :hydro-pump :ice-beam :leer :mimic :rage :rest :skull-bash :smokescreen :substitute :surf :swift :take-down :toxic :water-gun]

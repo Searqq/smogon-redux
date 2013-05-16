@@ -33,7 +33,7 @@
   :weight [14.5]
   :height [0.9])
 
-(deffamilygraph (familychain :budew :roselia :roserade))
+(deffamily (familychain :budew :roselia :roserade))
 
 (deflearnset :rs
   :roselia [:absorb :aromatherapy :attract :body-slam :bullet-seed :cotton-spore :cut :double-edge :double-team :endure :facade :flash :frustration :fury-cutter :giga-drain :grasswhistle :growth :hidden-power :ingrain :leech-seed :magical-leaf :mega-drain :mimic :mud-slap :nightmare :petal-dance :pin-missile :poison-sting :protect :psych-up :rest :return :secret-power :shadow-ball :sleep-talk :sludge-bomb :snore :solarbeam :spikes :stun-spore :substitute :sunny-day :swagger :sweet-scent :swift :swords-dance :synthesis :toxic :double-edge :mimic :nightmare :sweet-kiss])

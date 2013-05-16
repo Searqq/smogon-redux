@@ -34,7 +34,7 @@
   :weight [550]
   :height [1.6])
 
-(deffamilygraph (familychain :beldum :metang :metagross))
+(deffamily (familychain :beldum :metang :metagross))
 
 (deflearnset :rs
   :beldum [:take-down]

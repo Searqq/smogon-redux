@@ -25,7 +25,7 @@
   :weight [55]
   :height [1.6])
 
-(deffamilygraph (familychain :tentacool :tentacruel))
+(deffamily (familychain :tentacool :tentacruel))
 
 
 

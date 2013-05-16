@@ -22,7 +22,7 @@
   :weight [6.6]
   :height [0.7])
 
-(deffamilygraph (familychain :cottonee :whimsicott))
+(deffamily (familychain :cottonee :whimsicott))
 
 (deflearnset :bw
   :cottonee [:absorb :attract :beat-up :charm :cotton-guard :cotton-spore :covet :double-team :dream-eater :encore :endeavor :energy-ball :facade :fake-tears :flash :frustration :giga-drain :grass-knot :grasswhistle :growth :helping-hand :hidden-power :knock-off :leech-seed :mega-drain :memento :natural-gift :poisonpowder :protect :razor-leaf :rest :return :round :safeguard :seed-bomb :sleep-talk :snore :solarbeam :stun-spore :substitute :sunny-day :swagger :switcheroo :tailwind :taunt :tickle :toxic :worry-seed]

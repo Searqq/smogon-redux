@@ -32,7 +32,7 @@
   :weight [96.3]
   :height [1.5])
 
-(deffamilygraph (familychain :sandile :krokorok :krookodile))
+(deffamily (familychain :sandile :krokorok :krookodile))
 
 (deflearnset :bw
   :sandile [:aqua-tail :assurance :attract :beat-up :bite :bulldoze :counter :crunch :cut :dark-pulse :dig :double-edge :double-team :earth-power :earthquake :embargo :facade :fire-fang :focus-energy :foul-play :frustration :hidden-power :hone-claws :incinerate :iron-tail :leer :mean-look :mud-slap :payback :protect :pursuit :rage :rest :retaliate :return :roar :rock-climb :rock-slide :rock-tomb :round :sand-attack :sand-tomb :sandstorm :scary-face :sleep-talk :sludge-bomb :snarl :snatch :snore :spite :stealth-rock :stone-edge :substitute :swagger :taunt :thief :thrash :thunder-fang :torment :toxic :uproar]

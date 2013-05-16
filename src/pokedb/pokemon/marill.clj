@@ -35,7 +35,7 @@
   :weight [28.5]
   :height [0.8])
 
-(deffamilygraph (familychain :azurill :marill :azumarill))
+(deffamily (familychain :azurill :marill :azumarill))
 
 (deflearnset :gs
   :marill [:amnesia :attract :belly-drum :blizzard :bubblebeam :curse :defense-curl :double-edge :double-team :dynamicpunch :endure :foresight :frustration :future-sight :headbutt :hidden-power :ice-beam :ice-punch :icy-wind :iron-tail :light-screen :mud-slap :perish-song :present :protect :rain-dance :rest :return :rollout :sleep-talk :snore :supersonic :surf :swagger :swift :tackle :tail-whip :toxic :water-gun :waterfall :whirlpool]

@@ -34,7 +34,7 @@
   :weight [202]
   :height [2])
 
-(deffamilygraph (familychain :larvitar :pupitar :tyranitar))
+(deffamily (familychain :larvitar :pupitar :tyranitar))
 (deflearnset :gs
   :larvitar [:ancientpower :attract :bite :crunch :curse :detect :dig :double-team :earthquake :endure :focus-energy :frustration :headbutt :hidden-power :hyper-beam :leer :mud-slap :outrage :protect :pursuit :rain-dance :rest :return :rock-slide :sandstorm :scary-face :screech :sleep-talk :snore :stomp :sunny-day :swagger :thrash :toxic]
   :pupitar []

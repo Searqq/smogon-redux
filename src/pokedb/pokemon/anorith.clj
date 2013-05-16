@@ -23,7 +23,7 @@
   :weight [68.2]
   :height [1.5])
 
-(deffamilygraph (familychain :anorith :armaldo))
+(deffamily (familychain :anorith :armaldo))
 
 (deflearnset :rs
   :anorith [:aerial-ace :ancientpower :attract :body-slam :brick-break :cut :dig :double-edge :double-team :endure :facade :frustration :fury-cutter :harden :hidden-power :knock-off :metal-claw :mimic :mud-slap :mud-sport :protect :rapid-spin :rest :return :rock-blast :rock-slide :rock-smash :rock-tomb :sandstorm :scratch :secret-power :slash :sleep-talk :snore :substitute :sunny-day :swagger :swords-dance :toxic :water-gun :water-pulse]

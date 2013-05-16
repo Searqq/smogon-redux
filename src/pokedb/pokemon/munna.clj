@@ -22,7 +22,7 @@
   :weight [60.5]
   :height [1.1])
 
-(deffamilygraph (familychain :munna :musharna))
+(deffamily (familychain :munna :musharna))
 
 (deflearnset :bw
   :munna [:after-you :attract :barrier :baton-pass :calm-mind :charge-beam :curse :defense-curl :double-team :dream-eater :energy-ball :facade :flash :frustration :future-sight :gravity :gyro-ball :heal-bell :helping-hand :hidden-power :hypnosis :imprison :light-screen :lucky-chant :magic-coat :moonlight :nightmare :pain-split :protect :psybeam :psych-up :psychic :psyshock :psywave :rain-dance :reflect :rest :return :rock-slide :rock-tomb :round :safeguard :secret-power :shadow-ball :signal-beam :skill-swap :sleep-talk :snore :sonicboom :stored-power :substitute :swagger :swift :synchronoise :telekinesis :thunder-wave :torment :toxic :trick :trick-room :wonder-room :worry-seed :yawn :zen-headbutt]

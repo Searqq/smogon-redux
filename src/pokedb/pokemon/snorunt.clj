@@ -36,7 +36,7 @@
   :weight [26.6]
   :height [1.3])
 
-(deffamilygraph (familychain :snorunt [:glalie :froslass]))
+(deffamily (familychain :snorunt [:glalie :froslass]))
 
 
 

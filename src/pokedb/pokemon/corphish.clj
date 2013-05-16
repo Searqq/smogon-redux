@@ -23,7 +23,7 @@
   :weight [32.8]
   :height [1.1])
 
-(deffamilygraph (familychain :corphish :crawdaunt))
+(deffamily (familychain :corphish :crawdaunt))
 
 (deflearnset :rs
   :corphish [:aerial-ace :ancientpower :attract :blizzard :body-slam :brick-break :bubble :bubblebeam :counter :crabhammer :crunch :cut :dig :double-edge :double-team :endeavor :endure :facade :frustration :fury-cutter :guillotine :hail :harden :hidden-power :ice-beam :icy-wind :knock-off :leer :mimic :mud-slap :mud-sport :protect :rain-dance :rest :return :rock-smash :rock-tomb :secret-power :sleep-talk :sludge-bomb :snore :strength :substitute :surf :swagger :swords-dance :taunt :toxic :vicegrip :water-pulse :waterfall]

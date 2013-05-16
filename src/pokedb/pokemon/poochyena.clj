@@ -26,7 +26,7 @@
   :weight [37]
   :height [1])
 
-(deffamilygraph (familychain :poochyena :mightyena))
+(deffamily (familychain :poochyena :mightyena))
 
 (deflearnset :rs
   :poochyena [:astonish :attract :bite :body-slam :counter :covet :crunch :dig :double-edge :double-team :endure :facade :frustration :hidden-power :howl :iron-tail :leer :mimic :mud-slap :odor-sleuth :poison-fang :protect :psych-up :rain-dance :rest :return :roar :rock-smash :sand-attack :scary-face :secret-power :shadow-ball :sleep-talk :snatch :snore :substitute :sunny-day :swagger :tackle :take-down :taunt :thief :torment :toxic :yawn :body-slam :double-edge :heal-bell :mimic]

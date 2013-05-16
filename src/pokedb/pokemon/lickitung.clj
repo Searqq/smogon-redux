@@ -25,7 +25,7 @@
   :height [1.7])
 
 
-(deffamilygraph (familychain :lickitung :lickilicky))
+(deffamily (familychain :lickitung :lickilicky))
 
 (deflearnset :rb
   :lickitung [:bide :blizzard :body-slam :bubblebeam :counter :cut :defense-curl :disable :double-edge :double-team :earthquake :fire-blast :fissure :hyper-beam :ice-beam :mega-kick :mega-punch :mimic :rage :rest :screech :seismic-toss :skull-bash :slam :stomp :strength :submission :substitute :supersonic :surf :swords-dance :take-down :thunder :thunderbolt :toxic :water-gun :wrap])

@@ -48,7 +48,7 @@
   :weight [5.8]
   :height [0.4])
 
-(deffamilygraph (familychain :oddish :gloom [:vileplume :bellossom]))
+(deffamily (familychain :oddish :gloom [:vileplume :bellossom]))
 
 (deflearnset :rb
   :oddish [:absorb :acid :bide :cut :double-edge :double-team :mega-drain :mimic :petal-dance :poisonpowder :rage :reflect :rest :sleep-powder :solarbeam :stun-spore :substitute :swords-dance :take-down :toxic :leech-seed]

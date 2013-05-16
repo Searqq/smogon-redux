@@ -24,7 +24,7 @@
   :weight [31.5]
   :height [1.3])
 
-(deffamilygraph (familychain :meditite :medicham))
+(deffamily (familychain :meditite :medicham))
 
 (deflearnset :rs
   :meditite [:attract :baton-pass :bide :body-slam :brick-break :bulk-up :calm-mind :confusion :counter :detect :double-edge :double-team :dream-eater :dynamicpunch :endure :facade :fake-out :fire-punch :flash :focus-punch :foresight :frustration :hi-jump-kick :hidden-power :ice-punch :light-screen :meditate :mega-kick :mega-punch :metronome :mimic :mind-reader :mud-slap :protect :psych-up :psychic :rain-dance :recover :reflect :rest :return :reversal :rock-smash :rock-tomb :secret-power :seismic-toss :shadow-ball :sleep-talk :snore :strength :substitute :sunny-day :swagger :swift :thunderpunch :toxic :body-slam :double-edge :mimic :seismic-toss]

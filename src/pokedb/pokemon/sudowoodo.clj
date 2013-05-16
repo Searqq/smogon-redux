@@ -23,7 +23,7 @@
   :weight [38]
   :height [1.2])
 
-(deffamilygraph (familychain :bonsly :sudowoodo))
+(deffamily (familychain :bonsly :sudowoodo))
 
 
 

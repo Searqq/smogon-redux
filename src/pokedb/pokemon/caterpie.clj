@@ -36,7 +36,7 @@
   :weight [32]
   :height [1.1])
 
-(deffamilygraph (familychain :caterpie :metapod :butterfree))
+(deffamily (familychain :caterpie :metapod :butterfree))
 
 (deflearnset :rb
   :caterpie [:string-shot :tackle]

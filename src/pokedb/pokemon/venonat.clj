@@ -28,7 +28,7 @@
   :weight [12.5]
   :height [1.5])
 
-(deffamilygraph (familychain :venonat :venomoth))
+(deffamily (familychain :venonat :venomoth))
 
 
 

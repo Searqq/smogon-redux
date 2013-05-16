@@ -35,7 +35,7 @@
   :weight [180]
   :height [1.2])
 
-(deffamilygraph (familychain :magnemite :magneton :magnezone))
+(deffamily (familychain :magnemite :magneton :magnezone))
 
 (deflearnset :rb
   :magnemite [:bide :double-edge :double-team :flash :mimic :rage :reflect :rest :screech :sonicboom :substitute :supersonic :swift :tackle :take-down :teleport :thunder :thunder-wave :thunderbolt :thundershock :toxic :agility]

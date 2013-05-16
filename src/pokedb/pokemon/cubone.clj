@@ -25,7 +25,7 @@
   :weight [45]
   :height [1])
 
-(deffamilygraph (familychain :cubone :marowak))
+(deffamily (familychain :cubone :marowak))
 
 (deflearnset :rb
   :cubone [:bide :blizzard :body-slam :bone-club :bonemerang :bubblebeam :counter :dig :double-edge :double-team :earthquake :fire-blast :fissure :focus-energy :growl :headbutt :ice-beam :leer :mega-kick :mega-punch :mimic :rage :rest :seismic-toss :skull-bash :strength :submission :substitute :tail-whip :take-down :thrash :toxic :water-gun]

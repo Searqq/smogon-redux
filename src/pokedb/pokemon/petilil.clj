@@ -22,7 +22,7 @@
   :weight [16.3]
   :height [1.1])
 
-(deffamilygraph (familychain :petilil :lilligant))
+(deffamily (familychain :petilil :lilligant))
 
 (deflearnset :bw
   :petilil [:absorb :after-you :aromatherapy :attract :bide :charm :covet :cut :double-team :dream-eater :endure :energy-ball :entrainment :facade :flash :frustration :giga-drain :grass-knot :grasswhistle :growth :heal-bell :healing-wish :helping-hand :hidden-power :ingrain :leaf-storm :leech-seed :magical-leaf :mega-drain :natural-gift :protect :rest :return :round :safeguard :seed-bomb :sleep-powder :sleep-talk :snore :solarbeam :stun-spore :substitute :sunny-day :swagger :sweet-scent :synthesis :toxic :worry-seed]

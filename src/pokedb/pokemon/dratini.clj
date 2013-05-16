@@ -37,7 +37,7 @@
   :weight [210]
   :height [2.2])
 
-(deffamilygraph (familychain :dratini :dragonair :dragonite))
+(deffamily (familychain :dratini :dragonair :dragonite))
 
 (deflearnset :rb
   :dratini [:agility :bide :blizzard :body-slam :bubblebeam :double-edge :double-team :dragon-rage :fire-blast :hyper-beam :ice-beam :leer :mimic :rage :reflect :rest :skull-bash :slam :substitute :surf :swift :take-down :thunder :thunder-wave :thunderbolt :toxic :water-gun :wrap]

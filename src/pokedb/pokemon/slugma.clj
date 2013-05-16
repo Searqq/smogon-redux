@@ -24,7 +24,7 @@
   :weight [55]
   :height [0.8])
 
-(deffamilygraph (familychain :slugma :magcargo))
+(deffamily (familychain :slugma :magcargo))
 
 (deflearnset :gs
   :slugma [:acid-armor :amnesia :attract :body-slam :curse :defense-curl :double-team :ember :endure :fire-blast :flamethrower :frustration :harden :hidden-power :mud-slap :protect :rest :return :rock-slide :rock-smash :rock-throw :rollout :sleep-talk :smog :snore :sunny-day :swagger :toxic]

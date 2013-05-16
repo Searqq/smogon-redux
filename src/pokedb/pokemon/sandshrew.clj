@@ -26,7 +26,7 @@
   :weight [29.5]
   :height [1])
 
-(deffamilygraph (familychain :sandshrew :sandslash))
+(deffamily (familychain :sandshrew :sandslash))
 
 (deflearnset :rb
   :sandshrew [:bide :body-slam :cut :dig :double-edge :double-team :earthquake :fissure :fury-swipes :mimic :poison-sting :rage :rest :rock-slide :sand-attack :scratch :seismic-toss :skull-bash :slash :strength :submission :substitute :swift :swords-dance :take-down :toxic]

@@ -24,7 +24,7 @@
   :weight [40.2]
   :height [1.5])
 
-(deffamilygraph (familychain :electrike :manectric))
+(deffamily (familychain :electrike :manectric))
 
 (deflearnset :rs
   :electrike [:attract :bite :body-slam :charge :crunch :curse :double-edge :double-team :endure :facade :flash :frustration :headbutt :hidden-power :howl :iron-tail :leer :mimic :mud-slap :odor-sleuth :protect :quick-attack :rain-dance :rest :return :roar :secret-power :shock-wave :sleep-talk :snore :spark :strength :substitute :swagger :swift :tackle :thief :thunder :thunder-wave :thunderbolt :toxic :uproar :body-slam :double-edge :mimic]

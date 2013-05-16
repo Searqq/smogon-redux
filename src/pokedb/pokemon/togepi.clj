@@ -34,7 +34,7 @@
   :weight [38]
   :height [1.5])
 
-(deffamilygraph (familychain :togepi :togetic :togekiss))
+(deffamily (familychain :togepi :togetic :togekiss))
 
 
 

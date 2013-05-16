@@ -22,7 +22,7 @@
   :weight [102.5]
   :height [1.6])
 
-(deffamilygraph (familychain :cranidos :rampardos))
+(deffamily (familychain :cranidos :rampardos))
 
 (deflearnset :dp
   :cranidos [:ancientpower :assurance :attract :blizzard :captivate :crunch :curse :dig :double-edge :double-team :dragon-pulse :earth-power :earthquake :endeavor :endure :facade :fire-blast :fire-punch :flamethrower :fling :focus-energy :frustration :hammer-arm :head-smash :headbutt :hidden-power :ice-beam :iron-head :iron-tail :leer :mud-slap :natural-gift :payback :protect :pursuit :rain-dance :rest :return :roar :rock-climb :rock-polish :rock-slide :rock-smash :rock-tomb :sandstorm :scary-face :screech :secret-power :shock-wave :slam :sleep-talk :snore :spite :stealth-rock :stomp :stone-edge :strength :substitute :sunny-day :superpower :swagger :swords-dance :take-down :thief :thrash :thunder :thunderbolt :thunderpunch :toxic :uproar :whirlwind :zen-headbutt]

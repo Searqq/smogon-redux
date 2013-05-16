@@ -45,7 +45,7 @@
   :weight [60.8]
   :height [1.7])
 
-(deffamilygraph
+(deffamily
   (familyclique :deoxys :deoxys-a :deoxys-d :deoxys-s))
 
 (deflearnset :rs

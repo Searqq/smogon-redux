@@ -24,7 +24,7 @@
   :weight [120]
   :height [1.1])
 
-(deffamilygraph (familychain :phanpy :donphan))
+(deffamily (familychain :phanpy :donphan))
 
 (deflearnset :gs
   :phanpy [:ancientpower :attract :body-slam :curse :defense-curl :double-edge :double-team :earthquake :endure :flail :focus-energy :frustration :growl :headbutt :hidden-power :mud-slap :protect :rest :return :roar :rock-smash :rollout :sandstorm :sleep-talk :snore :strength :sunny-day :swagger :tackle :take-down :toxic :water-gun]

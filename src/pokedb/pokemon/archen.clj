@@ -22,7 +22,7 @@
   :weight [32]
   :height [1.4])
 
-(deffamilygraph
+(deffamily
   (familychain :archen :archeops))
 
 (deflearnset :bw

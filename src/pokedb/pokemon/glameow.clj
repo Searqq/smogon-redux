@@ -22,7 +22,7 @@
   :weight [43.8]
   :height [1])
 
-(deffamilygraph (familychain :glameow :purugly))
+(deffamily (familychain :glameow :purugly))
 
 (deflearnset :dp
   :glameow [:aerial-ace :assist :assurance :attract :bite :captivate :charm :cut :dig :double-team :dream-eater :endure :facade :faint-attack :fake-out :fake-tears :flail :flash :frustration :fury-cutter :fury-swipes :growl :headbutt :hidden-power :hypnosis :iron-tail :knock-off :last-resort :mud-slap :natural-gift :payback :protect :psych-up :quick-attack :rain-dance :rest :return :sand-attack :scratch :secret-power :shadow-ball :shadow-claw :shock-wave :slash :sleep-talk :snatch :snore :substitute :sucker-punch :sunny-day :super-fang :swagger :swift :tail-whip :taunt :thief :thunder :thunderbolt :torment :toxic :u-turn :water-pulse]

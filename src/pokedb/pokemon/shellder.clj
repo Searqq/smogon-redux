@@ -28,7 +28,7 @@
   :weight [132.5]
   :height [1.5])
 
-(deffamilygraph (familychain :shellder :cloyster))
+(deffamily (familychain :shellder :cloyster))
 
 (deflearnset :rb
   :shellder [:aurora-beam :bide :blizzard :bubblebeam :clamp :double-edge :double-team :explosion :ice-beam :leer :mimic :rage :reflect :rest :selfdestruct :substitute :supersonic :surf :swift :tackle :take-down :teleport :toxic :tri-attack :water-gun :withdraw]

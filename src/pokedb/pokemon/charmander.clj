@@ -37,7 +37,7 @@
   :weight [90.5]
   :height [1.7])
 
-(deffamilygraph (familychain :charmander :charmeleon :charizard))
+(deffamily (familychain :charmander :charmeleon :charizard))
 
 (deflearnset :rb
   :charmander [:bide :body-slam :counter :cut :dig :double-edge :double-team :dragon-rage :ember :fire-blast :fire-spin :flamethrower :growl :leer :mega-kick :mega-punch :mimic :rage :reflect :rest :scratch :seismic-toss :skull-bash :slash :strength :submission :substitute :swift :swords-dance :take-down :toxic :crunch]

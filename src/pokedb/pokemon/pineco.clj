@@ -24,7 +24,7 @@
   :weight [125.8]
   :height [1.2])
 
-(deffamilygraph (familychain :pineco :forretress))
+(deffamily (familychain :pineco :forretress))
 
 (deflearnset :gs
   :pineco [:attract :bide :curse :defense-curl :double-edge :double-team :endure :explosion :flail :frustration :giga-drain :headbutt :hidden-power :pin-missile :protect :rapid-spin :reflect :rest :return :rock-smash :rollout :selfdestruct :sleep-talk :snore :solarbeam :spikes :strength :sunny-day :swagger :sweet-scent :swift :tackle :take-down :toxic]

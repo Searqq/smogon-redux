@@ -26,7 +26,7 @@
   :weight [9.5]
   :height [1.2])
 
-(deffamilygraph (familychain :koffing :weezing))
+(deffamily (familychain :koffing :weezing))
 
 (deflearnset :rb
   :koffing [:bide :double-team :explosion :fire-blast :haze :mimic :rage :rest :selfdestruct :sludge :smog :smokescreen :substitute :tackle :thunder :thunderbolt :toxic]

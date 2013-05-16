@@ -36,7 +36,7 @@
   :weight [291]
   :height [2.5])
 
-(deffamilygraph (familychain :swinub :piloswine :mamoswine))
+(deffamily (familychain :swinub :piloswine :mamoswine))
 
 
 

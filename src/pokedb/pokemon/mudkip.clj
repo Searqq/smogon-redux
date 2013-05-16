@@ -35,7 +35,7 @@
   :weight [81.9]
   :height [1.5])
 
-(deffamilygraph (familychain :mudkip :marshtomp :swampert))
+(deffamily (familychain :mudkip :marshtomp :swampert))
 
 (deflearnset :rs
   :mudkip [:attract :bide :blizzard :body-slam :curse :defense-curl :dig :dive :double-edge :double-team :endeavor :endure :facade :foresight :frustration :growl :hail :hidden-power :hydro-pump :ice-ball :ice-beam :icy-wind :iron-tail :mimic :mirror-coat :mud-slap :mud-sport :protect :rain-dance :refresh :rest :return :rock-smash :rock-tomb :rollout :secret-power :sleep-talk :snore :stomp :strength :substitute :surf :swagger :tackle :take-down :toxic :uproar :water-gun :water-pulse :waterfall :whirlpool :body-slam :icy-wind :mimic]

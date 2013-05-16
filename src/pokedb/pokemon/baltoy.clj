@@ -23,7 +23,7 @@
   :weight [108]
   :height [1.5])
 
-(deffamilygraph (familychain :baltoy :claydol))
+(deffamily (familychain :baltoy :claydol))
 
 (deflearnset :rs
   :baltoy [:ancientpower :confusion :cosmic-power :dig :double-edge :double-team :dream-eater :earthquake :endure :explosion :facade :flash :frustration :harden :hidden-power :ice-beam :light-screen :mimic :mud-slap :protect :psybeam :psych-up :psychic :rain-dance :rapid-spin :reflect :rest :return :rock-slide :rock-tomb :sandstorm :secret-power :selfdestruct :shadow-ball :skill-swap :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :toxic]

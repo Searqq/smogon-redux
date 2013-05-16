@@ -38,7 +38,7 @@
   :weight [40.5]
   :height [1.5])
 
-(deffamilygraph (familychain :gastly :haunter :gengar))
+(deffamily (familychain :gastly :haunter :gengar))
 
 (deflearnset :rb
   :gastly [:bide :confuse-ray :double-team :dream-eater :explosion :hypnosis :lick :mega-drain :mimic :night-shade :psychic :psywave :rage :rest :selfdestruct :substitute :thunder :thunderbolt :toxic]

@@ -27,7 +27,7 @@
   :weight [29.5]
   :height [1])
 
-(deffamilygraph (familychain :paras :parasect))
+(deffamily (familychain :paras :parasect))
 
 (deflearnset :rb
   :paras [:bide :body-slam :cut :dig :double-edge :double-team :growth :leech-life :mega-drain :mimic :rage :reflect :rest :scratch :skull-bash :slash :solarbeam :spore :stun-spore :substitute :swords-dance :take-down :toxic :synthesis]

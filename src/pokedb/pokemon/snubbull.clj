@@ -25,7 +25,7 @@
   :weight [48.7]
   :height [1.4])
 
-(deffamilygraph (familychain :snubbull :granbull))
+(deffamily (familychain :snubbull :granbull))
 
 
 

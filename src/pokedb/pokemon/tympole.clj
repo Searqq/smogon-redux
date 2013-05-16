@@ -32,7 +32,7 @@
   :weight [62]
   :height [1.5])
 
-(deffamilygraph (familychain :tympole :palpitoad :seismitoad))
+(deffamily (familychain :tympole :palpitoad :seismitoad))
 
 
 

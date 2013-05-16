@@ -27,7 +27,7 @@
   :weight [118]
   :height [1.8])
 
-(deffamilygraph (familychain :scyther :scizor))
+(deffamily (familychain :scyther :scizor))
 
 (deflearnset :rb
   :scyther [:agility :bide :cut :double-edge :double-team :focus-energy :hyper-beam :leer :mimic :quick-attack :rage :rest :skull-bash :slash :substitute :swift :swords-dance :take-down :toxic :wing-attack])

@@ -25,7 +25,7 @@
   :weight [85.2]
   :height [1.8])
 
-(deffamilygraph (familychain :doduo :dodrio))
+(deffamily (familychain :doduo :dodrio))
 
 (deflearnset :rb
   :doduo [:agility :bide :body-slam :double-edge :double-team :drill-peck :fly :fury-attack :growl :mimic :peck :rage :reflect :rest :skull-bash :sky-attack :substitute :take-down :toxic :tri-attack :whirlwind :low-kick]

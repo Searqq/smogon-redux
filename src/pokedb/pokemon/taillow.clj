@@ -24,7 +24,7 @@
   :weight [19.8]
   :height [0.7])
 
-(deffamilygraph (familychain :taillow :swellow))
+(deffamily (familychain :taillow :swellow))
 
 
 

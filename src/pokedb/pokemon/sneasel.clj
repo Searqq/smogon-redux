@@ -23,7 +23,7 @@
   :weight [34]
   :height [1.1])
 
-(deffamilygraph (familychain :sneasel :weavile))
+(deffamily (familychain :sneasel :weavile))
 
 (deflearnset :gs
   :sneasel [:agility :attract :beat-up :bite :blizzard :counter :curse :cut :defense-curl :detect :dig :double-team :dream-eater :dynamicpunch :endure :faint-attack :foresight :frustration :fury-cutter :fury-swipes :headbutt :hidden-power :ice-beam :ice-punch :icy-wind :iron-tail :leer :metal-claw :mud-slap :nightmare :protect :psych-up :quick-attack :rain-dance :reflect :rest :return :rock-smash :scratch :screech :shadow-ball :slash :sleep-talk :snore :spite :strength :surf :swagger :swift :thief :toxic])

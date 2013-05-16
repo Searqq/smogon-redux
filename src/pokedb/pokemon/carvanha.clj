@@ -23,7 +23,7 @@
   :weight [88.8]
   :height [1.8])
 
-(deffamilygraph (familychain :carvanha :sharpedo))
+(deffamily (familychain :carvanha :sharpedo))
 
 (deflearnset :rs
   :carvanha [:agility :attract :bite :blizzard :crunch :dive :double-edge :double-team :endure :facade :focus-energy :frustration :fury-cutter :hail :hidden-power :hydro-pump :ice-beam :icy-wind :leer :mimic :mud-slap :protect :rage :rain-dance :refresh :rest :return :scary-face :screech :secret-power :sleep-talk :snore :substitute :surf :swagger :swift :take-down :taunt :thief :thrash :torment :toxic :water-pulse :waterfall]

@@ -32,7 +32,7 @@
   :weight [61]
   :height [1.2])
 
-(deffamilygraph (familychain :lillipup :herdier :stoutland))
+(deffamily (familychain :lillipup :herdier :stoutland))
 
 (deflearnset :bw
   :lillipup [:aerial-ace :attract :bite :charm :covet :crunch :dig :double-team :endure :facade :fire-fang :frustration :giga-impact :helping-hand :hidden-power :howl :hyper-voice :ice-fang :last-resort :leer :lick :mud-slap :odor-sleuth :protect :pursuit :rain-dance :rest :retaliate :return :reversal :roar :rock-smash :rock-tomb :round :sand-attack :shadow-ball :sleep-talk :snarl :snore :substitute :sunny-day :swagger :tackle :take-down :thunder-fang :thunder-wave :thunderbolt :toxic :uproar :wild-charge :work-up :yawn]

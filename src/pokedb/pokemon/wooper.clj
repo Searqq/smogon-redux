@@ -24,7 +24,7 @@
   :weight [75]
   :height [1.4])
 
-(deffamilygraph (familychain :wooper :quagsire))
+(deffamily (familychain :wooper :quagsire))
 
 
 

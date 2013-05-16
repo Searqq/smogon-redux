@@ -26,7 +26,7 @@
   :weight [66.6]
   :height [1.2])
 
-(deffamilygraph (familychain :voltorb :electrode))
+(deffamily (familychain :voltorb :electrode))
 
 
 

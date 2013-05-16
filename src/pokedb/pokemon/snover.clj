@@ -22,7 +22,7 @@
   :weight [135.5]
   :height [2.2])
 
-(deffamilygraph (familychain :snover :abomasnow))
+(deffamily (familychain :snover :abomasnow))
 
 
 

@@ -24,7 +24,7 @@
   :weight [22.5]
   :height [1.2])
 
-(deffamilygraph (familychain :chinchou :lanturn))
+(deffamily (familychain :chinchou :lanturn))
 
 (deflearnset :gs
   :chinchou [:attract :bubble :confuse-ray :curse :double-team :endure :flail :flash :frustration :hidden-power :hydro-pump :ice-beam :protect :rain-dance :rest :return :screech :sleep-talk :snore :spark :supersonic :surf :swagger :take-down :thunder :thunder-wave :thunderbolt :toxic :water-gun :waterfall :whirlpool :zap-cannon]

@@ -26,7 +26,7 @@
   :weight [8.5]
   :height [0.8])
 
-(deffamilygraph (familychain :sunkern :sunflora))
+(deffamily (familychain :sunkern :sunflora))
 
 
 

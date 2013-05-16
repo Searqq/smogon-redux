@@ -22,7 +22,7 @@
   :weight [24]
   :height [1.2])
 
-(deffamilygraph (familychain :finneon :lumineon))
+(deffamily (familychain :finneon :lumineon))
 
 (deflearnset :dp
   :finneon [:agility :air-cutter :aqua-ring :aqua-tail :attract :blizzard :bounce :brine :captivate :charm :defog :dive :double-team :endure :facade :flail :flash :frustration :gust :hail :hidden-power :ice-beam :icy-wind :natural-gift :ominous-wind :payback :pound :protect :psybeam :psych-up :rain-dance :rest :return :safeguard :secret-power :silver-wind :sleep-talk :snore :splash :substitute :surf :swagger :sweet-kiss :swift :tailwind :tickle :toxic :twister :u-turn :water-gun :water-pulse :waterfall :whirlpool]

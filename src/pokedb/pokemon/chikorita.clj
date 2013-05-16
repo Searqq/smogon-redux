@@ -35,7 +35,7 @@
   :weight [100.5]
   :height [1.8])
 
-(deffamilygraph (familychain :chikorita :bayleef :meganium))
+(deffamily (familychain :chikorita :bayleef :meganium))
 
 (deflearnset :gs
   :chikorita [:ancientpower :attract :body-slam :counter :curse :cut :detect :double-team :endure :flail :flash :frustration :giga-drain :growl :headbutt :hidden-power :iron-tail :leech-seed :light-screen :mud-slap :poisonpowder :protect :razor-leaf :reflect :rest :return :safeguard :sleep-talk :snore :solarbeam :sunny-day :swagger :sweet-scent :swords-dance :synthesis :tackle :toxic :vine-whip]

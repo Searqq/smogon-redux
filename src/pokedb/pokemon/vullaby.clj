@@ -22,7 +22,7 @@
   :weight [39.5]
   :height [1.2])
 
-(deffamilygraph (familychain :vullaby :mandibuzz))
+(deffamily (familychain :vullaby :mandibuzz))
 
 
 

@@ -25,7 +25,7 @@
   :weight [235]
   :height [6.5])
 
-(deffamilygraph (familychain :magikarp :gyarados))
+(deffamily (familychain :magikarp :gyarados))
 
 (deflearnset :rb
   :magikarp [:splash :tackle]

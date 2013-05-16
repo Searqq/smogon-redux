@@ -22,7 +22,7 @@
   :weight [46]
   :height [1.6])
 
-(deffamilygraph (familychain :larvesta :volcarona))
+(deffamily (familychain :larvesta :volcarona))
 
 (deflearnset :bw
   :larvesta [:acrobatics :amnesia :bug-bite :bug-buzz :calm-mind :double-edge :double-team :ember :endure :facade :fire-blast :flame-charge :flame-wheel :flamethrower :flare-blitz :foresight :frustration :giga-drain :harden :heat-wave :hidden-power :incinerate :leech-life :light-screen :magnet-rise :morning-sun :overheat :protect :psychic :rest :return :round :safeguard :signal-beam :sleep-talk :snore :solarbeam :string-shot :struggle-bug :substitute :sunny-day :swagger :take-down :thrash :toxic :u-turn :wild-charge :will-o-wisp :zen-headbutt]

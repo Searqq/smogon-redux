@@ -32,7 +32,7 @@
   :weight [310]
   :height [2.2])
 
-(deffamilygraph (familychain :turtwig :grotle :torterra))
+(deffamily (familychain :turtwig :grotle :torterra))
 
 
 

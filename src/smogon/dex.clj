@@ -410,36 +410,6 @@
           m ms]
     (l/fact learns-sans-preevos-r g p m)))
 
-(defn ^:private make-vector-if-not
-  "Take a wild guess."
-  [x] (if (vector? x) x [x]))
-
-(defn ^:private zip
-  "You know, like Python or Haskell."
-  [xs ys]
-  (map vector xs ys))
-
-(defn ^:private group-adjacent
-  "(group-adjacent '([:bulbasaur] [:ivysaur] [:venusaur])) -> 
-   '([:bulbasaur :ivysaur] [:ivysaur :venusaur])"
-  [ps]
-  (for [[palts pevoalts] (zip ps (rest ps))
-        p palts
-        pevo pevoalts]
-    [p pevo]))
-
-(defn ^:private family-tree->graph
-  [tree]
-  [(set (flatten tree))
-   (set (->> tree
-             ;; Ensure each element is a vector, b/c (deffamily :sneasel :weavile) is
-             ;; shorthand for (deffamily [:sneasel] [:weavile])
-             (map make-vector-if-not)
-             ;; We now have a sequence of vectors, where each vector represents
-             ;; alternatives.  Pair up adjacents, so '([:bulbasaur] [:ivysaur]
-             ;; [:venusaur]) -> '([:bulbasaur :ivysaur] [:ivysaur :venusaur])
-             group-adjacent))])
-
 (defn familymerge
   [[n e] [n' e']]
   [(set/union n n') (set/union e e')])
@@ -459,29 +429,13 @@
   [f & ps]
   (reduce familymerge (map f ps)))
 
-(defn deffamilygraph
+(defn deffamily
   [[nodes links]]
   (let [rep (first nodes)]
     (doseq [p nodes]
       (l/fact representative-r p rep))
     (doseq [[p pevo] links]
       (l/fact evolves-r p pevo))))
-
-(defn deffamily
- "Define a family tree. 
-
-  For example, (deffamily :bulbasaur :ivysaur :venusaur) creates evolution
-  relations between [:bulbasaur :ivysaur], [:ivysaur :venusaur] in every
-  generation. 
-
-  To specify different evolution paths, you may enclose alternatives in a
-  vector. For example, (deffamily :slowpoke [:slowbro :slowking]) creates
-  evolution relations between [:slowpoke, :slowbro] and [:slowpoke :slowking] in
-  every generation (sans the latter in :rb).
-
-  Pokemon that did not exist in a particular generation are ignored."
-  [& tree]
-  (deffamilygraph (family-tree->graph tree)))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Dex server

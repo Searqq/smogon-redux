@@ -22,7 +22,7 @@
   :weight [25.3]
   :height [0.8])
 
-(deffamilygraph (familychain :shelmet :accelgor))
+(deffamily (familychain :shelmet :accelgor))
 
 (deflearnset :bw
   :shelmet [:acid :acid-armor :attract :baton-pass :bide :body-slam :bug-bite :bug-buzz :curse :double-edge :double-team :encore :endure :energy-ball :facade :feint :final-gambit :frustration :gastro-acid :giga-drain :guard-split :guard-swap :hidden-power :leech-life :mega-drain :mind-reader :mud-slap :protect :pursuit :rain-dance :recover :rest :return :round :signal-beam :sleep-talk :sludge-bomb :snore :spikes :struggle-bug :substitute :swagger :toxic :venoshock :yawn]

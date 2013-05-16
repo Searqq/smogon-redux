@@ -22,7 +22,7 @@
   :weight [33.5]
   :height [1.1])
 
-(deffamilygraph (familychain :buizel :floatzel))
+(deffamily (familychain :buizel :floatzel))
 
 (deflearnset :dp
   :buizel [:agility :aqua-jet :attract :baton-pass :blizzard :brick-break :brine :bulk-up :captivate :dig :dive :double-team :doubleslap :endure :facade :focus-punch :frustration :fury-cutter :fury-swipes :growl :hail :headbutt :hidden-power :ice-beam :ice-punch :icy-wind :iron-tail :mud-slap :natural-gift :odor-sleuth :protect :pursuit :quick-attack :rain-dance :razor-wind :rest :return :rock-smash :rock-tomb :secret-power :slash :sleep-talk :snore :sonicboom :strength :substitute :surf :swagger :swift :toxic :water-gun :water-pulse :water-sport :waterfall :whirlpool]

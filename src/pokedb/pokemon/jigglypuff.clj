@@ -37,7 +37,7 @@
   :weight [12]
   :height [1])
 
-(deffamilygraph (familychain :igglybuff :jigglypuff :wigglytuff))
+(deffamily (familychain :igglybuff :jigglypuff :wigglytuff))
 
 (deflearnset :rb
   :jigglypuff [:bide :blizzard :body-slam :bubblebeam :counter :defense-curl :disable :double-edge :double-team :doubleslap :fire-blast :flash :ice-beam :mega-kick :mega-punch :mimic :pound :psychic :psywave :rage :reflect :rest :seismic-toss :sing :skull-bash :solarbeam :strength :submission :substitute :take-down :teleport :thunder :thunder-wave :thunderbolt :toxic :tri-attack :water-gun]

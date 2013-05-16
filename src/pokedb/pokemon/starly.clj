@@ -32,7 +32,7 @@
   :weight [24.9]
   :height [1.2])
 
-(deffamilygraph (familychain :starly :staravia :staraptor))
+(deffamily (familychain :starly :staravia :staraptor))
 
 
 

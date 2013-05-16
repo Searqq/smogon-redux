@@ -35,7 +35,7 @@
   :weight [1.2]
   :height [0.8])
 
-(deffamilygraph (familychain :nincada [:ninjask :shedinja]))
+(deffamily (familychain :nincada [:ninjask :shedinja]))
 
 (deflearnset :rs
   :nincada [:aerial-ace :cut :dig :double-edge :double-team :endure :facade :faint-attack :false-swipe :flash :frustration :fury-cutter :fury-swipes :giga-drain :gust :harden :hidden-power :leech-life :metal-claw :mimic :mind-reader :mud-slap :protect :rest :return :sand-attack :sandstorm :scratch :secret-power :shadow-ball :silver-wind :sleep-talk :snore :solarbeam :substitute :sunny-day :swagger :toxic :double-edge :mimic]

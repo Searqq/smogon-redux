@@ -32,7 +32,7 @@
   :weight [94.6]
   :height [1.5])
 
-(deffamilygraph (familychain :oshawott :dewott :samurott))
+(deffamily (familychain :oshawott :dewott :samurott))
 
 (deflearnset :bw
   :oshawott [:aerial-ace :air-slash :aqua-jet :aqua-tail :assurance :attract :blizzard :brine :copycat :covet :cut :detect :dig :dive :double-team :encore :facade :false-swipe :fling :focus-energy :frustration :fury-cutter :grass-knot :hail :helping-hand :hidden-power :hydro-pump :ice-beam :icy-wind :iron-tail :night-slash :protect :rain-dance :razor-shell :rest :retaliate :return :revenge :rock-smash :round :scald :screech :sleep-talk :snore :substitute :surf :swagger :swords-dance :tackle :tail-whip :taunt :toxic :trump-card :water-gun :water-pledge :water-pulse :water-sport :waterfall :x-scissor]

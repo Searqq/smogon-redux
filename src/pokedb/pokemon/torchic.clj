@@ -35,7 +35,7 @@
   :weight [52]
   :height [1.9])
 
-(deffamilygraph (familychain :torchic :combusken :blaziken))
+(deffamily (familychain :torchic :combusken :blaziken))
 
 
 

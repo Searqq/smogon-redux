@@ -24,7 +24,7 @@
   :weight [460]
   :height [2.1])
 
-(deffamilygraph (familychain :munchlax :snorlax))
+(deffamily (familychain :munchlax :snorlax))
 
 (deflearnset :rb
   :snorlax [:amnesia :bide :blizzard :body-slam :bubblebeam :counter :double-edge :double-team :earthquake :fire-blast :fissure :harden :headbutt :hyper-beam :ice-beam :mega-kick :mega-punch :metronome :mimic :pay-day :psychic :psywave :rage :reflect :rest :rock-slide :seismic-toss :selfdestruct :skull-bash :solarbeam :strength :submission :substitute :surf :take-down :thunder :thunderbolt :toxic :water-gun])

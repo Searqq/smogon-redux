@@ -24,7 +24,7 @@
   :weight [253.8]
   :height [2.3])
 
-(deffamilygraph (familychain :makuhita :hariyama))
+(deffamily (familychain :makuhita :hariyama))
 
 (deflearnset :rs
   :makuhita [:arm-thrust :attract :belly-drum :body-slam :brick-break :bulk-up :counter :cross-chop :detect :dig :double-edge :double-team :dynamicpunch :earthquake :endure :facade :faint-attack :fake-out :fire-punch :focus-energy :focus-punch :foresight :frustration :helping-hand :hidden-power :ice-punch :knock-off :mega-kick :mega-punch :metronome :mimic :mud-slap :protect :rain-dance :rest :return :revenge :reversal :rock-slide :rock-smash :rock-tomb :sand-attack :secret-power :seismic-toss :sleep-talk :smellingsalt :snore :strength :substitute :sunny-day :surf :swagger :tackle :thunderpunch :toxic :vital-throw :whirlwind :body-slam :double-edge :mimic :refresh]

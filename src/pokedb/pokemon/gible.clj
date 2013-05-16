@@ -32,7 +32,7 @@
   :weight [95]
   :height [1.9])
 
-(deffamilygraph (familychain :gible :gabite :garchomp))
+(deffamily (familychain :gible :gabite :garchomp))
 
 (deflearnset :dp
   :gible [:aerial-ace :attract :body-slam :captivate :cut :dig :double-edge :double-team :draco-meteor :dragon-claw :dragon-pulse :dragon-rage :dragon-rush :dragonbreath :earth-power :earthquake :endure :facade :fire-blast :flamethrower :frustration :fury-cutter :headbutt :hidden-power :iron-head :metal-claw :mud-shot :mud-slap :natural-gift :outrage :protect :rain-dance :rest :return :roar :rock-climb :rock-slide :rock-smash :rock-tomb :sand-attack :sand-tomb :sandstorm :scary-face :secret-power :shadow-claw :slash :sleep-talk :snore :stealth-rock :stone-edge :strength :substitute :sunny-day :swagger :swift :tackle :take-down :thrash :toxic :twister]

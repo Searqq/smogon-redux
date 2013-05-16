@@ -14,7 +14,7 @@
   :weight [58]
   :height [1.2])
 
-(deffamilygraph (familychain :smeargle))
+(deffamily (familychain :smeargle))
 
 (deflearnset :gs
   :smeargle [:sketch])

@@ -22,7 +22,7 @@
   :weight [110]
   :height [1])
 
-(deffamilygraph (familychain :ferroseed :ferrothorn))
+(deffamily (familychain :ferroseed :ferrothorn))
 
 (deflearnset :bw
   :ferroseed [:bullet-seed :curse :double-team :endeavor :energy-ball :explosion :facade :flash :flash-cannon :frustration :giga-drain :gravity :gyro-ball :harden :hidden-power :hone-claws :ingrain :iron-defense :iron-head :leech-seed :magnet-rise :metal-claw :mirror-shot :payback :pin-missile :poison-jab :protect :rest :return :rock-climb :rock-polish :rock-smash :rollout :round :seed-bomb :selfdestruct :sleep-talk :snore :solarbeam :spikes :stealth-rock :substitute :sunny-day :swagger :tackle :thunder-wave :thunderbolt :toxic :worry-seed]

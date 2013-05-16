@@ -35,7 +35,7 @@
   :weight [22.6]
   :height [1.8])
 
-(deffamilygraph (familychain :clamperl [:huntail :gorebyss]))
+(deffamily (familychain :clamperl [:huntail :gorebyss]))
 
 (deflearnset :rs
   :clamperl [:attract :barrier :blizzard :body-slam :clamp :confuse-ray :dive :double-edge :double-team :endure :facade :frustration :hail :hidden-power :ice-beam :icy-wind :iron-defense :mimic :mud-sport :protect :rain-dance :refresh :rest :return :secret-power :sleep-talk :snore :substitute :supersonic :surf :swagger :toxic :water-gun :water-pulse :waterfall :whirlpool]

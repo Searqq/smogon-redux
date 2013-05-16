@@ -22,7 +22,7 @@
   :weight [92.9]
   :height [1.3])
 
-(deffamilygraph (familychain :darumaka :darmanitan))
+(deffamily (familychain :darumaka :darmanitan))
 
 (deflearnset :bw
   :darumaka [:attract :belly-drum :brick-break :dig :double-team :encore :endeavor :endure :facade :fire-blast :fire-fang :fire-punch :flame-charge :flame-wheel :flamethrower :flare-blitz :fling :focus-energy :focus-punch :frustration :grass-knot :gyro-ball :hammer-arm :headbutt :heat-wave :hidden-power :incinerate :overheat :protect :rage :rest :return :roar :rock-slide :rock-smash :rock-tomb :rollout :round :sleep-talk :snore :solarbeam :strength :substitute :sunny-day :superpower :swagger :tackle :take-down :taunt :thief :thrash :toxic :u-turn :uproar :will-o-wisp :work-up :yawn :zen-headbutt]

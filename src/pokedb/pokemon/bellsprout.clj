@@ -37,7 +37,7 @@
   :weight [15.5]
   :height [1.7])
 
-(deffamilygraph (familychain :bellsprout :weepinbell :victreebel))
+(deffamily (familychain :bellsprout :weepinbell :victreebel))
 
 (deflearnset :rb
   :bellsprout [:acid :bide :cut :double-edge :double-team :growth :mega-drain :mimic :poisonpowder :rage :razor-leaf :reflect :rest :slam :sleep-powder :solarbeam :stun-spore :substitute :swords-dance :take-down :toxic :vine-whip :wrap :lovely-kiss :sweet-kiss]

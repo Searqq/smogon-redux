@@ -32,7 +32,7 @@
   :weight [29]
   :height [1.2])
 
-(deffamilygraph (familychain :pidove :tranquill :unfezant))
+(deffamily (familychain :pidove :tranquill :unfezant))
 
 (deflearnset :bw
   :pidove [:aerial-ace :air-cutter :air-slash :attract :bestow :detect :double-team :echoed-voice :facade :featherdance :fly :frustration :growl :gust :heat-wave :hidden-power :hypnosis :leer :lucky-chant :morning-sun :pluck :protect :quick-attack :rain-dance :razor-wind :rest :return :roost :round :sky-attack :sleep-talk :snore :steel-wing :substitute :sunny-day :swagger :tailwind :taunt :toxic :u-turn :uproar :wish :work-up]

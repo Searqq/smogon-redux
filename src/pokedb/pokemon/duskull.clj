@@ -34,7 +34,7 @@
   :weight [106.6]
   :height [2.2])
 
-(deffamilygraph (familychain :duskull :dusclops :dusknoir))
+(deffamily (familychain :duskull :dusclops :dusknoir))
 
 (deflearnset :rs
   :duskull [:astonish :attract :blizzard :body-slam :calm-mind :confuse-ray :curse :destiny-bond :disable :double-edge :double-team :dream-eater :endure :facade :faint-attack :flash :foresight :frustration :future-sight :grudge :hidden-power :ice-beam :icy-wind :imprison :leer :mean-look :memento :mimic :night-shade :nightmare :pain-split :protect :psych-up :psychic :pursuit :rain-dance :rest :return :secret-power :shadow-ball :skill-swap :sleep-talk :snatch :snore :substitute :sunny-day :swagger :taunt :thief :torment :toxic :will-o-wisp :body-slam :double-edge :helping-hand :icy-wind :mimic :nightmare]

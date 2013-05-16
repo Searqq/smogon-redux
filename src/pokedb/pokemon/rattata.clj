@@ -26,7 +26,7 @@
   :weight [18.5]
   :height [0.7])
 
-(deffamilygraph (familychain :rattata :raticate))
+(deffamily (familychain :rattata :raticate))
 
 (deflearnset :rb
   :rattata [:bide :blizzard :body-slam :bubblebeam :dig :double-edge :double-team :focus-energy :hyper-fang :mimic :quick-attack :rage :rest :skull-bash :substitute :super-fang :swift :tackle :tail-whip :take-down :thunder :thunderbolt :toxic :water-gun]

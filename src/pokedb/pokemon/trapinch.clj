@@ -35,7 +35,7 @@
   :weight [82]
   :height [2])
 
-(deffamilygraph (familychain :trapinch :vibrava :flygon))
+(deffamily (familychain :trapinch :vibrava :flygon))
 
 
 

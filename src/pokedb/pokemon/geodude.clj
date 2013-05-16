@@ -37,7 +37,7 @@
   :weight [300]
   :height [1.4])
 
-(deffamilygraph (familychain :geodude :graveler :golem))
+(deffamily (familychain :geodude :graveler :golem))
 
 (deflearnset :rb
   :geodude [:bide :body-slam :counter :defense-curl :dig :double-edge :double-team :earthquake :explosion :fire-blast :fissure :harden :mega-punch :metronome :mimic :rage :rest :rock-slide :rock-throw :seismic-toss :selfdestruct :strength :submission :substitute :tackle :take-down :toxic :rapid-spin]

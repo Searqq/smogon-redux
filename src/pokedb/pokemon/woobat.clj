@@ -22,7 +22,7 @@
   :weight [10.5]
   :height [0.9])
 
-(deffamilygraph (familychain :woobat :swoobat))
+(deffamily (familychain :woobat :swoobat))
 
 
 

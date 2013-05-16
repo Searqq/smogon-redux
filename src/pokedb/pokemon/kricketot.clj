@@ -22,7 +22,7 @@
   :weight [25.5]
   :height [1])
 
-(deffamilygraph (familychain :kricketot :kricketune))
+(deffamily (familychain :kricketot :kricketune))
 
 (deflearnset :dp
   :kricketot [:bide :bug-bite :endeavor :growl :mud-slap :snore :string-shot :uproar]

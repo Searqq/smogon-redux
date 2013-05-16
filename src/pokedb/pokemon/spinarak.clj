@@ -24,7 +24,7 @@
   :weight [33.5]
   :height [1.1])
 
-(deffamilygraph (familychain :spinarak :ariados))
+(deffamily (familychain :spinarak :ariados))
 
 
 

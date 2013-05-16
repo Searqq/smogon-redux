@@ -27,7 +27,7 @@
   :weight [75.6]
   :height [1.6])
 
-(deffamilygraph (familychain :drowzee :hypno))
+(deffamily (familychain :drowzee :hypno))
 
 (deflearnset :rb
   :drowzee [:bide :body-slam :confusion :counter :disable :double-edge :double-team :dream-eater :flash :headbutt :hypnosis :meditate :mega-kick :mega-punch :metronome :mimic :poison-gas :pound :psychic :psywave :rage :reflect :rest :seismic-toss :skull-bash :submission :substitute :take-down :teleport :thunder-wave :toxic :tri-attack]

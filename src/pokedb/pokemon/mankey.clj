@@ -28,7 +28,7 @@
   :weight [32]
   :height [1])
 
-(deffamilygraph (familychain :mankey :primeape))
+(deffamily (familychain :mankey :primeape))
 
 (deflearnset :rb
   :mankey [:bide :body-slam :counter :dig :double-edge :double-team :focus-energy :fury-swipes :karate-chop :leer :low-kick :mega-kick :mega-punch :metronome :mimic :pay-day :rage :rest :rock-slide :scratch :screech :seismic-toss :skull-bash :strength :submission :substitute :swift :take-down :thrash :thunder :thunderbolt :toxic]

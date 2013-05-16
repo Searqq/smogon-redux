@@ -22,7 +22,7 @@
   :weight [15]
   :height [1.2])
 
-(deffamilygraph (familychain :drifloon :drifblim))
+(deffamily (familychain :drifloon :drifblim))
 
 (deflearnset :dp
   :drifloon [:air-cutter :astonish :attract :baton-pass :body-slam :calm-mind :captivate :charge-beam :constrict :cut :defog :destiny-bond :disable :double-team :dream-eater :embargo :endure :explosion :facade :flash :focus-energy :frustration :gust :gyro-ball :haze :hidden-power :hypnosis :icy-wind :knock-off :magic-coat :memento :minimize :mud-slap :natural-gift :ominous-wind :pain-split :payback :protect :psych-up :psychic :rain-dance :recycle :rest :return :rollout :secret-power :shadow-ball :shock-wave :silver-wind :skill-swap :sleep-talk :snore :spit-up :spite :stockpile :substitute :sucker-punch :sunny-day :swagger :swallow :swift :tailwind :thief :thunder :thunder-wave :thunderbolt :toxic :trick :weather-ball :will-o-wisp]

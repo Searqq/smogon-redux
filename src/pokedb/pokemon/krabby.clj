@@ -26,7 +26,7 @@
   :weight [60]
   :height [1.3])
 
-(deffamilygraph (familychain :krabby :kingler))
+(deffamily (familychain :krabby :kingler))
 
 (deflearnset :rb
   :krabby [:bide :blizzard :body-slam :bubble :bubblebeam :crabhammer :cut :double-edge :double-team :guillotine :harden :ice-beam :leer :mimic :rage :rest :stomp :strength :substitute :surf :swords-dance :take-down :toxic :vicegrip :water-gun]

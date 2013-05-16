@@ -23,7 +23,7 @@
   :weight [4.4]
   :height [0.9])
 
-(deffamilygraph (familychain :misdreavus :mismagius))
+(deffamily (familychain :misdreavus :mismagius))
 
 (deflearnset :gs
   :misdreavus [:attract :confuse-ray :curse :defense-curl :destiny-bond :double-team :dream-eater :endure :flash :frustration :growl :headbutt :hidden-power :mean-look :nightmare :pain-split :perish-song :protect :psybeam :psych-up :psychic :psywave :rain-dance :rest :return :screech :shadow-ball :sleep-talk :snore :spite :sunny-day :swagger :swift :thief :thunder :thunderbolt :toxic :zap-cannon])

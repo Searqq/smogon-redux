@@ -24,7 +24,7 @@
   :weight [20.6]
   :height [1.1])
 
-(deffamilygraph (familychain :swablu :altaria))
+(deffamily (familychain :swablu :altaria))
 
 
 

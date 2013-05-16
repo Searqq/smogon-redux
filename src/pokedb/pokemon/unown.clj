@@ -13,7 +13,7 @@
   :weight [5]
   :height [0.5])
 
-(deffamilygraph (familychain :unown))
+(deffamily (familychain :unown))
 
 (deflearnset :gs
   :unown [:hidden-power])

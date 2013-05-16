@@ -36,7 +36,7 @@
   :weight [282.8]
   :height [2.4])
 
-(deffamilygraph (familychain :rhyhorn :rhydon :rhyperior))
+(deffamily (familychain :rhyhorn :rhydon :rhyperior))
 
 (deflearnset :rb
   :rhyhorn [:bide :body-slam :dig :double-edge :double-team :earthquake :fire-blast :fissure :fury-attack :horn-attack :horn-drill :leer :mimic :rage :rest :rock-slide :skull-bash :stomp :strength :substitute :tail-whip :take-down :thunder :thunderbolt :toxic]

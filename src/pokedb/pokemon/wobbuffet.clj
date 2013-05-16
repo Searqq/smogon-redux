@@ -24,7 +24,7 @@
   :weight [28.5]
   :height [1.3])
 
-(deffamilygraph (familychain :wynaut :wobbuffet))
+(deffamily (familychain :wynaut :wobbuffet))
 
 (deflearnset :gs
   :wobbuffet [:counter :destiny-bond :mirror-coat :safeguard])

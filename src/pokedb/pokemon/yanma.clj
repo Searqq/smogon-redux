@@ -23,7 +23,7 @@
   :weight [51.5]
   :height [1.9])
 
-(deffamilygraph (familychain :yanma :yanmega))
+(deffamily (familychain :yanma :yanmega))
 
 
 

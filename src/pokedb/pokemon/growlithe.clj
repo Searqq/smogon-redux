@@ -26,7 +26,7 @@
   :weight [155]
   :height [1.9])
 
-(deffamilygraph (familychain :growlithe :arcanine))
+(deffamily (familychain :growlithe :arcanine))
 
 (deflearnset :rb
   :growlithe [:agility :bide :bite :body-slam :dig :double-edge :double-team :dragon-rage :ember :fire-blast :flamethrower :leer :mimic :rage :reflect :rest :roar :skull-bash :substitute :swift :take-down :toxic]

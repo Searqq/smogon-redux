@@ -22,7 +22,7 @@
   :weight [187]
   :height [1.3])
 
-(deffamilygraph (familychain :bronzor :bronzong))
+(deffamily (familychain :bronzor :bronzong))
 
 (deflearnset :dp
   :bronzor [:ancientpower :calm-mind :charge-beam :confuse-ray :confusion :double-team :dream-eater :earthquake :endure :extrasensory :facade :faint-attack :flash :flash-cannon :frustration :future-sight :grass-knot :gravity :gyro-ball :heal-block :hidden-power :hypnosis :imprison :iron-defense :light-screen :natural-gift :payback :protect :psych-up :psychic :rain-dance :recycle :reflect :rest :return :rock-polish :rock-slide :rock-tomb :rollout :safeguard :sandstorm :secret-power :shadow-ball :signal-beam :skill-swap :sleep-talk :snore :solarbeam :stealth-rock :substitute :sunny-day :swagger :tackle :toxic :trick :trick-room]

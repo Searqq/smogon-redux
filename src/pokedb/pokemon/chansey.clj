@@ -34,7 +34,7 @@
   :weight [46.8]
   :height [1.5])
 
-(deffamilygraph (familychain :happiny :chansey :blissey))
+(deffamily (familychain :happiny :chansey :blissey))
 
 (deflearnset :rb
   :chansey [:bide :blizzard :body-slam :bubblebeam :counter :defense-curl :double-edge :double-team :doubleslap :egg-bomb :fire-blast :flash :growl :hyper-beam :ice-beam :light-screen :mega-kick :mega-punch :metronome :mimic :minimize :pound :psychic :psywave :rage :reflect :rest :seismic-toss :sing :skull-bash :softboiled :solarbeam :strength :submission :substitute :tail-whip :take-down :teleport :thunder :thunder-wave :thunderbolt :toxic :tri-attack :water-gun])

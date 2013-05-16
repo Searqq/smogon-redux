@@ -22,7 +22,7 @@
   :weight [33]
   :height [1])
 
-(deffamilygraph (familychain :karrablast :escavalier))
+(deffamily (familychain :karrablast :escavalier))
 
 (deflearnset :bw
   :karrablast [:aerial-ace :attract :bug-bite :bug-buzz :counter :cut :double-edge :double-team :endure :energy-ball :facade :faint-attack :false-swipe :flail :frustration :fury-attack :fury-cutter :giga-drain :headbutt :hidden-power :horn-attack :iron-defense :knock-off :leer :megahorn :peck :poison-jab :protect :pursuit :rain-dance :rest :return :round :scary-face :screech :slash :sleep-talk :snore :struggle-bug :substitute :swagger :swords-dance :take-down :toxic :x-scissor]

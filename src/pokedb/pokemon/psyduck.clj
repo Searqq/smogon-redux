@@ -25,7 +25,7 @@
   :weight [76.6]
   :height [1.7])
 
-(deffamilygraph (familychain :psyduck :golduck))
+(deffamily (familychain :psyduck :golduck))
 
 (deflearnset :rb
   :psyduck [:bide :blizzard :body-slam :bubblebeam :confusion :counter :dig :disable :double-edge :double-team :fury-swipes :hydro-pump :ice-beam :mega-kick :mega-punch :mimic :pay-day :rage :rest :scratch :seismic-toss :skull-bash :strength :submission :substitute :surf :swift :tail-whip :take-down :toxic :water-gun :petal-dance :tri-attack]

@@ -22,7 +22,7 @@
   :weight [20.3]
   :height [1.2])
 
-(deffamilygraph (familychain :aipom :ambipom))
+(deffamily (familychain :aipom :ambipom))
 
 (deflearnset :gs
   :aipom [:agility :attract :baton-pass :beat-up :counter :curse :cut :defense-curl :detect :double-team :doubleslap :dream-eater :dynamicpunch :endure :fire-punch :frustration :fury-cutter :fury-swipes :headbutt :hidden-power :ice-punch :iron-tail :mud-slap :nightmare :protect :pursuit :rest :return :rock-smash :sand-attack :scratch :screech :shadow-ball :slam :sleep-talk :snore :spite :strength :sunny-day :swagger :swift :tail-whip :thief :thunder :thunderbolt :thunderpunch :toxic :zap-cannon])

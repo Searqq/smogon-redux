@@ -24,7 +24,7 @@
   :weight [71.5]
   :height [0.9])
 
-(deffamilygraph (familychain :spoink :grumpig))
+(deffamily (familychain :spoink :grumpig))
 
 
 

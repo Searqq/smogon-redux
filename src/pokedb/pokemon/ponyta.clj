@@ -25,7 +25,7 @@
   :weight [95]
   :height [1.7])
 
-(deffamilygraph (familychain :ponyta :rapidash))
+(deffamily (familychain :ponyta :rapidash))
 
 (deflearnset :rb
   :ponyta [:agility :bide :body-slam :double-edge :double-team :ember :fire-blast :fire-spin :growl :horn-drill :mimic :rage :reflect :rest :skull-bash :stomp :substitute :swift :tail-whip :take-down :toxic :low-kick]

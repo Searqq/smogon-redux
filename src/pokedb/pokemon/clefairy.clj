@@ -39,7 +39,7 @@
   :weight [40]
   :height [1.3])
 
-(deffamilygraph (familychain :cleffa :clefairy :clefable))
+(deffamily (familychain :cleffa :clefairy :clefable))
 
 (deflearnset :rb
   :clefairy [:bide :blizzard :body-slam :bubblebeam :counter :defense-curl :double-edge :double-team :doubleslap :fire-blast :flash :growl :ice-beam :light-screen :mega-kick :mega-punch :metronome :mimic :minimize :pound :psychic :psywave :rage :reflect :rest :seismic-toss :sing :skull-bash :solarbeam :strength :submission :substitute :take-down :teleport :thunder :thunder-wave :thunderbolt :toxic :tri-attack :water-gun :dizzy-punch :scary-face :swift :petal-dance]

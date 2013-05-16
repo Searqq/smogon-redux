@@ -37,7 +37,7 @@
   :weight [79.5]
   :height [2])
 
-(deffamilygraph (familychain :slowpoke [:slowbro :slowking]))
+(deffamily (familychain :slowpoke [:slowbro :slowking]))
 
 (deflearnset :rb
   :slowpoke [:amnesia :bide :blizzard :body-slam :bubblebeam :confusion :dig :disable :double-edge :double-team :earthquake :fire-blast :fissure :flash :growl :headbutt :ice-beam :mimic :pay-day :psychic :psywave :rage :reflect :rest :skull-bash :strength :substitute :surf :swift :take-down :teleport :thunder-wave :toxic :tri-attack :water-gun]

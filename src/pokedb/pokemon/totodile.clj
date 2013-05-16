@@ -35,7 +35,7 @@
   :weight [88.8]
   :height [2.3])
 
-(deffamilygraph (familychain :totodile :croconaw :feraligatr))
+(deffamily (familychain :totodile :croconaw :feraligatr))
 
 
 

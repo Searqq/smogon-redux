@@ -22,7 +22,7 @@
   :weight [81.1]
   :height [1.6])
 
-(deffamilygraph (familychain :zorua :zoroark))
+(deffamily (familychain :zorua :zoroark))
 
 
 

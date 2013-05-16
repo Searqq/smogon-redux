@@ -22,7 +22,7 @@
   :weight [38.5]
   :height [1.2])
 
-(deffamilygraph (familychain :combee :vespiquen))
+(deffamily (familychain :combee :vespiquen))
 
 (deflearnset :dp
   :combee [:air-cutter :bug-bite :endeavor :gust :mud-slap :ominous-wind :snore :string-shot :sweet-scent :swift :tailwind]

@@ -41,7 +41,7 @@
   :weight [39.5]
   :height [1.5])
 
-(deffamilygraph (familychain :pidgey :pidgeotto :pidgeot))
+(deffamily (familychain :pidgey :pidgeotto :pidgeot))
 
 (deflearnset :rb
   :pidgey [:agility :bide :double-edge :double-team :fly :gust :mimic :mirror-move :quick-attack :rage :razor-wind :reflect :rest :sand-attack :sky-attack :substitute :swift :take-down :toxic :whirlwind :wing-attack]

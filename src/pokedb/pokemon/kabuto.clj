@@ -26,7 +26,7 @@
   :weight [40.5]
   :height [1.3])
 
-(deffamilygraph (familychain :kabuto :kabutops))
+(deffamily (familychain :kabuto :kabutops))
 
 (deflearnset :rb
   :kabuto [:absorb :bide :blizzard :body-slam :bubblebeam :double-edge :double-team :harden :hydro-pump :ice-beam :leer :mimic :rage :reflect :rest :scratch :slash :substitute :surf :take-down :toxic :water-gun]

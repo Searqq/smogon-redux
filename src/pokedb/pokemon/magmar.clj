@@ -35,7 +35,7 @@
   :weight [68]
   :height [1.6])
 
-(deffamilygraph (familychain :magby :magmar :magmortar))
+(deffamily (familychain :magby :magmar :magmortar))
 
 (deflearnset :rb
   :magmar [:bide :body-slam :confuse-ray :counter :double-edge :double-team :ember :fire-blast :fire-punch :flamethrower :hyper-beam :leer :mega-kick :mega-punch :metronome :mimic :psychic :psywave :rage :rest :seismic-toss :skull-bash :smog :smokescreen :strength :submission :substitute :take-down :teleport :toxic])

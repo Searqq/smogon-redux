@@ -24,7 +24,7 @@
   :weight [40.8]
   :height [1.6])
 
-(deffamilygraph (familychain :hoothoot :noctowl))
+(deffamily (familychain :hoothoot :noctowl))
 
 (deflearnset :gs
   :hoothoot [:attract :confusion :curse :detect :double-team :dream-eater :endure :faint-attack :flash :fly :foresight :frustration :growl :hidden-power :hypnosis :mirror-move :mud-slap :nightmare :peck :protect :reflect :rest :return :sky-attack :sleep-talk :snore :steel-wing :sunny-day :supersonic :swagger :swift :tackle :take-down :thief :toxic :whirlwind :wing-attack]

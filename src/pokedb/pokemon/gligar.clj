@@ -23,7 +23,7 @@
   :weight [42.5]
   :height [2])
 
-(deffamilygraph (familychain :gligar :gliscor))
+(deffamily (familychain :gligar :gliscor))
 
 (deflearnset :gs
   :gligar [:attract :counter :curse :cut :detect :double-team :endure :faint-attack :frustration :fury-cutter :guillotine :harden :headbutt :hidden-power :iron-tail :metal-claw :poison-sting :protect :quick-attack :razor-wind :rest :return :rock-smash :sand-attack :sandstorm :screech :slash :sleep-talk :sludge-bomb :snore :strength :sunny-day :swagger :swift :thief :toxic :wing-attack])

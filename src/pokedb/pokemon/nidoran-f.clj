@@ -40,7 +40,7 @@
   :weight [60]
   :height [1.3])
 
-(deffamilygraph (familychain :nidoran-f :nidorina :nidoqueen))
+(deffamily (familychain :nidoran-f :nidorina :nidoqueen))
 
 (deflearnset :rb
   :nidoran-f [:bide :bite :blizzard :body-slam :double-edge :double-kick :double-team :fury-swipes :growl :mimic :poison-sting :rage :reflect :rest :scratch :skull-bash :substitute :tackle :tail-whip :take-down :thunder :thunderbolt :toxic :lovely-kiss :sweet-kiss :moonlight]

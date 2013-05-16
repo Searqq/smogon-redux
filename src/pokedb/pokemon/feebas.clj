@@ -24,7 +24,7 @@
   :weight [162]
   :height [6.2])
 
-(deffamilygraph (familychain :feebas :milotic))
+(deffamily (familychain :feebas :milotic))
 
 (deflearnset :rs
   :feebas [:attract :blizzard :confuse-ray :dive :double-edge :double-team :dragonbreath :endure :facade :flail :frustration :hail :hidden-power :hypnosis :ice-beam :icy-wind :light-screen :mimic :mirror-coat :mud-sport :protect :rain-dance :rest :return :secret-power :sleep-talk :snore :splash :substitute :surf :swagger :swift :tackle :toxic :water-pulse :waterfall :double-edge :icy-wind :mimic]

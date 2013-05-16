@@ -22,7 +22,7 @@
   :weight [29.9]
   :height [0.9])
 
-(deffamilygraph (familychain :shellos :gastrodon))
+(deffamily (familychain :shellos :gastrodon))
 
 (deflearnset :dp
   :shellos [:amnesia :ancientpower :attract :blizzard :body-slam :brine :captivate :counter :curse :dive :double-team :earth-power :endure :facade :fissure :frustration :hail :harden :headbutt :hidden-power :ice-beam :icy-wind :memento :mirror-coat :mud-bomb :mud-slap :mud-sport :muddy-water :natural-gift :pain-split :protect :rain-dance :recover :rest :return :secret-power :sleep-talk :sludge :snore :spit-up :stockpile :string-shot :substitute :surf :swagger :swallow :toxic :trump-card :water-pulse :whirlpool :yawn]

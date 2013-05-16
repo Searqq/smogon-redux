@@ -11,7 +11,7 @@
   :weight [320]
   :height [3.2])
 
-(deffamilygraph (familychain :arceus))
+(deffamily (familychain :arceus))
 
 (deflearnset :dp
   :arceus [:aerial-ace :ancientpower :aqua-tail :avalanche :blizzard :brick-break :brine :bullet-seed :calm-mind :charge-beam :cosmic-power :cut :dark-pulse :defog :dive :double-team :draco-meteor :dragon-claw :dragon-pulse :dream-eater :earth-power :earthquake :endure :energy-ball :extremespeed :facade :fire-blast :flamethrower :flash :flash-cannon :fly :focus-blast :frustration :fury-cutter :future-sight :giga-drain :giga-impact :grass-knot :gravity :hail :headbutt :heat-wave :hidden-power :hyper-beam :hyper-voice :ice-beam :icy-wind :iron-defense :iron-head :iron-tail :judgment :last-resort :light-screen :magic-coat :mud-slap :natural-gift :ominous-wind :outrage :overheat :payback :perish-song :poison-jab :protect :psych-up :psychic :punishment :rain-dance :recover :recycle :reflect :refresh :rest :return :roar :roar-of-time :rock-climb :rock-slide :rock-smash :rock-tomb :safeguard :sandstorm :secret-power :seismic-toss :shadow-ball :shadow-claw :shadow-force :shock-wave :signal-beam :silver-wind :sleep-talk :sludge-bomb :snore :solarbeam :spacial-rend :stealth-rock :stone-edge :strength :substitute :sunny-day :surf :swagger :swift :swords-dance :tailwind :thunder :thunder-wave :thunderbolt :toxic :trick :trick-room :twister :water-pulse :waterfall :whirlpool :will-o-wisp :x-scissor :zen-headbutt])

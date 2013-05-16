@@ -22,7 +22,7 @@
   :weight [149.5]
   :height [1.3])
 
-(deffamilygraph (familychain :shieldon :bastiodon))
+(deffamily (familychain :shieldon :bastiodon))
 
 (deflearnset :dp
   :shieldon [:ancientpower :attract :blizzard :body-slam :captivate :counter :curse :dig :double-edge :double-team :earth-power :earthquake :endure :facade :fire-blast :fissure :flamethrower :flash-cannon :focus-energy :frustration :headbutt :hidden-power :ice-beam :iron-defense :iron-head :iron-tail :magnet-rise :metal-burst :metal-sound :mud-slap :natural-gift :protect :rain-dance :rest :return :roar :rock-blast :rock-polish :rock-slide :rock-smash :rock-tomb :sandstorm :scary-face :screech :secret-power :shock-wave :sleep-talk :snore :stealth-rock :stone-edge :strength :substitute :sunny-day :swagger :tackle :take-down :taunt :thunder :thunderbolt :torment :toxic]

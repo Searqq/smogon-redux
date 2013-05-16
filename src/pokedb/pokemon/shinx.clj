@@ -32,7 +32,7 @@
   :weight [42]
   :height [1.4])
 
-(deffamilygraph (familychain :shinx :luxio :luxray))
+(deffamily (familychain :shinx :luxio :luxray))
 
 (deflearnset :dp
   :shinx [:attract :bite :captivate :charge :charge-beam :crunch :discharge :double-team :endure :facade :fire-fang :flash :frustration :fury-cutter :headbutt :hidden-power :howl :ice-fang :iron-tail :leer :light-screen :magnet-rise :mud-slap :natural-gift :night-slash :protect :quick-attack :rain-dance :rest :return :roar :scary-face :secret-power :shock-wave :signal-beam :sleep-talk :snore :spark :strength :substitute :swagger :swift :tackle :take-down :thief :thunder :thunder-fang :thunder-wave :thunderbolt :toxic]

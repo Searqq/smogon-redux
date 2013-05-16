@@ -22,7 +22,7 @@
   :weight [27]
   :height [1.1])
 
-(deffamilygraph (familychain :patrat :watchog))
+(deffamily (familychain :patrat :watchog))
 
 (deflearnset :bw
   :patrat [:after-you :aqua-tail :assurance :attract :baton-pass :bide :bite :covet :crunch :cut :detect :dig :double-team :endeavor :facade :flail :fling :foresight :frustration :grass-knot :gunk-shot :helping-hand :hidden-power :hyper-fang :hypnosis :iron-tail :last-resort :leer :low-kick :mean-look :protect :pursuit :rain-dance :rest :retaliate :return :revenge :round :sand-attack :screech :seed-bomb :shadow-ball :slam :sleep-talk :snore :substitute :sunny-day :super-fang :swagger :swords-dance :tackle :thunderbolt :toxic :work-up :zen-headbutt]

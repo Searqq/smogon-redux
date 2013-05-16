@@ -11,7 +11,7 @@
   :weight [1.4]
   :height [0.3])
 
-(deffamilygraph (familychain :manaphy))
+(deffamily (familychain :manaphy))
 
 (deflearnset :dp
   :manaphy [:acid-armor :ancientpower :aqua-ring :blizzard :bounce :brine :bubble :bubblebeam :calm-mind :charm :dive :double-team :endure :energy-ball :facade :flash :fling :frustration :giga-impact :grass-knot :hail :heal-bell :heart-swap :helping-hand :hidden-power :hyper-beam :ice-beam :icy-wind :knock-off :last-resort :light-screen :mud-slap :natural-gift :protect :psych-up :psychic :rain-dance :reflect :rest :return :safeguard :secret-power :shadow-ball :signal-beam :skill-swap :sleep-talk :snore :substitute :supersonic :surf :swagger :swift :tail-glow :toxic :u-turn :uproar :water-pulse :water-sport :waterfall :whirlpool])

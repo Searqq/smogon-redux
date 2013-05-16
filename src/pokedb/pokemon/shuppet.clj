@@ -25,7 +25,7 @@
   :weight [12.5]
   :height [1.1])
 
-(deffamilygraph (familychain :shuppet :banette))
+(deffamily (familychain :shuppet :banette))
 
 (deflearnset :rs
   :shuppet [:astonish :attract :body-slam :calm-mind :curse :destiny-bond :disable :double-edge :double-team :dream-eater :endure :facade :faint-attack :flash :foresight :frustration :grudge :hidden-power :icy-wind :imprison :knock-off :mimic :night-shade :nightmare :protect :psych-up :psychic :rain-dance :rest :return :screech :secret-power :shadow-ball :shock-wave :skill-swap :sleep-talk :snatch :snore :spite :substitute :sunny-day :swagger :taunt :thief :thunder :thunder-wave :thunderbolt :torment :toxic :will-o-wisp :body-slam :double-edge :icy-wind :mimic :nightmare]

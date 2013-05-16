@@ -32,7 +32,7 @@
   :weight [57.5]
   :height [1.3])
 
-(deffamilygraph (familychain :vanillite :vanillish :vanilluxe))
+(deffamily (familychain :vanillite :vanillish :vanilluxe))
 
 
 

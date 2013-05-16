@@ -27,7 +27,7 @@
   :weight [40.6]
   :height [1.4])
 
-(deffamilygraph (familychain :smoochum :jynx))
+(deffamily (familychain :smoochum :jynx))
 
 (deflearnset :rb
   :jynx [:bide :blizzard :body-slam :bubblebeam :counter :double-edge :double-team :doubleslap :hyper-beam :ice-beam :ice-punch :lick :lovely-kiss :mega-kick :mega-punch :metronome :mimic :pound :psychic :psywave :rage :reflect :rest :seismic-toss :skull-bash :submission :substitute :take-down :teleport :thrash :toxic :water-gun])

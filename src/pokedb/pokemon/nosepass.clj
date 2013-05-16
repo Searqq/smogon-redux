@@ -23,7 +23,7 @@
   :weight [340]
   :height [1.4])
 
-(deffamilygraph (familychain :nosepass :probopass))
+(deffamily (familychain :nosepass :probopass))
 
 (deflearnset :rs
   :nosepass [:attract :block :body-slam :defense-curl :double-edge :double-team :dynamicpunch :earthquake :endure :explosion :facade :fire-punch :frustration :harden :hidden-power :ice-punch :lock-on :magnitude :mimic :mud-slap :protect :rest :return :rock-slide :rock-smash :rock-throw :rock-tomb :rollout :sandstorm :secret-power :selfdestruct :shock-wave :sleep-talk :snore :strength :substitute :sunny-day :swagger :tackle :taunt :thunder :thunder-wave :thunderbolt :thunderpunch :torment :toxic :zap-cannon :body-slam :helping-hand :mimic :selfdestruct])

@@ -23,7 +23,7 @@
   :height [1])
 
 
-(deffamilygraph (familychain :bidoof :bibarel))
+(deffamily (familychain :bidoof :bibarel))
 
 (deflearnset :dp
   :bidoof [:amnesia :aqua-tail :attract :blizzard :captivate :charge-beam :curse :cut :defense-curl :dig :double-edge :double-team :endure :facade :frustration :fury-cutter :fury-swipes :grass-knot :growl :headbutt :hidden-power :hyper-fang :ice-beam :icy-wind :iron-tail :last-resort :mud-slap :natural-gift :odor-sleuth :pluck :protect :quick-attack :rain-dance :rest :return :rock-smash :rollout :secret-power :shadow-ball :shock-wave :sleep-talk :snore :stealth-rock :substitute :sunny-day :super-fang :superpower :swagger :swift :tackle :take-down :taunt :thief :thunder :thunder-wave :thunderbolt :toxic :water-sport :yawn]

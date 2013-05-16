@@ -22,7 +22,7 @@
   :weight [135]
   :height [2.2])
 
-(deffamilygraph (familychain :frillish :jellicent))
+(deffamily (familychain :frillish :jellicent))
 
 (deflearnset :bw
   :frillish [:absorb :acid-armor :attract :bind :blizzard :brine :bubble :bubblebeam :confuse-ray :constrict :dark-pulse :dive :double-team :dream-eater :energy-ball :facade :flash :frustration :giga-drain :hail :hex :hidden-power :hydro-pump :ice-beam :icy-wind :magic-coat :mist :night-shade :ominous-wind :pain-split :protect :psych-up :psychic :rain-dance :recover :rest :return :round :safeguard :scald :shadow-ball :sleep-talk :sludge-bomb :sludge-wave :snore :spite :substitute :surf :swagger :taunt :toxic :trick :trick-room :water-pulse :water-sport :water-spout :waterfall :will-o-wisp :wring-out]

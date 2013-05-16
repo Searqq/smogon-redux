@@ -67,7 +67,7 @@
   :weight [0.3]
   :height [0.3])
 
-(deffamilygraph (familyclique :rotom :rotom-fan :rotom-frost
+(deffamily (familyclique :rotom :rotom-fan :rotom-frost
                               :rotom-heat :rotom-mow :rotom-wash))
 
 (deflearnset :dp

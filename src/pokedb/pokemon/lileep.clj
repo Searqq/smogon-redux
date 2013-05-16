@@ -24,7 +24,7 @@
   :weight [60.4]
   :height [1.5])
 
-(deffamilygraph (familychain :lileep :cradily))
+(deffamily (familychain :lileep :cradily))
 
 (deflearnset :rs
   :lileep [:acid :amnesia :ancientpower :astonish :attract :barrier :body-slam :bullet-seed :confuse-ray :constrict :double-edge :double-team :endure :facade :frustration :giga-drain :hidden-power :ingrain :mimic :mirror-coat :mud-slap :protect :psych-up :recover :rest :return :rock-slide :sandstorm :secret-power :sleep-talk :sludge-bomb :snore :solarbeam :spit-up :stockpile :substitute :sunny-day :swagger :swallow :toxic :body-slam :double-edge :mimic]

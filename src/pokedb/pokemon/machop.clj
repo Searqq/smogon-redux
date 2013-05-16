@@ -40,7 +40,7 @@
   :weight [130]
   :height [1.6])
 
-(deffamilygraph (familychain :machop :machoke :machamp))
+(deffamily (familychain :machop :machoke :machamp))
 
 (deflearnset :rb
   :machop [:bide :body-slam :counter :dig :double-edge :double-team :earthquake :fire-blast :fissure :focus-energy :karate-chop :leer :low-kick :mega-kick :mega-punch :metronome :mimic :rage :rest :rock-slide :seismic-toss :skull-bash :strength :submission :substitute :take-down :toxic :false-swipe :thrash]

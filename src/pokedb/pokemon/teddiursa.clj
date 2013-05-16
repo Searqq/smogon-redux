@@ -26,7 +26,7 @@
   :weight [125.8]
   :height [1.8])
 
-(deffamilygraph (familychain :teddiursa :ursaring))
+(deffamily (familychain :teddiursa :ursaring))
 
 
 

@@ -35,7 +35,7 @@
   :weight [84]
   :height [1.5])
 
-(deffamilygraph (familychain :whismur :loudred :exploud))
+(deffamily (familychain :whismur :loudred :exploud))
 
 
 (deflearnset :rs

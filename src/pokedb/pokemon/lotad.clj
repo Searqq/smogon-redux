@@ -35,7 +35,7 @@
   :weight [55]
   :height [1.5])
 
-(deffamilygraph (familychain :lotad :lombre :ludicolo))
+(deffamily (familychain :lotad :lombre :ludicolo))
 
 (deflearnset :rs
   :lotad [:absorb :astonish :attract :blizzard :body-slam :bullet-seed :double-edge :double-team :endure :facade :flail :flash :frustration :giga-drain :growl :hail :hidden-power :ice-beam :icy-wind :leech-seed :mega-drain :mimic :mist :nature-power :protect :rain-dance :razor-leaf :rest :return :secret-power :sleep-talk :snore :solarbeam :substitute :sunny-day :surf :swagger :sweet-scent :swords-dance :synthesis :thief :toxic :water-gun :water-pulse :body-slam :double-edge :icy-wind :mimic]

@@ -45,7 +45,7 @@
   :weight [52]
   :height [1.6])
 
-(deffamilygraph (familychain :ralts :kirlia [:gardevoir :gallade]))
+(deffamily (familychain :ralts :kirlia [:gardevoir :gallade]))
 
 (deflearnset :rs
   :ralts [:attract :body-slam :calm-mind :confusion :defense-curl :destiny-bond :disable :double-edge :double-team :dream-eater :endure :facade :fire-punch :flash :frustration :future-sight :growl :hidden-power :hypnosis :ice-punch :icy-wind :imprison :light-screen :mean-look :memento :mimic :mud-slap :nightmare :protect :psych-up :psychic :rain-dance :reflect :rest :return :safeguard :secret-power :shadow-ball :shock-wave :skill-swap :sleep-talk :snatch :snore :substitute :sunny-day :swagger :taunt :teleport :thief :thunder-wave :thunderbolt :thunderpunch :torment :toxic :will-o-wisp :body-slam :double-edge :icy-wind :mimic :nightmare :shock-wave :sing]

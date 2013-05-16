@@ -22,7 +22,7 @@
   :weight [107.3]
   :height [1.9])
 
-(deffamilygraph (familychain :trubbish :garbodor))
+(deffamily (familychain :trubbish :garbodor))
 
 
 

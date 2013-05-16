@@ -24,7 +24,7 @@
   :weight [398]
   :height [14.5])
 
-(deffamilygraph (familychain :wailmer :wailord))
+(deffamily (familychain :wailmer :wailord))
 
 
 

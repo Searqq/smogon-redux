@@ -1,7 +1,7 @@
 
 (in-ns 'smogon.dex)
 
-(deffamilygraph (familychain :bulbasaur :ivysaur :venusaur))
+(deffamily (familychain :bulbasaur :ivysaur :venusaur))
 
 (defpokemon :bulbasaur
   :name "Bulbasaur"
