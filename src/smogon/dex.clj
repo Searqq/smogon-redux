@@ -70,18 +70,12 @@
         gens (gens-since begin-gen)] 
     (fill-gens gens gen-map)))
 
-;; Relations
-;;
-
-(defmacro defgenrel [name & args]
-  `(lhacks/defrel ~name ^:index g# ~@args))
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Types
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defgenrel type-r ^:index t)
-(defgenrel type-effective-against-r ^:index t1 ^:index t2 modifier)
+(lhacks/defrel type-r ^:index g ^:index t)
+(lhacks/defrel type-effective-against-r ^:index g ^:index t1 ^:index t2 modifier)
 
 (defn type?
   ([t]
@@ -96,7 +90,7 @@
 ;; Moves
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defgenrel move-r ^:index m)
+(lhacks/defrel move-r ^:index g ^:index m)
 
 (defn move?
   ([m]
@@ -111,7 +105,7 @@
 ;; Abilities
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defgenrel ability-r ^:index a)
+(lhacks/defrel ability-r ^:index g ^:index a)
 
 (defn ability?
   ([a]
@@ -126,7 +120,7 @@
 ;; Items
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defgenrel item-r i)
+(lhacks/defrel item-r ^:index g i)
 
 (defn item?
   ([i]
@@ -140,18 +134,18 @@
 
 (def official-gens-without-abilities #{:rb :gs})
 
-(defgenrel pokemon-r ^:index x)
-(defgenrel pokemon-type-r ^:index p ^:index x)
-(defgenrel pokemon-ability-r ^:index p ^:index x)
-(defgenrel pokemon-egggroup-r ^:index p ^:index x)
-(defgenrel pokemon-hp-r ^:index p x)
-(defgenrel pokemon-atk-r ^:index p x)
-(defgenrel pokemon-def-r ^:index p x)
-(defgenrel pokemon-spatk-r ^:index p x)
-(defgenrel pokemon-spdef-r ^:index p x)
-(defgenrel pokemon-speed-r ^:index p x)
-(defgenrel pokemon-weight-r ^:index p x)
-(defgenrel pokemon-height-r ^:index p x)
+(lhacks/defrel pokemon-r ^:index g ^:index x)
+(lhacks/defrel pokemon-type-r ^:index g ^:index p ^:index x)
+(lhacks/defrel pokemon-ability-r ^:index g ^:index p ^:index x)
+(lhacks/defrel pokemon-egggroup-r ^:index g ^:index p ^:index x)
+(lhacks/defrel pokemon-hp-r ^:index g ^:index p x)
+(lhacks/defrel pokemon-atk-r ^:index g ^:index p x)
+(lhacks/defrel pokemon-def-r ^:index g ^:index p x)
+(lhacks/defrel pokemon-spatk-r ^:index g ^:index p x)
+(lhacks/defrel pokemon-spdef-r ^:index g ^:index p x)
+(lhacks/defrel pokemon-speed-r ^:index g ^:index p x)
+(lhacks/defrel pokemon-weight-r ^:index g ^:index p x)
+(lhacks/defrel pokemon-height-r ^:index g ^:index p x)
 
 (defn pokemon?
   ([p]
@@ -277,7 +271,7 @@
 ;; Learnsets
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defgenrel learns-sans-preevos-r ^:index p ^:index m)
+(lhacks/defrel learns-sans-preevos-r ^:index g ^:index p ^:index m)
 
 (defn has-move [m]
   (util/group-keys (mapcat (fn [[g p]]
