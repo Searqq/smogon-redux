@@ -14,7 +14,7 @@
   :weight [60]
   :height [2])
 
-(deffamily :moltres)
+(deffamilygraph (familychain :moltres))
 
 (deflearnset :rb
   :moltres [:agility :bide :double-edge :double-team :fire-blast :fire-spin :fly :hyper-beam :leer :mimic :peck :rage :razor-wind :reflect :rest :sky-attack :substitute :swift :take-down :toxic :whirlwind])

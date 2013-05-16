@@ -440,12 +440,24 @@
              ;; [:venusaur]) -> '([:bulbasaur :ivysaur] [:ivysaur :venusaur])
              group-adjacent))])
 
+(defn familymerge
+  [[n e] [n' e']]
+  [(set/union n n') (set/union e e')])
+
 (defn familyclique
   [& ps]
   [(set ps) (set (for [p ps
                        p' ps
                        :when (not= p p')]
                    [p p']))])
+
+(defn familychain
+  [& ps]
+  [(set ps) (map vector ps (rest ps))])
+
+(defn familyalts
+  [f & ps]
+  (reduce familymerge (map f ps)))
 
 (defn deffamilygraph
   [[nodes links]]
