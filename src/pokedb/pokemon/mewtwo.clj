@@ -8,7 +8,7 @@
   :egggroups [[]]
   :abilities [[:pressure]
               :bw [:pressure :unnerve]]
-  :stats [[106 110 90 154 130]
+  :stats [[106 110 90 154 154 130]
           :gs [106 110 90 154 90 130]]
   :weight [122]
   :height [2])

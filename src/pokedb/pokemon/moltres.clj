@@ -9,7 +9,7 @@
   :egggroups [[]]
   :abilities [[:pressure]
               :bw [:flame-body :pressure]]
-  :stats [[90 100 90 125 90]
+  :stats [[90 100 90 125 125 90]
           :gs [90 100 90 125 85 90]]
   :weight [60]
   :height [2])

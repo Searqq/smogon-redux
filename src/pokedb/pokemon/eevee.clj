@@ -10,7 +10,7 @@
   :abilities [[:run-away]
               :dp [:adaptability :run-away]
               :bw [:adaptability :anticipation :run-away]]
-  :stats [[55 55 50 65 55]
+  :stats [[55 55 50 65 65 55]
           :gs [55 55 50 45 65 55]]
   :weight [6.5]
   :height [0.3])
@@ -22,7 +22,7 @@
   :egggroups [[:ground]]
   :abilities [[:flash-fire]
               :bw [:flash-fire :guts]]
-  :stats [[65 130 60 110 65]
+  :stats [[65 130 60 110 110 65]
           :gs [65 130 60 95 110 65]]
   :weight [25]
   :height [0.9])
@@ -34,7 +34,7 @@
   :egggroups [[:ground]]
   :abilities [[:volt-absorb]
               :bw [:quick-feet :volt-absorb]]
-  :stats [[65 65 60 110 130]
+  :stats [[65 65 60 110 110 130]
           :gs [65 65 60 110 95 130]]
   :weight [24.5]
   :height [0.8])
@@ -46,7 +46,7 @@
   :egggroups [[:ground]]
   :abilities [[:water-absorb]
               :bw [:hydration :water-absorb]]
-  :stats [[130 65 60 110 65]
+  :stats [[130 65 60 110 110 65]
           :gs [130 65 60 110 95 65]]
   :weight [29]
   :height [1])

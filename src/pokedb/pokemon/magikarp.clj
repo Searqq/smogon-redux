@@ -8,7 +8,7 @@
   :egggroups [[:dragon :water-2]]
   :abilities [[:swift-swim]
               :bw [:rattled :swift-swim]]
-  :stats [[20 10 55 20 80]
+  :stats [[20 10 55 20 20 80]
           :gs [20 10 55 15 20 80]]
   :weight [10]
   :height [0.9])
@@ -20,7 +20,7 @@
   :egggroups [[:dragon :water-2]]
   :abilities [[:intimidate]
               :bw [:intimidate :moxie]]
-  :stats [[95 125 79 100 81]
+  :stats [[95 125 79 100 100 81]
           :gs [95 125 79 60 100 81]]
   :weight [235]
   :height [6.5])

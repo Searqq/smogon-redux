@@ -22,7 +22,7 @@
   :abilities [[:keen-eye]
               :dp [:iron-fist :keen-eye]
               :bw [:inner-focus :iron-fist :keen-eye]]
-  :stats [[50 105 79 35 76]
+  :stats [[50 105 79 35 35 76]
           :gs [50 105 79 35 110 76]]
   :weight [50.2]
   :height [1.4])
@@ -35,7 +35,7 @@
   :abilities [[:limber]
               :dp [:limber :reckless]
               :bw [:limber :reckless :unburden]]
-  :stats [[50 120 53 35 87]
+  :stats [[50 120 53 35 35 87]
           :gs [50 120 53 35 110 87]]
   :weight [49.8]
   :height [1.5])

@@ -9,7 +9,7 @@
   :abilities [[:poison-point]
               :dp [:poison-point :rivalry]
               :bw [:hustle :poison-point :rivalry]]
-  :stats [[55 47 52 40 41]
+  :stats [[55 47 52 40 40 41]
           :gs [55 47 52 40 40 41]]
   :weight [7]
   :height [0.4])
@@ -22,7 +22,7 @@
   :abilities [[:poison-point]
               :dp [:poison-point :rivalry]
               :bw [:hustle :poison-point :rivalry]]
-  :stats [[70 62 67 55 56]
+  :stats [[70 62 67 55 55 56]
           :gs [70 62 67 55 55 56]]
   :weight [20]
   :height [0.8])
@@ -35,7 +35,7 @@
   :abilities [[:poison-point]
               :dp [:poison-point :rivalry]
               :bw [:poison-point :rivalry :sheer-force]]
-  :stats [[90 82 87 75 76]
+  :stats [[90 82 87 75 75 76]
           :gs [90 82 87 75 85 76]]
   :weight [60]
   :height [1.3])

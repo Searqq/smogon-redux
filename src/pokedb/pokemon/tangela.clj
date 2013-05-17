@@ -10,7 +10,7 @@
   :abilities [[:chlorophyll]
               :dp [:chlorophyll :leaf-guard]
               :bw [:chlorophyll :leaf-guard :regenerator]]
-  :stats [[65 55 115 100 60]
+  :stats [[65 55 115 100 100 60]
           :gs [65 55 115 100 40 60]]
   :weight [35]
   :height [1])

@@ -8,7 +8,7 @@
   :egggroups [[:flying :ground]]
   :abilities [[:inner-focus :keen-eye]
               :bw [:defiant :inner-focus :keen-eye]]
-  :stats [[52 65 55 58 60]
+  :stats [[52 65 55 58 58 60]
           :gs [52 65 55 58 62 60]]
   :weight [15]
   :height [0.8])

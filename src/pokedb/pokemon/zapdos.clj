@@ -9,7 +9,7 @@
   :egggroups [[]]
   :abilities [[:pressure]
               :bw [:lightningrod :pressure]]
-  :stats [[90 90 85 125 100]
+  :stats [[90 90 85 125 125 100]
           :gs [90 90 85 125 90 100]]
   :weight [52.6]
   :height [1.6])

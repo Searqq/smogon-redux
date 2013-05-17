@@ -20,7 +20,7 @@
   :egggroups [[:humanshape]]
   :abilities [[:flame-body]
               :bw [:flame-body :vital-spirit]]
-  :stats [[65 95 57 85 93]
+  :stats [[65 95 57 85 85 93]
           :gs [65 95 57 100 85 93]]
   :weight [44.5]
   :height [1.3])

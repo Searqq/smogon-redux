@@ -10,7 +10,7 @@
   :abilities [[:swarm]
               :dp [:swarm :technician]
               :bw [:steadfast :swarm :technician]]
-  :stats [[70 110 80 55 105]
+  :stats [[70 110 80 55 55 105]
           :gs [70 110 80 55 80 105]]
   :weight [56]
   :height [1.5])

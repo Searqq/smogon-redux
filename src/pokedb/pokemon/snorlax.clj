@@ -19,7 +19,7 @@
   :egggroups [[:monster]]
   :abilities [[:immunity :thick-fat]
               :bw [:gluttony :immunity :thick-fat]]
-  :stats [[160 110 65 65 30]
+  :stats [[160 110 65 65 65 30]
           :gs [160 110 65 65 110 30]]
   :weight [460]
   :height [2.1])

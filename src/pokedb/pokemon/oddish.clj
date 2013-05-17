@@ -8,7 +8,7 @@
   :egggroups [[:plant]]
   :abilities [[:chlorophyll]
               :bw [:chlorophyll :run-away]]
-  :stats [[45 50 55 75 30]
+  :stats [[45 50 55 75 75 30]
           :gs [45 50 55 75 65 30]]
   :weight [5.4]
   :height [0.5])
@@ -20,7 +20,7 @@
   :egggroups [[:plant]]
   :abilities [[:chlorophyll]
               :bw [:chlorophyll :stench]]
-  :stats [[60 65 70 85 40]
+  :stats [[60 65 70 85 85 40]
           :gs [60 65 70 85 75 40]]
   :weight [8.6]
   :height [0.8])
@@ -32,7 +32,7 @@
   :egggroups [[:plant]]
   :abilities [[:chlorophyll]
               :bw [:chlorophyll :effect-spore]]
-  :stats [[75 80 85 100 50]
+  :stats [[75 80 85 100 100 50]
           :gs [75 80 85 100 90 50]]
   :weight [18.6]
   :height [1.2])

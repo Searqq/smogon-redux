@@ -9,7 +9,7 @@
   :abilities [[:effect-spore]
               :dp [:dry-skin :effect-spore]
               :bw [:damp :dry-skin :effect-spore]]
-  :stats [[35 70 55 55 25]
+  :stats [[35 70 55 55 55 25]
           :gs [35 70 55 45 55 25]]
   :weight [5.4]
   :height [0.3])
@@ -22,7 +22,7 @@
   :abilities [[:effect-spore]
               :dp [:dry-skin :effect-spore]
               :bw [:damp :dry-skin :effect-spore]]
-  :stats [[60 95 80 80 30]
+  :stats [[60 95 80 80 80 30]
           :gs [60 95 80 60 80 30]]
   :weight [29.5]
   :height [1])

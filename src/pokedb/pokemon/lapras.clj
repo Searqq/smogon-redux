@@ -9,7 +9,7 @@
   :egggroups [[:monster :water-1]]
   :abilities [[:shell-armor :water-absorb]
               :bw [:hydration :shell-armor :water-absorb]]
-  :stats [[130 85 80 95 60]
+  :stats [[130 85 80 95 95 60]
           :gs [130 85 80 85 95 60]]
   :weight [220]
   :height [2.5])

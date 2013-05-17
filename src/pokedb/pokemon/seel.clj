@@ -9,7 +9,7 @@
   :abilities [[:thick-fat]
               :dp [:hydration :thick-fat]
               :bw [:hydration :ice-body :thick-fat]]
-  :stats [[65 45 55 70 45]
+  :stats [[65 45 55 70 70 45]
           :gs [65 45 55 45 70 45]]
   :weight [90]
   :height [1.1])
@@ -22,7 +22,7 @@
   :abilities [[:thick-fat]
               :dp [:hydration :thick-fat]
               :bw [:hydration :ice-body :thick-fat]]
-  :stats [[90 70 80 95 70]
+  :stats [[90 70 80 95 95 70]
           :gs [90 70 80 70 95 70]]
   :weight [120]
   :height [1.7])

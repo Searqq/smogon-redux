@@ -20,7 +20,7 @@
   :abilities [[:soundproof]
               :dp [:filter :soundproof]
               :bw [:filter :soundproof :technician]]
-  :stats [[40 45 65 100 90]
+  :stats [[40 45 65 100 100 90]
           :gs [40 45 65 100 120 90]]
   :weight [54.5]
   :height [1.3])

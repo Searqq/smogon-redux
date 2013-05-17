@@ -20,7 +20,7 @@
   :egggroups [[:humanshape]]
   :abilities [[:static]
               :bw [:static :vital-spirit]]
-  :stats [[65 83 57 85 105]
+  :stats [[65 83 57 85 85 105]
           :gs [65 83 57 95 85 105]]
   :weight [30]
   :height [1.1])

@@ -10,7 +10,7 @@
   :abilities [[:shell-armor]
               :dp [:shell-armor :skill-link]
               :bw [:overcoat :shell-armor :skill-link]]
-  :stats [[30 65 100 45 40]
+  :stats [[30 65 100 45 45 40]
           :gs [30 65 100 45 25 40]]
   :weight [4]
   :height [0.3])
@@ -23,7 +23,7 @@
   :abilities [[:shell-armor]
               :dp [:shell-armor :skill-link]
               :bw [:overcoat :shell-armor :skill-link]]
-  :stats [[50 95 180 85 70]
+  :stats [[50 95 180 85 85 70]
           :gs [50 95 180 85 45 70]]
   :weight [132.5]
   :height [1.5])

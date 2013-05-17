@@ -8,7 +8,7 @@
   :egggroups [[:ground]]
   :abilities [[:flash-fire :run-away]
               :bw [:flame-body :flash-fire :run-away]]
-  :stats [[50 85 55 65 90]
+  :stats [[50 85 55 65 65 90]
           :gs [50 85 55 65 65 90]]
   :weight [30]
   :height [1])
@@ -20,7 +20,7 @@
   :egggroups [[:ground]]
   :abilities [[:flash-fire :run-away]
               :bw [:flame-body :flash-fire :run-away]]
-  :stats [[65 100 70 80 105]
+  :stats [[65 100 70 80 80 105]
           :gs [65 100 70 80 80 105]]
   :weight [95]
   :height [1.7])

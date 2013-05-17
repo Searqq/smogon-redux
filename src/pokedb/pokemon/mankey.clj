@@ -10,7 +10,7 @@
   :abilities [[:vital-spirit]
               :dp [:anger-point :vital-spirit]
               :bw [:anger-point :defiant :vital-spirit]]
-  :stats [[40 80 35 35 70]
+  :stats [[40 80 35 35 35 70]
           :gs [40 80 35 35 45 70]]
   :weight [28]
   :height [0.5])
@@ -23,7 +23,7 @@
   :abilities [[:vital-spirit]
               :dp [:anger-point :vital-spirit]
               :bw [:anger-point :defiant :vital-spirit]]
-  :stats [[65 105 60 60 95]
+  :stats [[65 105 60 60 60 95]
           :gs [65 105 60 60 70 95]]
   :weight [32]
   :height [1])

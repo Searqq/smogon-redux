@@ -8,7 +8,7 @@
   :egggroups [[:mineral]]
   :abilities [[:rock-head :sturdy]
               :bw [:rock-head :sturdy :weak-armor]]
-  :stats [[35 45 160 30 70]
+  :stats [[35 45 160 30 30 70]
           :gs [35 45 160 30 45 70]]
   :weight [210]
   :height [8.8])

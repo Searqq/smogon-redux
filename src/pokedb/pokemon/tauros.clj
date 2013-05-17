@@ -10,7 +10,7 @@
   :abilities [[:intimidate]
               :dp [:anger-point :intimidate]
               :bw [:anger-point :intimidate :sheer-force]]
-  :stats [[75 100 95 70 110]
+  :stats [[75 100 95 70 70 110]
           :gs [75 100 95 40 70 110]]
   :weight [88.4]
   :height [1.4])

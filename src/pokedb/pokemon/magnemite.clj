@@ -8,7 +8,7 @@
   :egggroups [[:mineral]]
   :abilities [[:magnet-pull :sturdy]
               :bw [:analytic :magnet-pull :sturdy]]
-  :stats [[25 35 70 95 45]
+  :stats [[25 35 70 95 95 45]
           :gs [25 35 70 95 55 45]]
   :weight [6]
   :height [0.3])
@@ -20,7 +20,7 @@
   :egggroups [[:mineral]]
   :abilities [[:magnet-pull :sturdy]
               :bw [:analytic :magnet-pull :sturdy]]
-  :stats [[50 60 95 120 70]
+  :stats [[50 60 95 120 120 70]
           :gs [50 60 95 120 70 70]]
   :weight [60]
   :height [1])

@@ -8,7 +8,7 @@
   :egggroups [[:water-1]]
   :abilities [[:damp :water-absorb]
               :bw [:damp :swift-swim :water-absorb]]
-  :stats [[40 50 40 40 90]
+  :stats [[40 50 40 40 40 90]
           :gs [40 50 40 40 40 90]]
   :weight [12.4]
   :height [0.6])
@@ -20,7 +20,7 @@
   :egggroups [[:water-1]]
   :abilities [[:damp :water-absorb]
               :bw [:damp :swift-swim :water-absorb]]
-  :stats [[65 65 65 50 90]
+  :stats [[65 65 65 50 50 90]
           :gs [65 65 65 50 50 90]]
   :weight [20]
   :height [1])
@@ -32,7 +32,7 @@
   :egggroups [[:water-1]]
   :abilities [[:damp :water-absorb]
               :bw [:damp :swift-swim :water-absorb]]
-  :stats [[90 85 95 70 70]
+  :stats [[90 85 95 70 70 70]
           :gs [90 85 95 70 90 70]]
   :weight [54]
   :height [1.3])

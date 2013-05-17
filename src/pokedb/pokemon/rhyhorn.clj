@@ -9,7 +9,7 @@
   :egggroups [[:ground :monster]]
   :abilities [[:lightningrod :rock-head]
               :bw [:lightningrod :reckless :rock-head]]
-  :stats [[80 85 95 30 25]
+  :stats [[80 85 95 30 30 25]
           :gs [80 85 95 30 30 25]]
   :weight [115]
   :height [1])
@@ -21,7 +21,7 @@
   :egggroups [[:ground :monster]]
   :abilities [[:lightningrod :rock-head]
               :bw [:lightningrod :reckless :rock-head]]
-  :stats [[105 130 120 45 40]
+  :stats [[105 130 120 45 45 40]
           :gs [105 130 120 45 45 40]]
   :weight [120]
   :height [1.9])

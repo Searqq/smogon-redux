@@ -8,7 +8,7 @@
   :egggroups [[:plant]]
   :abilities [[:chlorophyll]
               :bw [:chlorophyll :gluttony]]
-  :stats [[50 75 35 70 40]
+  :stats [[50 75 35 70 70 40]
           :gs [50 75 35 70 30 40]]
   :weight [4]
   :height [0.7])
@@ -20,7 +20,7 @@
   :egggroups [[:plant]]
   :abilities [[:chlorophyll]
               :bw [:chlorophyll :gluttony]]
-  :stats [[65 90 50 85 55]
+  :stats [[65 90 50 85 85 55]
           :gs [65 90 50 85 45 55]]
   :weight [6.4]
   :height [1])
@@ -32,7 +32,7 @@
   :egggroups [[:plant]]
   :abilities [[:chlorophyll]
               :bw [:chlorophyll :gluttony]]
-  :stats [[80 105 65 100 70]
+  :stats [[80 105 65 100 100 70]
           :gs [80 105 65 100 60 70]]
   :weight [15.5]
   :height [1.7])

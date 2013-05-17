@@ -8,7 +8,7 @@
   :egggroups [[:flying]]
   :abilities [[:inner-focus]
               :bw [:infiltrator :inner-focus]]
-  :stats [[40 45 35 40 55]
+  :stats [[40 45 35 40 40 55]
           :gs [40 45 35 30 40 55]]
   :weight [7.5]
   :height [0.8])
@@ -20,7 +20,7 @@
   :egggroups [[:flying]]
   :abilities [[:inner-focus]
               :bw [:infiltrator :inner-focus]]
-  :stats [[75 80 70 75 90]
+  :stats [[75 80 70 75 75 90]
           :gs [75 80 70 65 75 90]]
   :weight [55]
   :height [1.6])

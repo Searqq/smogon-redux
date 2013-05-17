@@ -9,7 +9,7 @@
   :egggroups [[:ditto]]
   :abilities [[:limber]
               :bw [:imposter :limber]]
-  :stats [[48 48 48 48 48]
+  :stats [[48 48 48 48 48 48]
           :gs [48 48 48 48 48 48]]
   :weight [4]
   :height [0.3])

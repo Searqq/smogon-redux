@@ -9,7 +9,7 @@
   :egggroups [[:flying]]
   :abilities [[:pressure :rock-head]
               :bw [:pressure :rock-head :unnerve]]
-  :stats [[80 105 65 60 130]
+  :stats [[80 105 65 60 60 130]
           :gs [80 105 65 60 75 130]]
   :weight [59]
   :height [1.8])

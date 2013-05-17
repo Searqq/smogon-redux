@@ -21,7 +21,7 @@
   :abilities [[:cute-charm]
               :dp [:cute-charm :magic-guard]
               :bw [:cute-charm :friend-guard :magic-guard]]
-  :stats [[70 45 48 60 35]
+  :stats [[70 45 48 60 60 35]
           :gs [70 45 48 60 65 35]]
   :weight [7.5]
   :height [0.6])
@@ -34,7 +34,7 @@
   :abilities [[:cute-charm]
               :dp [:cute-charm :magic-guard]
               :bw [:cute-charm :magic-guard :unaware]]
-  :stats [[95 70 73 85 60]
+  :stats [[95 70 73 85 85 60]
           :gs [95 70 73 85 90 60]]
   :weight [40]
   :height [1.3])

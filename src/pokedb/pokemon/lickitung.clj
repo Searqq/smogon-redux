@@ -9,7 +9,7 @@
   :egggroups [[:monster]]
   :abilities [[:oblivious :own-tempo]
               :bw [:cloud-nine :oblivious :own-tempo]]
-  :stats [[90 55 75 60 30]
+  :stats [[90 55 75 60 60 30]
           :gs [90 55 75 60 75 30]]
   :weight [65.5]
   :height [1.2])

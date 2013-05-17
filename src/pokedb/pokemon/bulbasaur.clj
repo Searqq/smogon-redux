@@ -10,7 +10,7 @@
   :egggroups [[:monster :plant]]
   :abilities [[:overgrow]
               :bw [:chlorophyll :overgrow]]
-  :stats [[45 49 49 65 45]
+  :stats [[45 49 49 65 65 45]
           :gs [45 49 49 65 65 45]]
   :weight [6.9]
   :height [0.7])
@@ -22,7 +22,7 @@
   :egggroups [[:monster :plant]]
   :abilities [[:overgrow]
               :bw [:chlorophyll :overgrow]]
-  :stats [[80 82 83 100 80]
+  :stats [[80 82 83 100 100 80]
           :gs [80 82 83 100 100 80]]
   :weight [100]
   :height [2])
@@ -34,7 +34,7 @@
   :egggroups [[:monster :plant]]
   :abilities [[:overgrow]
               :bw [:chlorophyll :overgrow]]
-  :stats [[60 62 63 80 60]
+  :stats [[60 62 63 80 80 60]
           :gs [60 62 63 80 80 60]]
   :weight [13]
   :height [1])

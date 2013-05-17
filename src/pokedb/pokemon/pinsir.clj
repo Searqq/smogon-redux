@@ -10,7 +10,7 @@
   :abilities [[:hyper-cutter]
               :dp [:hyper-cutter :mold-breaker]
               :bw [:hyper-cutter :mold-breaker :moxie]]
-  :stats [[65 125 100 55 85]
+  :stats [[65 125 100 55 55 85]
           :gs [65 125 100 55 70 85]]
   :weight [55]
   :height [1.5])

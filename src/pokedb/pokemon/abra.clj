@@ -8,7 +8,7 @@
   :egggroups [[:humanshape]]
   :abilities [[:inner-focus :synchronize]
               :bw [:inner-focus :magic-guard :synchronize]]
-  :stats [[25 20 15 105 90]
+  :stats [[25 20 15 105 105 90]
           :gs [25 20 15 105 55 90]]
   :weight [19.5]
   :height [0.9])
@@ -20,7 +20,7 @@
   :egggroups [[:humanshape]]
   :abilities [[:inner-focus :synchronize]
               :bw [:inner-focus :magic-guard :synchronize]]
-  :stats [[40 35 30 120 105]
+  :stats [[40 35 30 120 120 105]
           :gs [40 35 30 120 70 105]]
   :weight [56.5]
   :height [1.3])
@@ -32,7 +32,7 @@
   :egggroups [[:humanshape]]
   :abilities [[:inner-focus :synchronize]
               :bw [:inner-focus :magic-guard :synchronize]]
-  :stats [[55 50 45 135 120]
+  :stats [[55 50 45 135 135 120]
           :gs [55 50 45 135 85 120]]
   :weight [48]
   :height [1.5])

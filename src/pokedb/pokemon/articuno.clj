@@ -8,7 +8,7 @@
   :egggroups [[]]
   :abilities [[:pressure]
               :bw [:pressure :snow-cloak]]
-  :stats [[90 85 100 125 85]
+  :stats [[90 85 100 125 125 85]
           :gs [90 85 100 95 125 85]]
   :weight [55.4]
   :height [1.7])

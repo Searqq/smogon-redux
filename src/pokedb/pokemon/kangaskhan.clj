@@ -10,7 +10,7 @@
   :abilities [[:early-bird]
               :dp [:early-bird :scrappy]
               :bw [:early-bird :inner-focus :scrappy]]
-  :stats [[105 95 80 40 90]
+  :stats [[105 95 80 40 40 90]
           :gs [105 95 80 40 80 90]]
   :weight [80]
   :height [2.2])

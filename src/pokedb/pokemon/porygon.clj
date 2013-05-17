@@ -9,7 +9,7 @@
   :egggroups [[:mineral]]
   :abilities [[:trace]
               :bw [:analytic :download :trace]]
-  :stats [[65 60 70 75 40]
+  :stats [[65 60 70 75 75 40]
           :gs [65 60 70 85 75 40]]
   :weight [36.5]
   :height [0.8])

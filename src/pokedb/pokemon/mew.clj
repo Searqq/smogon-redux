@@ -9,7 +9,7 @@
   :egggroups [[]]
   :abilities [[:synchronize]
               :bw [:synchronize]]
-  :stats [[100 100 100 100 100]
+  :stats [[100 100 100 100 100 100]
           :gs [100 100 100 100 100 100]]
   :weight [4]
   :height [0.4])

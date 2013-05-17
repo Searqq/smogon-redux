@@ -22,7 +22,7 @@
   :abilities [[:oblivious]
               :dp [:forewarn :oblivious]
               :bw [:dry-skin :forewarn :oblivious]]
-  :stats [[65 50 35 95 95]
+  :stats [[65 50 35 95 95 95]
           :gs [65 50 35 115 95 95]]
   :weight [40.6]
   :height [1.4])

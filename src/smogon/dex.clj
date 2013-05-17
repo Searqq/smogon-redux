@@ -380,22 +380,13 @@
       (when-not (contains? official-gens-without-abilities g) 
         (l/fact pokemon-ability-r g id ability)))
     (doseq [[g stats] (mg gstats)]
-      ;; Ugly hack; for :rb spatk/spdef are combined.
-      (if (= g :rb)
-        (let [[hp atk def special speed] stats]
-          (l/fact pokemon-hp-r g id hp)
-          (l/fact pokemon-atk-r g id atk)
-          (l/fact pokemon-def-r g id def)
-          (l/fact pokemon-spatk-r g id special)
-          (l/fact pokemon-spdef-r g id special)
-          (l/fact pokemon-speed-r g id speed))
-        (let [[hp atk def spatk spdef speed] stats]
-          (l/fact pokemon-hp-r g id hp)
-          (l/fact pokemon-atk-r g id atk)
-          (l/fact pokemon-def-r g id def)
-          (l/fact pokemon-spatk-r g id spatk)
-          (l/fact pokemon-spdef-r g id spdef)
-          (l/fact pokemon-speed-r g id speed))))
+      (let [[hp atk def spatk spdef speed] stats]
+        (l/fact pokemon-hp-r g id hp)
+        (l/fact pokemon-atk-r g id atk)
+        (l/fact pokemon-def-r g id def)
+        (l/fact pokemon-spatk-r g id spatk)
+        (l/fact pokemon-spdef-r g id spdef)
+        (l/fact pokemon-speed-r g id speed)))
     (doseq [[g egggroups] (mg gegggroups)
             egggroup egggroups]
       (l/fact pokemon-egggroup-r g id egggroup))

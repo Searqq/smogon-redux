@@ -18,7 +18,7 @@
   :egggroups [[:fairy]]
   :abilities [[:natural-cure :serene-grace]
               :bw [:healer :natural-cure :serene-grace]]
-  :stats [[250 5 5 105 50]
+  :stats [[250 5 5 105 105 50]
           :gs [250 5 5 35 105 50]]
   :weight [34.6]
   :height [1.1])
